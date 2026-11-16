@@ -5,7 +5,7 @@
   "publication_enabled": false,
   "episode_topic": "curiosidades del mundo",
   "production_ready": false,
-  "source_method": "Pages from public official NASA, NOAA, NPS, Library of Congress and Smithsonian resources were manually consulted. Candidate summaries are not full archived source snapshots.",
+  "source_method": "Referencias oficiales comprobadas; recopilar capturas completas, hashes y licencias antes de aprobar.",
   "media_note": "No media files are included. Each of the 25 facts needs an individually checked commercially licensed photograph, author, URL, SHA256 and fact_id binding before any production merge.",
   "fact_count": 25,
   "facts": [
@@ -29,7 +29,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "more than 1,000 pounds",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-02",
@@ -51,7 +53,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "has three",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-03",
@@ -73,7 +77,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "3,700 miles each way",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-04",
@@ -95,7 +101,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "fuses his body with hers",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-05",
@@ -117,7 +125,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "complex songs to attract",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-06",
@@ -139,7 +149,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "97 percent",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-07",
@@ -161,7 +173,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "200 meters",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-08",
@@ -183,7 +197,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "4°C",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-09",
@@ -205,7 +221,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "80 percent",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-10",
@@ -227,7 +245,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "usually blue",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-11",
@@ -249,7 +269,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "May 24, 1844",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-12",
@@ -271,7 +293,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "March 7, 1876",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-13",
@@ -293,7 +317,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "March 10, 1876",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-14",
@@ -302,7 +328,7 @@
       "title": "El primer avión motorizado duró doce segundos",
       "claim": "El primer vuelo controlado del Wright Flyer el 17 de diciembre de 1903 duró doce segundos y recorrió 120 pies.",
       "narration": "El primer vuelo motorizado y controlado del avión de los hermanos Wright duró solo doce segundos y avanzó unos treinta y seis metros. Hoy no te da tiempo ni a reclinar el asiento, pero en mil novecientos tres cambió la historia.",
-      "source_url": "https://www.loc.gov/collections/wilbur-and-orville-wright-papers/articles-and-essays/collection-highlights/first-flight/",
+      "source_url": "https://www.loc.gov/item/today-in-history/december-17/",
       "source_support_summary": "La Biblioteca del Congreso describe el vuelo de 12 segundos y 120 pies.",
       "media_search_query": "Wright Flyer first flight 1903 LOC public domain photograph",
       "review_status": "pending",
@@ -315,7 +341,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "120 feet",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-15",
@@ -337,7 +365,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "First Transcontinental telephone call",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-16",
@@ -359,7 +389,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "memory foam",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-17",
@@ -381,7 +413,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "CMOS",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-18",
@@ -403,7 +437,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "Scratch-resistant lenses",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-19",
@@ -425,7 +461,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "wireless headsets",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-20",
@@ -447,7 +485,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "food safety",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-21",
@@ -469,7 +509,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "10,000 hydrothermal",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-22",
@@ -491,7 +533,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "more than half",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-23",
@@ -513,7 +557,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "45 to 50 million",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-24",
@@ -522,7 +568,7 @@
       "title": "Old Faithful lanza miles de litros de agua",
       "claim": "Las erupciones de Old Faithful expulsan normalmente entre unos 14.000 y 31.800 litros de agua.",
       "narration": "Old Faithful, el famoso géiser de Yellowstone, puede expulsar en una sola erupción entre catorce mil y casi treinta y dos mil litros de agua. Y tú preocupándote porque el grifo de la cocina gotea un poco.",
-      "source_url": "https://www.nps.gov/yell/planyourvisit/exploreoldfaithful.htm",
+      "source_url": "https://www.nps.gov/articles/old-faithful-geyser.htm",
       "source_support_summary": "El NPS ofrece un rango de 3.700 a 8.400 galones de agua por erupción.",
       "media_search_query": "Old Faithful geyser Yellowstone NPS eruption photo",
       "review_status": "pending",
@@ -535,7 +581,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "3,700",
+      "research_status": "pending_archival"
     },
     {
       "id": "curio-20261117-25",
@@ -557,7 +605,9 @@
         "elegir y descargar imagen con autor y licencia comercial",
         "revisar guion, derechos y preparar gráficos específicos"
       ],
-      "reviewed_at": null
+      "reviewed_at": null,
+      "evidence_query": "1,840 million years old",
+      "research_status": "pending_archival"
     }
   ]
 }
