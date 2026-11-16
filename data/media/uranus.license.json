@@ -1,0 +1,18 @@
+{
+  "body": "uranus",
+  "file": "uranus.jpg",
+  "title": "File:Uranus2.jpg",
+  "sha256": "63709b92276037afa00e46129a8284aa38fef60ccbdaa18f4ade4f7411956709",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Uranus2.jpg",
+  "author": "NASA/JPL-Caltech",
+  "license": "pd",
+  "license_short": "Public domain",
+  "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+  "description": "This is an image of the planet Uranus taken by the spacecraft Voyager 2 in 1986. See Uranus.jpg for how Uranus would appear in visible light.",
+  "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+  "display_credit": "Voyager 2 · color procesado · NASA/JPL",
+  "review_status": "approved",
+  "reviewed_at": "2026-11-16",
+  "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+}

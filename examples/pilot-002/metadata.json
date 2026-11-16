@@ -1,0 +1,159 @@
+{
+  "title": "25 curiosidades del sistema solar que cambian tu forma de mirarlo",
+  "description": "Ciencia explicada con fotografías reales, gráficos originales, comparaciones y humor ligero.\nNarración sintética en español de España (Piper davefx); diagramas esquemáticos originales, sin escala.\n\n00:00 Mercurio: un año en 88 días\n00:10 Mercurio no es el más caliente\n00:23 Mercurio apenas tiene aire\n00:34 Venus gira muy despacio\n00:47 Venus gira al revés\n00:58 Venus tiene un calor de horno\n01:09 La Tierra es casi toda océano\n01:21 La luz solar tarda ocho minutos\n01:33 El Sol concentra casi toda la masa\n01:46 El Sol no tiene suelo firme\n01:57 La Luna está a unos 384.400 kilómetros\n02:10 Siempre vemos la misma cara lunar\n02:22 La Luna no tiene una cara siempre oscura\n02:36 Marte tiene un día parecido al nuestro\n02:49 Marte tiene dos lunas pequeñas\n03:02 El rojo de Marte es óxido\n03:13 Júpiter es el gigante planetario\n03:24 Júpiter gira en unas diez horas\n03:35 La gran mancha es una tormenta\n03:47 Saturno tiene densidad menor que el agua\n03:59 Los anillos no son una pieza sólida\n04:12 Urano gira casi tumbado\n04:23 Neptuno necesita 165 años\n04:36 Plutón es más pequeño que la Luna\n04:47 Plutón y Caronte se miran siempre\n\nFUENTES (NASA Science):\nhttps://science.nasa.gov/dwarf-planets/pluto/facts/\nhttps://science.nasa.gov/earth/facts/\nhttps://science.nasa.gov/jupiter/facts/\nhttps://science.nasa.gov/mars/facts/\nhttps://science.nasa.gov/mercury/facts/\nhttps://science.nasa.gov/moon/facts/\nhttps://science.nasa.gov/neptune/facts/\nhttps://science.nasa.gov/saturn/facts/\nhttps://science.nasa.gov/sun/facts/\nhttps://science.nasa.gov/uranus/facts/\nhttps://science.nasa.gov/venus/facts/\nIMÁGENES (dominio público; recorte, movimiento y rótulos):\nmercury: NASA/Johns Hopkins University Applied Physics Laboratory/Arizona State University/Carnegie Institution of Washington · Public domain\nhttps://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg\nvenus: NASA/JPL · Public domain\nhttps://commons.wikimedia.org/wiki/File:Venus_globe.jpg\nearth:  NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans  · Public domain\nhttps://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg\nsun:  NASA Goddard Space Flight Center from Greenbelt, MD, USA · Public domain\nhttps://commons.wikimedia.org/wiki/File:Amazing_Hi-Def_CME_(full_disk)_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg\nmoon: NASA/GSFC/Arizona State University · Public domain\nhttps://commons.wikimedia.org/wiki/File:Moon_nearside_LRO.jpg\nmars: NASA / USGS (see PIA04304 catalog page ) · Public domain\nhttps://commons.wikimedia.org/wiki/File:Mars_Valles_Marineris.jpeg\njupiter: NASA, ESA, and A. Simon (Goddard Space Flight Center) · Public domain\nhttps://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot.jpg\nsaturn:  NASA / JPL / Space Science Institute  · Public domain\nhttps://commons.wikimedia.org/wiki/File:Saturn_during_Equinox.jpg\nuranus: NASA/JPL-Caltech · Public domain\nhttps://commons.wikimedia.org/wiki/File:Uranus2.jpg\nneptune: NASA · Public domain\nhttps://commons.wikimedia.org/wiki/File:Neptune_Full.jpg\npluto: NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker · Public domain\nhttps://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg\n\n\nCRÉDITOS: Guion y diagramas originales Curio25. Música original generada por síntesis (sin muestras externas). Voz Piper davefx, conjunto CC0. No afiliado a NASA.\n",
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Mercurio: un año en 88 días",
+      "fact_id": "solar-001",
+      "source": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "start": 10.6,
+      "title": "Mercurio no es el más caliente",
+      "fact_id": "solar-002",
+      "source": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "start": 23.2,
+      "title": "Mercurio apenas tiene aire",
+      "fact_id": "solar-003",
+      "source": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "start": 34.72,
+      "title": "Venus gira muy despacio",
+      "fact_id": "solar-004",
+      "source": "https://science.nasa.gov/venus/facts/"
+    },
+    {
+      "start": 47.239999999999995,
+      "title": "Venus gira al revés",
+      "fact_id": "solar-005",
+      "source": "https://science.nasa.gov/venus/facts/"
+    },
+    {
+      "start": 58.39999999999999,
+      "title": "Venus tiene un calor de horno",
+      "fact_id": "solar-006",
+      "source": "https://science.nasa.gov/venus/facts/"
+    },
+    {
+      "start": 69.63999999999999,
+      "title": "La Tierra es casi toda océano",
+      "fact_id": "solar-007",
+      "source": "https://science.nasa.gov/earth/facts/"
+    },
+    {
+      "start": 81.79999999999998,
+      "title": "La luz solar tarda ocho minutos",
+      "fact_id": "solar-008",
+      "source": "https://science.nasa.gov/earth/facts/"
+    },
+    {
+      "start": 93.59999999999998,
+      "title": "El Sol concentra casi toda la masa",
+      "fact_id": "solar-009",
+      "source": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "start": 106.47999999999998,
+      "title": "El Sol no tiene suelo firme",
+      "fact_id": "solar-010",
+      "source": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "start": 117.87999999999998,
+      "title": "La Luna está a unos 384.400 kilómetros",
+      "fact_id": "solar-011",
+      "source": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "start": 130.79999999999998,
+      "title": "Siempre vemos la misma cara lunar",
+      "fact_id": "solar-012",
+      "source": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "start": 142.92,
+      "title": "La Luna no tiene una cara siempre oscura",
+      "fact_id": "solar-013",
+      "source": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "start": 156.07999999999998,
+      "title": "Marte tiene un día parecido al nuestro",
+      "fact_id": "solar-014",
+      "source": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "start": 169.04,
+      "title": "Marte tiene dos lunas pequeñas",
+      "fact_id": "solar-015",
+      "source": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "start": 182.28,
+      "title": "El rojo de Marte es óxido",
+      "fact_id": "solar-016",
+      "source": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "start": 193.8,
+      "title": "Júpiter es el gigante planetario",
+      "fact_id": "solar-017",
+      "source": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "start": 204.52,
+      "title": "Júpiter gira en unas diez horas",
+      "fact_id": "solar-018",
+      "source": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "start": 215.68,
+      "title": "La gran mancha es una tormenta",
+      "fact_id": "solar-019",
+      "source": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "start": 227.6,
+      "title": "Saturno tiene densidad menor que el agua",
+      "fact_id": "solar-020",
+      "source": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "start": 239.84,
+      "title": "Los anillos no son una pieza sólida",
+      "fact_id": "solar-021",
+      "source": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "start": 252.44,
+      "title": "Urano gira casi tumbado",
+      "fact_id": "solar-022",
+      "source": "https://science.nasa.gov/uranus/facts/"
+    },
+    {
+      "start": 263.84,
+      "title": "Neptuno necesita 165 años",
+      "fact_id": "solar-023",
+      "source": "https://science.nasa.gov/neptune/facts/"
+    },
+    {
+      "start": 276.44,
+      "title": "Plutón es más pequeño que la Luna",
+      "fact_id": "solar-024",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/"
+    },
+    {
+      "start": 287.44,
+      "title": "Plutón y Caronte se miran siempre",
+      "fact_id": "solar-025",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/"
+    }
+  ],
+  "synthetic_voice": true,
+  "contains_synthetic_media": false,
+  "sha256": "ce7154846a0cae756b2bc8c3d6500328531b78f5ff3e15c3f3b68bfadce30b84"
+}

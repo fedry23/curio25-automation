@@ -1,0 +1,18 @@
+{
+  "body": "mars",
+  "file": "mars.jpeg",
+  "title": "File:Mars Valles Marineris.jpeg",
+  "sha256": "c2e847edb2bd138e6d14f030af14b7395eba7aca857bf17a4b4b8123f43286ec",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mars_Valles_Marineris.jpeg",
+  "source": "https://commons.wikimedia.org/wiki/File:Mars_Valles_Marineris.jpeg",
+  "author": "NASA / USGS (see PIA04304 catalog page )",
+  "license": "pd",
+  "license_short": "Public domain",
+  "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+  "description": "Global mosaic of 102 Viking 1 Orbiter images of Mars taken on orbit 1,334, 22 February 1980. The images are projected into point perspective, representing what a viewer would see from a spacecraft at an altitude of 2,500 km. At center is Valles Marineris, over 3000 km long and up to 8 km deep. Note the channels running up (north) from the central and eastern portions of Valles Marineris to the area at upper right, Chryse Planitia. At left are the three Tharsis Montes and to the south is ancient, heavily impacted terrain. (Viking 1 Orbiter, MG07S078-334SP) Some of the features in this mosaic are annotated in Wikimedia Commons.",
+  "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+  "display_credit": "Viking · mosaico NASA/USGS · dominio público",
+  "review_status": "approved",
+  "reviewed_at": "2026-11-16",
+  "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+}

@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "solar-001",
+    "title": "Mercurio: un año en 88 días",
+    "narration": "Mercurio da una vuelta al Sol en unos ochenta y ocho días terrestres. Allí celebrarías cuatro cumpleaños mientras aquí apenas preparas uno. Las velas durarían poco allí.",
+    "claim": "Mercurio: un año en 88 días",
+    "source_url": "https://science.nasa.gov/mercury/facts/",
+    "evidence_query": "88",
+    "review_status": "verified",
+    "body": "mercury",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        88,
+        365
+      ],
+      "labels": [
+        "Mercurio",
+        "Tierra"
+      ]
+    },
+    "evidence_excerpt": "us, thanks to its dense atmosphere. But Mercury is the fastest planet, zipping around the Sun every 88 Earth days. Namesake Mercury is appropriately named for the swiftest of the ancient Roman gods. Potential for Life Mercury's environment is not conducive to life as we know it. The temperatures and solar radiation that characterize this planet are most likely too extreme for organisms to adapt to. Size and Distance With a radiu",
+    "source_snapshot_sha256": "5ec043ead047fb3df5d1ebe18b8c6f812092798c16232b92e9ccb9ef5fb26442",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/mercury.jpg",
+    "media_credit": "MESSENGER · NASA / JHUAPL · dominio público",
+    "media_record": {
+      "body": "mercury",
+      "file": "mercury.jpg",
+      "title": "File:Mercury in true color.jpg",
+      "sha256": "6cfa9244f703e177b605a4a959f7957269416af95a38e29d54662a4dfdafd1aa",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
+      "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Arizona State University/Carnegie Institution of Washington",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This is a cropped bottom right image from the original four image mosaic PIA11364: Mercury's \"True\" Color is in the Eye of the Beholder. Original Caption Released with Image: Given the WAC’s ability to take images through 11 narrow-band color filters, it is natural to wonder what does Mercury look like in “true” color such as would be seen by the human eye. However, creating such a natural color view is not as simple as it may seem. Shown here are four images of Mercury. The image in the top left is the previously released grayscale monochrome single WAC filter (430-nanometer) image (PIA11245); the remaining three images are three-color composites, produced by placing the same three WAC filter images with peak sensitivities at 480, 560, and 630 nanometers in the blue, green, and red channels, respectively. The differences between the color representations result from how the brightness and contrast of each individual WAC filter image was adjusted before it was combined into a color picture. In the top right view, all of the three filter images were stretched using the same brightness and contrast settings. In the bottom left picture, the brightness and contrast of each of the three filter images were determined independent of the others. In the bottom right, the brightness and contrast settings used in the upper right version were slightly adjusted to make each of the three filter images span a similar range of brightness and contrast values. So which color representation is “correct” for Mercury? The answer to that would indeed depend on the eye of the beholder. Every individual sees color differently; the human eye has a range of sensitivities that vary from person to person, resulting in different perceptions of “true” color. In addition, the three MDIS filter bands are narrow, and light at wavelengths between their peaks is not detected, unlike the human eye. In general, in light visible to the human eye, Mercury’s surface shows only very subtle color variations, as seen in the three images here. However, when images from all 11 WAC filters are statistically compared and contrasted, these subtle color variations can be greatly enhanced, resulting in extremely colorful representations of Mercury’s surface, such as seen in a high-resolution image of Thākur crater (PIA11365). Date Acquired: October 6, 2008 Image Mission Elapsed Time (MET): 131775256, 131775260, 131775264, 131775268 Instrument: Wide Angle Camera (WAC) of the Mercury Dual Imaging System (MDIS) Resolution: 5 kilometers/pixel (3 miles/pixel) Scale: Mercury’s diameter is 4880 kilometers (3030 miles) Spacecraft Altitude: 27,000 kilometers (17,000 miles)",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "MESSENGER · NASA / JHUAPL · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-002",
+    "title": "Mercurio no es el más caliente",
+    "narration": "Mercurio es el planeta más cercano al Sol, pero Venus es más caliente. La diferencia está en la atmósfera: Venus retiene muchísimo calor. Estar en primera fila no siempre significa llevarse el premio.",
+    "claim": "Mercurio no es el más caliente",
+    "source_url": "https://science.nasa.gov/mercury/facts/",
+    "evidence_query": "hottest",
+    "review_status": "verified",
+    "body": "mercury",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        430,
+        467
+      ],
+      "labels": [
+        "Mercurio, máximo °C",
+        "Venus, superficie °C"
+      ]
+    },
+    "evidence_excerpt": "emperatures can dip as low as -290°F (-180°C). Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere. But Mercury is the fastest planet, zipping around the Sun every 88 Earth days. Namesake Mercury is appropriately named for the swiftest of the ancient Roman gods. Potential for Life Mercury's environment is not conducive to life as ",
+    "source_snapshot_sha256": "5ec043ead047fb3df5d1ebe18b8c6f812092798c16232b92e9ccb9ef5fb26442",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/mercury.jpg",
+    "media_credit": "MESSENGER · NASA / JHUAPL · dominio público",
+    "media_record": {
+      "body": "mercury",
+      "file": "mercury.jpg",
+      "title": "File:Mercury in true color.jpg",
+      "sha256": "6cfa9244f703e177b605a4a959f7957269416af95a38e29d54662a4dfdafd1aa",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
+      "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Arizona State University/Carnegie Institution of Washington",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This is a cropped bottom right image from the original four image mosaic PIA11364: Mercury's \"True\" Color is in the Eye of the Beholder. Original Caption Released with Image: Given the WAC’s ability to take images through 11 narrow-band color filters, it is natural to wonder what does Mercury look like in “true” color such as would be seen by the human eye. However, creating such a natural color view is not as simple as it may seem. Shown here are four images of Mercury. The image in the top left is the previously released grayscale monochrome single WAC filter (430-nanometer) image (PIA11245); the remaining three images are three-color composites, produced by placing the same three WAC filter images with peak sensitivities at 480, 560, and 630 nanometers in the blue, green, and red channels, respectively. The differences between the color representations result from how the brightness and contrast of each individual WAC filter image was adjusted before it was combined into a color picture. In the top right view, all of the three filter images were stretched using the same brightness and contrast settings. In the bottom left picture, the brightness and contrast of each of the three filter images were determined independent of the others. In the bottom right, the brightness and contrast settings used in the upper right version were slightly adjusted to make each of the three filter images span a similar range of brightness and contrast values. So which color representation is “correct” for Mercury? The answer to that would indeed depend on the eye of the beholder. Every individual sees color differently; the human eye has a range of sensitivities that vary from person to person, resulting in different perceptions of “true” color. In addition, the three MDIS filter bands are narrow, and light at wavelengths between their peaks is not detected, unlike the human eye. In general, in light visible to the human eye, Mercury’s surface shows only very subtle color variations, as seen in the three images here. However, when images from all 11 WAC filters are statistically compared and contrasted, these subtle color variations can be greatly enhanced, resulting in extremely colorful representations of Mercury’s surface, such as seen in a high-resolution image of Thākur crater (PIA11365). Date Acquired: October 6, 2008 Image Mission Elapsed Time (MET): 131775256, 131775260, 131775264, 131775268 Instrument: Wide Angle Camera (WAC) of the Mercury Dual Imaging System (MDIS) Resolution: 5 kilometers/pixel (3 miles/pixel) Scale: Mercury’s diameter is 4880 kilometers (3030 miles) Spacecraft Altitude: 27,000 kilometers (17,000 miles)",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "MESSENGER · NASA / JHUAPL · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-003",
+    "title": "Mercurio apenas tiene aire",
+    "narration": "Mercurio no tiene una atmósfera densa como la terrestre, sino una exosfera muy tenue. Sin una buena manta de aire, la temperatura cambia brutalmente. El abrigo planetario importa bastante más que el estilismo.",
+    "claim": "Mercurio apenas tiene aire",
+    "source_url": "https://science.nasa.gov/mercury/facts/",
+    "evidence_query": "exosphere",
+    "review_status": "verified",
+    "body": "mercury",
+    "graphic": {
+      "kind": "layers",
+      "values": [
+        1,
+        8
+      ],
+      "labels": [
+        "Exosfera tenue",
+        "Atmósfera terrestre"
+      ]
+    },
+    "evidence_excerpt": "atures on sunlit parts of the planet. Atmosphere Instead of an atmosphere, Mercury possesses a thin exosphere made up of atoms blasted off the surface by the solar wind and striking meteoroids. Mercury's exosphere is composed mostly of oxygen, sodium, hydrogen, helium, and potassium. Magnetosphere Mercury's magnetic field is offset relative to the planet's equator. Though Mercury's magnetic field at the surface has just 1% the strength",
+    "source_snapshot_sha256": "5ec043ead047fb3df5d1ebe18b8c6f812092798c16232b92e9ccb9ef5fb26442",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/mercury.jpg",
+    "media_credit": "MESSENGER · NASA / JHUAPL · dominio público",
+    "media_record": {
+      "body": "mercury",
+      "file": "mercury.jpg",
+      "title": "File:Mercury in true color.jpg",
+      "sha256": "6cfa9244f703e177b605a4a959f7957269416af95a38e29d54662a4dfdafd1aa",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
+      "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Arizona State University/Carnegie Institution of Washington",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This is a cropped bottom right image from the original four image mosaic PIA11364: Mercury's \"True\" Color is in the Eye of the Beholder. Original Caption Released with Image: Given the WAC’s ability to take images through 11 narrow-band color filters, it is natural to wonder what does Mercury look like in “true” color such as would be seen by the human eye. However, creating such a natural color view is not as simple as it may seem. Shown here are four images of Mercury. The image in the top left is the previously released grayscale monochrome single WAC filter (430-nanometer) image (PIA11245); the remaining three images are three-color composites, produced by placing the same three WAC filter images with peak sensitivities at 480, 560, and 630 nanometers in the blue, green, and red channels, respectively. The differences between the color representations result from how the brightness and contrast of each individual WAC filter image was adjusted before it was combined into a color picture. In the top right view, all of the three filter images were stretched using the same brightness and contrast settings. In the bottom left picture, the brightness and contrast of each of the three filter images were determined independent of the others. In the bottom right, the brightness and contrast settings used in the upper right version were slightly adjusted to make each of the three filter images span a similar range of brightness and contrast values. So which color representation is “correct” for Mercury? The answer to that would indeed depend on the eye of the beholder. Every individual sees color differently; the human eye has a range of sensitivities that vary from person to person, resulting in different perceptions of “true” color. In addition, the three MDIS filter bands are narrow, and light at wavelengths between their peaks is not detected, unlike the human eye. In general, in light visible to the human eye, Mercury’s surface shows only very subtle color variations, as seen in the three images here. However, when images from all 11 WAC filters are statistically compared and contrasted, these subtle color variations can be greatly enhanced, resulting in extremely colorful representations of Mercury’s surface, such as seen in a high-resolution image of Thākur crater (PIA11365). Date Acquired: October 6, 2008 Image Mission Elapsed Time (MET): 131775256, 131775260, 131775264, 131775268 Instrument: Wide Angle Camera (WAC) of the Mercury Dual Imaging System (MDIS) Resolution: 5 kilometers/pixel (3 miles/pixel) Scale: Mercury’s diameter is 4880 kilometers (3030 miles) Spacecraft Altitude: 27,000 kilometers (17,000 miles)",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "MESSENGER · NASA / JHUAPL · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-004",
+    "title": "Venus gira muy despacio",
+    "narration": "Venus tarda unos doscientos cuarenta y tres días terrestres en girar sobre sí mismo. Su año dura unos doscientos veinticinco. Una rotación tarda más que una órbita: el calendario necesita una reunión urgente.",
+    "claim": "Venus gira muy despacio",
+    "source_url": "https://science.nasa.gov/venus/facts/",
+    "evidence_query": "243",
+    "review_status": "verified",
+    "body": "venus",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        243,
+        225
+      ],
+      "labels": [
+        "Rotación, días",
+        "Órbita, días"
+      ]
+    },
+    "evidence_excerpt": "uld protect you from the extreme heat and crushing air pressure. For one thing, your “day” would be 243 Earth days long — longer even than a Venus year (one trip around the Sun), which takes only 225 Earth days. For another, because of the planet's extremely slow rotation, sunrise to sunset would take 117 Earth days. And by the way, the Sun would rise in the west and set in the east, because Venus spins backward compared to Earth",
+    "source_snapshot_sha256": "775542be87f869c3f1c30a8459eb94e2c5368836779e73c40cf17b8f538dcf67",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/venus.jpg",
+    "media_credit": "Magallanes · radar, color simulado · NASA/JPL",
+    "media_record": {
+      "body": "venus",
+      "file": "venus.jpg",
+      "title": "File:Venus globe.jpg",
+      "sha256": "fd1a4631dd83eb7f09045e6c0c8ce6af3c35e101e84c1c1fbe89ce9810f6cd60",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/1920px-Venus_globe.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Venus_globe.jpg",
+      "author": "NASA/JPL",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This global view of the surface of Venus is centered at 180 degrees east longitude. Magellan synthetic aperture radar mosaics from the first cycle of Magellan mapping are mapped onto a computer-simulated globe to create this image. Data gaps are filled with Pioneer Venus Orbiter data, or a constant mid-range value. Simulated color is used to enhance small-scale structure. The simulated hues are based on color images recorded by the Soviet Venera 13 and 14 spacecraft. The image was produced by the Solar System Visualization project and the Magellan science team at the JPL Multimission Image Processing Laboratory and is a single frame from a video released at the October 29, 1991, JPL news conference. It is important to note that Venus is completely shrouded in clouds. A bright elongated region in the center is Aphrodite Terra .",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Magallanes · radar, color simulado · NASA/JPL",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-005",
+    "title": "Venus gira al revés",
+    "narration": "Venus gira en sentido contrario al de la mayoría de los planetas. Desde su superficie, si las nubes dejaran verlo, el Sol saldría por el oeste. Allí hasta el amanecer lleva la contraria.",
+    "claim": "Venus gira al revés",
+    "source_url": "https://science.nasa.gov/venus/facts/",
+    "evidence_query": "opposite",
+    "review_status": "verified",
+    "body": "venus",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        1,
+        1
+      ],
+      "labels": [
+        "Mayoría de planetas",
+        "Venus: sentido inverso"
+      ]
+    },
+    "evidence_excerpt": "r. Venus is the third brightest object in the sky after the Sun and Moon. Venus spins slowly in the opposite direction from most planets. Venus is similar in structure and size to Earth, and is sometimes called Earth's evil twin. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system with surface temperatures hot enough to melt lead — about 872 degrees Fahrenheit (467 Celsius).",
+    "source_snapshot_sha256": "775542be87f869c3f1c30a8459eb94e2c5368836779e73c40cf17b8f538dcf67",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/venus.jpg",
+    "media_credit": "Magallanes · radar, color simulado · NASA/JPL",
+    "media_record": {
+      "body": "venus",
+      "file": "venus.jpg",
+      "title": "File:Venus globe.jpg",
+      "sha256": "fd1a4631dd83eb7f09045e6c0c8ce6af3c35e101e84c1c1fbe89ce9810f6cd60",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/1920px-Venus_globe.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Venus_globe.jpg",
+      "author": "NASA/JPL",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This global view of the surface of Venus is centered at 180 degrees east longitude. Magellan synthetic aperture radar mosaics from the first cycle of Magellan mapping are mapped onto a computer-simulated globe to create this image. Data gaps are filled with Pioneer Venus Orbiter data, or a constant mid-range value. Simulated color is used to enhance small-scale structure. The simulated hues are based on color images recorded by the Soviet Venera 13 and 14 spacecraft. The image was produced by the Solar System Visualization project and the Magellan science team at the JPL Multimission Image Processing Laboratory and is a single frame from a video released at the October 29, 1991, JPL news conference. It is important to note that Venus is completely shrouded in clouds. A bright elongated region in the center is Aphrodite Terra .",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Magallanes · radar, color simulado · NASA/JPL",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-006",
+    "title": "Venus tiene un calor de horno",
+    "narration": "La superficie de Venus ronda los cuatrocientos sesenta y siete grados Celsius. Su potente efecto invernadero mantiene ese calor. Comparado con eso, abrir el horno de casa parece una brisa.",
+    "claim": "Venus tiene un calor de horno",
+    "source_url": "https://science.nasa.gov/venus/facts/",
+    "evidence_query": "467 Celsius",
+    "review_status": "verified",
+    "body": "venus",
+    "graphic": {
+      "kind": "layers",
+      "values": [
+        467,
+        15
+      ],
+      "labels": [
+        "Venus °C",
+        "Tierra, referencia °C"
+      ]
+    },
+    "evidence_excerpt": " our solar system with surface temperatures hot enough to melt lead — about 872 degrees Fahrenheit (467 Celsius). And the atmospheric pressure at the surface is about 93 times what it is at sea level on Earth. Below Venus' dense, persistent clouds, the surface has volcanoes and deformed mountains. Namesake The ancient Romans could easily see seven bright objects in the sky: the Sun, the Moon, and the five brightest planets: Mercury, Venu",
+    "source_snapshot_sha256": "775542be87f869c3f1c30a8459eb94e2c5368836779e73c40cf17b8f538dcf67",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/venus.jpg",
+    "media_credit": "Magallanes · radar, color simulado · NASA/JPL",
+    "media_record": {
+      "body": "venus",
+      "file": "venus.jpg",
+      "title": "File:Venus globe.jpg",
+      "sha256": "fd1a4631dd83eb7f09045e6c0c8ce6af3c35e101e84c1c1fbe89ce9810f6cd60",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/1920px-Venus_globe.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Venus_globe.jpg",
+      "author": "NASA/JPL",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This global view of the surface of Venus is centered at 180 degrees east longitude. Magellan synthetic aperture radar mosaics from the first cycle of Magellan mapping are mapped onto a computer-simulated globe to create this image. Data gaps are filled with Pioneer Venus Orbiter data, or a constant mid-range value. Simulated color is used to enhance small-scale structure. The simulated hues are based on color images recorded by the Soviet Venera 13 and 14 spacecraft. The image was produced by the Solar System Visualization project and the Magellan science team at the JPL Multimission Image Processing Laboratory and is a single frame from a video released at the October 29, 1991, JPL news conference. It is important to note that Venus is completely shrouded in clouds. A bright elongated region in the center is Aphrodite Terra .",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Magallanes · radar, color simulado · NASA/JPL",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-007",
+    "title": "La Tierra es casi toda océano",
+    "narration": "El océano cubre alrededor del setenta y uno por ciento de la superficie terrestre. Los continentes son la parte minoritaria. Llamarla Tierra tiene bastante mérito para un planeta con tanta piscina.",
+    "claim": "La Tierra es casi toda océano",
+    "source_url": "https://science.nasa.gov/earth/facts/",
+    "evidence_query": "71%",
+    "review_status": "verified",
+    "body": "earth",
+    "graphic": {
+      "kind": "fraction",
+      "values": [
+        71,
+        29
+      ],
+      "labels": [
+        "Océano %",
+        "Tierra emergida %"
+      ]
+    },
+    "evidence_excerpt": "another, collide to make mountains, or split and separate. Earth's global ocean, which covers about 71% of the planet's surface, has an average depth of about 2.3 miles (3.6 kilometers) and contains 97% of Earth's water. Almost all of Earth's volcanoes are hidden under these oceans. Hawaii's Mauna Kea volcano is taller from base to summit than Mount Everest, but most of it is underwater. Earth's longest mountain range is also und",
+    "source_snapshot_sha256": "013a761f48c215fc1c19d8cf58c73ed82acaa2ab90daf11ebff6eba371ff5d60",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/earth.jpg",
+    "media_credit": "Apollo 17 · NASA · dominio público",
+    "media_record": {
+      "body": "earth",
+      "file": "earth.jpg",
+      "title": "File:The Earth seen from Apollo 17.jpg",
+      "sha256": "b9a1228a5957cfade55cd19656ae3b0cab0237a4be71634e3095102921187253",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1920px-The_Earth_seen_from_Apollo_17.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+      "author": " NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans ",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "\" The Blue Marble \" is a famous photograph of the Earth taken on December 7, 1972, by the crew of the Apollo 17 spacecraft en route to the Moon at a distance of about 29,400 kilometres (18,300 mi). It shows Africa , Antarctica , and the Arabian Peninsula .",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Apollo 17 · NASA · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-008",
+    "title": "La luz solar tarda ocho minutos",
+    "narration": "La luz del Sol tarda aproximadamente ocho minutos en llegar a la Tierra. Mirarlo con protección adecuada es recibir noticias del pasado. El universo ya tenía mensajes con retraso mucho antes de nuestros grupos.",
+    "claim": "La luz solar tarda ocho minutos",
+    "source_url": "https://science.nasa.gov/earth/facts/",
+    "evidence_query": "One Way Light Time to Sun",
+    "review_status": "verified",
+    "body": "sun",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        8,
+        1
+      ],
+      "labels": [
+        "Minutos de viaje",
+        "Luz del Sol"
+      ]
+    },
+    "evidence_excerpt": "y 23.9 hours Length of Year 365.25 days Distance from Sun 93,327,712 miles / 150,196,428 kilometers One Way Light Time to Sun 8.350022 minutes While Earth is only the fifth largest planet in the solar system, it is the only planet in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal. Earth is the only planet in ",
+    "source_snapshot_sha256": "013a761f48c215fc1c19d8cf58c73ed82acaa2ab90daf11ebff6eba371ff5d60",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/sun.jpg",
+    "media_credit": "SDO · ultravioleta, color asignado · NASA/GSFC",
+    "media_record": {
+      "body": "sun",
+      "file": "sun.jpg",
+      "title": "File:Amazing Hi-Def CME (full disk) - Flickr - NASA Goddard Photo and Video.jpg",
+      "sha256": "756b01a991cbbbf631816ab6f05ff97f7d726093b4a2c95b1500ef710dbd2393",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg/1920px-Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Amazing_Hi-Def_CME_(full_disk)_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+      "author": " NASA Goddard Space Flight Center from Greenbelt, MD, USA",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": " A beautiful prominence eruption shot off the east limb (left side) of the sun on Monday, April 16, 2012. Such eruptions are often associated with solar flares, and in this case an M1 class (medium-sized) flare did occur at the same time, though it was not aimed toward Earth. This event, which is still in progress, was seen by NASA’s SDO satellite. Credit: NASA/GSFC/SDO NASA image use policy. NASA Goddard Space Flight Center enables NASA’s mission through four scientific endeavors: Earth Science, Heliophysics, Solar System Exploration, and Astrophysics. Goddard plays a leading role in NASA’s accomplishments by contributing compelling scientific knowledge to advance the Agency’s mission. Follow us on Twitter Like us on Facebook Find us on Instagram ",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "SDO · ultravioleta, color asignado · NASA/GSFC",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-009",
+    "title": "El Sol concentra casi toda la masa",
+    "narration": "El Sol contiene aproximadamente el noventa y nueve coma ocho por ciento de la masa del sistema solar. Planetas, lunas y demás comparten el resto. En esta familia, el reparto del equipaje salió bastante desigual.",
+    "claim": "El Sol concentra casi toda la masa",
+    "source_url": "https://science.nasa.gov/sun/facts/",
+    "evidence_query": "99.8",
+    "review_status": "verified",
+    "body": "sun",
+    "graphic": {
+      "kind": "fraction",
+      "values": [
+        99.8,
+        0.2
+      ],
+      "labels": [
+        "Sol % de masa",
+        "Resto %"
+      ]
+    },
+    "evidence_excerpt": "isk. Most of the nebula's material was pulled toward the center to form our Sun, which accounts for 99.8% of our solar system’s mass. Much of the remaining material formed the planets and other objects that now orbit the Sun. (The rest of the leftover gas and dust was blown away by the young Sun's early solar wind.) Like all stars, our Sun will eventually run out of energy. When it starts to die, the Sun will expand into a red gia",
+    "source_snapshot_sha256": "4516a3560c5ef7c33afd7aa1cee7aa0d1f5fdc2f2d906c265cbdb309c293e38d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/sun.jpg",
+    "media_credit": "SDO · ultravioleta, color asignado · NASA/GSFC",
+    "media_record": {
+      "body": "sun",
+      "file": "sun.jpg",
+      "title": "File:Amazing Hi-Def CME (full disk) - Flickr - NASA Goddard Photo and Video.jpg",
+      "sha256": "756b01a991cbbbf631816ab6f05ff97f7d726093b4a2c95b1500ef710dbd2393",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg/1920px-Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Amazing_Hi-Def_CME_(full_disk)_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+      "author": " NASA Goddard Space Flight Center from Greenbelt, MD, USA",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": " A beautiful prominence eruption shot off the east limb (left side) of the sun on Monday, April 16, 2012. Such eruptions are often associated with solar flares, and in this case an M1 class (medium-sized) flare did occur at the same time, though it was not aimed toward Earth. This event, which is still in progress, was seen by NASA’s SDO satellite. Credit: NASA/GSFC/SDO NASA image use policy. NASA Goddard Space Flight Center enables NASA’s mission through four scientific endeavors: Earth Science, Heliophysics, Solar System Exploration, and Astrophysics. Goddard plays a leading role in NASA’s accomplishments by contributing compelling scientific knowledge to advance the Agency’s mission. Follow us on Twitter Like us on Facebook Find us on Instagram ",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "SDO · ultravioleta, color asignado · NASA/GSFC",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-010",
+    "title": "El Sol no tiene suelo firme",
+    "narration": "El Sol no tiene una superficie sólida donde aterrizar. Lo que vemos como superficie es la fotosfera, una capa desde la que escapa mucha luz. Un paseo solar tiene un pequeño problema de pavimento.",
+    "claim": "El Sol no tiene suelo firme",
+    "source_url": "https://science.nasa.gov/sun/facts/",
+    "evidence_query": "solid",
+    "review_status": "verified",
+    "body": "sun",
+    "graphic": {
+      "kind": "layers",
+      "values": [
+        3,
+        6
+      ],
+      "labels": [
+        "Fotosfera visible",
+        "Interior solar"
+      ]
+    },
+    "evidence_excerpt": "see from Earth – the part we call the surface – is the photosphere. The Sun doesn’t actually have a solid surface because it’s a ball of plasma. Above the Sun’s surface are its thin chromosphere and the huge corona (crown). This is where we see features such as solar prominences, flares, and coronal mass ejections. The latter two are giant explosions of energy and particles that can reach Earth. The Sun doesn’t have moons, but it’s",
+    "source_snapshot_sha256": "4516a3560c5ef7c33afd7aa1cee7aa0d1f5fdc2f2d906c265cbdb309c293e38d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/sun.jpg",
+    "media_credit": "SDO · ultravioleta, color asignado · NASA/GSFC",
+    "media_record": {
+      "body": "sun",
+      "file": "sun.jpg",
+      "title": "File:Amazing Hi-Def CME (full disk) - Flickr - NASA Goddard Photo and Video.jpg",
+      "sha256": "756b01a991cbbbf631816ab6f05ff97f7d726093b4a2c95b1500ef710dbd2393",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg/1920px-Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Amazing_Hi-Def_CME_(full_disk)_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+      "author": " NASA Goddard Space Flight Center from Greenbelt, MD, USA",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": " A beautiful prominence eruption shot off the east limb (left side) of the sun on Monday, April 16, 2012. Such eruptions are often associated with solar flares, and in this case an M1 class (medium-sized) flare did occur at the same time, though it was not aimed toward Earth. This event, which is still in progress, was seen by NASA’s SDO satellite. Credit: NASA/GSFC/SDO NASA image use policy. NASA Goddard Space Flight Center enables NASA’s mission through four scientific endeavors: Earth Science, Heliophysics, Solar System Exploration, and Astrophysics. Goddard plays a leading role in NASA’s accomplishments by contributing compelling scientific knowledge to advance the Agency’s mission. Follow us on Twitter Like us on Facebook Find us on Instagram ",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "SDO · ultravioleta, color asignado · NASA/GSFC",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-011",
+    "title": "La Luna está a unos 384.400 kilómetros",
+    "narration": "La Luna está a unos trescientos ochenta y cuatro mil cuatrocientos kilómetros de la Tierra, de media. Entre ambos mundos cabrían unos treinta planetas terrestres. Nuestra vecina parece cercana, pero no está precisamente a un paseo.",
+    "claim": "La distancia media de la Luna es 384.400 kilómetros",
+    "source_url": "https://science.nasa.gov/moon/facts/",
+    "evidence_query": "384,400 kilometers",
+    "review_status": "verified",
+    "body": "moon",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        384400,
+        12742
+      ],
+      "labels": [
+        "Distancia lunar media, km",
+        "Diámetro terrestre, km aprox."
+      ]
+    },
+    "evidence_excerpt": "a nickel, the Moon would be about as big as a coffee bean. The Moon is an average of 238,855 miles (384,400 kilometers) away. That means 30 Earth-sized planets could fit in between Earth and the Moon. The Moon is slowly moving away from Earth, getting about an inch farther away each year. NASA/Moore Boeck Orbit and Rotation The Moon is rotating at the same rate that it revolves around Earth (called synchronous rotation ), so the same hemisphere",
+    "source_snapshot_sha256": "f819485245104ae6ed9868faa68dc826cd88211c2033098f62e59356376e639a",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/moon.jpg",
+    "media_credit": "LRO · mosaico NASA/GSFC/ASU · dominio público",
+    "media_record": {
+      "body": "moon",
+      "file": "moon.jpg",
+      "title": "File:Moon nearside LRO.jpg",
+      "sha256": "97e7b47ecde313c3286a728214278e9067350a86e3676dadb3271a59fccc21ad",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon_nearside_LRO.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Moon_nearside_LRO.jpg",
+      "author": "NASA/GSFC/Arizona State University",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "Nearside of Moon , by Lunar Reconnaissance Orbiter . The images that comprise this mosaic were collected over a two-week period in mid-December 2010.",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "LRO · mosaico NASA/GSFC/ASU · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-012",
+    "title": "Siempre vemos la misma cara lunar",
+    "narration": "La Luna tarda lo mismo en girar sobre sí misma que en rodear la Tierra. Esa sincronía hace que veamos aproximadamente la misma cara. No está quieta: simplemente tiene una coordinación que ya quisiera nuestro equipo.",
+    "claim": "Siempre vemos la misma cara lunar",
+    "source_url": "https://science.nasa.gov/moon/facts/",
+    "evidence_query": "same rate",
+    "review_status": "verified",
+    "body": "moon",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        27.3,
+        27.3
+      ],
+      "labels": [
+        "Rotación, días aprox.",
+        "Órbita, días aprox."
+      ]
+    },
+    "evidence_excerpt": "out an inch farther away each year. NASA/Moore Boeck Orbit and Rotation The Moon is rotating at the same rate that it revolves around Earth (called synchronous rotation ), so the same hemisphere faces Earth all the time. Some people call the far side – the hemisphere we never see from Earth – the \"dark side\", but that's misleading. As the Moon orbits Earth, different parts are in sunlight or darkness at different times. The changing il",
+    "source_snapshot_sha256": "f819485245104ae6ed9868faa68dc826cd88211c2033098f62e59356376e639a",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/moon.jpg",
+    "media_credit": "LRO · mosaico NASA/GSFC/ASU · dominio público",
+    "media_record": {
+      "body": "moon",
+      "file": "moon.jpg",
+      "title": "File:Moon nearside LRO.jpg",
+      "sha256": "97e7b47ecde313c3286a728214278e9067350a86e3676dadb3271a59fccc21ad",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon_nearside_LRO.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Moon_nearside_LRO.jpg",
+      "author": "NASA/GSFC/Arizona State University",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "Nearside of Moon , by Lunar Reconnaissance Orbiter . The images that comprise this mosaic were collected over a two-week period in mid-December 2010.",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "LRO · mosaico NASA/GSFC/ASU · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-013",
+    "title": "La Luna no tiene una cara siempre oscura",
+    "narration": "La cara lejana de la Luna también recibe luz del Sol. Lejana no significa permanentemente oscura: la superficie alterna día y noche. El nombre misterioso vende mucho, pero la iluminación tiene sus turnos.",
+    "claim": "La Luna no tiene una cara siempre oscura",
+    "source_url": "https://science.nasa.gov/moon/facts/",
+    "evidence_query": "misleading",
+    "review_status": "verified",
+    "body": "moon",
+    "graphic": {
+      "kind": "layers",
+      "values": [
+        1,
+        1
+      ],
+      "labels": [
+        "Cara cercana",
+        "Cara lejana: también día"
+      ]
+    },
+    "evidence_excerpt": "ome people call the far side – the hemisphere we never see from Earth – the \"dark side\", but that's misleading. As the Moon orbits Earth, different parts are in sunlight or darkness at different times. The changing illumination is why, from our perspective, the Moon goes through phases . During a \"full moon,\" the hemisphere of the Moon we can see from Earth is fully illuminated by the Sun. And a \"new moon\" occurs when the far side of th",
+    "source_snapshot_sha256": "f819485245104ae6ed9868faa68dc826cd88211c2033098f62e59356376e639a",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/moon.jpg",
+    "media_credit": "LRO · mosaico NASA/GSFC/ASU · dominio público",
+    "media_record": {
+      "body": "moon",
+      "file": "moon.jpg",
+      "title": "File:Moon nearside LRO.jpg",
+      "sha256": "97e7b47ecde313c3286a728214278e9067350a86e3676dadb3271a59fccc21ad",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon_nearside_LRO.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Moon_nearside_LRO.jpg",
+      "author": "NASA/GSFC/Arizona State University",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "Nearside of Moon , by Lunar Reconnaissance Orbiter . The images that comprise this mosaic were collected over a two-week period in mid-December 2010.",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "LRO · mosaico NASA/GSFC/ASU · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-014",
+    "title": "Marte tiene un día parecido al nuestro",
+    "narration": "Un día en Marte dura unas veinticuatro horas y treinta y siete minutos. Ese pequeño extra diario acabaría desajustando nuestros relojes. Por fin una excusa astronómica para llegar tarde, aunque habría que viajar bastante.",
+    "claim": "Marte tiene un día parecido al nuestro",
+    "source_url": "https://science.nasa.gov/mars/facts/",
+    "evidence_query": "24.6",
+    "review_status": "verified",
+    "body": "mars",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        24.6,
+        24
+      ],
+      "labels": [
+        "Marte, horas",
+        "Tierra, horas"
+      ]
+    },
+    "evidence_excerpt": "el from the Sun to Mars. Orbit and Rotation As Mars orbits the Sun, it completes one rotation every 24.6 hours, which is very similar to one day on Earth (23.9 hours). Martian days are called sols — short for \"solar day.\" A year on Mars lasts 669.6 sols, which is the same as 687 Earth days. Mars' axis of rotation is tilted 25 degrees with respect to the plane of its orbit around the Sun. This is another similarity with Earth, whic",
+    "source_snapshot_sha256": "6fa85031c1cccc66fd7141b06f674053381b0f0fae3d193c0d769255a5c99f0d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/mars.jpeg",
+    "media_credit": "Viking · mosaico NASA/USGS · dominio público",
+    "media_record": {
+      "body": "mars",
+      "file": "mars.jpeg",
+      "title": "File:Mars Valles Marineris.jpeg",
+      "sha256": "c2e847edb2bd138e6d14f030af14b7395eba7aca857bf17a4b4b8123f43286ec",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mars_Valles_Marineris.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mars_Valles_Marineris.jpeg",
+      "author": "NASA / USGS (see PIA04304 catalog page )",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "Global mosaic of 102 Viking 1 Orbiter images of Mars taken on orbit 1,334, 22 February 1980. The images are projected into point perspective, representing what a viewer would see from a spacecraft at an altitude of 2,500 km. At center is Valles Marineris, over 3000 km long and up to 8 km deep. Note the channels running up (north) from the central and eastern portions of Valles Marineris to the area at upper right, Chryse Planitia. At left are the three Tharsis Montes and to the south is ancient, heavily impacted terrain. (Viking 1 Orbiter, MG07S078-334SP) Some of the features in this mosaic are annotated in Wikimedia Commons.",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Viking · mosaico NASA/USGS · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-015",
+    "title": "Marte tiene dos lunas pequeñas",
+    "narration": "Marte tiene dos lunas: Fobos y Deimos. Son cuerpos pequeños e irregulares, muy distintos de nuestra Luna redondeada. El planeta rojo eligió dos acompañantes con aspecto de patata y bastante personalidad orbital.",
+    "claim": "Marte tiene dos lunas pequeñas",
+    "source_url": "https://science.nasa.gov/mars/facts/",
+    "evidence_query": "Phobos",
+    "review_status": "verified",
+    "body": "mars",
+    "graphic": {
+      "kind": "moons",
+      "values": [
+        2,
+        1
+      ],
+      "labels": [
+        "Marte: dos lunas",
+        "Tierra: una luna"
+      ]
+    },
+    "evidence_excerpt": "ummer is 154 sols, and northern summer/southern winter is 178 sols. Moons Mars has two small moons, Phobos and Deimos , that may be captured asteroids. They're potato-shaped because they have too little mass for gravity to make them spherical. The moons get their names from the horses that pulled the chariot of the Greek god of war, Ares (whose Roman counterpart is Mars). Phobos, the larger of Mars' two moons, is seen in this image ",
+    "source_snapshot_sha256": "6fa85031c1cccc66fd7141b06f674053381b0f0fae3d193c0d769255a5c99f0d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/mars.jpeg",
+    "media_credit": "Viking · mosaico NASA/USGS · dominio público",
+    "media_record": {
+      "body": "mars",
+      "file": "mars.jpeg",
+      "title": "File:Mars Valles Marineris.jpeg",
+      "sha256": "c2e847edb2bd138e6d14f030af14b7395eba7aca857bf17a4b4b8123f43286ec",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mars_Valles_Marineris.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mars_Valles_Marineris.jpeg",
+      "author": "NASA / USGS (see PIA04304 catalog page )",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "Global mosaic of 102 Viking 1 Orbiter images of Mars taken on orbit 1,334, 22 February 1980. The images are projected into point perspective, representing what a viewer would see from a spacecraft at an altitude of 2,500 km. At center is Valles Marineris, over 3000 km long and up to 8 km deep. Note the channels running up (north) from the central and eastern portions of Valles Marineris to the area at upper right, Chryse Planitia. At left are the three Tharsis Montes and to the south is ancient, heavily impacted terrain. (Viking 1 Orbiter, MG07S078-334SP) Some of the features in this mosaic are annotated in Wikimedia Commons.",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Viking · mosaico NASA/USGS · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-016",
+    "title": "El rojo de Marte es óxido",
+    "narration": "El característico color rojizo de Marte procede de minerales de hierro que se oxidan. Su polvo tiñe gran parte del paisaje. No es que el planeta esté enfadado: su decoración tiene bastante de química.",
+    "claim": "El rojo de Marte es óxido",
+    "source_url": "https://science.nasa.gov/mars/facts/",
+    "evidence_query": "oxid",
+    "review_status": "verified",
+    "body": "mars",
+    "graphic": {
+      "kind": "layers",
+      "values": [
+        3,
+        2
+      ],
+      "labels": [
+        "Polvo con óxidos",
+        "Roca marciana"
+      ]
+    },
+    "evidence_excerpt": "ne.\" Even today, it is frequently called the \"Red Planet\" because iron minerals in the Martian dirt oxidize, or rust, causing the surface to look red. Potential for Life Scientists don't expect to find living things currently thriving on Mars. Instead, they're looking for signs of life that existed long ago, when Mars was warmer and covered with water. Size and Distance With a radius of 2,106 miles (3,390 kilometers), Mars is abou",
+    "source_snapshot_sha256": "6fa85031c1cccc66fd7141b06f674053381b0f0fae3d193c0d769255a5c99f0d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/mars.jpeg",
+    "media_credit": "Viking · mosaico NASA/USGS · dominio público",
+    "media_record": {
+      "body": "mars",
+      "file": "mars.jpeg",
+      "title": "File:Mars Valles Marineris.jpeg",
+      "sha256": "c2e847edb2bd138e6d14f030af14b7395eba7aca857bf17a4b4b8123f43286ec",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mars_Valles_Marineris.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mars_Valles_Marineris.jpeg",
+      "author": "NASA / USGS (see PIA04304 catalog page )",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "Global mosaic of 102 Viking 1 Orbiter images of Mars taken on orbit 1,334, 22 February 1980. The images are projected into point perspective, representing what a viewer would see from a spacecraft at an altitude of 2,500 km. At center is Valles Marineris, over 3000 km long and up to 8 km deep. Note the channels running up (north) from the central and eastern portions of Valles Marineris to the area at upper right, Chryse Planitia. At left are the three Tharsis Montes and to the south is ancient, heavily impacted terrain. (Viking 1 Orbiter, MG07S078-334SP) Some of the features in this mosaic are annotated in Wikimedia Commons.",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Viking · mosaico NASA/USGS · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-017",
+    "title": "Júpiter es el gigante planetario",
+    "narration": "Júpiter es el planeta más grande del sistema solar. Su diámetro es unas once veces el terrestre. Si los planetas posaran para una foto de grupo, habría que pedirle que se colocara al fondo.",
+    "claim": "Júpiter es el gigante planetario",
+    "source_url": "https://science.nasa.gov/jupiter/facts/",
+    "evidence_query": "11 times wider",
+    "review_status": "verified",
+    "body": "jupiter",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        11,
+        1
+      ],
+      "labels": [
+        "Diámetro de Júpiter",
+        "Diámetro terrestre"
+      ]
+    },
+    "evidence_excerpt": "bly be supported. Size and Distance With a radius of 43,440.7 miles (69,911 kilometers), Jupiter is 11 times wider than Earth. If Earth were the size of a grape, Jupiter would be about as big as a basketball. From an average distance of 484 million miles (778 million kilometers), Jupiter is 5.2 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes",
+    "source_snapshot_sha256": "7a632d132f28e0cc99dec7027f6c7ebeb426477bd26bb5478464f9efbf9496c7",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/jupiter.jpg",
+    "media_credit": "Hubble · NASA/ESA/A. Simon · dominio público",
+    "media_record": {
+      "body": "jupiter",
+      "file": "jupiter.jpg",
+      "title": "File:Jupiter and its shrunken Great Red Spot.jpg",
+      "sha256": "c40306b066f21da214e171f076aea57dedfdecff57dbffe095d01850a63c0581",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+      "author": "NASA, ESA, and A. Simon (Goddard Space Flight Center)",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This full-disc image of Jupiter was taken on 21 April 2014 with Hubble's Wide Field Camera 3 (WFC3).",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Hubble · NASA/ESA/A. Simon · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-018",
+    "title": "Júpiter gira en unas diez horas",
+    "narration": "Júpiter completa una rotación en unas diez horas, pese a su enorme tamaño. Es el día más corto entre los planetas del sistema solar. Ser gigante no le impide llevar una agenda bastante acelerada.",
+    "claim": "Júpiter gira en unas diez horas",
+    "source_url": "https://science.nasa.gov/jupiter/facts/",
+    "evidence_query": "9.9",
+    "review_status": "verified",
+    "body": "jupiter",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        9.9,
+        24
+      ],
+      "labels": [
+        "Júpiter, horas",
+        "Tierra, horas"
+      ]
+    },
+    "evidence_excerpt": "un's formation 4.6 billion years ago. But it has the shortest day in the solar system, taking about 9.9 hours to spin around once on its axis. Introduction Namesake Potential for Life Size and Distance Orbit and Rotation Moons Rings Formation Structure Surface Atmosphere Magnetosphere Introduction NASA’s Juno spacecraft took three images of Jupiter’s Great Red on Feb. 12, 2019, that were used to create this color-enhanced view. A",
+    "source_snapshot_sha256": "7a632d132f28e0cc99dec7027f6c7ebeb426477bd26bb5478464f9efbf9496c7",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/jupiter.jpg",
+    "media_credit": "Hubble · NASA/ESA/A. Simon · dominio público",
+    "media_record": {
+      "body": "jupiter",
+      "file": "jupiter.jpg",
+      "title": "File:Jupiter and its shrunken Great Red Spot.jpg",
+      "sha256": "c40306b066f21da214e171f076aea57dedfdecff57dbffe095d01850a63c0581",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+      "author": "NASA, ESA, and A. Simon (Goddard Space Flight Center)",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This full-disc image of Jupiter was taken on 21 April 2014 with Hubble's Wide Field Camera 3 (WFC3).",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Hubble · NASA/ESA/A. Simon · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-019",
+    "title": "La gran mancha es una tormenta",
+    "narration": "La Gran Mancha Roja de Júpiter es una enorme tormenta que lleva activa cientos de años. Su aspecto y tamaño cambian. Allí consultar el tiempo exige bastante paciencia y un paraguas completamente inútil.",
+    "claim": "La gran mancha es una tormenta",
+    "source_url": "https://science.nasa.gov/jupiter/facts/",
+    "evidence_query": "hundreds of years",
+    "review_status": "verified",
+    "body": "jupiter",
+    "graphic": {
+      "kind": "storm",
+      "values": [
+        1,
+        1
+      ],
+      "labels": [
+        "Tormenta gigantesca",
+        "Observada durante siglos"
+      ]
+    },
+    "evidence_excerpt": "e directions. Jupiter’s iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years. The king of planets was named for Jupiter, king of the gods in Roman mythology. Most of its moons are also named for mythological characters, figures associated with Jupiter or his Greek counterpart, Zeus. Namesake Jupiter, being the biggest planet, gets its name from the king of the ancient Roman gods. Potential for Life Jupi",
+    "source_snapshot_sha256": "7a632d132f28e0cc99dec7027f6c7ebeb426477bd26bb5478464f9efbf9496c7",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/jupiter.jpg",
+    "media_credit": "Hubble · NASA/ESA/A. Simon · dominio público",
+    "media_record": {
+      "body": "jupiter",
+      "file": "jupiter.jpg",
+      "title": "File:Jupiter and its shrunken Great Red Spot.jpg",
+      "sha256": "c40306b066f21da214e171f076aea57dedfdecff57dbffe095d01850a63c0581",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+      "author": "NASA, ESA, and A. Simon (Goddard Space Flight Center)",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This full-disc image of Jupiter was taken on 21 April 2014 with Hubble's Wide Field Camera 3 (WFC3).",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Hubble · NASA/ESA/A. Simon · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-020",
+    "title": "Saturno tiene densidad menor que el agua",
+    "narration": "La densidad media de Saturno es menor que la del agua. La famosa comparación de hacerlo flotar es solo imaginaria: no existe una bañera así. Pero explica muy bien lo ligero que resulta para su tamaño.",
+    "claim": "Saturno tiene densidad menor que el agua",
+    "source_url": "https://science.nasa.gov/saturn/facts/",
+    "evidence_query": "average density",
+    "review_status": "verified",
+    "body": "saturn",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        0.687,
+        1
+      ],
+      "labels": [
+        "Saturno, g/cm³ aprox.",
+        "Agua, g/cm³ aprox."
+      ]
+    },
+    "evidence_excerpt": "nsiderably smaller. It's hard to imagine, but Saturn is the only planet in our solar system with an average density that is less than water. The giant gas planet could float in a bathtub if such a colossal thing existed. Surface As a gas giant, Saturn doesn’t have a true surface. The planet is mostly swirling gases and liquids deeper down. While a spacecraft would have nowhere to land on Saturn, it wouldn’t be able to fly through unscathed e",
+    "source_snapshot_sha256": "448916baecb3824fbae8e87884feb3515a6f707634888e5e8622336d003e99f7",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/saturn.jpg",
+    "media_credit": "Cassini · NASA/JPL/SSI · dominio público",
+    "media_record": {
+      "body": "saturn",
+      "file": "saturn.jpg",
+      "title": "File:Saturn during Equinox.jpg",
+      "sha256": "6bb3484c6a448ed70171b529d9b18a184ad8e1ca1debb740d1051463055f66e1",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1920px-Saturn_during_Equinox.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Saturn_during_Equinox.jpg",
+      "author": " NASA / JPL / Space Science Institute ",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This natural color view of the planet Saturn was created from images collected shortly after Cassini began its extended Equinox Mission in July 2008. (Saturn actually reached equinox on August 11, 2009.)",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Cassini · NASA/JPL/SSI · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-021",
+    "title": "Los anillos no son una pieza sólida",
+    "narration": "Los anillos de Saturno están formados por incontables fragmentos de hielo y roca. Desde lejos parecen una estructura continua, pero no son un disco rígido. La joyería cósmica trabaja con muchísimas piezas sueltas.",
+    "claim": "Los anillos no son una pieza sólida",
+    "source_url": "https://science.nasa.gov/saturn/facts/",
+    "evidence_query": "chunks of ice and rock",
+    "review_status": "verified",
+    "body": "saturn",
+    "graphic": {
+      "kind": "rings",
+      "values": [
+        7,
+        3
+      ],
+      "labels": [
+        "Fragmentos de hielo",
+        "También roca y polvo"
+      ]
+    },
+    "evidence_excerpt": "hey reached the planet, torn apart by Saturn's powerful gravity. They are made of billions of small chunks of ice and rock coated with other materials such as dust. The ring particles mostly range from tiny, dust-sized icy grains to chunks as big as a house. A few particles are as large as mountains. The rings would look mostly white if you looked at them from the cloud tops of Saturn, and interestingly, each ring orbits at a different speed around",
+    "source_snapshot_sha256": "448916baecb3824fbae8e87884feb3515a6f707634888e5e8622336d003e99f7",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/saturn.jpg",
+    "media_credit": "Cassini · NASA/JPL/SSI · dominio público",
+    "media_record": {
+      "body": "saturn",
+      "file": "saturn.jpg",
+      "title": "File:Saturn during Equinox.jpg",
+      "sha256": "6bb3484c6a448ed70171b529d9b18a184ad8e1ca1debb740d1051463055f66e1",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1920px-Saturn_during_Equinox.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Saturn_during_Equinox.jpg",
+      "author": " NASA / JPL / Space Science Institute ",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This natural color view of the planet Saturn was created from images collected shortly after Cassini began its extended Equinox Mission in July 2008. (Saturn actually reached equinox on August 11, 2009.)",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Cassini · NASA/JPL/SSI · dominio público",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-022",
+    "title": "Urano gira casi tumbado",
+    "narration": "El eje de Urano está inclinado unos noventa y ocho grados respecto a la perpendicular de su órbita. Por eso parece girar de lado. Los demás dan vueltas de pie; Urano decidió hacerlo desde el sofá.",
+    "claim": "Urano gira casi tumbado",
+    "source_url": "https://science.nasa.gov/uranus/facts/",
+    "evidence_query": "97.77",
+    "review_status": "verified",
+    "body": "uranus",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        98,
+        23.4
+      ],
+      "labels": [
+        "Inclinación Urano °",
+        "Inclinación Tierra °"
+      ]
+    },
+    "evidence_excerpt": "s). Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees. This may be the result of a collision with an Earth-sized object long ago. This unique tilt causes Uranus to have the most extreme seasons in the solar system. For nearly a quarter of each Uranian year, the Sun shines directly over each pole, plunging the other half of the planet into a 21-year-long, dark winter. Uranu",
+    "source_snapshot_sha256": "239454e91de0833ace3cb93f1bc32bd93059ffce0a42032ec2c203862d86d8e1",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/uranus.jpg",
+    "media_credit": "Voyager 2 · color procesado · NASA/JPL",
+    "media_record": {
+      "body": "uranus",
+      "file": "uranus.jpg",
+      "title": "File:Uranus2.jpg",
+      "sha256": "63709b92276037afa00e46129a8284aa38fef60ccbdaa18f4ade4f7411956709",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Uranus2.jpg",
+      "author": "NASA/JPL-Caltech",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This is an image of the planet Uranus taken by the spacecraft Voyager 2 in 1986. See Uranus.jpg for how Uranus would appear in visible light.",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Voyager 2 · color procesado · NASA/JPL",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-023",
+    "title": "Neptuno necesita 165 años",
+    "narration": "Neptuno tarda aproximadamente ciento sesenta y cinco años terrestres en completar una órbita. Podrías vivir sin ver un cumpleaños neptuniano. Allí una agenda anual necesita una estantería con mucha paciencia.",
+    "claim": "Neptuno necesita 165 años",
+    "source_url": "https://science.nasa.gov/neptune/facts/",
+    "evidence_query": "165",
+    "review_status": "verified",
+    "body": "neptune",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        165,
+        1
+      ],
+      "labels": [
+        "Neptuno, años",
+        "Tierra, años"
+      ]
+    },
+    "evidence_excerpt": "ht under dark-sky conditions, provided you know where to look). In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. Neptune is so far from the Sun that high noon on the big blue planet would seem like dim twilight to us. The warm light we see here on our home planet is roughly 900 times as bright as sunlight on Neptune. Discovery and Namesake Galileo recorded Neptune as a fixed star during observations",
+    "source_snapshot_sha256": "5746e3fb1a642b825110552bce4698b34a59903a99413578e4f91b828953d4d1",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/neptune.jpg",
+    "media_credit": "Voyager 2 · color procesado · NASA",
+    "media_record": {
+      "body": "neptune",
+      "file": "neptune.jpg",
+      "title": "File:Neptune Full.jpg",
+      "sha256": "fff5f081788134c3a35c55c48ee301c161b2fe62d48699be9d36455b630746a5",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/1920px-Neptune_Full.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Neptune_Full.jpg",
+      "author": "NASA",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "This enhanced-color picture of Neptune was produced from the last whole planet images taken through the green and orange filters on the Voyager 2 narrow angle camera. The images were taken at a range of 4.4 million miles from the planet, 4 days and 20 hours before closest approach in August 1989.The picture shows the Great Dark Spot and its companion bright smudge; on the west limb the fast moving bright feature called Scooter and the little dark spot are visible. These clouds were seen to persist for as long as Voyager's cameras could resolve them. North of these, a bright cloud band similar to the south polar streak may be seen.",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "Voyager 2 · color procesado · NASA",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-024",
+    "title": "Plutón es más pequeño que la Luna",
+    "narration": "Plutón es más pequeño que nuestra Luna. Que un mundo tenga nombre famoso no lo convierte en gigante. En una comparación de diámetros, el antiguo noveno planeta perdería frente a nuestra vecina nocturna.",
+    "claim": "Plutón es más pequeño que la Luna",
+    "source_url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+    "evidence_query": "two-thirds the diameter",
+    "review_status": "verified",
+    "body": "pluto",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        2377,
+        3475
+      ],
+      "labels": [
+        "Plutón, km aprox.",
+        "Luna, km aprox."
+      ]
+    },
+    "evidence_excerpt": "odies are called Kuiper Belt objects, transneptunian objects, or plutoids. Structure Pluto is about two-thirds the diameter of Earth's Moon and probably has a rocky core surrounded by a mantle of water ice. Interesting ices like methane and nitrogen frost coat the surface. Due to its lower density, Pluto's mass is about one-sixth that of Earth's Moon. Surface Pluto's surface has mountains, valleys, plains, and craters. The temperature on Pluto can b",
+    "source_snapshot_sha256": "e6869947f82f8ed7cfebe2600f3a6c93475d71c7527afc8574e34a003939158d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/pluto.jpg",
+    "media_credit": "New Horizons · color aproximado · NASA/JHUAPL/SwRI",
+    "media_record": {
+      "body": "pluto",
+      "file": "pluto.jpg",
+      "title": "File:Pluto in True Color - High-Res.jpg",
+      "sha256": "69401ea6a551c616c2d7d2991904e45c2ac64f9f95a6addca22cecc80b86b0c6",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1920px-Pluto_in_True_Color_-_High-Res.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg",
+      "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "Pluto's image taken by New Horizons on July 14, 2015, from a range of 22,025 miles (35,445 kilometers). The striking features on Pluto are clearly visible, including the bright expanse of Pluto's icy, nitrogen-and-methane rich \"heart,\" Sputnik Planitia. The natural-looking colors result from refined calibration of data gathered by New Horizons' color Multispectral Visible Imaging Camera (MVIC). The processing creates images that would approximate the colors that the human eye would perceive, bringing them closer to “true color” than the images released at the time of the encounter. The source single-color MVIC scan includes no added data from other New Horizons imagers or instruments.",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "New Horizons · color aproximado · NASA/JHUAPL/SwRI",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  },
+  {
+    "id": "solar-025",
+    "title": "Plutón y Caronte se miran siempre",
+    "narration": "Plutón y su gran luna Caronte mantienen siempre la misma cara orientada uno hacia el otro. Ambos están sincronizados por las mareas. Es una pareja astronómica con contacto visual constante y muy poco espacio personal.",
+    "claim": "Plutón y Caronte se miran siempre",
+    "source_url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+    "evidence_query": "Charon neither rises nor sets",
+    "review_status": "verified",
+    "body": "pluto",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        6.4,
+        6.4
+      ],
+      "labels": [
+        "Plutón y Caronte",
+        "Sincronía mutua"
+      ]
+    },
+    "evidence_excerpt": "it around Pluto takes 153 hours – the same time it takes Pluto to complete one rotation. This means Charon neither rises nor sets, but hovers over the same spot on Pluto's surface. The same side of Charon always faces Pluto, a state called tidal locking. Pluto's other four moons are much smaller, less than 100 miles (160 kilometers) wide. They're also irregularly shaped, not spherical like Charon. Unlike many other moons in the solar system, these moons a",
+    "source_snapshot_sha256": "e6869947f82f8ed7cfebe2600f3a6c93475d71c7527afc8574e34a003939158d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar",
+    "media_path": "data/media/pluto.jpg",
+    "media_credit": "New Horizons · color aproximado · NASA/JHUAPL/SwRI",
+    "media_record": {
+      "body": "pluto",
+      "file": "pluto.jpg",
+      "title": "File:Pluto in True Color - High-Res.jpg",
+      "sha256": "69401ea6a551c616c2d7d2991904e45c2ac64f9f95a6addca22cecc80b86b0c6",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1920px-Pluto_in_True_Color_-_High-Res.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg",
+      "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+      "description": "Pluto's image taken by New Horizons on July 14, 2015, from a range of 22,025 miles (35,445 kilometers). The striking features on Pluto are clearly visible, including the bright expanse of Pluto's icy, nitrogen-and-methane rich \"heart,\" Sputnik Planitia. The natural-looking colors result from refined calibration of data gathered by New Horizons' color Multispectral Visible Imaging Camera (MVIC). The processing creates images that would approximate the colors that the human eye would perceive, bringing them closer to “true color” than the images released at the time of the encounter. The source single-color MVIC scan includes no added data from other New Horizons imagers or instruments.",
+      "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+      "display_credit": "New Horizons · color aproximado · NASA/JHUAPL/SwRI",
+      "review_status": "approved",
+      "reviewed_at": "2026-11-16",
+      "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+    }
+  }
+]

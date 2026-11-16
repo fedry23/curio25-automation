@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+models/*.onnx*
+build/
+*.sqlite*
+credentials*.json
+token*.json
+.env
+client_secret*.json
+.secrets/

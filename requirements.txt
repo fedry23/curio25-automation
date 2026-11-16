@@ -1,0 +1,6 @@
+Pillow==13.0.0
+requests>=2.32.4,<3
+piper-tts>=1.5,<2
+google-api-python-client>=2.170,<3
+google-auth-oauthlib>=1.2,<2
+pytest>=8,<10

@@ -1,0 +1,391 @@
+{
+  "episodes": [
+    {
+      "id": "pilot-001",
+      "status": "rendered",
+      "sha": "ce7154846a0cae756b2bc8c3d6500328531b78f5ff3e15c3f3b68bfadce30b84",
+      "video_id": null
+    }
+  ],
+  "used_facts": [
+    {
+      "id": "solar-001",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-002",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-003",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-004",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-005",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-006",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-007",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-008",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-009",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-010",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-011",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-012",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-013",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-014",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-015",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-016",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-017",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-018",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-019",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-020",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-021",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-022",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-023",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-024",
+      "episode": "pilot-001"
+    },
+    {
+      "id": "solar-025",
+      "episode": "pilot-001"
+    }
+  ],
+  "claims": [
+    {
+      "digest": "02a879e60e42e4ed8002057d88010d493b7b7205bdd1fffd9c5d239f3708b089",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "fd1c5dabba6a16c1dab78c5578546b367fdf2de32c448218d9203ecfc1b8f06c",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "f604294bf0e2064626640a2d7be04091f48daf9ad7ff7e4f7c8a2b652bba9d1b",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "f165046c4f8d5db8d12d1b7655b5c1a943d9b923d4ccbee46951b67bc5f499c3",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "30ac2062ca9d2507b98a0a5ef9e4a07f85c84ae799cd0c53167d943fb88b257c",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "94539ef60f1ae16291a346783b9e6f5ed70494653b32ad0bd25672eb506864af",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "0816767bae2a88b1ed840f4fe064caf5975c9f98d4270757361331f45b07c047",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "6d41c1f951bae5952f1a1a5e30d925d3175504dc2cfd2ef03e6c538dc5d142a7",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "7a17f6d97f6bb302bbdf4819c0057b4d2db21d481ea39ab99fbdb6ce8077b026",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "d6606805c3f3ebf7d6400fbbbb46e2601aeb6dfc9f6cd75b2b23dfe2954094a0",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "a7e9ddcf25fc40d20252be29ceba698780596a03066f8e34ce589ae59a86ff6a",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "c719881463490328f8b9e81803d24970480bf425b160f25fdf84f9ab71ab170e",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "9e4c7295da4d69494092c66baaa6892101c33c81749c25207913950f88c29ad0",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "d937ab44570c84e7228f9829ac428a8c5a6bafce7b49e104a0ca94589338ae5f",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "c52ef152fced6b777c4296c8e1441672ff6cbe3734e2075d674a8852be319f50",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "235d923b166fdfef641ff992d9e2384c1222bbc8c39e6fe9b9723667de66acd5",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "241bf6e9ff50f2df5419f230ebeba2a478ebad0ef53b33a8d32c5343014aee6b",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "e4b588f675e758517327ed5bd7897ee56eb7ae756d5d613d51e1b9d899251cd5",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "10e0ebb3da3245c7c862d53098f6a32e2f4fd7ccd28509e827fc091025e6dccd",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "e7f071512d8bb381dd32a5cafb487322e85ad94142a5f2f74eb8bebf5c64baa6",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "5e8808c35456af8aaba4cc7d5bf5dccbdc8d8ca5c26e5652d77d15bab5ebf4d8",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "c06cc6f487e925964dd309f30e313c2022b70aadc684115dff8ef2281ffecc49",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "9c0a922cf278bb34f694ce56d88f3e34246df08185649bb34c07da5920f9b2d6",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "1c7364b5e4d0b2b23a305052aa7dda8e7fdc968432e95b9fee8889c12d45b1fa",
+      "episode": "pilot-001"
+    },
+    {
+      "digest": "340b46338916166f1f1f5b178109cf0e30a9fd176d807621f6f8cae8be1c72a2",
+      "episode": "pilot-001"
+    }
+  ],
+  "sources": [
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-001",
+      "url": "https://science.nasa.gov/mercury/facts/",
+      "snapshot_sha256": "5ec043ead047fb3df5d1ebe18b8c6f812092798c16232b92e9ccb9ef5fb26442",
+      "narration_sha256": "ab0b118258c0868de389ca0ad939f1c292962581bcaa2fd74d09c93dbdfa3568"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-002",
+      "url": "https://science.nasa.gov/mercury/facts/",
+      "snapshot_sha256": "5ec043ead047fb3df5d1ebe18b8c6f812092798c16232b92e9ccb9ef5fb26442",
+      "narration_sha256": "a3a59704a578bd4ed3d59f22a35b7c819f0543f008482e2ec34f6260e26e707a"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-003",
+      "url": "https://science.nasa.gov/mercury/facts/",
+      "snapshot_sha256": "5ec043ead047fb3df5d1ebe18b8c6f812092798c16232b92e9ccb9ef5fb26442",
+      "narration_sha256": "ea180c9a8a18328dfaa0461b652736446a007322b97311d967ff9fe47af03229"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-004",
+      "url": "https://science.nasa.gov/venus/facts/",
+      "snapshot_sha256": "775542be87f869c3f1c30a8459eb94e2c5368836779e73c40cf17b8f538dcf67",
+      "narration_sha256": "ddddb06b2dc7bcc882a9875e25598b5bf6e8067abb600e00cb56d55d815fbefa"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-005",
+      "url": "https://science.nasa.gov/venus/facts/",
+      "snapshot_sha256": "775542be87f869c3f1c30a8459eb94e2c5368836779e73c40cf17b8f538dcf67",
+      "narration_sha256": "31377b57b57a65e9c7927d717c23bc35cc9f7c696079aafba6ff0dac8311cbd6"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-006",
+      "url": "https://science.nasa.gov/venus/facts/",
+      "snapshot_sha256": "775542be87f869c3f1c30a8459eb94e2c5368836779e73c40cf17b8f538dcf67",
+      "narration_sha256": "915bc8507cd24788dba7e9af150996b65db0f1b732802482fd7b16817339af87"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-007",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "snapshot_sha256": "013a761f48c215fc1c19d8cf58c73ed82acaa2ab90daf11ebff6eba371ff5d60",
+      "narration_sha256": "ff888b7ec652ba86b144fa5ccaa98e4e5cb1a21ce5972ca061dd53ee81f608db"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-008",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "snapshot_sha256": "013a761f48c215fc1c19d8cf58c73ed82acaa2ab90daf11ebff6eba371ff5d60",
+      "narration_sha256": "a655f0777f0cf5ab1e3e8bbbec58c2e68751348a2a3f798b6cb2f45bd4958015"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-009",
+      "url": "https://science.nasa.gov/sun/facts/",
+      "snapshot_sha256": "4516a3560c5ef7c33afd7aa1cee7aa0d1f5fdc2f2d906c265cbdb309c293e38d",
+      "narration_sha256": "b905872dd5706ca52ade4ec0edd9ca17d724760ab7f72ddd97801a6016ab9709"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-010",
+      "url": "https://science.nasa.gov/sun/facts/",
+      "snapshot_sha256": "4516a3560c5ef7c33afd7aa1cee7aa0d1f5fdc2f2d906c265cbdb309c293e38d",
+      "narration_sha256": "c7a87bacc997784f2605f93a535865103dbf98ce2494a05f2e1dd28c030ed496"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-011",
+      "url": "https://science.nasa.gov/moon/facts/",
+      "snapshot_sha256": "f819485245104ae6ed9868faa68dc826cd88211c2033098f62e59356376e639a",
+      "narration_sha256": "1154f779fa13004c5758a76b03aff14656f8e4c1cff7cae2744e244312bcd0de"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-012",
+      "url": "https://science.nasa.gov/moon/facts/",
+      "snapshot_sha256": "f819485245104ae6ed9868faa68dc826cd88211c2033098f62e59356376e639a",
+      "narration_sha256": "9c5ead1a1e4e74df7cb975a1468cb42a18d8aa47949f6769af91c3c41808bb15"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-013",
+      "url": "https://science.nasa.gov/moon/facts/",
+      "snapshot_sha256": "f819485245104ae6ed9868faa68dc826cd88211c2033098f62e59356376e639a",
+      "narration_sha256": "ed54cc347770cd1c03e9765ddf880558b7b6059080781f78ad35f7cf342477f6"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-014",
+      "url": "https://science.nasa.gov/mars/facts/",
+      "snapshot_sha256": "6fa85031c1cccc66fd7141b06f674053381b0f0fae3d193c0d769255a5c99f0d",
+      "narration_sha256": "4b9d6fdfb9c23d84d3a227de4ae3379855e09e4b15f2840d978524b60aa4ab52"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-015",
+      "url": "https://science.nasa.gov/mars/facts/",
+      "snapshot_sha256": "6fa85031c1cccc66fd7141b06f674053381b0f0fae3d193c0d769255a5c99f0d",
+      "narration_sha256": "889714aa3c46722f7916d7127104bcbf8373ead45c4e695a532a29b5ed9f7a91"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-016",
+      "url": "https://science.nasa.gov/mars/facts/",
+      "snapshot_sha256": "6fa85031c1cccc66fd7141b06f674053381b0f0fae3d193c0d769255a5c99f0d",
+      "narration_sha256": "d64287ac740b99ebc1e655c5ce7e06f819ec01c6b74c193348fe67bbf641f38b"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-017",
+      "url": "https://science.nasa.gov/jupiter/facts/",
+      "snapshot_sha256": "7a632d132f28e0cc99dec7027f6c7ebeb426477bd26bb5478464f9efbf9496c7",
+      "narration_sha256": "3ac5815661f2be0bdb07c9a703c6eb0d02fcdc8b230d48404d316346a8e4dbdb"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-018",
+      "url": "https://science.nasa.gov/jupiter/facts/",
+      "snapshot_sha256": "7a632d132f28e0cc99dec7027f6c7ebeb426477bd26bb5478464f9efbf9496c7",
+      "narration_sha256": "3db1709b0bbdd909003bc975dc8214dce11777beb70c0ccc89cf067dd255a084"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-019",
+      "url": "https://science.nasa.gov/jupiter/facts/",
+      "snapshot_sha256": "7a632d132f28e0cc99dec7027f6c7ebeb426477bd26bb5478464f9efbf9496c7",
+      "narration_sha256": "fc27aaea30d39a570ae378cecac0a07809b1e1e084df3eb2c3b27daa908d68fb"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-020",
+      "url": "https://science.nasa.gov/saturn/facts/",
+      "snapshot_sha256": "448916baecb3824fbae8e87884feb3515a6f707634888e5e8622336d003e99f7",
+      "narration_sha256": "09e464fe40759d656923f977949221eb09cba69f48f0b1dd3747283c2602b9c7"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-021",
+      "url": "https://science.nasa.gov/saturn/facts/",
+      "snapshot_sha256": "448916baecb3824fbae8e87884feb3515a6f707634888e5e8622336d003e99f7",
+      "narration_sha256": "2d19dce02a7657cc00bd45218019bc78b219edf5f1f27f485aab55bf24fc44cd"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-022",
+      "url": "https://science.nasa.gov/uranus/facts/",
+      "snapshot_sha256": "239454e91de0833ace3cb93f1bc32bd93059ffce0a42032ec2c203862d86d8e1",
+      "narration_sha256": "002855e56e8235e5bc803c73b833731c3aec2e36606f26b51601c96c7d23ec32"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-023",
+      "url": "https://science.nasa.gov/neptune/facts/",
+      "snapshot_sha256": "5746e3fb1a642b825110552bce4698b34a59903a99413578e4f91b828953d4d1",
+      "narration_sha256": "868fdb6ee30c6d3e0b918cce3d9f89d7bbd2d03e92aac7ec27fa9358dc8a3715"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-024",
+      "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "snapshot_sha256": "e6869947f82f8ed7cfebe2600f3a6c93475d71c7527afc8574e34a003939158d",
+      "narration_sha256": "55a54aa818c5f892f60ad45bd53d6aac034faf1075a637d87a01b8af451e1538"
+    },
+    {
+      "episode": "pilot-001",
+      "fact_id": "solar-025",
+      "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "snapshot_sha256": "e6869947f82f8ed7cfebe2600f3a6c93475d71c7527afc8574e34a003939158d",
+      "narration_sha256": "d1ed99e8191b350c4f024476f5cde81ee809dcc59458abd669cff51021a9f24b"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "body": "jupiter",
+  "file": "jupiter.jpg",
+  "title": "File:Jupiter and its shrunken Great Red Spot.jpg",
+  "sha256": "c40306b066f21da214e171f076aea57dedfdecff57dbffe095d01850a63c0581",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+  "author": "NASA, ESA, and A. Simon (Goddard Space Flight Center)",
+  "license": "pd",
+  "license_short": "Public domain",
+  "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+  "description": "This full-disc image of Jupiter was taken on 21 April 2014 with Hubble's Wide Field Camera 3 (WFC3).",
+  "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+  "display_credit": "Hubble · NASA/ESA/A. Simon · dominio público",
+  "review_status": "approved",
+  "reviewed_at": "2026-11-16",
+  "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+}

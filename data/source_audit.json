@@ -1,0 +1,68 @@
+[
+  {
+    "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+    "path": "data/snapshots/94c80c1e8ea1d8a4.txt",
+    "sha256": "e6869947f82f8ed7cfebe2600f3a6c93475d71c7527afc8574e34a003939158d",
+    "retrieved_at": "2026-11-16T15:24:10.460923+00:00"
+  },
+  {
+    "url": "https://science.nasa.gov/earth/facts/",
+    "path": "data/snapshots/948b0047f59cfbcf.txt",
+    "sha256": "013a761f48c215fc1c19d8cf58c73ed82acaa2ab90daf11ebff6eba371ff5d60",
+    "retrieved_at": "2026-11-16T15:24:10.825741+00:00"
+  },
+  {
+    "url": "https://science.nasa.gov/jupiter/facts/",
+    "path": "data/snapshots/fdb9ae0fde061b9f.txt",
+    "sha256": "7a632d132f28e0cc99dec7027f6c7ebeb426477bd26bb5478464f9efbf9496c7",
+    "retrieved_at": "2026-11-16T15:24:11.247248+00:00"
+  },
+  {
+    "url": "https://science.nasa.gov/mars/facts/",
+    "path": "data/snapshots/800804528a5885f7.txt",
+    "sha256": "6fa85031c1cccc66fd7141b06f674053381b0f0fae3d193c0d769255a5c99f0d",
+    "retrieved_at": "2026-11-16T15:24:11.612399+00:00"
+  },
+  {
+    "url": "https://science.nasa.gov/mercury/facts/",
+    "path": "data/snapshots/14ee5dbf61197563.txt",
+    "sha256": "5ec043ead047fb3df5d1ebe18b8c6f812092798c16232b92e9ccb9ef5fb26442",
+    "retrieved_at": "2026-11-16T15:24:11.994276+00:00"
+  },
+  {
+    "url": "https://science.nasa.gov/moon/facts/",
+    "path": "data/snapshots/a9162fb8ffa4bf5f.txt",
+    "sha256": "f819485245104ae6ed9868faa68dc826cd88211c2033098f62e59356376e639a",
+    "retrieved_at": "2026-11-16T15:24:12.339181+00:00"
+  },
+  {
+    "url": "https://science.nasa.gov/neptune/facts/",
+    "path": "data/snapshots/545361ef2c53b5a6.txt",
+    "sha256": "5746e3fb1a642b825110552bce4698b34a59903a99413578e4f91b828953d4d1",
+    "retrieved_at": "2026-11-16T15:24:12.714571+00:00"
+  },
+  {
+    "url": "https://science.nasa.gov/saturn/facts/",
+    "path": "data/snapshots/510540b0548ed56f.txt",
+    "sha256": "448916baecb3824fbae8e87884feb3515a6f707634888e5e8622336d003e99f7",
+    "retrieved_at": "2026-11-16T15:24:13.055851+00:00"
+  },
+  {
+    "url": "https://science.nasa.gov/sun/facts/",
+    "path": "data/snapshots/3c409e8cc1b65255.txt",
+    "sha256": "4516a3560c5ef7c33afd7aa1cee7aa0d1f5fdc2f2d906c265cbdb309c293e38d",
+    "retrieved_at": "2026-11-16T15:24:13.406226+00:00"
+  },
+  {
+    "url": "https://science.nasa.gov/uranus/facts/",
+    "path": "data/snapshots/d11e5224f4040692.txt",
+    "sha256": "239454e91de0833ace3cb93f1bc32bd93059ffce0a42032ec2c203862d86d8e1",
+    "retrieved_at": "2026-11-16T15:24:13.746320+00:00"
+  },
+  {
+    "url": "https://science.nasa.gov/venus/facts/",
+    "path": "data/snapshots/fd53c2ba622118d8.txt",
+    "sha256": "775542be87f869c3f1c30a8459eb94e2c5368836779e73c40cf17b8f538dcf67",
+    "retrieved_at": "2026-11-16T15:24:14.497483+00:00"
+  }
+]

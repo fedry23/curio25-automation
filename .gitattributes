@@ -1,0 +1,6 @@
+# Preserve verbatim audited source whitespace; their SHA256 is part of the evidence.
+data/snapshots/*.txt -whitespace
+*.mp4 binary
+*.jpg binary
+*.jpeg binary
+*.png binary

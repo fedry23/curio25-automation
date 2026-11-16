@@ -1,0 +1,12 @@
+{
+  "publication_enabled": false,
+  "approved_episode_sha256": null,
+  "channel_id": null,
+  "timezone": "Europe/Madrid",
+  "publish_hour": "18:00",
+  "voice_model": "models/es_ES-davefx-medium.onnx",
+  "target_seconds": 300,
+  "width": 1920,
+  "height": 1080,
+  "fps": 25
+}

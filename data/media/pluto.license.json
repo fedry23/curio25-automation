@@ -1,0 +1,18 @@
+{
+  "body": "pluto",
+  "file": "pluto.jpg",
+  "title": "File:Pluto in True Color - High-Res.jpg",
+  "sha256": "69401ea6a551c616c2d7d2991904e45c2ac64f9f95a6addca22cecc80b86b0c6",
+  "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1920px-Pluto_in_True_Color_-_High-Res.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg",
+  "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker",
+  "license": "pd",
+  "license_short": "Public domain",
+  "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+  "description": "Pluto's image taken by New Horizons on July 14, 2015, from a range of 22,025 miles (35,445 kilometers). The striking features on Pluto are clearly visible, including the bright expanse of Pluto's icy, nitrogen-and-methane rich \"heart,\" Sputnik Planitia. The natural-looking colors result from refined calibration of data gathered by New Horizons' color Multispectral Visible Imaging Camera (MVIC). The processing creates images that would approximate the colors that the human eye would perceive, bringing them closer to “true color” than the images released at the time of the encounter. The source single-color MVIC scan includes no added data from other New Horizons imagers or instruments.",
+  "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+  "display_credit": "New Horizons · color aproximado · NASA/JHUAPL/SwRI",
+  "review_status": "approved",
+  "reviewed_at": "2026-11-16",
+  "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+}

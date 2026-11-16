@@ -1,0 +1,1083 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "20712200": {
+        "pageid": 20712200,
+        "ns": 6,
+        "title": "File:Amazing Hi-Def CME (full disk) - Flickr - NASA Goddard Photo and Video.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg/1920px-Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 1498,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg/1920px-Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1498,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Amazing_Hi-Def_CME_%28full_disk%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Amazing_Hi-Def_CME_(full_disk)_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/20712200",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-08-17 21:10:25",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Amazing Hi-Def CME (full disk) - Flickr - NASA Goddard Photo and Video",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD NASA|Solar activity|Flickr images reviewed by FlickreviewR|Files from NASA Goddard Space Flight Center Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>A beautiful prominence eruption shot off the east limb (left side) of the sun on Monday, April 16, 2012. Such eruptions are often associated with solar flares, and in this case an M1 class (medium-sized) flare did occur at the same time, though it was not aimed toward Earth. This event, which is still in progress, was seen by NASA’s SDO satellite.\n</p><p>Credit: NASA/GSFC/SDO\n</p><p><b><a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html\" href=\"https://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html\">NASA image use policy.</a></b>\n</p><p><b><a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.nasa.gov/centers/goddard/home/index.html\" href=\"https://www.nasa.gov/centers/goddard/home/index.html\">NASA Goddard Space Flight Center</a></b> enables NASA’s mission through four scientific endeavors: Earth Science, Heliophysics, Solar System Exploration, and Astrophysics. Goddard plays a leading role in NASA’s accomplishments by contributing compelling scientific knowledge to advance the Agency’s mission.\n</p><p><b>Follow us on <a rel=\"nofollow\" class=\"external text\" href=\"https://twitter.com/NASA_GoddardPix\">Twitter</a></b>\n</p><p><b>Like us on <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.facebook.com/pages/Greenbelt-MD/NASA-Goddard/395013845897?ref=tsd\" href=\"https://www.facebook.com/pages/Greenbelt-MD/NASA-Goddard/395013845897?ref=tsd\">Facebook</a></b>\n</p>\n<b>Find us on <a rel=\"nofollow\" class=\"external text\" href=\"http://instagrid.me/nasagoddard/?vm=grid\">Instagram</a></b>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-04-16 15:03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/gsfc/7084820293/\">Amazing Hi-Def CME [full disk]</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24662369@N07\">NASA Goddard Space Flight Center</a> from Greenbelt, MD, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "32799232": {
+        "pageid": 32799232,
+        "ns": 6,
+        "title": "File:Jupiter and its shrunken Great Red Spot.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1600,
+            "thumbheight": 1600,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1600
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/32799232",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-02-26 21:49:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Jupiter and its shrunken Great Red Spot",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Great Red Spot|Images with extracted images|Photos of Jupiter system by Hubble",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This full-disc image of Jupiter was taken on 21 April 2014 with Hubble's Wide Field Camera 3 (WFC3).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.spacetelescope.org/images/heic1410a/\">http://www.spacetelescope.org/images/heic1410a/</a> or <a rel=\"nofollow\" class=\"external free\" href=\"http://hubblesite.org/newscenter/archive/releases/2014/24/image/b/\">http://hubblesite.org/newscenter/archive/releases/2014/24/image/b/</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102095455/http://hubblesite.org/newscenter/archive/releases/2014/24/image/b/\">Archive</a>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "NASA, ESA, and A. Simon (Goddard Space Flight Center)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "19400": {
+        "pageid": 19400,
+        "ns": 6,
+        "title": "File:Mars Valles Marineris.jpeg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mars_Valles_Marineris.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1600,
+            "thumbheight": 1600,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mars_Valles_Marineris.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1600
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mars_Valles_Marineris.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mars_Valles_Marineris.jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/19400",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2006-08-09 01:19:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Mars Valles Marineris",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD NASA|Valles Marineris|Images with annotations|Astronomy Picture of the Day|Featured pictures on Wikipedia, English|Files with derivative versions|Featured pictures on Wikipedia, Persian|Images with 10+ annotations|Files from NASA with known IDs|Files with Assessments template missing SDC Commons no value quality assessment|Photographs of hemispheres of Mars|Photos by Viking 1 Orbiter",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Global mosaic of 102 Viking 1 Orbiter images of Mars taken on orbit 1,334, 22 February 1980. The images are projected into point perspective, representing what a viewer would see from a spacecraft at an altitude of 2,500 km. At center is Valles Marineris, over 3000 km long and up to 8 km deep. Note the channels running up (north) from the central and eastern portions of Valles Marineris to the area at upper right, Chryse Planitia. At left are the three Tharsis Montes and to the south is ancient, heavily impacted terrain. (Viking 1 Orbiter, MG07S078-334SP)<br>\nSome of the features in this mosaic are annotated in Wikimedia Commons.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1980-02-22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://nssdc.gsfc.nasa.gov/photo_gallery/photogallery-mars.html\" href=\"https://nssdc.gsfc.nasa.gov/photo_gallery/photogallery-mars.html\">http://nssdc.gsfc.nasa.gov/photo_gallery/photogallery-mars.html</a> <a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe1.jpg\" href=\"https://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe1.jpg\">http://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe1.jpg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "NASA / USGS (see <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://photojournal.jpl.nasa.gov/catalog/PIA04304\" href=\"https://photojournal.jpl.nasa.gov/catalog/PIA04304\">PIA04304 catalog page</a>)",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td><i>This file is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> in the United States because it was solely created by <a href=\"https://en.wikipedia.org/wiki/NASA\" class=\"extiw\" title=\"w:NASA\">NASA</a>. NASA copyright policy states that \"NASA material is not protected by copyright <b>unless noted</b>\". (See <a href=\"//commons.wikimedia.org/wiki/Template:PD-USGov\" title=\"Template:PD-USGov\">Template:PD-USGov</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://www.nasa.gov/multimedia/guidelines/index.html\">NASA copyright policy page</a> or <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jpl.nasa.gov/imagepolicy/\">JPL Image Use Policy</a>.)</i>\n</td>\n<td><figure class=\"mw-halign-right noresize\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/NASA_logo_%282023_colors%29.svg/120px-NASA_logo_%282023_colors%29.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"54\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/NASA_logo_%282023_colors%29.svg/250px-NASA_logo_%282023_colors%29.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"110\" data-file-height=\"92\"></span><figcaption></figcaption></figure>\n</td></tr>\n<tr>\n<td><figure class=\"mw-halign-left\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Dialog-warning.svg/60px-Dialog-warning.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Dialog-warning.svg/120px-Dialog-warning.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\"></span><figcaption></figcaption></figure>\n</td>\n<td><small><b>Warnings:</b></small><br><div style=\"font-size:85%;\">\n<ul><li>Use of <a href=\"https://en.wikipedia.org/wiki/NASA_logo\" class=\"extiw\" title=\"w:NASA logo\">NASA logos</a>, insignia and emblems is restricted per U.S. law <a rel=\"nofollow\" class=\"external text\" href=\"https://www.govinfo.gov/app/details/CFR-2021-title14-vol5/CFR-2021-title14-vol5-part1221/summary\">14 CFR 1221</a>.</li>\n<li>The NASA website hosts a large number of images from the <a href=\"https://en.wikipedia.org/wiki/Soviet_space_program\" class=\"extiw\" title=\"w:Soviet space program\">Soviet</a>/<a href=\"https://en.wikipedia.org/wiki/Russian_Federal_Space_Agency\" class=\"extiw\" title=\"w:Russian Federal Space Agency\">Russian space agency</a>, and other non-American space agencies. These are <i>not necessarily</i> in the public domain.</li>\n<li>Materials based on <a href=\"https://en.wikipedia.org/wiki/Hubble_Space_Telescope\" class=\"extiw\" title=\"w:Hubble Space Telescope\">Hubble Space Telescope</a> data may be copyrighted if they are not explicitly produced by the <a href=\"https://en.wikipedia.org/wiki/Space_Telescope_Science_Institute\" class=\"extiw\" title=\"w:Space Telescope Science Institute\">STScI</a>.<a rel=\"nofollow\" class=\"external autonumber\" href=\"http://hubblesite.org/copyright/\">[1]</a> See also <a href=\"//commons.wikimedia.org/wiki/Template:PD-Hubble\" title=\"Template:PD-Hubble\"><span style=\"font-family:monospace,monospace;\">{{PD-Hubble}}</span></a> and <a href=\"//commons.wikimedia.org/wiki/Template:Cc-Hubble\" class=\"mw-redirect\" title=\"Template:Cc-Hubble\"><span style=\"font-family:monospace,monospace;\">{{Cc-Hubble}}</span></a>.</li>\n<li>The <a href=\"https://en.wikipedia.org/wiki/Solar_and_Heliospheric_Observatory\" class=\"extiw\" title=\"w:Solar and Heliospheric Observatory\">SOHO (ESA &amp; NASA)</a> joint project implies that all materials created by its probe are copyrighted and require permission for commercial non-educational use. <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://sohowww.nascom.nasa.gov/data/summary/copyright.html\">[2]</a></li>\n<li>Images featured on the <i><a href=\"https://en.wikipedia.org/wiki/Astronomy_Picture_of_the_Day\" class=\"extiw\" title=\"w:Astronomy Picture of the Day\">Astronomy Picture of the Day</a></i> (APOD) web site may be copyrighted. <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://apod.nasa.gov/apod/lib/about_apod.html#srapply\">[3]</a></li>\n<li>The <a href=\"https://en.wikipedia.org/wiki/National_Space_Science_Data_Center\" class=\"extiw\" title=\"w:National Space Science Data Center\">National Space Science Data Center</a> (NSSDC) site has been known to host <a href=\"//commons.wikimedia.org/wiki/Commons:Village_pump/Copyright/Archive/2014/08#Copyright_status_of_File:Venera_13_-_ven13right.png\" title=\"Commons:Village pump/Copyright/Archive/2014/08\">copyrighted content</a>. Its <a rel=\"nofollow\" class=\"external text\" href=\"https://nssdc.gsfc.nasa.gov/photo_gallery/photogallery-faq.html#use\">photo gallery FAQ</a> states that all of the images in the photo gallery are in the public domain \"Unless otherwise noted.\"</li></ul></div>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "83618472": {
+        "pageid": 83618472,
+        "ns": 6,
+        "title": "File:Mercury in true color.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1600,
+            "thumbheight": 1600,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1600
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/83618472",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-05-15 08:16:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Mercury in true color",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Debussy (crater)|Hokusai (crater)|PD NASA|Images with annotations|Derain (crater)|Kuiper (Mercurian crater)|Sihtu Planitia|Featured pictures on Wikipedia, Hebrew|Photos of Mercury by MESSENGER|Files with Assessments template missing SDC Commons no value quality assessment",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a cropped bottom right image from the original four image mosaic PIA11364: Mercury's \"True\" Color is in the Eye of the Beholder.\n<p>Original Caption Released with Image:\n</p>\n<pre>   Given the WAC’s ability to take images through 11 narrow-band color filters, it is natural to wonder what does Mercury look like in “true” color such as would be seen by the human eye. However, creating such a natural color view is not as simple as it may seem. Shown here are four images of Mercury. The image in the top left is the previously released grayscale monochrome single WAC filter (430-nanometer) image (PIA11245); the remaining three images are three-color composites, produced by placing the same three WAC filter images with peak sensitivities at 480, 560, and 630 nanometers in the blue, green, and red channels, respectively. The differences between the color representations result from how the brightness and contrast of each individual WAC filter image was adjusted before it was combined into a color picture. In the top right view, all of the three filter images were stretched using the same brightness and contrast settings. In the bottom left picture, the brightness and contrast of each of the three filter images were determined independent of the others. In the bottom right, the brightness and contrast settings used in the upper right version were slightly adjusted to make each of the three filter images span a similar range of brightness and contrast values.\n</pre>\n<pre>   So which color representation is “correct” for Mercury? The answer to that would indeed depend on the eye of the beholder. Every individual sees color differently; the human eye has a range of sensitivities that vary from person to person, resulting in different perceptions of “true” color. In addition, the three MDIS filter bands are narrow, and light at wavelengths between their peaks is not detected, unlike the human eye. In general, in light visible to the human eye, Mercury’s surface shows only very subtle color variations, as seen in the three images here. However, when images from all 11 WAC filters are statistically compared and contrasted, these subtle color variations can be greatly enhanced, resulting in extremely colorful representations of Mercury’s surface, such as seen in a high-resolution image of Thākur crater (PIA11365).\n</pre>\n<pre>   Date Acquired: October 6, 2008\n   Image Mission Elapsed Time (MET): 131775256, 131775260, 131775264, 131775268\n   Instrument: Wide Angle Camera (WAC) of the Mercury Dual Imaging System (MDIS)\n   Resolution: 5 kilometers/pixel (3 miles/pixel)\n   Scale: Mercury’s diameter is 4880 kilometers (3030 miles)\n</pre>\n    Spacecraft Altitude: 27,000 kilometers (17,000 miles)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-10-06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://photojournal.jpl.nasa.gov/catalog/PIA11364\">https://photojournal.jpl.nasa.gov/catalog/PIA11364</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "NASA/Johns Hopkins University Applied Physics Laboratory/Arizona State University/Carnegie Institution of Washington",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "20638250": {
+        "pageid": 20638250,
+        "ns": 6,
+        "title": "File:Moon nearside LRO.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon_nearside_LRO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1600,
+            "thumbheight": 1600,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon_nearside_LRO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1600
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon_nearside_LRO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Moon_nearside_LRO.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/20638250",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-08-12 17:15:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Moon nearside LRO",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD NASA|Images with annotations|Astronomy Picture of the Day|Images with 10+ annotations|NASA Photojournal entries from 2011|LROC WAC full lunar nearside mosaics",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Nearside of <a href=\"https://en.wikipedia.org/wiki/Moon\" class=\"extiw\" title=\"en:Moon\">Moon</a>, by <a href=\"https://en.wikipedia.org/wiki/Lunar_Reconnaissance_Orbiter\" class=\"extiw\" title=\"en:Lunar Reconnaissance Orbiter\">Lunar Reconnaissance Orbiter</a>. The images that comprise this mosaic were collected over a two-week period in mid-December 2010.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://apod.nasa.gov/apod/ap110303.html\" href=\"https://apod.nasa.gov/apod/ap110303.html\">http://apod.nasa.gov/apod/ap110303.html</a> (see also <a rel=\"nofollow\" class=\"external free\" href=\"http://lroc.sese.asu.edu/posts/293\">http://lroc.sese.asu.edu/posts/293</a>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "NASA/GSFC/Arizona State University",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "640803": {
+        "pageid": 640803,
+        "ns": 6,
+        "title": "File:Neptune Full.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/1920px-Neptune_Full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 1600,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/1920px-Neptune_Full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1600,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Neptune_Full.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/640803",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-09-26 14:24:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Neptune Full",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD NASA|Great Dark Spot|Featured pictures from NASA|The Scooter (Neptune)|Images with extracted images|Files with derivative versions|Featured pictures on Wikipedia, Chinese|Featured pictures on Wikipedia, Turkish|Featured pictures on Wikipedia, Vietnamese|Formerly featured pictures on Wikipedia, English|Featured photographs in the public domain|Atmosphere of Neptune|Featured pictures on Wikipedia, Arabic|Photos of Neptune by Voyager 2|Created with Adobe Photoshop CS|Featured pictures of planets",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "featured|valued|potd",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This enhanced-color picture of Neptune was produced from the last whole planet images taken through the green and orange filters on the Voyager 2 narrow angle camera. The images were taken at a range of 4.4 million miles from the planet, 4 days and 20 hours before closest approach in August 1989.The picture shows the Great Dark Spot and its companion bright smudge; on the west limb the fast moving bright feature called Scooter and the little dark spot are visible. These clouds were seen to persist for as long as Voyager's cameras could resolve them. North of these, a bright cloud band similar to the south polar streak may be seen.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1989-08-20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://photojournal.jpl.nasa.gov/catalog/PIA01492\" href=\"https://photojournal.jpl.nasa.gov/catalog/PIA01492\">JPL image</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "NASA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "71082408": {
+        "pageid": 71082408,
+        "ns": 6,
+        "title": "File:Pluto in True Color - High-Res.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1920px-Pluto_in_True_Color_-_High-Res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 1600,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/3840px-Pluto_in_True_Color_-_High-Res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1920px-Pluto_in_True_Color_-_High-Res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1600,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/3840px-Pluto_in_True_Color_-_High-Res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Pluto_in_True_Color_-_High-Res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/71082408",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-07-24 05:10:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Pluto in True Color - High-Res",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "134340 Pluto|PD NASA|Images with annotations|Images with extracted images|Large images|Featured pictures on Wikipedia, Hebrew|Files with Assessments template missing SDC Commons no value quality assessment|Photos of Pluto by MVIC",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Pluto's image taken by New Horizons on July 14, 2015, from a range of 22,025 miles (35,445 kilometers). The striking features on Pluto are clearly visible, including the bright expanse of Pluto's icy, nitrogen-and-methane rich \"heart,\" Sputnik Planitia.\n<p>The natural-looking colors result from refined calibration of data gathered by New Horizons' color Multispectral Visible Imaging Camera (MVIC). The processing creates images that would approximate the colors that the human eye would perceive, bringing them closer to “true color” than the images released at the time of the encounter. \n</p>\nThe source single-color MVIC scan includes no added data from other New Horizons imagers or instruments.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-07-14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://pluto.jhuapl.edu/Galleries/Featured-Images/image.php?page=1&amp;gallery_id=2&amp;image_id=543\">http://pluto.jhuapl.edu/Galleries/Featured-Images/image.php?page=1&amp;gallery_id=2&amp;image_id=543</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "7228953": {
+        "pageid": 7228953,
+        "ns": 6,
+        "title": "File:Saturn during Equinox.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1920px-Saturn_during_Equinox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 775,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/3840px-Saturn_during_Equinox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1920px-Saturn_during_Equinox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 775,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/3840px-Saturn_during_Equinox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Saturn_during_Equinox.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/7228953",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-05-20 02:01:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Saturn during Equinox",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Saturn (planet)|PD NASA|Space Science Institute|Featured pictures from NASA|Featured pictures on Wikipedia, English|Images with extracted images|Featured pictures on Wikipedia, Japanese|Featured pictures on Wikipedia, Turkish|Featured pictures of Saturn|Featured photographs in the public domain|Files from NASA with known IDs|Featured pictures on Wikipedia, Arabic|Files with Assessments template missing SDC Commons valued image assessment|Photos of Saturn by Cassini (spacecraft)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "featured|valued|potd",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This natural color view of the planet Saturn was created from images collected shortly after Cassini began its extended Equinox Mission in July 2008. (Saturn actually reached equinox on August 11, 2009.)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-07-23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.ciclops.org/view/5155/Saturn-Four-Years-On\">http://www.ciclops.org/view/5155/Saturn-Four-Years-On</a> <a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://www.nasa.gov/images/content/365640main_PIA11141_full.jpg\" href=\"https://www.nasa.gov/images/content/365640main_PIA11141_full.jpg\">http://www.nasa.gov/images/content/365640main_PIA11141_full.jpg</a> <a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://photojournal.jpl.nasa.gov/catalog/PIA11141\" href=\"https://photojournal.jpl.nasa.gov/catalog/PIA11141\">http://photojournal.jpl.nasa.gov/catalog/PIA11141</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration\" class=\"extiw\" title=\"w:National Aeronautics and Space Administration\">NASA</a> / <a href=\"https://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory\" class=\"extiw\" title=\"w:Jet Propulsion Laboratory\">JPL</a> / <a href=\"https://en.wikipedia.org/wiki/Space_Science_Institute\" class=\"extiw\" title=\"w:Space Science Institute\">Space Science Institute</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "43894484": {
+        "pageid": 43894484,
+        "ns": 6,
+        "title": "File:The Earth seen from Apollo 17.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1920px-The_Earth_seen_from_Apollo_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 1601,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1920px-The_Earth_seen_from_Apollo_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1601,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/43894484",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-09-25 20:35:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Blue Marble <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q202014#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">label QS:Lar,\"الگُلَّة (البلية) الزرقاء\"</div><div style=\"display: none;\">label QS:Len,\"The Blue Marble\"</div></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD NASA|The Blue Marble|Astronomy Picture of the Day|Featured pictures on Wikipedia, English|Formerly featured pictures on Wikimedia Commons|Images used in valued image sets|Featured pictures on Wikipedia, German|Photographs with Wikidata item|Featured pictures on Wikipedia, Chinese|Featured pictures on Wikipedia, Croatian|Featured pictures on Wikipedia, Japanese|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Spanish|Featured pictures on Wikipedia, Turkish|Featured pictures on Wikipedia, Vietnamese|Great Images in NASA|Files with Assessments template missing SDC Commons quality assessment|Featured pictures on Wikipedia, Bengali|Files with coordinates missing SDC location of creation|Photos taken with Hasselblad|Taken with Hasselblad 500EL|Artworks digital representation of unknown type of work|Files from NASA with known IDs|Artworks with digital representation of different depicts|Featured pictures on Wikipedia, Arabic|Photographs with Wikidata item missing author|Illustrations used in Salute, Jonathan!",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "valued|potd",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "-26.330278",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "37.420278",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nNASA/Apollo 17 crew; taken by either <a href=\"https://en.wikipedia.org/wiki/Harrison_Schmitt\" class=\"extiw\" title=\"en:Harrison Schmitt\">Harrison Schmitt</a> or <a href=\"https://en.wikipedia.org/wiki/Ronald_Evans_(astronaut)\" class=\"extiw\" title=\"en:Ronald Evans (astronaut)\">Ron Evans</a></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "\"<a href=\"https://en.wikipedia.org/wiki/The_Blue_Marble\" class=\"extiw\" title=\"en:The Blue Marble\">The Blue Marble</a>\" is a famous photograph of the Earth taken on December 7, 1972, by the crew of the <a href=\"https://en.wikipedia.org/wiki/Apollo_17\" class=\"extiw\" title=\"en:Apollo 17\">Apollo 17</a> spacecraft en route to the Moon at a distance of about 29,400 kilometres (18,300 mi). It shows <a href=\"https://en.wikipedia.org/wiki/Africa\" class=\"extiw\" title=\"en:Africa\">Africa</a>, <a href=\"https://en.wikipedia.org/wiki/Antarctica\" class=\"extiw\" title=\"en:Antarctica\">Antarctica</a>, and the <a href=\"https://en.wikipedia.org/wiki/Arabian_Peninsula\" class=\"extiw\" title=\"en:Arabian Peninsula\">Arabian Peninsula</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "7 December 1972<div style=\"display: none;\">date QS:P571,+1972-12-07T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20160112123725/http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001138.html\">https://web.archive.org/web/20160112123725/http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001138.html</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150707070617/http://grin.hq.nasa.gov/IMAGES/LARGE/GPN-2000-001138.jpg\">image link</a>); see also <a rel=\"nofollow\" class=\"external free\" href=\"https://www.nasa.gov/multimedia/imagegallery/image_feature_329.html\">https://www.nasa.gov/multimedia/imagegallery/image_feature_329.html</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "5649239": {
+        "pageid": 5649239,
+        "ns": 6,
+        "title": "File:Uranus2.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1600,
+            "thumbheight": 1600,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1600
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Uranus2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/5649239",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-03-12 07:38:08",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Uranus2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Uranus (planet)|PD NASA|Superseded|Featured pictures on Wikipedia, English|Images with extracted images|Files with derivative versions|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Turkish|False-color satellite images|Photos of Uranus by Voyager 2|Files from NASA with known IDs|Files with Assessments template missing SDC Commons no value quality assessment|Featured pictures on Wikipedia, Arabic|Square photos of astronomic objects",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is an image of the planet <a href=\"https://en.wikipedia.org/wiki/Uranus_(planet)\" class=\"extiw\" title=\"w:Uranus (planet)\">Uranus</a> taken by the spacecraft <a href=\"https://en.wikipedia.org/wiki/Voyager_2\" class=\"extiw\" title=\"w:Voyager 2\">Voyager 2</a> in 1986. See <a href=\"//commons.wikimedia.org/wiki/File:Uranus.jpg\" title=\"File:Uranus.jpg\">Uranus.jpg</a> for how Uranus would appear in visible light.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1986-12-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20090119235457/http://planetquest.jpl.nasa.gov/milestones_show/slide1.html\">https://web.archive.org/web/20090119235457/http://planetquest.jpl.nasa.gov/milestones_show/slide1.html</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20090419230258/http://planetquest.jpl.nasa.gov/milestones_show/uranus.jpg\">image link</a>)<br><a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://photojournal.jpl.nasa.gov/catalog/PIA18182\" href=\"https://photojournal.jpl.nasa.gov/catalog/PIA18182\">http://photojournal.jpl.nasa.gov/catalog/PIA18182</a> (<a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg\" href=\"https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg\">image link</a>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "NASA/JPL-Caltech",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "11826": {
+        "pageid": 11826,
+        "ns": 6,
+        "title": "File:Venus globe.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/1920px-Venus_globe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 1600,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/3840px-Venus_globe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/1920px-Venus_globe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1600,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/3840px-Venus_globe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Venus_globe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Venus_globe.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/11826",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-01-07 16:45:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Venus globe",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD NASA|Images with annotations|Featured pictures from NASA|Featured pictures on Wikipedia, English|Images with extracted images|Featured pictures on Wikipedia, Hebrew|Featured pictures on Wikipedia, Indonesian|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Turkish|Featured pictures on Wikipedia, Vietnamese|Atla Regio|Featured photographs in the public domain|Files from NASA with known IDs|Featured pictures on Wikipedia, Arabic|Assessment tagged pages marked as POTY candidates|Magellan radar images of Venus|Picture of week on the Malay Wikipedia|Featured pictures of Venus",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "featured|poty",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This global view of the surface of <a href=\"//commons.wikimedia.org/wiki/Venus\" title=\"Venus\">Venus</a> is centered at 180 degrees east longitude. <a href=\"https://en.wikipedia.org/wiki/Magellan_probe\" class=\"extiw\" title=\"en:Magellan probe\">Magellan</a> synthetic aperture radar mosaics from the first cycle of Magellan mapping are mapped onto a computer-simulated globe to create this image. Data gaps are filled with <a href=\"https://en.wikipedia.org/wiki/Pioneer_Venus_project\" class=\"extiw\" title=\"en:Pioneer Venus project\">Pioneer Venus Orbiter</a> data, or a constant mid-range value. Simulated color is used to enhance small-scale structure. The simulated hues are based on color images recorded by the Soviet <a href=\"https://en.wikipedia.org/wiki/Venera_13\" class=\"extiw\" title=\"en:Venera 13\">Venera 13</a> and <a href=\"https://en.wikipedia.org/wiki/Venera_14\" class=\"extiw\" title=\"en:Venera 14\">14</a> spacecraft. The image was produced by the Solar System Visualization project and the Magellan science team at the JPL Multimission Image Processing Laboratory and is a single frame from a video released at the October 29, 1991, JPL news conference. It is important to note that Venus is completely shrouded in clouds. A bright elongated region in the center is <a href=\"https://en.wikipedia.org/wiki/Aphrodite_Terra\" class=\"extiw\" title=\"en:Aphrodite Terra\">Aphrodite Terra</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "29 October 1991",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://photojournal.jpl.nasa.gov/catalog/PIA00104\" href=\"https://photojournal.jpl.nasa.gov/catalog/PIA00104\">http://photojournal.jpl.nasa.gov/catalog/PIA00104</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "NASA/JPL",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

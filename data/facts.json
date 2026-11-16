@@ -1,0 +1,627 @@
+[
+  {
+    "id": "solar-001",
+    "title": "Mercurio: un año en 88 días",
+    "narration": "Mercurio da una vuelta al Sol en unos ochenta y ocho días terrestres. Allí celebrarías cuatro cumpleaños mientras aquí apenas preparas uno. Las velas durarían poco allí.",
+    "claim": "Mercurio: un año en 88 días",
+    "source_url": "https://science.nasa.gov/mercury/facts/",
+    "evidence_query": "88",
+    "review_status": "verified",
+    "body": "mercury",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        88,
+        365
+      ],
+      "labels": [
+        "Mercurio",
+        "Tierra"
+      ]
+    },
+    "evidence_excerpt": "us, thanks to its dense atmosphere. But Mercury is the fastest planet, zipping around the Sun every 88 Earth days. Namesake Mercury is appropriately named for the swiftest of the ancient Roman gods. Potential for Life Mercury's environment is not conducive to life as we know it. The temperatures and solar radiation that characterize this planet are most likely too extreme for organisms to adapt to. Size and Distance With a radiu",
+    "source_snapshot_sha256": "5ec043ead047fb3df5d1ebe18b8c6f812092798c16232b92e9ccb9ef5fb26442",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-002",
+    "title": "Mercurio no es el más caliente",
+    "narration": "Mercurio es el planeta más cercano al Sol, pero Venus es más caliente. La diferencia está en la atmósfera: Venus retiene muchísimo calor. Estar en primera fila no siempre significa llevarse el premio.",
+    "claim": "Mercurio no es el más caliente",
+    "source_url": "https://science.nasa.gov/mercury/facts/",
+    "evidence_query": "hottest",
+    "review_status": "verified",
+    "body": "mercury",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        430,
+        467
+      ],
+      "labels": [
+        "Mercurio, máximo °C",
+        "Venus, superficie °C"
+      ]
+    },
+    "evidence_excerpt": "emperatures can dip as low as -290°F (-180°C). Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere. But Mercury is the fastest planet, zipping around the Sun every 88 Earth days. Namesake Mercury is appropriately named for the swiftest of the ancient Roman gods. Potential for Life Mercury's environment is not conducive to life as ",
+    "source_snapshot_sha256": "5ec043ead047fb3df5d1ebe18b8c6f812092798c16232b92e9ccb9ef5fb26442",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-003",
+    "title": "Mercurio apenas tiene aire",
+    "narration": "Mercurio no tiene una atmósfera densa como la terrestre, sino una exosfera muy tenue. Sin una buena manta de aire, la temperatura cambia brutalmente. El abrigo planetario importa bastante más que el estilismo.",
+    "claim": "Mercurio apenas tiene aire",
+    "source_url": "https://science.nasa.gov/mercury/facts/",
+    "evidence_query": "exosphere",
+    "review_status": "verified",
+    "body": "mercury",
+    "graphic": {
+      "kind": "layers",
+      "values": [
+        1,
+        8
+      ],
+      "labels": [
+        "Exosfera tenue",
+        "Atmósfera terrestre"
+      ]
+    },
+    "evidence_excerpt": "atures on sunlit parts of the planet. Atmosphere Instead of an atmosphere, Mercury possesses a thin exosphere made up of atoms blasted off the surface by the solar wind and striking meteoroids. Mercury's exosphere is composed mostly of oxygen, sodium, hydrogen, helium, and potassium. Magnetosphere Mercury's magnetic field is offset relative to the planet's equator. Though Mercury's magnetic field at the surface has just 1% the strength",
+    "source_snapshot_sha256": "5ec043ead047fb3df5d1ebe18b8c6f812092798c16232b92e9ccb9ef5fb26442",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-004",
+    "title": "Venus gira muy despacio",
+    "narration": "Venus tarda unos doscientos cuarenta y tres días terrestres en girar sobre sí mismo. Su año dura unos doscientos veinticinco. Una rotación tarda más que una órbita: el calendario necesita una reunión urgente.",
+    "claim": "Venus gira muy despacio",
+    "source_url": "https://science.nasa.gov/venus/facts/",
+    "evidence_query": "243",
+    "review_status": "verified",
+    "body": "venus",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        243,
+        225
+      ],
+      "labels": [
+        "Rotación, días",
+        "Órbita, días"
+      ]
+    },
+    "evidence_excerpt": "uld protect you from the extreme heat and crushing air pressure. For one thing, your “day” would be 243 Earth days long — longer even than a Venus year (one trip around the Sun), which takes only 225 Earth days. For another, because of the planet's extremely slow rotation, sunrise to sunset would take 117 Earth days. And by the way, the Sun would rise in the west and set in the east, because Venus spins backward compared to Earth",
+    "source_snapshot_sha256": "775542be87f869c3f1c30a8459eb94e2c5368836779e73c40cf17b8f538dcf67",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-005",
+    "title": "Venus gira al revés",
+    "narration": "Venus gira en sentido contrario al de la mayoría de los planetas. Desde su superficie, si las nubes dejaran verlo, el Sol saldría por el oeste. Allí hasta el amanecer lleva la contraria.",
+    "claim": "Venus gira al revés",
+    "source_url": "https://science.nasa.gov/venus/facts/",
+    "evidence_query": "opposite",
+    "review_status": "verified",
+    "body": "venus",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        1,
+        1
+      ],
+      "labels": [
+        "Mayoría de planetas",
+        "Venus: sentido inverso"
+      ]
+    },
+    "evidence_excerpt": "r. Venus is the third brightest object in the sky after the Sun and Moon. Venus spins slowly in the opposite direction from most planets. Venus is similar in structure and size to Earth, and is sometimes called Earth's evil twin. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system with surface temperatures hot enough to melt lead — about 872 degrees Fahrenheit (467 Celsius).",
+    "source_snapshot_sha256": "775542be87f869c3f1c30a8459eb94e2c5368836779e73c40cf17b8f538dcf67",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-006",
+    "title": "Venus tiene un calor de horno",
+    "narration": "La superficie de Venus ronda los cuatrocientos sesenta y siete grados Celsius. Su potente efecto invernadero mantiene ese calor. Comparado con eso, abrir el horno de casa parece una brisa.",
+    "claim": "Venus tiene un calor de horno",
+    "source_url": "https://science.nasa.gov/venus/facts/",
+    "evidence_query": "467 Celsius",
+    "review_status": "verified",
+    "body": "venus",
+    "graphic": {
+      "kind": "layers",
+      "values": [
+        467,
+        15
+      ],
+      "labels": [
+        "Venus °C",
+        "Tierra, referencia °C"
+      ]
+    },
+    "evidence_excerpt": " our solar system with surface temperatures hot enough to melt lead — about 872 degrees Fahrenheit (467 Celsius). And the atmospheric pressure at the surface is about 93 times what it is at sea level on Earth. Below Venus' dense, persistent clouds, the surface has volcanoes and deformed mountains. Namesake The ancient Romans could easily see seven bright objects in the sky: the Sun, the Moon, and the five brightest planets: Mercury, Venu",
+    "source_snapshot_sha256": "775542be87f869c3f1c30a8459eb94e2c5368836779e73c40cf17b8f538dcf67",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-007",
+    "title": "La Tierra es casi toda océano",
+    "narration": "El océano cubre alrededor del setenta y uno por ciento de la superficie terrestre. Los continentes son la parte minoritaria. Llamarla Tierra tiene bastante mérito para un planeta con tanta piscina.",
+    "claim": "La Tierra es casi toda océano",
+    "source_url": "https://science.nasa.gov/earth/facts/",
+    "evidence_query": "71%",
+    "review_status": "verified",
+    "body": "earth",
+    "graphic": {
+      "kind": "fraction",
+      "values": [
+        71,
+        29
+      ],
+      "labels": [
+        "Océano %",
+        "Tierra emergida %"
+      ]
+    },
+    "evidence_excerpt": "another, collide to make mountains, or split and separate. Earth's global ocean, which covers about 71% of the planet's surface, has an average depth of about 2.3 miles (3.6 kilometers) and contains 97% of Earth's water. Almost all of Earth's volcanoes are hidden under these oceans. Hawaii's Mauna Kea volcano is taller from base to summit than Mount Everest, but most of it is underwater. Earth's longest mountain range is also und",
+    "source_snapshot_sha256": "013a761f48c215fc1c19d8cf58c73ed82acaa2ab90daf11ebff6eba371ff5d60",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-008",
+    "title": "La luz solar tarda ocho minutos",
+    "narration": "La luz del Sol tarda aproximadamente ocho minutos en llegar a la Tierra. Mirarlo con protección adecuada es recibir noticias del pasado. El universo ya tenía mensajes con retraso mucho antes de nuestros grupos.",
+    "claim": "La luz solar tarda ocho minutos",
+    "source_url": "https://science.nasa.gov/earth/facts/",
+    "evidence_query": "One Way Light Time to Sun",
+    "review_status": "verified",
+    "body": "sun",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        8,
+        1
+      ],
+      "labels": [
+        "Minutos de viaje",
+        "Luz del Sol"
+      ]
+    },
+    "evidence_excerpt": "y 23.9 hours Length of Year 365.25 days Distance from Sun 93,327,712 miles / 150,196,428 kilometers One Way Light Time to Sun 8.350022 minutes While Earth is only the fifth largest planet in the solar system, it is the only planet in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal. Earth is the only planet in ",
+    "source_snapshot_sha256": "013a761f48c215fc1c19d8cf58c73ed82acaa2ab90daf11ebff6eba371ff5d60",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-009",
+    "title": "El Sol concentra casi toda la masa",
+    "narration": "El Sol contiene aproximadamente el noventa y nueve coma ocho por ciento de la masa del sistema solar. Planetas, lunas y demás comparten el resto. En esta familia, el reparto del equipaje salió bastante desigual.",
+    "claim": "El Sol concentra casi toda la masa",
+    "source_url": "https://science.nasa.gov/sun/facts/",
+    "evidence_query": "99.8",
+    "review_status": "verified",
+    "body": "sun",
+    "graphic": {
+      "kind": "fraction",
+      "values": [
+        99.8,
+        0.2
+      ],
+      "labels": [
+        "Sol % de masa",
+        "Resto %"
+      ]
+    },
+    "evidence_excerpt": "isk. Most of the nebula's material was pulled toward the center to form our Sun, which accounts for 99.8% of our solar system’s mass. Much of the remaining material formed the planets and other objects that now orbit the Sun. (The rest of the leftover gas and dust was blown away by the young Sun's early solar wind.) Like all stars, our Sun will eventually run out of energy. When it starts to die, the Sun will expand into a red gia",
+    "source_snapshot_sha256": "4516a3560c5ef7c33afd7aa1cee7aa0d1f5fdc2f2d906c265cbdb309c293e38d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-010",
+    "title": "El Sol no tiene suelo firme",
+    "narration": "El Sol no tiene una superficie sólida donde aterrizar. Lo que vemos como superficie es la fotosfera, una capa desde la que escapa mucha luz. Un paseo solar tiene un pequeño problema de pavimento.",
+    "claim": "El Sol no tiene suelo firme",
+    "source_url": "https://science.nasa.gov/sun/facts/",
+    "evidence_query": "solid",
+    "review_status": "verified",
+    "body": "sun",
+    "graphic": {
+      "kind": "layers",
+      "values": [
+        3,
+        6
+      ],
+      "labels": [
+        "Fotosfera visible",
+        "Interior solar"
+      ]
+    },
+    "evidence_excerpt": "see from Earth – the part we call the surface – is the photosphere. The Sun doesn’t actually have a solid surface because it’s a ball of plasma. Above the Sun’s surface are its thin chromosphere and the huge corona (crown). This is where we see features such as solar prominences, flares, and coronal mass ejections. The latter two are giant explosions of energy and particles that can reach Earth. The Sun doesn’t have moons, but it’s",
+    "source_snapshot_sha256": "4516a3560c5ef7c33afd7aa1cee7aa0d1f5fdc2f2d906c265cbdb309c293e38d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-011",
+    "title": "La Luna está a unos 384.400 kilómetros",
+    "narration": "La Luna está a unos trescientos ochenta y cuatro mil cuatrocientos kilómetros de la Tierra, de media. Entre ambos mundos cabrían unos treinta planetas terrestres. Nuestra vecina parece cercana, pero no está precisamente a un paseo.",
+    "claim": "La distancia media de la Luna es 384.400 kilómetros",
+    "source_url": "https://science.nasa.gov/moon/facts/",
+    "evidence_query": "384,400 kilometers",
+    "review_status": "verified",
+    "body": "moon",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        384400,
+        12742
+      ],
+      "labels": [
+        "Distancia lunar media, km",
+        "Diámetro terrestre, km aprox."
+      ]
+    },
+    "evidence_excerpt": "a nickel, the Moon would be about as big as a coffee bean. The Moon is an average of 238,855 miles (384,400 kilometers) away. That means 30 Earth-sized planets could fit in between Earth and the Moon. The Moon is slowly moving away from Earth, getting about an inch farther away each year. NASA/Moore Boeck Orbit and Rotation The Moon is rotating at the same rate that it revolves around Earth (called synchronous rotation ), so the same hemisphere",
+    "source_snapshot_sha256": "f819485245104ae6ed9868faa68dc826cd88211c2033098f62e59356376e639a",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-012",
+    "title": "Siempre vemos la misma cara lunar",
+    "narration": "La Luna tarda lo mismo en girar sobre sí misma que en rodear la Tierra. Esa sincronía hace que veamos aproximadamente la misma cara. No está quieta: simplemente tiene una coordinación que ya quisiera nuestro equipo.",
+    "claim": "Siempre vemos la misma cara lunar",
+    "source_url": "https://science.nasa.gov/moon/facts/",
+    "evidence_query": "same rate",
+    "review_status": "verified",
+    "body": "moon",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        27.3,
+        27.3
+      ],
+      "labels": [
+        "Rotación, días aprox.",
+        "Órbita, días aprox."
+      ]
+    },
+    "evidence_excerpt": "out an inch farther away each year. NASA/Moore Boeck Orbit and Rotation The Moon is rotating at the same rate that it revolves around Earth (called synchronous rotation ), so the same hemisphere faces Earth all the time. Some people call the far side – the hemisphere we never see from Earth – the \"dark side\", but that's misleading. As the Moon orbits Earth, different parts are in sunlight or darkness at different times. The changing il",
+    "source_snapshot_sha256": "f819485245104ae6ed9868faa68dc826cd88211c2033098f62e59356376e639a",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-013",
+    "title": "La Luna no tiene una cara siempre oscura",
+    "narration": "La cara lejana de la Luna también recibe luz del Sol. Lejana no significa permanentemente oscura: la superficie alterna día y noche. El nombre misterioso vende mucho, pero la iluminación tiene sus turnos.",
+    "claim": "La Luna no tiene una cara siempre oscura",
+    "source_url": "https://science.nasa.gov/moon/facts/",
+    "evidence_query": "misleading",
+    "review_status": "verified",
+    "body": "moon",
+    "graphic": {
+      "kind": "layers",
+      "values": [
+        1,
+        1
+      ],
+      "labels": [
+        "Cara cercana",
+        "Cara lejana: también día"
+      ]
+    },
+    "evidence_excerpt": "ome people call the far side – the hemisphere we never see from Earth – the \"dark side\", but that's misleading. As the Moon orbits Earth, different parts are in sunlight or darkness at different times. The changing illumination is why, from our perspective, the Moon goes through phases . During a \"full moon,\" the hemisphere of the Moon we can see from Earth is fully illuminated by the Sun. And a \"new moon\" occurs when the far side of th",
+    "source_snapshot_sha256": "f819485245104ae6ed9868faa68dc826cd88211c2033098f62e59356376e639a",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-014",
+    "title": "Marte tiene un día parecido al nuestro",
+    "narration": "Un día en Marte dura unas veinticuatro horas y treinta y siete minutos. Ese pequeño extra diario acabaría desajustando nuestros relojes. Por fin una excusa astronómica para llegar tarde, aunque habría que viajar bastante.",
+    "claim": "Marte tiene un día parecido al nuestro",
+    "source_url": "https://science.nasa.gov/mars/facts/",
+    "evidence_query": "24.6",
+    "review_status": "verified",
+    "body": "mars",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        24.6,
+        24
+      ],
+      "labels": [
+        "Marte, horas",
+        "Tierra, horas"
+      ]
+    },
+    "evidence_excerpt": "el from the Sun to Mars. Orbit and Rotation As Mars orbits the Sun, it completes one rotation every 24.6 hours, which is very similar to one day on Earth (23.9 hours). Martian days are called sols — short for \"solar day.\" A year on Mars lasts 669.6 sols, which is the same as 687 Earth days. Mars' axis of rotation is tilted 25 degrees with respect to the plane of its orbit around the Sun. This is another similarity with Earth, whic",
+    "source_snapshot_sha256": "6fa85031c1cccc66fd7141b06f674053381b0f0fae3d193c0d769255a5c99f0d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-015",
+    "title": "Marte tiene dos lunas pequeñas",
+    "narration": "Marte tiene dos lunas: Fobos y Deimos. Son cuerpos pequeños e irregulares, muy distintos de nuestra Luna redondeada. El planeta rojo eligió dos acompañantes con aspecto de patata y bastante personalidad orbital.",
+    "claim": "Marte tiene dos lunas pequeñas",
+    "source_url": "https://science.nasa.gov/mars/facts/",
+    "evidence_query": "Phobos",
+    "review_status": "verified",
+    "body": "mars",
+    "graphic": {
+      "kind": "moons",
+      "values": [
+        2,
+        1
+      ],
+      "labels": [
+        "Marte: dos lunas",
+        "Tierra: una luna"
+      ]
+    },
+    "evidence_excerpt": "ummer is 154 sols, and northern summer/southern winter is 178 sols. Moons Mars has two small moons, Phobos and Deimos , that may be captured asteroids. They're potato-shaped because they have too little mass for gravity to make them spherical. The moons get their names from the horses that pulled the chariot of the Greek god of war, Ares (whose Roman counterpart is Mars). Phobos, the larger of Mars' two moons, is seen in this image ",
+    "source_snapshot_sha256": "6fa85031c1cccc66fd7141b06f674053381b0f0fae3d193c0d769255a5c99f0d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-016",
+    "title": "El rojo de Marte es óxido",
+    "narration": "El característico color rojizo de Marte procede de minerales de hierro que se oxidan. Su polvo tiñe gran parte del paisaje. No es que el planeta esté enfadado: su decoración tiene bastante de química.",
+    "claim": "El rojo de Marte es óxido",
+    "source_url": "https://science.nasa.gov/mars/facts/",
+    "evidence_query": "oxid",
+    "review_status": "verified",
+    "body": "mars",
+    "graphic": {
+      "kind": "layers",
+      "values": [
+        3,
+        2
+      ],
+      "labels": [
+        "Polvo con óxidos",
+        "Roca marciana"
+      ]
+    },
+    "evidence_excerpt": "ne.\" Even today, it is frequently called the \"Red Planet\" because iron minerals in the Martian dirt oxidize, or rust, causing the surface to look red. Potential for Life Scientists don't expect to find living things currently thriving on Mars. Instead, they're looking for signs of life that existed long ago, when Mars was warmer and covered with water. Size and Distance With a radius of 2,106 miles (3,390 kilometers), Mars is abou",
+    "source_snapshot_sha256": "6fa85031c1cccc66fd7141b06f674053381b0f0fae3d193c0d769255a5c99f0d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-017",
+    "title": "Júpiter es el gigante planetario",
+    "narration": "Júpiter es el planeta más grande del sistema solar. Su diámetro es unas once veces el terrestre. Si los planetas posaran para una foto de grupo, habría que pedirle que se colocara al fondo.",
+    "claim": "Júpiter es el gigante planetario",
+    "source_url": "https://science.nasa.gov/jupiter/facts/",
+    "evidence_query": "11 times wider",
+    "review_status": "verified",
+    "body": "jupiter",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        11,
+        1
+      ],
+      "labels": [
+        "Diámetro de Júpiter",
+        "Diámetro terrestre"
+      ]
+    },
+    "evidence_excerpt": "bly be supported. Size and Distance With a radius of 43,440.7 miles (69,911 kilometers), Jupiter is 11 times wider than Earth. If Earth were the size of a grape, Jupiter would be about as big as a basketball. From an average distance of 484 million miles (778 million kilometers), Jupiter is 5.2 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes",
+    "source_snapshot_sha256": "7a632d132f28e0cc99dec7027f6c7ebeb426477bd26bb5478464f9efbf9496c7",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-018",
+    "title": "Júpiter gira en unas diez horas",
+    "narration": "Júpiter completa una rotación en unas diez horas, pese a su enorme tamaño. Es el día más corto entre los planetas del sistema solar. Ser gigante no le impide llevar una agenda bastante acelerada.",
+    "claim": "Júpiter gira en unas diez horas",
+    "source_url": "https://science.nasa.gov/jupiter/facts/",
+    "evidence_query": "9.9",
+    "review_status": "verified",
+    "body": "jupiter",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        9.9,
+        24
+      ],
+      "labels": [
+        "Júpiter, horas",
+        "Tierra, horas"
+      ]
+    },
+    "evidence_excerpt": "un's formation 4.6 billion years ago. But it has the shortest day in the solar system, taking about 9.9 hours to spin around once on its axis. Introduction Namesake Potential for Life Size and Distance Orbit and Rotation Moons Rings Formation Structure Surface Atmosphere Magnetosphere Introduction NASA’s Juno spacecraft took three images of Jupiter’s Great Red on Feb. 12, 2019, that were used to create this color-enhanced view. A",
+    "source_snapshot_sha256": "7a632d132f28e0cc99dec7027f6c7ebeb426477bd26bb5478464f9efbf9496c7",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-019",
+    "title": "La gran mancha es una tormenta",
+    "narration": "La Gran Mancha Roja de Júpiter es una enorme tormenta que lleva activa cientos de años. Su aspecto y tamaño cambian. Allí consultar el tiempo exige bastante paciencia y un paraguas completamente inútil.",
+    "claim": "La gran mancha es una tormenta",
+    "source_url": "https://science.nasa.gov/jupiter/facts/",
+    "evidence_query": "hundreds of years",
+    "review_status": "verified",
+    "body": "jupiter",
+    "graphic": {
+      "kind": "storm",
+      "values": [
+        1,
+        1
+      ],
+      "labels": [
+        "Tormenta gigantesca",
+        "Observada durante siglos"
+      ]
+    },
+    "evidence_excerpt": "e directions. Jupiter’s iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years. The king of planets was named for Jupiter, king of the gods in Roman mythology. Most of its moons are also named for mythological characters, figures associated with Jupiter or his Greek counterpart, Zeus. Namesake Jupiter, being the biggest planet, gets its name from the king of the ancient Roman gods. Potential for Life Jupi",
+    "source_snapshot_sha256": "7a632d132f28e0cc99dec7027f6c7ebeb426477bd26bb5478464f9efbf9496c7",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-020",
+    "title": "Saturno tiene densidad menor que el agua",
+    "narration": "La densidad media de Saturno es menor que la del agua. La famosa comparación de hacerlo flotar es solo imaginaria: no existe una bañera así. Pero explica muy bien lo ligero que resulta para su tamaño.",
+    "claim": "Saturno tiene densidad menor que el agua",
+    "source_url": "https://science.nasa.gov/saturn/facts/",
+    "evidence_query": "average density",
+    "review_status": "verified",
+    "body": "saturn",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        0.687,
+        1
+      ],
+      "labels": [
+        "Saturno, g/cm³ aprox.",
+        "Agua, g/cm³ aprox."
+      ]
+    },
+    "evidence_excerpt": "nsiderably smaller. It's hard to imagine, but Saturn is the only planet in our solar system with an average density that is less than water. The giant gas planet could float in a bathtub if such a colossal thing existed. Surface As a gas giant, Saturn doesn’t have a true surface. The planet is mostly swirling gases and liquids deeper down. While a spacecraft would have nowhere to land on Saturn, it wouldn’t be able to fly through unscathed e",
+    "source_snapshot_sha256": "448916baecb3824fbae8e87884feb3515a6f707634888e5e8622336d003e99f7",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-021",
+    "title": "Los anillos no son una pieza sólida",
+    "narration": "Los anillos de Saturno están formados por incontables fragmentos de hielo y roca. Desde lejos parecen una estructura continua, pero no son un disco rígido. La joyería cósmica trabaja con muchísimas piezas sueltas.",
+    "claim": "Los anillos no son una pieza sólida",
+    "source_url": "https://science.nasa.gov/saturn/facts/",
+    "evidence_query": "chunks of ice and rock",
+    "review_status": "verified",
+    "body": "saturn",
+    "graphic": {
+      "kind": "rings",
+      "values": [
+        7,
+        3
+      ],
+      "labels": [
+        "Fragmentos de hielo",
+        "También roca y polvo"
+      ]
+    },
+    "evidence_excerpt": "hey reached the planet, torn apart by Saturn's powerful gravity. They are made of billions of small chunks of ice and rock coated with other materials such as dust. The ring particles mostly range from tiny, dust-sized icy grains to chunks as big as a house. A few particles are as large as mountains. The rings would look mostly white if you looked at them from the cloud tops of Saturn, and interestingly, each ring orbits at a different speed around",
+    "source_snapshot_sha256": "448916baecb3824fbae8e87884feb3515a6f707634888e5e8622336d003e99f7",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-022",
+    "title": "Urano gira casi tumbado",
+    "narration": "El eje de Urano está inclinado unos noventa y ocho grados respecto a la perpendicular de su órbita. Por eso parece girar de lado. Los demás dan vueltas de pie; Urano decidió hacerlo desde el sofá.",
+    "claim": "Urano gira casi tumbado",
+    "source_url": "https://science.nasa.gov/uranus/facts/",
+    "evidence_query": "97.77",
+    "review_status": "verified",
+    "body": "uranus",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        98,
+        23.4
+      ],
+      "labels": [
+        "Inclinación Urano °",
+        "Inclinación Tierra °"
+      ]
+    },
+    "evidence_excerpt": "s). Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees. This may be the result of a collision with an Earth-sized object long ago. This unique tilt causes Uranus to have the most extreme seasons in the solar system. For nearly a quarter of each Uranian year, the Sun shines directly over each pole, plunging the other half of the planet into a 21-year-long, dark winter. Uranu",
+    "source_snapshot_sha256": "239454e91de0833ace3cb93f1bc32bd93059ffce0a42032ec2c203862d86d8e1",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-023",
+    "title": "Neptuno necesita 165 años",
+    "narration": "Neptuno tarda aproximadamente ciento sesenta y cinco años terrestres en completar una órbita. Podrías vivir sin ver un cumpleaños neptuniano. Allí una agenda anual necesita una estantería con mucha paciencia.",
+    "claim": "Neptuno necesita 165 años",
+    "source_url": "https://science.nasa.gov/neptune/facts/",
+    "evidence_query": "165",
+    "review_status": "verified",
+    "body": "neptune",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        165,
+        1
+      ],
+      "labels": [
+        "Neptuno, años",
+        "Tierra, años"
+      ]
+    },
+    "evidence_excerpt": "ht under dark-sky conditions, provided you know where to look). In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. Neptune is so far from the Sun that high noon on the big blue planet would seem like dim twilight to us. The warm light we see here on our home planet is roughly 900 times as bright as sunlight on Neptune. Discovery and Namesake Galileo recorded Neptune as a fixed star during observations",
+    "source_snapshot_sha256": "5746e3fb1a642b825110552bce4698b34a59903a99413578e4f91b828953d4d1",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-024",
+    "title": "Plutón es más pequeño que la Luna",
+    "narration": "Plutón es más pequeño que nuestra Luna. Que un mundo tenga nombre famoso no lo convierte en gigante. En una comparación de diámetros, el antiguo noveno planeta perdería frente a nuestra vecina nocturna.",
+    "claim": "Plutón es más pequeño que la Luna",
+    "source_url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+    "evidence_query": "two-thirds the diameter",
+    "review_status": "verified",
+    "body": "pluto",
+    "graphic": {
+      "kind": "compare",
+      "values": [
+        2377,
+        3475
+      ],
+      "labels": [
+        "Plutón, km aprox.",
+        "Luna, km aprox."
+      ]
+    },
+    "evidence_excerpt": "odies are called Kuiper Belt objects, transneptunian objects, or plutoids. Structure Pluto is about two-thirds the diameter of Earth's Moon and probably has a rocky core surrounded by a mantle of water ice. Interesting ices like methane and nitrogen frost coat the surface. Due to its lower density, Pluto's mass is about one-sixth that of Earth's Moon. Surface Pluto's surface has mountains, valleys, plains, and craters. The temperature on Pluto can b",
+    "source_snapshot_sha256": "e6869947f82f8ed7cfebe2600f3a6c93475d71c7527afc8574e34a003939158d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  },
+  {
+    "id": "solar-025",
+    "title": "Plutón y Caronte se miran siempre",
+    "narration": "Plutón y su gran luna Caronte mantienen siempre la misma cara orientada uno hacia el otro. Ambos están sincronizados por las mareas. Es una pareja astronómica con contacto visual constante y muy poco espacio personal.",
+    "claim": "Plutón y Caronte se miran siempre",
+    "source_url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+    "evidence_query": "Charon neither rises nor sets",
+    "review_status": "verified",
+    "body": "pluto",
+    "graphic": {
+      "kind": "orbit",
+      "values": [
+        6.4,
+        6.4
+      ],
+      "labels": [
+        "Plutón y Caronte",
+        "Sincronía mutua"
+      ]
+    },
+    "evidence_excerpt": "it around Pluto takes 153 hours – the same time it takes Pluto to complete one rotation. This means Charon neither rises nor sets, but hovers over the same spot on Pluto's surface. The same side of Charon always faces Pluto, a state called tidal locking. Pluto's other four moons are much smaller, less than 100 miles (160 kilometers) wide. They're also irregularly shaped, not spherical like Charon. Unlike many other moons in the solar system, these moons a",
+    "source_snapshot_sha256": "e6869947f82f8ed7cfebe2600f3a6c93475d71c7527afc8574e34a003939158d",
+    "reviewed_at": "2026-11-16",
+    "reviewer": "Revisión editorial asistida durante implementación; revisar episodio antes de aprobar"
+  }
+]

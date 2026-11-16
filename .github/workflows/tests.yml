@@ -1,0 +1,17 @@
+name: Tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - run: pip install -r requirements.lock
+      - run: pytest -q
+      - name: Validar piloto completo sin acceder a YouTube
+        run: python -m curio25 validate --out examples/pilot-002

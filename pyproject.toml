@@ -1,0 +1,8 @@
+[project]
+name = "curio25-automation"
+version = "0.1.0"
+description = "Producción educativa de curiosidades verificadas, con publicación desactivada"
+requires-python = ">=3.12"
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

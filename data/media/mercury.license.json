@@ -1,0 +1,18 @@
+{
+  "body": "mercury",
+  "file": "mercury.jpg",
+  "title": "File:Mercury in true color.jpg",
+  "sha256": "6cfa9244f703e177b605a4a959f7957269416af95a38e29d54662a4dfdafd1aa",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
+  "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Arizona State University/Carnegie Institution of Washington",
+  "license": "pd",
+  "license_short": "Public domain",
+  "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+  "description": "This is a cropped bottom right image from the original four image mosaic PIA11364: Mercury's \"True\" Color is in the Eye of the Beholder. Original Caption Released with Image: Given the WAC’s ability to take images through 11 narrow-band color filters, it is natural to wonder what does Mercury look like in “true” color such as would be seen by the human eye. However, creating such a natural color view is not as simple as it may seem. Shown here are four images of Mercury. The image in the top left is the previously released grayscale monochrome single WAC filter (430-nanometer) image (PIA11245); the remaining three images are three-color composites, produced by placing the same three WAC filter images with peak sensitivities at 480, 560, and 630 nanometers in the blue, green, and red channels, respectively. The differences between the color representations result from how the brightness and contrast of each individual WAC filter image was adjusted before it was combined into a color picture. In the top right view, all of the three filter images were stretched using the same brightness and contrast settings. In the bottom left picture, the brightness and contrast of each of the three filter images were determined independent of the others. In the bottom right, the brightness and contrast settings used in the upper right version were slightly adjusted to make each of the three filter images span a similar range of brightness and contrast values. So which color representation is “correct” for Mercury? The answer to that would indeed depend on the eye of the beholder. Every individual sees color differently; the human eye has a range of sensitivities that vary from person to person, resulting in different perceptions of “true” color. In addition, the three MDIS filter bands are narrow, and light at wavelengths between their peaks is not detected, unlike the human eye. In general, in light visible to the human eye, Mercury’s surface shows only very subtle color variations, as seen in the three images here. However, when images from all 11 WAC filters are statistically compared and contrasted, these subtle color variations can be greatly enhanced, resulting in extremely colorful representations of Mercury’s surface, such as seen in a high-resolution image of Thākur crater (PIA11365). Date Acquired: October 6, 2008 Image Mission Elapsed Time (MET): 131775256, 131775260, 131775264, 131775268 Instrument: Wide Angle Camera (WAC) of the Mercury Dual Imaging System (MDIS) Resolution: 5 kilometers/pixel (3 miles/pixel) Scale: Mercury’s diameter is 4880 kilometers (3030 miles) Spacecraft Altitude: 27,000 kilometers (17,000 miles)",
+  "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+  "display_credit": "MESSENGER · NASA / JHUAPL · dominio público",
+  "review_status": "approved",
+  "reviewed_at": "2026-11-16",
+  "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+}

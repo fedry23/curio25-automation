@@ -1,0 +1,5632 @@
+{
+  "passed": true,
+  "frame": [
+    1920,
+    1080
+  ],
+  "max_caption_lines": 2,
+  "scenes": [
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Mercurio da una vuelta al Sol en unos ochenta y ocho días terrestres."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            183,
+            916,
+            1737,
+            994
+          ],
+          "start": 0.15,
+          "end": 4.294761904761905,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Allí celebrarías cuatro cumpleaños mientras aquí apenas preparas uno."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            162,
+            916,
+            1758,
+            994
+          ],
+          "start": 4.294761904761905,
+          "end": 8.207324263038549,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Las velas durarían poco allí."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            639,
+            916,
+            1281,
+            994
+          ],
+          "start": 8.207324263038549,
+          "end": 10.146190476190476,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-001",
+      "scene": 1,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "orbit_marker",
+          "envelope": [
+            1040,
+            370,
+            1730,
+            705
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Mercurio es el planeta más cercano al Sol, pero Venus es más caliente."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            164,
+            916,
+            1756,
+            994
+          ],
+          "start": 0.15,
+          "end": 4.46891156462585,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "La diferencia está en la atmósfera: Venus retiene muchísimo calor."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            212,
+            916,
+            1708,
+            994
+          ],
+          "start": 4.46891156462585,
+          "end": 8.613673469387754,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Estar en primera fila no siempre significa llevarse el premio."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            283,
+            916,
+            1637,
+            994
+          ],
+          "start": 8.613673469387754,
+          "end": 12.143106575963717,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-002",
+      "scene": 2,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Mercurio no tiene una atmósfera densa como la terrestre, sino una exosfera",
+            "muy tenue."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            108,
+            885,
+            1812,
+            1025
+          ],
+          "start": 0.15,
+          "end": 4.294761904761905,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Sin una buena manta de aire, la temperatura cambia brutalmente."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            210,
+            916,
+            1710,
+            994
+          ],
+          "start": 4.294761904761905,
+          "end": 7.510725623582767,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "El abrigo planetario importa bastante más que el estilismo."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            294,
+            916,
+            1626,
+            994
+          ],
+          "start": 7.510725623582767,
+          "end": 11.063378684807256,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-003",
+      "scene": 3,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Venus tarda unos doscientos cuarenta y tres días terrestres en girar sobre",
+            "sí mismo."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            130,
+            885,
+            1790,
+            1025
+          ],
+          "start": 0.15,
+          "end": 4.422471655328798,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Su año dura unos doscientos veinticinco."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            496,
+            916,
+            1424,
+            994
+          ],
+          "start": 4.422471655328798,
+          "end": 6.8605668934240365,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Una rotación tarda más que una órbita: el calendario necesita una reunión",
+            "urgente."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            125,
+            885,
+            1795,
+            1025
+          ],
+          "start": 6.8605668934240365,
+          "end": 12.085056689342403,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-004",
+      "scene": 4,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Venus gira en sentido contrario al de la mayoría de los planetas."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            237,
+            916,
+            1683,
+            994
+          ],
+          "start": 0.15,
+          "end": 3.749092970521542,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Desde su superficie, si las nubes dejaran verlo, el Sol saldría por el oeste."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            135,
+            916,
+            1785,
+            994
+          ],
+          "start": 3.749092970521542,
+          "end": 8.335034013605442,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Allí hasta el amanecer lleva la contraria."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            502,
+            916,
+            1418,
+            994
+          ],
+          "start": 8.335034013605442,
+          "end": 10.72668934240363,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-005",
+      "scene": 5,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "orbit_marker",
+          "envelope": [
+            1040,
+            370,
+            1730,
+            705
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "La superficie de Venus ronda los cuatrocientos sesenta y siete grados",
+            "Celsius."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            178,
+            885,
+            1742,
+            1025
+          ],
+          "start": 0.15,
+          "end": 4.457301587301588,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Su potente efecto invernadero mantiene ese calor."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            388,
+            916,
+            1532,
+            994
+          ],
+          "start": 4.457301587301588,
+          "end": 7.324965986394559,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Comparado con eso, abrir el horno de casa parece una brisa."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            274,
+            916,
+            1646,
+            994
+          ],
+          "start": 7.324965986394559,
+          "end": 10.796349206349207,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-006",
+      "scene": 6,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "El océano cubre alrededor del setenta y uno por ciento de la superficie",
+            "terrestre."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            165,
+            885,
+            1755,
+            1025
+          ],
+          "start": 0.15,
+          "end": 5.107460317460318,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Los continentes son la parte minoritaria."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            501,
+            916,
+            1419,
+            994
+          ],
+          "start": 5.107460317460318,
+          "end": 7.5455555555555565,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Llamarla Tierra tiene bastante mérito para un planeta con tanta piscina."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            150,
+            916,
+            1770,
+            994
+          ],
+          "start": 7.5455555555555565,
+          "end": 11.701927437641723,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-007",
+      "scene": 7,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "La luz del Sol tarda aproximadamente ocho minutos en llegar a la Tierra."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            144,
+            916,
+            1776,
+            994
+          ],
+          "start": 0.15,
+          "end": 3.911632653061224,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Mirarlo con protección adecuada es recibir noticias del pasado."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            252,
+            916,
+            1668,
+            994
+          ],
+          "start": 3.911632653061224,
+          "end": 7.208866213151928,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "El universo ya tenía mensajes con retraso mucho antes de nuestros grupos."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            109,
+            916,
+            1811,
+            994
+          ],
+          "start": 7.208866213151928,
+          "end": 11.330408163265306,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-008",
+      "scene": 8,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "orbit_marker",
+          "envelope": [
+            1040,
+            370,
+            1730,
+            705
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "El Sol contiene aproximadamente el noventa y nueve coma ocho por ciento",
+            "de la masa del sistema solar."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            112,
+            885,
+            1808,
+            1025
+          ],
+          "start": 0.15,
+          "end": 5.571859410430839,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Planetas, lunas y demás comparten el resto."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            457,
+            916,
+            1463,
+            994
+          ],
+          "start": 5.571859410430839,
+          "end": 8.544013605442178,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "En esta familia, el reparto del equipaje salió bastante desigual."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            252,
+            916,
+            1668,
+            994
+          ],
+          "start": 8.544013605442178,
+          "end": 12.41013605442177,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-009",
+      "scene": 9,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "El Sol no tiene una superficie sólida donde aterrizar."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            373,
+            916,
+            1547,
+            994
+          ],
+          "start": 0.15,
+          "end": 3.2730839002267573,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Lo que vemos como superficie es la fotosfera, una capa desde la que",
+            "escapa mucha luz."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            183,
+            885,
+            1737,
+            1025
+          ],
+          "start": 3.2730839002267573,
+          "end": 7.777755102040817,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Un paseo solar tiene un pequeño problema de pavimento."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            305,
+            916,
+            1615,
+            994
+          ],
+          "start": 7.777755102040817,
+          "end": 10.947278911564625,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-010",
+      "scene": 10,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "La Luna está a unos trescientos ochenta y cuatro mil cuatrocientos",
+            "kilómetros de la Tierra, de media."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            208,
+            885,
+            1712,
+            1025
+          ],
+          "start": 0.15,
+          "end": 5.374489795918367,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Entre ambos mundos cabrían unos treinta planetas terrestres."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            261,
+            916,
+            1659,
+            994
+          ],
+          "start": 5.374489795918367,
+          "end": 8.927142857142856,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Nuestra vecina parece cercana, pero no está precisamente a un paseo."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            161,
+            916,
+            1759,
+            994
+          ],
+          "start": 8.927142857142856,
+          "end": 12.468185941043084,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-011",
+      "scene": 11,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "La Luna tarda lo mismo en girar sobre sí misma que en rodear la Tierra."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            156,
+            916,
+            1764,
+            994
+          ],
+          "start": 0.15,
+          "end": 3.8768027210884353,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Esa sincronía hace que veamos aproximadamente la misma cara."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            222,
+            916,
+            1698,
+            994
+          ],
+          "start": 3.8768027210884353,
+          "end": 7.359795918367347,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "No está quieta: simplemente tiene una coordinación que ya quisiera",
+            "nuestro equipo."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            193,
+            885,
+            1727,
+            1025
+          ],
+          "start": 7.359795918367347,
+          "end": 11.65548752834467,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-012",
+      "scene": 12,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "orbit_marker",
+          "envelope": [
+            1040,
+            370,
+            1730,
+            705
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "La cara lejana de la Luna también recibe luz del Sol."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            372,
+            916,
+            1548,
+            994
+          ],
+          "start": 0.15,
+          "end": 3.3775736961451246,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Lejana no significa permanentemente oscura: la superficie alterna día y",
+            "noche."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            155,
+            885,
+            1765,
+            1025
+          ],
+          "start": 3.3775736961451246,
+          "end": 8.70655328798186,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "El nombre misterioso vende mucho, pero la iluminación tiene sus turnos."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            142,
+            916,
+            1778,
+            994
+          ],
+          "start": 8.70655328798186,
+          "end": 12.700385487528346,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-013",
+      "scene": 13,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Un día en Marte dura unas veinticuatro horas y treinta y siete minutos."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            164,
+            916,
+            1756,
+            994
+          ],
+          "start": 0.15,
+          "end": 4.120612244897959,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Ese pequeño extra diario acabaría desajustando nuestros relojes."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            226,
+            916,
+            1694,
+            994
+          ],
+          "start": 4.120612244897959,
+          "end": 8.033174603174603,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Por fin una excusa astronómica para llegar tarde, aunque habría que viajar",
+            "bastante."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            120,
+            885,
+            1800,
+            1025
+          ],
+          "start": 8.033174603174603,
+          "end": 12.503015873015874,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-014",
+      "scene": 14,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Marte tiene dos lunas: Fobos y Deimos."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            513,
+            916,
+            1407,
+            994
+          ],
+          "start": 0.15,
+          "end": 2.843514739229025,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Son cuerpos pequeños e irregulares, muy distintos de nuestra Luna",
+            "redondeada."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            202,
+            885,
+            1718,
+            1025
+          ],
+          "start": 2.843514739229025,
+          "end": 6.883786848072563,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "El planeta rojo eligió dos acompañantes con aspecto de patata y bastante",
+            "personalidad orbital."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            129,
+            885,
+            1791,
+            1025
+          ],
+          "start": 6.883786848072563,
+          "end": 12.781655328798186,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-015",
+      "scene": 15,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "El característico color rojizo de Marte procede de minerales de hierro que",
+            "se oxidan."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            138,
+            885,
+            1782,
+            1025
+          ],
+          "start": 0.15,
+          "end": 4.875260770975057,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Su polvo tiñe gran parte del paisaje."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            547,
+            916,
+            1373,
+            994
+          ],
+          "start": 4.875260770975057,
+          "end": 7.313356009070295,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "No es que el planeta esté enfadado: su decoración tiene bastante de",
+            "química."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            186,
+            885,
+            1734,
+            1025
+          ],
+          "start": 7.313356009070295,
+          "end": 11.051768707482994,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-016",
+      "scene": 16,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Júpiter es el planeta más grande del sistema solar."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            389,
+            916,
+            1531,
+            994
+          ],
+          "start": 0.15,
+          "end": 3.0292743764172334,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Su diámetro es unas once veces el terrestre."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            455,
+            916,
+            1465,
+            994
+          ],
+          "start": 3.0292743764172334,
+          "end": 5.5370294784580505,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Si los planetas posaran para una foto de grupo, habría que pedirle que se",
+            "colocara al fondo."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            134,
+            885,
+            1786,
+            1025
+          ],
+          "start": 5.5370294784580505,
+          "end": 10.262290249433107,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-017",
+      "scene": 17,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Júpiter completa una rotación en unas diez horas, pese a su enorme",
+            "tamaño."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            195,
+            885,
+            1725,
+            1025
+          ],
+          "start": 0.15,
+          "end": 4.155442176870749,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Es el día más corto entre los planetas del sistema solar."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            333,
+            916,
+            1587,
+            994
+          ],
+          "start": 4.155442176870749,
+          "end": 7.324965986394559,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Ser gigante no le impide llevar una agenda bastante acelerada."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            244,
+            916,
+            1676,
+            994
+          ],
+          "start": 7.324965986394559,
+          "end": 10.69185941043084,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-018",
+      "scene": 18,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "La Gran Mancha Roja de Júpiter es una enorme tormenta que lleva activa",
+            "cientos de años."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            138,
+            885,
+            1782,
+            1025
+          ],
+          "start": 0.15,
+          "end": 4.654671201814059,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Su aspecto y tamaño cambian."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            606,
+            916,
+            1314,
+            994
+          ],
+          "start": 4.654671201814059,
+          "end": 6.535487528344671,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Allí consultar el tiempo exige bastante paciencia y un paraguas",
+            "completamente inútil."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            246,
+            885,
+            1674,
+            1025
+          ],
+          "start": 6.535487528344671,
+          "end": 11.458117913832199,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-019",
+      "scene": 19,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "La densidad media de Saturno es menor que la del agua."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            316,
+            916,
+            1604,
+            994
+          ],
+          "start": 0.15,
+          "end": 3.3659637188208618,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "La famosa comparación de hacerlo flotar es solo imaginaria: no existe una",
+            "bañera así."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            124,
+            885,
+            1796,
+            1025
+          ],
+          "start": 3.3659637188208618,
+          "end": 8.683333333333334,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Pero explica muy bien lo ligero que resulta para su tamaño."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            290,
+            916,
+            1630,
+            994
+          ],
+          "start": 8.683333333333334,
+          "end": 11.783197278911565,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-020",
+      "scene": 20,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Los anillos de Saturno están formados por incontables fragmentos de hielo",
+            "y roca."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            121,
+            885,
+            1799,
+            1025
+          ],
+          "start": 0.15,
+          "end": 4.445691609977325,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Desde lejos parecen una estructura continua, pero no son un disco rígido."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            133,
+            916,
+            1787,
+            994
+          ],
+          "start": 4.445691609977325,
+          "end": 8.520793650793651,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "La joyería cósmica trabaja con muchísimas piezas sueltas."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            303,
+            916,
+            1617,
+            994
+          ],
+          "start": 8.520793650793651,
+          "end": 12.131496598639457,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-021",
+      "scene": 21,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "El eje de Urano está inclinado unos noventa y ocho grados respecto a la",
+            "perpendicular de su órbita."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            150,
+            885,
+            1770,
+            1025
+          ],
+          "start": 0.15,
+          "end": 5.629909297052155,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Por eso parece girar de lado."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            631,
+            916,
+            1289,
+            994
+          ],
+          "start": 5.629909297052155,
+          "end": 7.52233560090703,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Los demás dan vueltas de pie; Urano decidió hacerlo desde el sofá."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            203,
+            916,
+            1717,
+            994
+          ],
+          "start": 7.52233560090703,
+          "end": 10.95888888888889,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-022",
+      "scene": 22,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "orbit_marker",
+          "envelope": [
+            1040,
+            370,
+            1730,
+            705
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Neptuno tarda aproximadamente ciento sesenta y cinco años terrestres en",
+            "completar una órbita."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            120,
+            885,
+            1800,
+            1025
+          ],
+          "start": 0.15,
+          "end": 5.548639455782313,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Podrías vivir sin ver un cumpleaños neptuniano."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            418,
+            916,
+            1502,
+            994
+          ],
+          "start": 5.548639455782313,
+          "end": 8.393083900226758,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Allí una agenda anual necesita una estantería con mucha paciencia."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            194,
+            916,
+            1726,
+            994
+          ],
+          "start": 8.393083900226758,
+          "end": 12.143106575963719,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-023",
+      "scene": 23,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Plutón es más pequeño que nuestra Luna."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            482,
+            916,
+            1438,
+            994
+          ],
+          "start": 0.15,
+          "end": 2.216575963718821,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Que un mundo tenga nombre famoso no lo convierte en gigante."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            230,
+            916,
+            1690,
+            994
+          ],
+          "start": 2.216575963718821,
+          "end": 5.107460317460318,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "En una comparación de diámetros, el antiguo noveno planeta perdería",
+            "frente a nuestra vecina nocturna."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            167,
+            885,
+            1753,
+            1025
+          ],
+          "start": 5.107460317460318,
+          "end": 10.54092970521542,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-024",
+      "scene": 24,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            950,
+            320,
+            1820,
+            756
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            950,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Plutón y su gran luna Caronte mantienen siempre la misma cara orientada",
+            "uno hacia el otro."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            123,
+            885,
+            1797,
+            1025
+          ],
+          "start": 0.15,
+          "end": 4.956530612244898,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Ambos están sincronizados por las mareas."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            470,
+            916,
+            1450,
+            994
+          ],
+          "start": 4.956530612244898,
+          "end": 7.708095238095238,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Es una pareja astronómica con contacto visual constante y muy poco",
+            "espacio personal."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            182,
+            885,
+            1738,
+            1025
+          ],
+          "start": 7.708095238095238,
+          "end": 12.212766439909297,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "solar-025",
+      "scene": 25,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "orbit_marker",
+          "envelope": [
+            1040,
+            370,
+            1730,
+            705
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "container": [
+            950,
+            320,
+            1820,
+            756
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    }
+  ]
+}

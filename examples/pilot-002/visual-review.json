@@ -1,0 +1,61 @@
+[
+  {
+    "scene": 1,
+    "fact": "solar-001",
+    "time_seconds": 2.2223809523809526,
+    "lines": [
+      "Mercurio da una vuelta al Sol en unos ochenta y ocho días terrestres."
+    ],
+    "frame": "review-01.jpg"
+  },
+  {
+    "scene": 4,
+    "fact": "solar-004",
+    "time_seconds": 37.0062358276644,
+    "lines": [
+      "Venus tarda unos doscientos cuarenta y tres días terrestres en girar sobre",
+      "sí mismo."
+    ],
+    "frame": "review-04.jpg"
+  },
+  {
+    "scene": 9,
+    "fact": "solar-009",
+    "time_seconds": 96.4609297052154,
+    "lines": [
+      "El Sol contiene aproximadamente el noventa y nueve coma ocho por ciento",
+      "de la masa del sistema solar."
+    ],
+    "frame": "review-09.jpg"
+  },
+  {
+    "scene": 13,
+    "fact": "solar-013",
+    "time_seconds": 148.9620634920635,
+    "lines": [
+      "Lejana no significa permanentemente oscura: la superficie alterna día y",
+      "noche."
+    ],
+    "frame": "review-13.jpg"
+  },
+  {
+    "scene": 20,
+    "fact": "solar-020",
+    "time_seconds": 233.6246485260771,
+    "lines": [
+      "La famosa comparación de hacerlo flotar es solo imaginaria: no existe una",
+      "bañera así."
+    ],
+    "frame": "review-20.jpg"
+  },
+  {
+    "scene": 25,
+    "fact": "solar-025",
+    "time_seconds": 289.99326530612245,
+    "lines": [
+      "Plutón y su gran luna Caronte mantienen siempre la misma cara orientada",
+      "uno hacia el otro."
+    ],
+    "frame": "review-25.jpg"
+  }
+]

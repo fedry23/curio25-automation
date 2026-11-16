@@ -1,0 +1,17 @@
+[0;93m2026-11-16 15:33:32.188426480 [W:onnxruntime:Default, telemetry_1ds.cc:613 operator()] Failed to persist telemetry device ID; using an in-memory identifier[m
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/curio25-automation/curio25/__main__.py", line 50, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/workspace/curio25-automation/curio25/__main__.py", line 35, in main
+    upload(root,out,args.episode,config); return
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/curio25-automation/curio25/youtube.py", line 37, in upload
+    metadata=json.loads((out/'metadata.json').read_text()); gate(config,out/'episode.mp4',metadata)
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/curio25-automation/curio25/youtube.py", line 25, in gate
+    if config.get('publication_enabled') is not True: raise PermissionError('Publicación desactivada: falta aprobación del piloto y conexión del canal')
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: Publicación desactivada: falta aprobación del piloto y conexión del canal

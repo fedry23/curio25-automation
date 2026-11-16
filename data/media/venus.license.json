@@ -1,0 +1,18 @@
+{
+  "body": "venus",
+  "file": "venus.jpg",
+  "title": "File:Venus globe.jpg",
+  "sha256": "fd1a4631dd83eb7f09045e6c0c8ce6af3c35e101e84c1c1fbe89ce9810f6cd60",
+  "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/1920px-Venus_globe.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Venus_globe.jpg",
+  "author": "NASA/JPL",
+  "license": "pd",
+  "license_short": "Public domain",
+  "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+  "description": "This global view of the surface of Venus is centered at 180 degrees east longitude. Magellan synthetic aperture radar mosaics from the first cycle of Magellan mapping are mapped onto a computer-simulated globe to create this image. Data gaps are filled with Pioneer Venus Orbiter data, or a constant mid-range value. Simulated color is used to enhance small-scale structure. The simulated hues are based on color images recorded by the Soviet Venera 13 and 14 spacecraft. The image was produced by the Solar System Visualization project and the Magellan science team at the JPL Multimission Image Processing Laboratory and is a single frame from a video released at the October 29, 1991, JPL news conference. It is important to note that Venus is completely shrouded in clouds. A bright elongated region in the center is Aphrodite Terra .",
+  "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+  "display_credit": "Magallanes · radar, color simulado · NASA/JPL",
+  "review_status": "approved",
+  "reviewed_at": "2026-11-16",
+  "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+}

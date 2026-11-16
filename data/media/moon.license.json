@@ -1,0 +1,18 @@
+{
+  "body": "moon",
+  "file": "moon.jpg",
+  "title": "File:Moon nearside LRO.jpg",
+  "sha256": "97e7b47ecde313c3286a728214278e9067350a86e3676dadb3271a59fccc21ad",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon_nearside_LRO.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Moon_nearside_LRO.jpg",
+  "author": "NASA/GSFC/Arizona State University",
+  "license": "pd",
+  "license_short": "Public domain",
+  "license_url": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States",
+  "description": "Nearside of Moon , by Lunar Reconnaissance Orbiter . The images that comprise this mosaic were collected over a two-week period in mid-December 2010.",
+  "changes": "Recorte y movimiento de cámara; rótulos y comparación editorial superpuestos. Colores de la fuente conservados.",
+  "display_credit": "LRO · mosaico NASA/GSFC/ASU · dominio público",
+  "review_status": "approved",
+  "reviewed_at": "2026-11-16",
+  "review_notes": "Metadatos y procedencia Commons consultados; cuerpo astronómico, sin personas ni logotipos. Revisar advertencias de color/falso color de la descripción original."
+}

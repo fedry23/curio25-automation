@@ -1,0 +1,67 @@
+Ciencia explicada con fotografías reales, gráficos originales, comparaciones y humor ligero.
+Narración sintética en español de España (Piper davefx); diagramas esquemáticos originales, sin escala.
+
+00:00 Mercurio: un año en 88 días
+00:10 Mercurio no es el más caliente
+00:23 Mercurio apenas tiene aire
+00:34 Venus gira muy despacio
+00:47 Venus gira al revés
+00:58 Venus tiene un calor de horno
+01:09 La Tierra es casi toda océano
+01:21 La luz solar tarda ocho minutos
+01:33 El Sol concentra casi toda la masa
+01:46 El Sol no tiene suelo firme
+01:57 La Luna está a unos 384.400 kilómetros
+02:10 Siempre vemos la misma cara lunar
+02:22 La Luna no tiene una cara siempre oscura
+02:36 Marte tiene un día parecido al nuestro
+02:49 Marte tiene dos lunas pequeñas
+03:02 El rojo de Marte es óxido
+03:13 Júpiter es el gigante planetario
+03:24 Júpiter gira en unas diez horas
+03:35 La gran mancha es una tormenta
+03:47 Saturno tiene densidad menor que el agua
+03:59 Los anillos no son una pieza sólida
+04:12 Urano gira casi tumbado
+04:23 Neptuno necesita 165 años
+04:36 Plutón es más pequeño que la Luna
+04:47 Plutón y Caronte se miran siempre
+
+FUENTES (NASA Science):
+https://science.nasa.gov/dwarf-planets/pluto/facts/
+https://science.nasa.gov/earth/facts/
+https://science.nasa.gov/jupiter/facts/
+https://science.nasa.gov/mars/facts/
+https://science.nasa.gov/mercury/facts/
+https://science.nasa.gov/moon/facts/
+https://science.nasa.gov/neptune/facts/
+https://science.nasa.gov/saturn/facts/
+https://science.nasa.gov/sun/facts/
+https://science.nasa.gov/uranus/facts/
+https://science.nasa.gov/venus/facts/
+IMÁGENES (dominio público; recorte, movimiento y rótulos):
+mercury: NASA/Johns Hopkins University Applied Physics Laboratory/Arizona State University/Carnegie Institution of Washington · Public domain
+https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg
+venus: NASA/JPL · Public domain
+https://commons.wikimedia.org/wiki/File:Venus_globe.jpg
+earth:  NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans  · Public domain
+https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg
+sun:  NASA Goddard Space Flight Center from Greenbelt, MD, USA · Public domain
+https://commons.wikimedia.org/wiki/File:Amazing_Hi-Def_CME_(full_disk)_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg
+moon: NASA/GSFC/Arizona State University · Public domain
+https://commons.wikimedia.org/wiki/File:Moon_nearside_LRO.jpg
+mars: NASA / USGS (see PIA04304 catalog page ) · Public domain
+https://commons.wikimedia.org/wiki/File:Mars_Valles_Marineris.jpeg
+jupiter: NASA, ESA, and A. Simon (Goddard Space Flight Center) · Public domain
+https://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot.jpg
+saturn:  NASA / JPL / Space Science Institute  · Public domain
+https://commons.wikimedia.org/wiki/File:Saturn_during_Equinox.jpg
+uranus: NASA/JPL-Caltech · Public domain
+https://commons.wikimedia.org/wiki/File:Uranus2.jpg
+neptune: NASA · Public domain
+https://commons.wikimedia.org/wiki/File:Neptune_Full.jpg
+pluto: NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker · Public domain
+https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg
+
+
+CRÉDITOS: Guion y diagramas originales Curio25. Música original generada por síntesis (sin muestras externas). Voz Piper davefx, conjunto CC0. No afiliado a NASA.
