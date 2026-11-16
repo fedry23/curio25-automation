@@ -49,7 +49,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           EPISODE: ${{ steps.research.outputs.episode }}
         run: |
-          BRANCH="curio25-research-$EPISODE"
+          BRANCH="curio25-research-$EPISODE-${GITHUB_RUN_ID}"
           DEST="data/candidates/research-$EPISODE"
           git config user.name 'curio25-research-bot'
           git config user.email 'curio25-research-bot@users.noreply.github.com'
