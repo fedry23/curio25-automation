@@ -2,7 +2,8 @@
 from __future__ import annotations
 from .layout import CLOCK, CAPTION_BAND, VISUAL_SAFE
 
-FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+from .theme import FONT_BOLD, FONT_REGULAR, PALETTE
+FONT = str(FONT_BOLD)
 
 
 def timecode(seconds: float) -> str:
@@ -26,10 +27,10 @@ def stopwatch_filters(scene_start: float, target_seconds: float) -> str:
     text=minutes+r"\:"+seconds
     angle=f"(2*PI*{elapsed}/300)"
     return (
-        f"drawtext=fontfile={FONT}:text='{text}':fontsize=36:"
-        "fontcolor=0xffce54:x=1465:y=73,"
+        f"drawtext=fontfile={FONT}:text='{text}':fontsize=39:"
+        "fontcolor=0x183153:x=1460:y=64,"
         "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:"
-        "text='●':fontsize=20:fontcolor=0x83e9df:"
+        "text='●':fontsize=20:fontcolor=0xFF8A3D:"
         f"x='1416+29*sin({angle})-10':y='101-29*cos({angle})-10'"
     )
 
@@ -47,3 +48,16 @@ def clock_report(chapters: list[dict], target_seconds: float) -> dict:
                 box=list(CLOCK.tuple()),subtitle_overlap=False,
                 scenes=[dict(scene=i+1,offset_seconds=round(s,3),clock=timecode(s))
                         for i,s in enumerate(starts)])
+
+
+def paint_clock(draw):
+    """Cartoon capsule; digits/dot are still driven by absolute programme time."""
+    from .layout import font
+    draw.rounded_rectangle((1364,63,1666,151),26,fill='#C7DBEA')
+    draw.rounded_rectangle(CLOCK.tuple(),26,fill=PALETTE['yellow'],outline=PALETTE['violet'],width=3)
+    draw.ellipse((1380,65,1452,137),fill='white',outline=PALETTE['ink'],width=3)
+    draw.rounded_rectangle((1405,59,1427,67),3,fill=PALETTE['orange'])
+    draw.line((1416,101,1416,80),fill=PALETTE['ink'],width=4)
+    draw.ellipse((1412,97,1420,105),fill=PALETTE['ink'])
+    draw.text((1580,77),'/ 05:00',font=font(20,True),fill=PALETTE['ink'],anchor='lt')
+    draw.text((1460,116),'¡EL TIEMPO VUELA!',font=font(14,True),fill=PALETTE['ink'],anchor='lt')

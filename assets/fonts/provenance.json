@@ -1,0 +1,19 @@
+{
+  "family": "Nunito",
+  "author": "The Nunito Project Authors",
+  "source": "https://github.com/google/fonts/tree/main/ofl/nunito",
+  "license": "SIL OFL-1.1",
+  "conversion": "Static instances from the published variable font using fontTools4.68.0; weights600 and900",
+  "files": [
+    {
+      "file": "Nunito-SemiBold.ttf",
+      "weight": 600,
+      "sha256": "d93019a5229a091aa93515f4c95fbe21227e68386ba8ff142919c83e6ec3f488"
+    },
+    {
+      "file": "Nunito-Black.ttf",
+      "weight": 900,
+      "sha256": "58cea738cba497a8dbec381bbe15ec373f40cf6e947250a9d3a56d70545f3ed6"
+    }
+  ]
+}

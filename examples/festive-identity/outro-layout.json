@@ -1,0 +1,95 @@
+{
+  "kind": "outro",
+  "size": [
+    1792,
+    640
+  ],
+  "safe": [
+    40,
+    40,
+    1752,
+    600
+  ],
+  "text_boxes": [
+    {
+      "name": "eyebrow",
+      "text": "CURIO25",
+      "box": [
+        564,
+        168,
+        726,
+        192
+      ],
+      "font_size": 36
+    },
+    {
+      "name": "farewell_title",
+      "text": "¡Se acabó el tiempo!",
+      "box": [
+        260,
+        246,
+        1040,
+        324
+      ],
+      "font_size": 80
+    },
+    {
+      "name": "farewell_subtitle",
+      "text": "¡Nos vemos mañana!",
+      "box": [
+        319,
+        382,
+        981,
+        446
+      ],
+      "font_size": 67
+    },
+    {
+      "name": "challenge_time",
+      "text": "05:00",
+      "box": [
+        1334,
+        312,
+        1516,
+        362
+      ],
+      "font_size": 68
+    },
+    {
+      "name": "challenge_label",
+      "text": "¡RETO COMPLETO!",
+      "box": [
+        1324,
+        402,
+        1526,
+        420
+      ],
+      "font_size": 22
+    }
+  ],
+  "card": [
+    104,
+    104,
+    1190,
+    544
+  ],
+  "stopwatch": [
+    1218,
+    90,
+    1632,
+    526
+  ],
+  "card_motion_envelope": [
+    83,
+    86,
+    1205,
+    560
+  ],
+  "passed": true,
+  "errors": [],
+  "seconds": 2.6,
+  "fps": 25,
+  "frames": 65,
+  "audio": false,
+  "design": "Original Curio25 procedural artwork"
+}

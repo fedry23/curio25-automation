@@ -1,0 +1,106 @@
+{
+  "kind": "intro",
+  "size": [
+    1792,
+    640
+  ],
+  "safe": [
+    40,
+    40,
+    1752,
+    600
+  ],
+  "text_boxes": [
+    {
+      "name": "eyebrow",
+      "text": "EL RETO DE LA CURIOSIDAD",
+      "box": [
+        451,
+        170,
+        839,
+        190
+      ],
+      "font_size": 27
+    },
+    {
+      "name": "brand_word",
+      "text": "CURIO",
+      "box": [
+        235,
+        243,
+        727,
+        353
+      ],
+      "font_size": 151
+    },
+    {
+      "name": "brand_number",
+      "text": "25",
+      "box": [
+        862,
+        246,
+        1036,
+        352
+      ],
+      "font_size": 145
+    },
+    {
+      "name": "subtitle",
+      "text": "25 curiosidades en 5 minutos",
+      "box": [
+        364,
+        416,
+        936,
+        448
+      ],
+      "font_size": 43
+    },
+    {
+      "name": "challenge_time",
+      "text": "05:00",
+      "box": [
+        1334,
+        312,
+        1516,
+        362
+      ],
+      "font_size": 68
+    },
+    {
+      "name": "challenge_label",
+      "text": "MINUTOS",
+      "box": [
+        1372,
+        404,
+        1478,
+        418
+      ],
+      "font_size": 22
+    }
+  ],
+  "card": [
+    104,
+    104,
+    1190,
+    544
+  ],
+  "stopwatch": [
+    1218,
+    90,
+    1632,
+    526
+  ],
+  "card_motion_envelope": [
+    83,
+    86,
+    1205,
+    560
+  ],
+  "passed": true,
+  "errors": [],
+  "seconds": 2.4,
+  "fps": 25,
+  "frames": 60,
+  "audio": false,
+  "design": "Original Curio25 procedural artwork"
+}

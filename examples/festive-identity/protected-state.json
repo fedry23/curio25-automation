@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "changed_files": [],
+  "production_history_unchanged": true,
+  "candidate_approvals_unchanged": true,
+  "publication_unchanged": true,
+  "sha256": {
+    "config.json": "e980c8de37863917d9a520e8287faebc4cb0246a9f42fb5dbd75e5d31e92ad61",
+    "data/facts.json": "bd2d9d2d1cf1b8b9b8d52e31678d8de1140ca4c72d410c94774eb8ca5b25332f",
+    "data/history.json": "a092c24f2e25b203b0dae1c6289ef38b29ca876574498803a4a14025147e0856",
+    "data/history.sqlite": "7ade32e0937adcf5becae39dd30c411341d9e24dc8ecb96ff8a3ed53a598e7cd",
+    "data/candidates/2026-11-17.json": "05a8d4526e8a8a5193093b0003ac68743bc0e48d269710d9108d0b31785cb3ee",
+    "data/candidates/media-2026-11-17/media_report.json": "bffddcbcbf7c462e58dbb831365f29906dfea82c93f4c19ac5b990ba4bbdb253",
+    "curio25/youtube.py": "a37783f7c16b21f826f6213880587ca414fa5b09bfac0972149f1c1fab11b2ef",
+    "curio25/state.py": "5a08c0524f18109ddf6b24da51b889541851b66d5f6f3e764316f2ebfd00b302",
+    "curio25/__main__.py": "ca30148fca68172ad47d850cff1059f28870a3feb53d73c7f9585352aec82f5d"
+  }
+}

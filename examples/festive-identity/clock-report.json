@@ -1,0 +1,140 @@
+{
+  "duration_seconds": 300,
+  "first_frame": "00:00",
+  "last_frames": "05:00",
+  "continuous_across_scenes": true,
+  "box": [
+    1360,
+    57,
+    1662,
+    145
+  ],
+  "subtitle_overlap": false,
+  "scenes": [
+    {
+      "scene": 1,
+      "offset_seconds": 0.0,
+      "clock": "00:00"
+    },
+    {
+      "scene": 2,
+      "offset_seconds": 13.04,
+      "clock": "00:13"
+    },
+    {
+      "scene": 3,
+      "offset_seconds": 24.04,
+      "clock": "00:24"
+    },
+    {
+      "scene": 4,
+      "offset_seconds": 35.92,
+      "clock": "00:35"
+    },
+    {
+      "scene": 5,
+      "offset_seconds": 46.96,
+      "clock": "00:46"
+    },
+    {
+      "scene": 6,
+      "offset_seconds": 58.72,
+      "clock": "00:58"
+    },
+    {
+      "scene": 7,
+      "offset_seconds": 70.52,
+      "clock": "01:10"
+    },
+    {
+      "scene": 8,
+      "offset_seconds": 82.16,
+      "clock": "01:22"
+    },
+    {
+      "scene": 9,
+      "offset_seconds": 93.36,
+      "clock": "01:33"
+    },
+    {
+      "scene": 10,
+      "offset_seconds": 105.52,
+      "clock": "01:45"
+    },
+    {
+      "scene": 11,
+      "offset_seconds": 118.68,
+      "clock": "01:58"
+    },
+    {
+      "scene": 12,
+      "offset_seconds": 129.8,
+      "clock": "02:09"
+    },
+    {
+      "scene": 13,
+      "offset_seconds": 142.04,
+      "clock": "02:22"
+    },
+    {
+      "scene": 14,
+      "offset_seconds": 152.92,
+      "clock": "02:32"
+    },
+    {
+      "scene": 15,
+      "offset_seconds": 163.36,
+      "clock": "02:43"
+    },
+    {
+      "scene": 16,
+      "offset_seconds": 174.96,
+      "clock": "02:54"
+    },
+    {
+      "scene": 17,
+      "offset_seconds": 188.24,
+      "clock": "03:08"
+    },
+    {
+      "scene": 18,
+      "offset_seconds": 200.72,
+      "clock": "03:20"
+    },
+    {
+      "scene": 19,
+      "offset_seconds": 214.76,
+      "clock": "03:34"
+    },
+    {
+      "scene": 20,
+      "offset_seconds": 226.96,
+      "clock": "03:46"
+    },
+    {
+      "scene": 21,
+      "offset_seconds": 239.0,
+      "clock": "03:59"
+    },
+    {
+      "scene": 22,
+      "offset_seconds": 252.36,
+      "clock": "04:12"
+    },
+    {
+      "scene": 23,
+      "offset_seconds": 263.08,
+      "clock": "04:23"
+    },
+    {
+      "scene": 24,
+      "offset_seconds": 274.84,
+      "clock": "04:34"
+    },
+    {
+      "scene": 25,
+      "offset_seconds": 285.8,
+      "clock": "04:45"
+    }
+  ]
+}
