@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-17",
+  "production_ready": false,
+  "publication_enabled": false,
+  "photos_downloaded": 2,
+  "photos_approved": 0,
+  "rights_approved": 0,
+  "records": [
+    {
+      "fact_id": "curio-20261117-01",
+      "title": "File:Balaenoptera musculus NOAA.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Balaenoptera_musculus_NOAA.jpg",
+      "author": "NOAA United States. National Marine Fisheries Service",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Balaenoptera_musculus_NOAA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "mime": "image/jpeg",
+      "review_status": "pending_visual_legal_review",
+      "rights_note": "Revisar derechos en España; CC BY-SA exige atribución y obligaciones de adaptación",
+      "changes": "Fotografía a recortar y animar; indicar cambios en créditos",
+      "width": 1200,
+      "height": 301,
+      "file": "images/curio-20261117-01.jpg",
+      "sha256": "8a17eb10ea5c885b63bb9061a4447fed35548b7c1784a996e78177c0c1d99f19",
+      "status": "downloaded_unreviewed",
+      "bytes": 68485
+    },
+    {
+      "fact_id": "curio-20261117-02",
+      "title": "File:Octopus2.jpg",
+      "status": "failed",
+      "error": "URL imagen insegura",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-03",
+      "title": "File:Dermochelys coriacea leatherback turtle.jpg",
+      "status": "failed",
+      "error": "URL imagen insegura",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-04",
+      "title": "File:Северная церапия (cropped).jpg",
+      "status": "failed",
+      "error": "URL imagen insegura",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-05",
+      "title": "File:001 Humpback whale breaching in Ballena Marine National Park Photo by Giles Laurent.jpg",
+      "status": "failed",
+      "error": "URL imagen insegura",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-06",
+      "title": "File:ISS034E016601 - Stratocumulus Clouds - Pacific Ocean.jpg",
+      "status": "failed",
+      "error": "URL imagen insegura",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-07",
+      "title": "File:Deep Sea stand at the Hall of Biodiversity.jpg",
+      "status": "failed",
+      "error": "URL imagen insegura",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-08",
+      "title": "File:Deep sea corals, Wagner Seamount.jpg",
+      "status": "failed",
+      "error": "URL imagen insegura",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-09",
+      "title": "File:MBNMS - Juvenile Vampire Squid (27667875204).jpg",
+      "status": "failed",
+      "error": "URL imagen insegura",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-10",
+      "title": "File:Crystal jelly.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Crystal_jelly.jpg",
+      "author": "Julia Sumangil",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crystal_jelly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "mime": "image/jpeg",
+      "review_status": "pending_visual_legal_review",
+      "rights_note": "Revisar derechos en España; CC BY-SA exige atribución y obligaciones de adaptación",
+      "changes": "Fotografía a recortar y animar; indicar cambios en créditos",
+      "width": 1000,
+      "height": 871,
+      "file": "images/curio-20261117-10.jpg",
+      "sha256": "65438e9d5d281e1ce5b8b186b2311842d0866dab5d5b8fe89729546b6a4feaaf",
+      "status": "downloaded_unreviewed",
+      "bytes": 1020656
+    },
+    {
+      "fact_id": "curio-20261117-11",
+      "title": "File:Morse-telegraph-key-150k-4096-diffuse (Smithsonian Institution).png",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AMorse-telegraph-key-150k-4096-diffuse+%28Smithsonian+Institution%29.png&prop",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-12",
+      "title": "File:Alexander Graham Bell's Telephone Patent Drawing and Oath - NARA - 302052 (page 2).jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AAlexander+Graham+Bell%27s+Telephone+Patent+Drawing+and+Oath+-+NARA+-+302052+",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-13",
+      "title": "File:Alexander Graham Bell.jpeg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AAlexander+Graham+Bell.jpeg&prop=imageinfo&iiprop=url%7Cmime%7Cextmetadata&ii",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-14",
+      "title": "File:1903-12 Wright-Flyer-side-view.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3A1903-12+Wright-Flyer-side-view.jpg&prop=imageinfo&iiprop=url%7Cmime%7Cextmet",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-15",
+      "title": "File:Alexander Graham Bell, first transcontinental phone call, 25 Jan 1915.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AAlexander+Graham+Bell%2C+first+transcontinental+phone+call%2C+25+Jan+1915.jp",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-16",
+      "title": "File:MemoryFoam-fast.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AMemoryFoam-fast.jpg&prop=imageinfo&iiprop=url%7Cmime%7Cextmetadata&iiurlwidt",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-17",
+      "title": "File:Active pixel sensor prototype.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AActive+pixel+sensor+prototype.jpg&prop=imageinfo&iiprop=url%7Cmime%7Cextmeta",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-18",
+      "title": "File:Axes for eye glasses cylindrical lenses.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AAxes+for+eye+glasses+cylindrical+lenses.jpg&prop=imageinfo&iiprop=url%7Cmime",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-19",
+      "title": "File:ISS-30 Ivanishin wearing a communication system headset in the SM.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AISS-30+Ivanishin+wearing+a+communication+system+headset+in+the+SM.jpg&prop=i",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-20",
+      "title": "File:Astronaut and cosmonaut food - Evergreen Aviation & Space Museum - McMinnville, Oregon - DSC00854.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AAstronaut+and+cosmonaut+food+-+Evergreen+Aviation+%26+Space+Museum+-+McMinnv",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-21",
+      "title": "File:Crepuscular rays and Dead trees at Mammoth Hot Springs.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ACrepuscular+rays+and+Dead+trees+at+Mammoth+Hot+Springs.jpg&prop=imageinfo&ii",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-22",
+      "title": "File:Daisy Geyser erupting in Yellowstone National Park edit.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ADaisy+Geyser+erupting+in+Yellowstone+National+Park+edit.jpg&prop=imageinfo&i",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-23",
+      "title": "File:2003-08-19 Petrified tree at Yellowstone.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3A2003-08-19+Petrified+tree+at+Yellowstone.jpg&prop=imageinfo&iiprop=url%7Cmim",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-24",
+      "title": "File:.00 2003 Yellowstone National Park - The Old Faithful Geyser.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3A.00+2003+Yellowstone+National+Park+-+The+Old+Faithful+Geyser.jpg&prop=imagei",
+      "review_status": "pending_visual_legal_review"
+    },
+    {
+      "fact_id": "curio-20261117-25",
+      "title": "File:Grand Canyon (Arizona, USA), Luftaufnahme -- 2012 -- 5968.jpg",
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AGrand+Canyon+%28Arizona%2C+USA%29%2C+Luftaufnahme+--+2012+--+5968.jpg&prop=i",
+      "review_status": "pending_visual_legal_review"
+    }
+  ],
+  "warning": "Los ficheros descargados NO están aprobados: revisar contenido, licencia, autor y derechos territoriales."
+}
