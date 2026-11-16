@@ -14,3 +14,9 @@ El piloto actualizado integra once fotografías de dominio público de Commons m
 ## Operación antes de ampliar
 
 Añadir una cola de episodios revisados por hash, catálogo de cientos de datos, copias duraderas de vídeos y estado, y conciliación de subidas interrumpidas. Probar OAuth con el canal real y evaluar pronunciación/ritmo con el usuario. No relajar las barreras para convertir el piloto en publicación masiva.
+
+## Varios temas en el mismo motor
+
+Los hechos no astronómicos deben declarar `episode_topic` (por ejemplo, animales, historia o tecnología) en los 25 registros del mismo episodio. Pueden indicar `episode_title` coherente. El programa genera título, descripción y miniatura temáticos, usando una fotografía ya aprobada del propio lote.
+
+El inventario `data/media/assets.json` admite `fact_id` para enlazar una imagen concreta con una curiosidad; solo si falta recurre al campo histórico `body` (para conservar el piloto solar). Cada recurso nuevo debe llevar licencia comercial, autor, enlace, SHA256 y `review_status: approved`. La ausencia de recurso hace fallar la producción. El catálogo no se genera por adivinación y se mantiene intacto el historial.

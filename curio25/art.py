@@ -1,6 +1,6 @@
 """Original fixed layout with licensed photography and a separate subtitle band."""
 from PIL import Image, ImageDraw, ImageOps
-import math,random
+import math,random,hashlib
 from .layout import font,fit_text,Box,TITLE,PHOTO,GRAPH,CREDIT,PROGRESS
 COLORS={'mercury':'#bdafa5','venus':'#edbc6a','earth':'#32becd','sun':'#ffc546','moon':'#c6d3e5','mars':'#e77754','jupiter':'#dfa986','saturn':'#d9bf83','uranus':'#7be4dd','neptune':'#5688ef','pluto':'#c6a898'}
 
@@ -13,7 +13,7 @@ def _text(d,text,box,size,bold=False,max_lines=2,fill='white',minimum=16,gap=8):
     return dict(box=list(box.tuple()),font_size=actual,line_count=len(lines),text=text)
 
 def panel(f,index,path):
-    im=Image.new('RGB',(1920,1080),'#0a1327'); d=ImageDraw.Draw(im); rng=random.Random(f['id']); accent=COLORS[f['body']]
+    im=Image.new('RGB',(1920,1080),'#0a1327'); d=ImageDraw.Draw(im); rng=random.Random(f['id']); accent=COLORS.get(f.get('body'), ('#48b7d5','#f4a261','#a18bfa','#7fd5ac','#e9bc70')[int(hashlib.sha256(str(f.get('body','')).encode()).hexdigest()[:4],16)%5])
     for _ in range(150):
         x,y=rng.randrange(64,1856),rng.randrange(48,824); d.ellipse((x,y,x+2,y+2),fill='#3b4965')
     elements=[]
@@ -23,7 +23,7 @@ def panel(f,index,path):
     record('brand',Box(90,64,370,126))
     number=Box(1690,65,1820,125); _text(d,f'{index:02}/25',number,34,True,max_lines=1); record('counter',number)
     info=_text(d,f['title'],TITLE,56,True,minimum=42); record('title',TITLE,font_size=info['font_size'],line_count=info['line_count'])
-    eyebrow=Box(90,325,840,366); _text(d,'LA CIENCIA, EN UN VISTAZO',eyebrow,25,True,max_lines=1,fill=accent); record('eyebrow',eyebrow)
+    eyebrow=Box(90,325,840,366); _text(d,'UN DATO, UNA HISTORIA',eyebrow,25,True,max_lines=1,fill=accent); record('eyebrow',eyebrow)
     # Exact photographic box: the frame itself never moves or zooms.
     media=f.get('media_path')
     if media:
@@ -55,10 +55,10 @@ def panel(f,index,path):
             _text(d,'Representación conceptual',Box(90,top+112,840,top+148),22,max_lines=1,fill='#9bb0d0')
         else:
             d.line((110,top+93,810,top+93),fill=accent,width=4)
-            if f['body']=='venus' and j==1: d.polygon([(110,top+93),(130,top+82),(130,top+104)],fill=accent)
+            if f.get('body')=='venus' and j==1: d.polygon([(110,top+93),(130,top+82),(130,top+104)],fill=accent)
             else: d.polygon([(810,top+93),(790,top+82),(790,top+104)],fill=accent)
         record(f'graph_values_{j}',value_box)
-    notice=Box(90,757,840,788); _text(d,'NASA Science · Gráfico esquemático · Fuentes en descripción',notice,20,minimum=17,max_lines=1,fill='#9bb0d0'); record('source_notice',notice)
+    notice=Box(90,757,840,788); _text(d,('NASA Science · Gráfico esquemático · Fuentes en descripción' if not f.get('episode_topic') or f.get('episode_topic')=='sistema solar' else 'Gráfico esquemático · Fuentes y licencias en descripción'),notice,20,minimum=17,max_lines=1,fill='#9bb0d0'); record('source_notice',notice)
     d.rounded_rectangle(PROGRESS.tuple(),5,fill='#26364f'); record('progress',PROGRESS)
     # This entire strip is reserved exclusively for captions. No visual/credit enters it.
     d.rectangle((0,840,1920,1080),fill='#080f1e')
@@ -73,10 +73,28 @@ def photo_layer(f,path):
         photo.save(path)
     return True
 
-def thumbnail(path):
-    im=Image.new('RGB',(1280,720),'#0a1327'); d=ImageDraw.Draw(im)
-    d.ellipse((790,90,1260,560),fill='#ecbd69'); d.ellipse((720,250,1270,430),outline='#83e9df',width=18)
-    d.text((65,60),'CURIO25',font=font(48,True),fill='#83e9df')
-    d.text((60,145),'25',font=font(220,True),fill='#ffce54')
-    d.text((65,400),'SORPRESAS',font=font(72,True),fill='white'); d.text((65,500),'DEL SISTEMA SOLAR',font=font(53,True),fill='white')
-    d.text((65,635),'CIENCIA CON UN TOQUE DE HUMOR',font=font(26),fill='#83e9df'); im.save(path)
+def thumbnail(path, topic='sistema solar', photo_path=None):
+    """Topic-aware 16:9 thumbnail using an already approved licensed photograph."""
+    im=Image.new('RGB',(1280,720),'#0a1327')
+    if photo_path:
+        with Image.open(photo_path) as source:
+            photo=ImageOps.fit(ImageOps.exif_transpose(source).convert('RGB'),
+                               (620,720), method=Image.Resampling.LANCZOS)
+        im.paste(photo,(660,0))
+    else:
+        d=ImageDraw.Draw(im)
+        d.ellipse((825,100,1280,555),fill='#385577')
+        d.ellipse((780,330,1280,520),outline='#83e9df',width=15)
+    d=ImageDraw.Draw(im)
+    d.rectangle((0,0,725,720),fill='#101a31')
+    d.text((60,38),'CURIO25',font=font(46,True),fill='#83e9df')
+    d.text((52,120),'25',font=font(240,True),fill='#ffce54')
+    d.text((62,398),'DATOS QUE',font=font(53,True),fill='white')
+    d.text((62,470),'TE SORPRENDERÁN',font=font(38,True),fill='white')
+    info=Box(62,557,685,653)
+    lines,face,size,height=fit_text(str(topic).upper(),info,52,25,max_lines=2,bold=True)
+    ascent,descent=face.getmetrics(); y=info.y1
+    for line in lines:
+        d.text((info.x1,y),line,font=face,fill='#83e9df',anchor='lt')
+        y+=ascent+descent+8
+    im.save(path)
