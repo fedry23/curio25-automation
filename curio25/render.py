@@ -138,6 +138,8 @@ def render(root,out,facts,config):
             motion+=",drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='●':fontsize=24:fontcolor=white:x='1385+330*cos(t*0.6)-12':y='537+150*sin(t*0.6)-12'"
             scene_report['animations'].append(dict(name='orbit_marker',envelope=[1040,370,1730,705],container=list(PHOTO.tuple()),inside_caption_band=False))
         vf=f"fps=25,{motion},drawbox=x=0:y=840:w=1920:h=240:color=0x020713@0.72:t=fill,ass=filename=captions-{idx:02}.ass,fade=t=in:st=0:d=0.28:color={fade},fade=t=out:st={max(0,actual-.28)}:d=0.28:color={fade}"
+        if f.get('preview_only'):
+            vf+=",drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:text='BORRADOR - NO PUBLICAR':fontsize=24:fontcolor=white:x=995:y=334:box=1:boxcolor=black@0.65:boxborderw=12"
         target=out/f'segment-{idx:02}.mp4'
         # Photo zoom/pan is clipped to a fixed PHOTO-sized layer before compositing.
         cmd=['ffmpeg','-y','-v','error','-threads','2','-loop','1','-framerate','25','-i',f'panel-{idx:02}.png','-i',f'voice-{idx:02}.wav']
@@ -167,7 +169,13 @@ def render(root,out,facts,config):
         from .media import credits
         desc+='\nIMÁGENES (licencias aptas para uso comercial; créditos por recurso):\n'+credits([f['media_record'] for f in facts if f.get('media_record')])+'\n'
     desc+='\n\nCRÉDITOS: Guion y diagramas originales Curio25. Música original generada por síntesis (sin muestras externas). Voz Piper davefx, conjunto CC0. Sin afiliación ni respaldo de las instituciones citadas.\n'
-    if len(desc)>5000: raise ValueError('Descripción supera el límite de YouTube; editar sin omitir atribuciones')
+    if len(desc)>5000:
+        if all(f.get('preview_only') for f in facts):
+            (out/'full-attributions.txt').write_text(desc,encoding='utf-8')
+            desc=('BORRADOR INTERNO - NO PUBLICAR. Fuentes y licencias completas '
+                  'en full-attributions.txt, dentro del artefacto de revisión.')
+        else:
+            raise ValueError('Descripción supera el límite de YouTube; editar sin omitir atribuciones')
     (out/'description.txt').write_text(desc); (out/'script.json').write_text(json.dumps([dict(f,media_path='data/media/'+f['media_record']['file']) if f.get('media_record') else f for f in facts],ensure_ascii=False,indent=2))
     (out/'metadata.json').write_text(json.dumps(dict(title=title,description=desc,chapters=chapters,synthetic_voice=True,contains_synthetic_media=False,sha256=report['sha256']),ensure_ascii=False,indent=2))
     (out/'assets.json').write_text(json.dumps([dict(fact_id=f['id'],file=f'panel-{i:02}.png',author='Curio25',license='CC-BY-4.0',source='Composición original: curio25/art.py',photograph=('data/media/'+f['media_record']['file']) if f.get('media_record') else None,photograph_credit=f.get('media_credit'),original_media=f.get('media_record'),sha256=sha(out/f'panel-{i:02}.png')) for i,f in enumerate(facts)]+[dict(file='music.wav',author='Curio25',license='CC0-1.0',source='Síntesis original: curio25/render.py',sha256=sha(out/'music.wav'))],indent=2))
