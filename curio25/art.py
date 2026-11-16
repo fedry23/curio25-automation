@@ -1,7 +1,7 @@
 """Original fixed layout with licensed photography and a separate subtitle band."""
 from PIL import Image, ImageDraw, ImageOps
 import math,random,hashlib
-from .layout import font,fit_text,Box,TITLE,PHOTO,GRAPH,CREDIT,PROGRESS
+from .layout import font,fit_text,Box,TITLE,PHOTO,GRAPH,CREDIT,PROGRESS,CLOCK
 COLORS={'mercury':'#bdafa5','venus':'#edbc6a','earth':'#32becd','sun':'#ffc546','moon':'#c6d3e5','mars':'#e77754','jupiter':'#dfa986','saturn':'#d9bf83','uranus':'#7be4dd','neptune':'#5688ef','pluto':'#c6a898'}
 
 def _text(d,text,box,size,bold=False,max_lines=2,fill='white',minimum=16,gap=8):
@@ -21,6 +21,16 @@ def panel(f,index,path):
     d.rounded_rectangle((90,64,370,126),16,fill=accent)
     _text(d,'CURIO / 25',Box(110,76,350,120),32,True,max_lines=1,fill='#0a1327')
     record('brand',Box(90,64,370,126))
+    # Original Curio25 stopwatch. Numeric seconds and the orbiting dot
+    # are drawn by FFmpeg from absolute episode presentation time.
+    d.rounded_rectangle(CLOCK.tuple(),radius=18,fill='#182b42',outline='#44677a',width=2)
+    cx,cy=1416,101
+    d.ellipse((cx-29,cy-29,cx+29,cy+29),outline='#6a91a5',width=4)
+    d.ellipse((cx-4,cy-4,cx+4,cy+4),fill='#83e9df')
+    d.rounded_rectangle((cx-9,cy-36,cx+9,cy-30),3,fill='#83e9df')
+    _text(d,'/ 05:00',Box(1575,73,1656,113),21,True,max_lines=1,fill='#b4c7e2')
+    _text(d,'TIEMPO TRANSCURRIDO',Box(1465,117,1655,142),14,True,minimum=13,max_lines=1,fill='#83e9df')
+    record('five_minute_clock',CLOCK)
     number=Box(1690,65,1820,125); _text(d,f'{index:02}/25',number,34,True,max_lines=1); record('counter',number)
     info=_text(d,f['title'],TITLE,56,True,minimum=42); record('title',TITLE,font_size=info['font_size'],line_count=info['line_count'])
     eyebrow=Box(90,325,840,366); _text(d,'UN DATO, UNA HISTORIA',eyebrow,25,True,max_lines=1,fill=accent); record('eyebrow',eyebrow)

@@ -8,5 +8,7 @@
   "target_seconds": 300,
   "width": 1920,
   "height": 1080,
-  "fps": 25
+  "fps": 25,
+  "voice_delivery": "alegre",
+  "stopwatch_enabled": true
 }
