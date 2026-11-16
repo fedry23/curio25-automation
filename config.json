@@ -13,7 +13,7 @@
   "stopwatch_enabled": true,
   "intro_enabled": true,
   "outro_enabled": true,
-  "music_style": "original_divertida",
+  "music_style": "pop_ligero_original_116bpm",
   "music_ducking_enabled": true,
-  "music_bed_relative_volume": 0.88
+  "music_bed_relative_volume": 0.93
 }

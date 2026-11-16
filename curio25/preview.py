@@ -37,6 +37,18 @@ CONCEPTS = [
     ("1.840 MILLONES","Antigüedad de las rocas"),
 ]
 
+# Alternar temas para crear sorpresa y evitar bloques de enciclopedia.
+# Los IDs permanecen intactos; cada foto y fuente siguen asociadas a su dato.
+EDITORIAL_ORDER=[1,14,2,21,16,6,3,11,9,17,4,24,7,12,20,5,22,18,8,15,10,23,19,13,25]
+
+def programme_order(facts):
+    expected={f"curio-20261117-{i:02}" for i in range(1,26)}
+    if len(facts)==25 and {f['id'] for f in facts}==expected:
+        mapping={int(f['id'][-2:]):f for f in facts}
+        return [mapping[i] for i in EDITORIAL_ORDER]
+    # Los tests sintéticos y otros episodios conservan su propio orden.
+    return list(facts)
+
 def create_manifest(root, out):
     """Build review facts from staged sources and files, never approved records."""
     root = Path(root)
@@ -47,6 +59,8 @@ def create_manifest(root, out):
     images = json.loads((store / 'media_report.json').read_text(encoding='utf-8'))['records']
     if len(facts) != 25 or len(images) != 25 or len({f['id'] for f in facts}) != 25:
         raise ValueError('Necesitamos 25 datos y 25 fotos únicas')
+    original_position={fact['id']:i for i,fact in enumerate(facts)}
+    facts=programme_order(facts)
     media = {record['fact_id']: record for record in images}
     enriched = []
     for i, fact in enumerate(facts):
@@ -65,7 +79,7 @@ def create_manifest(root, out):
             raise ValueError('Licencia desconocida: ' + fact['id'])
         if fact['review_status'] != 'pending':
             raise ValueError('La previsualización espera candidatos sin aprobar')
-        title, detail = CONCEPTS[i]
+        title, detail = CONCEPTS[original_position[fact['id']]]
         enriched.append(dict(
             fact,
             preview_only=True,
