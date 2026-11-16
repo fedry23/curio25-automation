@@ -5,6 +5,8 @@ from piper.config import SynthesisConfig
 from .art import panel, thumbnail, photo_layer
 from .layout import caption_chunks,caption_layout,validate_scene,Box,PHOTO,PROGRESS,CAPTION_CENTER,CAPTION_FONT_SIZE,validate_animations
 from .state import sha
+from .clock import stopwatch_filters, clock_report
+from .voice_style import vocal_profile
 LOG=logging.getLogger(__name__)
 def run(args):
     result=subprocess.run(args,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
@@ -102,11 +104,15 @@ def render(root,out,facts,config):
     root=Path(root); out=Path(out); out.mkdir(parents=True,exist_ok=True)
     topic,title=episode_identity(facts)
     voice=PiperVoice.load(str(root/config['voice_model'])); sync=[]; lengths=[]
+    style=config.get('voice_delivery','alegre')
     for idx,f in enumerate(facts):
         parts=[]; cursor=0; cues=[]
-        for j,sentence in enumerate(caption_chunks(f['narration'])):
+        chunks=caption_chunks(f['narration'])
+        for j,sentence in enumerate(chunks):
             p=out/f'voice-{idx:02}-{j}.wav'
-            with wave.open(str(p),'wb') as w: voice.synthesize_wav(sentence,w,syn_config=SynthesisConfig(length_scale=1.0))
+            settings=vocal_profile(style,idx,j,len(chunks))
+            with wave.open(str(p),'wb') as w:
+                voice.synthesize_wav(sentence,w,syn_config=SynthesisConfig(**settings))
             with wave.open(str(p),'rb') as w: params=w.getparams(); data=w.readframes(w.getnframes()); seconds=w.getnframes()/w.getframerate()
             parts.append(data); cues.append((cursor,cursor+seconds,sentence)); cursor+=seconds
         with wave.open(str(out/f'voice-{idx:02}.wav'),'wb') as w: w.setparams(params); w.writeframes(b''.join(parts))
@@ -128,7 +134,10 @@ def render(root,out,facts,config):
         if not scene_report['passed']: raise ValueError('Layout inválido: '+str(scene_report['errors']))
         layout_reports.append(scene_report)
         (out/'layout-report.json').write_text(json.dumps(dict(passed=all(r['passed'] for r in layout_reports),frame=[1920,1080],max_caption_lines=2,scenes=layout_reports),ensure_ascii=False,indent=2))
-        frames=round(secs*25); actual=frames/25; chapters.append(dict(start=absolute,title=f['title'],fact_id=f['id'],source=f['source_url'])); absolute+=actual
+        frames=round(secs*25); actual=frames/25
+        scene_start=absolute
+        chapters.append(dict(start=absolute,title=f['title'],fact_id=f['id'],source=f['source_url']))
+        absolute+=actual
         fade='white' if idx%4==2 else 'black'
         # No zoom or pan of the full frame: titles/credits/captions stay pixel-fixed.
         # Animated dot remains inside its own progress track, above the caption band.
@@ -138,6 +147,11 @@ def render(root,out,facts,config):
             motion+=",drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='●':fontsize=24:fontcolor=white:x='1385+330*cos(t*0.6)-12':y='537+150*sin(t*0.6)-12'"
             scene_report['animations'].append(dict(name='orbit_marker',envelope=[1040,370,1730,705],container=list(PHOTO.tuple()),inside_caption_band=False))
         vf=f"fps=25,{motion},drawbox=x=0:y=840:w=1920:h=240:color=0x020713@0.72:t=fill,ass=filename=captions-{idx:02}.ass,fade=t=in:st=0:d=0.28:color={fade},fade=t=out:st={max(0,actual-.28)}:d=0.28:color={fade}"
+        if config.get('stopwatch_enabled',True):
+            vf+=','+stopwatch_filters(scene_start,config['target_seconds'])
+            scene_report['animations'].append(dict(
+                name='five_minute_clock_dot',envelope=[1380,66,1450,139],
+                container=[1360,57,1662,145],inside_caption_band=False))
         if f.get('preview_only'):
             vf+=",drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:text='BORRADOR - NO PUBLICAR':fontsize=24:fontcolor=white:x=995:y=334:box=1:boxcolor=black@0.65:boxborderw=12"
         target=out/f'segment-{idx:02}.mp4'
@@ -158,6 +172,9 @@ def render(root,out,facts,config):
         segments.append(f"file '{target.name}'")
     (out/'layout-report.json').write_text(json.dumps(dict(passed=all(r['passed'] for r in layout_reports),frame=[1920,1080],max_caption_lines=2,scenes=layout_reports),ensure_ascii=False,indent=2))
     (out/'captions.srt').write_text('\n'.join(subtitles)); (out/'concat.txt').write_text('\n'.join(segments))
+    if config.get('stopwatch_enabled',True):
+        (out/'clock-report.json').write_text(json.dumps(
+            clock_report(chapters,config['target_seconds']),ensure_ascii=False,indent=2))
     music(out/'music.wav',300)
     result=subprocess.run(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i','concat.txt','-i','music.wav','-filter_complex','[0:a]loudnorm=I=-17:TP=-2:LRA=9[voice];[voice][1:a]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]','-map','0:v','-map','[a]','-t','300','-c:v','copy','-c:a','aac','-b:a','192k','-movflags','+faststart','episode.mp4'],cwd=out,capture_output=True,text=True)
     if result.returncode: raise RuntimeError(result.stderr[-4000:])

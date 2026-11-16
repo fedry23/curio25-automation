@@ -37,6 +37,7 @@ PHOTO=Box(950,320,1820,756)
 GRAPH=Box(90,390,840,742)
 CREDIT=Box(950,772,1820,814)
 PROGRESS=Box(90,799,840,811)
+CLOCK=Box(1360,57,1662,145)
 
 def font(size, bold=False): return ImageFont.truetype(BOLD if bold else FONT,size)
 
