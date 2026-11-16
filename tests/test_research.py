@@ -1,7 +1,7 @@
 import pytest
 from curio25.research import safe,evidence,licensed_candidate
 
-@pytest.mark.parametrize('url',['https://www.noaa.gov/a','https://science.nasa.gov/a','https://www.nps.gov/a','https://guides.loc.gov/a'])
+@pytest.mark.parametrize('url',['https://www.noaa.gov/a','https://science.nasa.gov/a','https://www.nps.gov/a','https://guides.loc.gov/a','https://www.whoi.edu/ocean-learning-hub/ocean-facts/anglerfish/'])
 def test_allowed_sources(url):assert safe(url)
 
 @pytest.mark.parametrize('url',['http://www.noaa.gov','https://www.noaa.gov.evil.org','file:///etc/passwd','https://x:y@noaa.gov/','https://noaa.gov:8443/x'])

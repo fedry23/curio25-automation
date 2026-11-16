@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 import requests
 from .sources import session, plain, ALLOWED
 
-ALLOWED_HOSTS=('noaa.gov','nasa.gov','loc.gov','nps.gov','si.edu')
+ALLOWED_HOSTS=('noaa.gov','nasa.gov','loc.gov','nps.gov','si.edu','whoi.edu')
 
 def safe(url):
     if not isinstance(url,str):return False
