@@ -6,6 +6,7 @@ Este repositorio es independiente de UMBRAL. Trabajar solo aquí; no modificar `
 
 - Configuración: `config.json` (hora local Europe/Madrid, canal y barreras de publicación).
 - Contenido: `data/facts.json`, fuentes en `data/source_audit.json` y `data/snapshots/`.
+- Candidatos pendientes: `data/candidates/*.json`; **leerlos antes de investigar nuevos temas**, no duplicar sus afirmaciones ni promoverlos sin fuentes/medios completos. Los candidatos `pending` no deben añadirse a `data/facts.json` ni considerarse verificados.
 - Fotografías: `data/media/assets.json` y registros de licencia adyacentes.
 - Estética y zonas seguras: `curio25/layout.py`, `art.py`, `render.py`.
 - Operación: `.github/workflows/`, `docs/` y README.
