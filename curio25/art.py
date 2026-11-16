@@ -39,12 +39,16 @@ def panel(f,index,path):
     d.rectangle(PHOTO.tuple(),outline='#526885',width=2); record('photograph' if media else 'illustration',PHOTO)
     credit=f.get('media_credit','Ilustración original Curio25 · Sin escala')
     info=_text(d,credit,CREDIT,18,minimum=12,max_lines=2,gap=2,fill='#a9bad3'); record('image_credit',CREDIT,font_size=info['font_size'],line_count=info['line_count'])
-    g=f['graphic']; values=g['values']; maximum=max(values) or 1
+    g=f['graphic']; values=[1,1] if g['kind']=='concept' else g['values']; maximum=max(values) or 1
     for j,(val,label) in enumerate(zip(values[:2],g['labels'][:2])):
         top=390+j*176
         label_box=Box(90,top,840,top+54); info=_text(d,label,label_box,29,minimum=23,max_lines=1,fill='#dbe6fa'); record(f'graph_label_{j}',label_box,font_size=info['font_size'])
         value_box=Box(90,top+66,840,top+148)
-        if g['kind'] in ('compare','fraction'):
+        if g['kind']=='concept':
+            d.rounded_rectangle(value_box.tuple(),15,fill='#233550')
+            _text(d,g['details'][j],Box(111,top+80,820,top+148),
+                  33,True,minimum=18,max_lines=2,fill='#ffffff',gap=2)
+        elif g['kind'] in ('compare','fraction'):
             d.rounded_rectangle((90,top+66,90+max(8,750*val/maximum),top+96),7,fill=accent if j==0 else '#6783b3')
             _text(d,str(val).replace('.',','),Box(90,top+105,840,top+147),27,True,max_lines=1)
         elif g['kind']=='moons':
