@@ -4,3 +4,5 @@ data/snapshots/*.txt -whitespace
 *.jpg binary
 *.jpeg binary
 *.png binary
+# Keep the upstream font license verbatim.
+assets/fonts/OFL-Nunito.txt -whitespace

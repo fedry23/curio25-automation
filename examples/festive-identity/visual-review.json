@@ -1,0 +1,42 @@
+[
+  {
+    "label": "intro",
+    "time_seconds": 1.5,
+    "file": "review-00.jpg"
+  },
+  {
+    "label": "animales",
+    "time_seconds": 4.645600907029478,
+    "file": "review-01.jpg"
+  },
+  {
+    "label": "ciencia",
+    "time_seconds": 60.73920634920635,
+    "file": "review-02.jpg"
+  },
+  {
+    "label": "historia",
+    "time_seconds": 121.70927437641723,
+    "file": "review-03.jpg"
+  },
+  {
+    "label": "tecnología",
+    "time_seconds": 179.77721088435374,
+    "file": "review-04.jpg"
+  },
+  {
+    "label": "naturaleza",
+    "time_seconds": 242.6968480725623,
+    "file": "review-05.jpg"
+  },
+  {
+    "label": "outro",
+    "time_seconds": 298.9,
+    "file": "review-06.jpg"
+  },
+  {
+    "label": "reloj05",
+    "time_seconds": 299.7,
+    "file": "review-07.jpg"
+  }
+]

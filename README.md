@@ -96,3 +96,9 @@ Políticas y documentación oficial: [monetización](https://support.google.com/
 El plano se divide en área visual segura (x64..1856,y48..824) y banda exclusiva de subtítulos (y840..1080). Título, indicador, fotografía, gráficos, fuente y créditos tienen cajas independientes. El movimiento de cámara se aplica únicamente a la fotografía, nunca a títulos ni al plano completo. Las animaciones quedan recortadas dentro de sus cajas.
 
 Cada subtítulo tiene como máximo dos líneas, fuente44px en lienzo ASS explícito1920×1080 y fondo semitransparente. Se divide y mide el texto **antes** de sintetizar: el tiempo de cada cue procede de su WAV real. No se elimina la pista ni se estima sincronía por número de palabras. `layout-report.json` registra las cajas y comprueba límites, solapes y recorridos de animación de las25escenas. Cualquier error detiene el render. Las pruebas incluyen frases largas y textos que no caben; el informe es geométrico y se complementa con inspección visual de fotogramas del MP4.
+
+## Identidad Curio25 Fiesta
+
+El rediseño usa Nunito, gradientes alegres, tarjetas redondeadas, fotografías con cámara suave y colores por categoría. La intro animada dura2,4s y la outro2,6s, ambas dentro de los300s. El reloj continuo tiene una cápsula cartoon y la banda de subtítulos sigue siendo exclusiva, máximo2líneas. La voz entusiasta y la música original con ducking se conservan.
+
+Para generar un **borrador sin consumir historial ni aprobar datos/imágenes**: `python -m curio25.preview --out build/festive-identity`. No usar `revise` para este caso. Véase [el diseño y sus garantías](docs/FESTIVE_IDENTITY.md). El MP4 de demostración y las capturas se conservan en `examples/festive-identity/`; están marcados como no publicables.

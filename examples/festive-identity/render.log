@@ -1,0 +1,3 @@
+Mosaico de 25 imágenes generado para revisión
+[0;93m2026-11-16 21:14:41.776176115 [W:onnxruntime:Default, telemetry_1ds.cc:613 operator()] Failed to persist telemetry device ID; using an in-memory identifier[m
+{"duration": 299.971016, "width": 1920, "height": 1080, "audio_codec": "aac", "max_volume_db": -0.8, "sha256": "5d0fc642494aee741e0aef2e5d7b10bc79510851f575d58497bab9913bc3a90d", "decode_errors": 0, "preview_only": true}

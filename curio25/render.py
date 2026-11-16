@@ -2,13 +2,15 @@ import array, json, logging, math, re, subprocess, wave
 from pathlib import Path
 from piper import PiperVoice
 from piper.config import SynthesisConfig
-from .art import panel, thumbnail, photo_layer
+from .art import panel, thumbnail, photo_layer, photo_frame
 from .layout import caption_chunks,caption_layout,validate_scene,Box,PHOTO,PROGRESS,CAPTION_CENTER,CAPTION_FONT_SIZE,validate_animations
 from .state import sha
 from .clock import stopwatch_filters, clock_report
 from .voice_style import vocal_profile
-from .branding import programme_lengths, intro_outro_filters, INTRO_SECONDS, OUTRO_SECONDS
+from .branding import programme_lengths, INTRO_SECONDS, OUTRO_SECONDS
 from .soundtrack import original_music, lively_mix_filter
+from .theme import FONT_DIR,decorative_filters
+from .festive_branding import render_brand_clip,render_frame
 LOG=logging.getLogger(__name__)
 def run(args):
     result=subprocess.run(args,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
@@ -55,7 +57,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,DejaVu Sans,44,&H00FFFFFF,&H00FFFFFF,&H80131A25,&H80071320,0,0,0,0,100,100,0,0,3,10,0,5,90,90,60,1
+Style: Caption,Nunito SemiBold,44,&H00533118,&H00533118,&H50FFFFFF,&H60FFFFFF,0,0,0,0,100,100,0,0,3,10,0,5,90,90,60,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -115,6 +117,15 @@ def render(root,out,facts,config):
     intro=INTRO_SECONDS if config.get('intro_enabled',True) else 0
     outro=OUTRO_SECONDS if config.get('outro_enabled',True) else 0
     durations=programme_lengths(lengths,config['target_seconds'],intro,outro)
+    brand_clips={}
+    for kind,seconds in [('intro',intro),('outro',outro)]:
+        if seconds:
+            clip=out/f'brand-{kind}.mp4'
+            render_brand_clip(clip,kind=kind,seconds=seconds)
+            render_frame(1.5,kind).save(out/f'{kind}-preview.png')
+            brand_clips[kind]=clip
+    frame_counts=[round(v*25) for v in durations]
+    frame_counts[-1]+=round(config['target_seconds']*25)-sum(frame_counts)
     absolute=0; subtitles=[]; chapters=[]; segments=[]; layout_reports=[]
     for idx,(f,secs) in enumerate(zip(facts,durations)):
         LOG.info('Render %d/25',idx+1); elements=panel(f,idx+1,out/f'panel-{idx:02}.png')
@@ -135,39 +146,49 @@ def render(root,out,facts,config):
         if not scene_report['passed']: raise ValueError('Layout inválido: '+str(scene_report['errors']))
         layout_reports.append(scene_report)
         (out/'layout-report.json').write_text(json.dumps(dict(passed=all(r['passed'] for r in layout_reports),frame=[1920,1080],max_caption_lines=2,scenes=layout_reports),ensure_ascii=False,indent=2))
-        frames=round(secs*25); actual=frames/25
+        frames=frame_counts[idx]; actual=frames/25
         scene_start=absolute
         chapters.append(dict(start=absolute,title=f['title'],fact_id=f['id'],source=f['source_url']))
         absolute+=actual
-        fade='white' if idx%4==2 else 'black'
+        fade='0xFFFDF5'
         # No zoom or pan of the full frame: titles/credits/captions stay pixel-fixed.
         # Animated dot remains inside its own progress track, above the caption band.
-        motion=f"drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='•':fontsize=16:fontcolor=0x83e9df:x='94+724*t/{actual}':y=795"
+        motion=decorative_filters(idx)+f",drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='•':fontsize=16:fontcolor=0x83e9df:x='94+724*t/{actual}':y=795"
         scene_report['animations']=[dict(name='progress_dot',envelope=[90,793,840,815],container=[90,790,840,820],inside_caption_band=False)]
         if f['graphic']['kind']=='orbit':
             motion+=",drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='●':fontsize=24:fontcolor=white:x='1385+330*cos(t*0.6)-12':y='537+150*sin(t*0.6)-12'"
             scene_report['animations'].append(dict(name='orbit_marker',envelope=[1040,370,1730,705],container=list(PHOTO.tuple()),inside_caption_band=False))
-        vf=f"fps=25,{motion},drawbox=x=0:y=840:w=1920:h=240:color=0x020713@0.72:t=fill,ass=filename=captions-{idx:02}.ass,fade=t=in:st=0:d=0.28:color={fade},fade=t=out:st={max(0,actual-.28)}:d=0.28:color={fade}"
-        # Brief branded opener and closer occupy existing scene padding, not extra time.
-        if config.get('intro_enabled',True) or config.get('outro_enabled',True):
-            brand=intro_outro_filters(idx,25,actual,intro,outro)
-            if brand: vf+=','+brand
+        vf=f"fps=25,{motion},drawbox=x=0:y=840:w=1920:h=240:color=0xFFFDF5:t=fill,ass=filename=captions-{idx:02}.ass:fontsdir='{FONT_DIR}',fade=t=in:st=0:d=0.14:color={fade},fade=t=out:st={max(0,actual-.14)}:d=0.14:color={fade}"
         if config.get('stopwatch_enabled',True):
             vf+=','+stopwatch_filters(scene_start,config['target_seconds'])
             scene_report['animations'].append(dict(
                 name='five_minute_clock_dot',envelope=[1380,66,1450,139],
                 container=[1360,57,1662,145],inside_caption_band=False))
         if f.get('preview_only'):
-            vf+=",drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:text='BORRADOR - NO PUBLICAR':fontsize=24:fontcolor=white:x=995:y=334:box=1:boxcolor=black@0.65:boxborderw=12"
+            vf+=",drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:text='BORRADOR - NO PUBLICAR':fontsize=18:fontcolor=0x183153:x=450:y=130:box=1:boxcolor=0xFFD84D@0.9:boxborderw=3"
         target=out/f'segment-{idx:02}.mp4'
         # Photo zoom/pan is clipped to a fixed PHOTO-sized layer before compositing.
         cmd=['ffmpeg','-y','-v','error','-threads','2','-loop','1','-framerate','25','-i',f'panel-{idx:02}.png','-i',f'voice-{idx:02}.wav']
-        if photo_layer(f,out/f'photo-layer-{idx:02}.png'):
-            cmd+=['-i',f'photo-layer-{idx:02}.png']
-            pan=f"[2:v]zoompan=z='1.025+0.035*on/{frames}':x='(iw-iw/zoom)*on/{frames}':y='(ih-ih/zoom)/2':d={frames}:s={PHOTO.width}x{PHOTO.height}:fps=25[photo];[0:v][photo]overlay={PHOTO.x1}:{PHOTO.y1}:shortest=1[base];"
+        has_photo=photo_layer(f,out/f'photo-layer-{idx:02}.png')
+        if has_photo:
+            photo_frame(f,out/f'photo-frame-{idx:02}.png')
+            cmd+=['-i',f'photo-layer-{idx:02}.png','-i',f'photo-frame-{idx:02}.png']
+            pan=f"[2:v]zoompan=z='1.025+0.035*on/{frames}':x='(iw-iw/zoom)*on/{frames}':y='(ih-ih/zoom)/2':d={frames}:s={PHOTO.width}x{PHOTO.height}:fps=25[photo];[0:v][photo]overlay={PHOTO.x1}:{PHOTO.y1}:shortest=1[moving];[moving][3:v]overlay={PHOTO.x1}:{PHOTO.y1}[base];"
+            next_input=4
             scene_report['animations'].append(dict(name='photo_camera',envelope=list(PHOTO.tuple()),container=list(PHOTO.tuple()),whole_frame_motion=False))
-            complex_filter=pan+f'[base]{vf}[v];[1:a]adelay={round((.15+narration_offset)*1000)},apad,atrim=duration={actual}[a]'
-        else: complex_filter=f'[0:v]{vf}[v];[1:a]adelay={round((.15+narration_offset)*1000)},apad,atrim=duration={actual}[a]'
+        else:
+            pan=''; next_input=2
+        base_label='base' if has_photo else '0:v'
+        kind='intro' if idx==0 else 'outro' if idx==24 else None
+        if kind in brand_clips:
+            cmd+=['-i',brand_clips[kind].name]
+            shift=0 if kind=='intro' else actual-outro
+            seconds=intro if kind=='intro' else outro
+            # The ident is clipped to OPEN_AREA; the global clock is painted afterwards.
+            pan+=f'[{next_input}:v]setpts=PTS-STARTPTS+{shift}/TB[ident];[{base_label}][ident]overlay=64:160:eof_action=pass:repeatlast=0:enable=\'between(t,{shift},{shift+seconds})\'[branded];'
+            base_label='branded'
+            scene_report['branding']=dict(kind=kind,start=shift,duration=seconds,box=[64,160,1856,800],subtitle_overlap=False)
+        complex_filter=pan+f'[{base_label}]{vf}[v];[1:a]adelay={round((.15+narration_offset)*1000)},apad,atrim=duration={actual}[a]'
         animation_errors=validate_animations(scene_report['animations'])
         scene_report['errors']+=animation_errors; scene_report['passed']=not scene_report['errors']
         if animation_errors: raise ValueError('Animación fuera de caja: '+str(animation_errors))

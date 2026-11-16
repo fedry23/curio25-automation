@@ -9,3 +9,5 @@ Fuentes DejaVu: https://dejavu-fonts.github.io/License.html. Las utiliza el sist
 Fuentes de hechos NASA: las páginas y atribuciones se registran en `data/source_audit.json`; no se usan logotipos NASA ni se presupone respaldo institucional. Las fotografías científicas reales proceden de Commons y están declaradas de dominio público en sus fichas; el inventario completo conserva autor, enlace, hash y metadatos. Los diagramas y composiciones propias añaden explicaciones, rótulos y comparaciones.
 
 Commons: cada archivo importado conserva su licencia/autor/URL y SHA256. Rechazar archivos sin metadatos completos y revisar las obligaciones concretas antes de incorporarlos al montaje.
+
+Nunito SemiBold600 y Black900: The Nunito Project Authors, SIL Open Font License1.1. Se incluyen las instancias estáticas, el texto de licencia y hashes/procedencia en `assets/fonts/`. La conversión desde la fuente variable pública se hizo con fontTools; no es una dependencia necesaria para renderizar. Las ilustraciones y animaciones festivas son composiciones originales de Curio25 dibujadas por código.

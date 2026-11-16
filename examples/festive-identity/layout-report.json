@@ -1,0 +1,6106 @@
+{
+  "passed": true,
+  "frame": [
+    1920,
+    1080
+  ],
+  "max_caption_lines": 2,
+  "scenes": [
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "El corazón de una ballena azul pesa unos ciento ochenta kilos, según NOAA."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            183,
+            911,
+            1737,
+            999
+          ],
+          "start": 2.55,
+          "end": 6.7412018140589565,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Como un piano."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            792,
+            911,
+            1128,
+            999
+          ],
+          "start": 6.7412018140589565,
+          "end": 8.076349206349207,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "En este caso, tener un gran corazón es mucho más que una metáfora."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            258,
+            911,
+            1662,
+            999
+          ],
+          "start": 8.076349206349207,
+          "end": 11.512902494331065,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-01",
+      "scene": 1,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ],
+      "branding": {
+        "kind": "intro",
+        "start": 0,
+        "duration": 2.4,
+        "box": [
+          64,
+          160,
+          1856,
+          800
+        ],
+        "subtitle_overlap": false
+      }
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Un pulpo tiene tres corazones: dos envían sangre a las branquias y uno al resto del",
+            "cuerpo."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            120,
+            876,
+            1800,
+            1034
+          ],
+          "start": 0.15,
+          "end": 6.013038548752835,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Si hablamos de dramas amorosos, tiene ventaja estadística."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            353,
+            911,
+            1567,
+            999
+          ],
+          "start": 6.013038548752835,
+          "end": 9.47281179138322,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-02",
+      "scene": 2,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Algunas tortugas laúd recorren unos seis mil kilómetros por trayecto entre",
+            "alimentación y reproducción."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            202,
+            876,
+            1718,
+            1034
+          ],
+          "start": 0.15,
+          "end": 6.233628117913833,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Sin GPS, sin maletas y, desde luego, sin parar a echar gasolina."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            319,
+            911,
+            1601,
+            999
+          ],
+          "start": 6.233628117913833,
+          "end": 10.366780045351474,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-03",
+      "scene": 3,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "En algunas especies de rape abisal, el macho acaba fusionándose físicamente con la",
+            "hembra."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            108,
+            876,
+            1812,
+            1034
+          ],
+          "start": 0.15,
+          "end": 5.177120181405896,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Eso sí que es llevar el compromiso al extremo."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            485,
+            911,
+            1435,
+            999
+          ],
+          "start": 5.177120181405896,
+          "end": 7.719705215419502,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Nada de espacio personal."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            684,
+            911,
+            1236,
+            999
+          ],
+          "start": 7.719705215419502,
+          "end": 9.519251700680273,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-04",
+      "scene": 4,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Los machos de ballena jorobada interpretan canciones complejas que ayudan en el",
+            "cortejo o las disputas territoriales."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            120,
+            876,
+            1800,
+            1034
+          ],
+          "start": 0.15,
+          "end": 6.965056689342404,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "El océano tiene conciertos, aunque no venden entradas."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            392,
+            911,
+            1528,
+            999
+          ],
+          "start": 6.965056689342404,
+          "end": 10.23907029478458,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-05",
+      "scene": 5,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Cerca del noventa y siete por ciento del agua terrestre está en los océanos."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            200,
+            911,
+            1720,
+            999
+          ],
+          "start": 0.15,
+          "end": 3.8884126984126985,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "El resto se reparte entre hielo, aguas subterráneas, ríos y lagos."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            313,
+            911,
+            1607,
+            999
+          ],
+          "start": 3.8884126984126985,
+          "end": 8.578843537414967,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Menuda piscina salada."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            715,
+            911,
+            1205,
+            999
+          ],
+          "start": 8.578843537414967,
+          "end": 10.273900226757371,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-06",
+      "scene": 6,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "A unos doscientos metros de profundidad, la luz solar empieza a desaparecer",
+            "rápidamente."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            174,
+            876,
+            1746,
+            1034
+          ],
+          "start": 0.15,
+          "end": 5.061020408163266,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Es el comienzo de un mundo de penumbra donde vivir exige adaptaciones",
+            "extraordinarias."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            210,
+            876,
+            1710,
+            1034
+          ],
+          "start": 5.061020408163266,
+          "end": 10.134580498866214,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-07",
+      "scene": 7,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "El océano profundo tiene una temperatura media cercana a cuatro grados."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            209,
+            911,
+            1711,
+            999
+          ],
+          "start": 0.15,
+          "end": 4.143832199546486,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Una nevera gigantesca, sin luz y con presiones que no querrías experimentar en",
+            "vacaciones."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            153,
+            876,
+            1767,
+            1034
+          ],
+          "start": 4.143832199546486,
+          "end": 9.693401360544218,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-08",
+      "scene": 8,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "En aguas pelágicas entre doscientos y mil metros, alrededor del ochenta por ciento",
+            "de los animales son bioluminiscentes, según NOAA."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            118,
+            876,
+            1802,
+            1034
+          ],
+          "start": 0.15,
+          "end": 7.800975056689342,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Una discoteca natural con fines de supervivencia."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            457,
+            911,
+            1463,
+            999
+          ],
+          "start": 7.800975056689342,
+          "end": 10.645419501133787,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-09",
+      "scene": 9,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "La bioluminiscencia marina suele ser azul porque esa luz viaja especialmente bien",
+            "bajo el agua."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            132,
+            876,
+            1788,
+            1034
+          ],
+          "start": 0.15,
+          "end": 5.862108843537415,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Puede servir para atraer presas, comunicarse o despistar enemigos."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            274,
+            911,
+            1646,
+            999
+          ],
+          "start": 5.862108843537415,
+          "end": 9.913990929705216,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Iluminación inteligente."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            714,
+            911,
+            1206,
+            999
+          ],
+          "start": 9.913990929705216,
+          "end": 11.655487528344672,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-10",
+      "scene": 10,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "En mil ochocientos cuarenta y cuatro, Samuel Morse envió el primer telegrama",
+            "público entre Washington y Baltimore."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            164,
+            876,
+            1756,
+            1034
+          ],
+          "start": 0.15,
+          "end": 5.908548752834467,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Un mensaje que cambió las comunicaciones, aunque no tenía emojis."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            263,
+            911,
+            1657,
+            999
+          ],
+          "start": 5.908548752834467,
+          "end": 9.612131519274376,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-11",
+      "scene": 11,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Bell patentó el teléfono el siete de marzo de mil ochocientos setenta y seis."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            195,
+            911,
+            1725,
+            999
+          ],
+          "start": 0.15,
+          "end": 4.689501133786848,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Apenas unos días después llegó la famosa llamada experimental."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            291,
+            911,
+            1629,
+            999
+          ],
+          "start": 4.689501133786848,
+          "end": 8.230544217687076,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Primero papeles, luego conversación."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            576,
+            911,
+            1344,
+            999
+          ],
+          "start": 8.230544217687076,
+          "end": 10.703469387755103,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-12",
+      "scene": 12,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "El diez de marzo de mil ochocientos setenta y seis, Bell habló con su ayudante",
+            "Watson mediante su teléfono experimental."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            167,
+            876,
+            1753,
+            1034
+          ],
+          "start": 0.15,
+          "end": 6.152358276643992,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Aquel breve mensaje inauguró otra forma de comunicarse."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            365,
+            911,
+            1555,
+            999
+          ],
+          "start": 6.152358276643992,
+          "end": 9.345102040816327,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-13",
+      "scene": 13,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "El primer vuelo controlado y motorizado de los hermanos Wright duró apenas doce",
+            "segundos y recorrió unos treinta y seis metros."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            116,
+            876,
+            1804,
+            1034
+          ],
+          "start": 0.15,
+          "end": 6.999886621315193,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "No daba tiempo ni a pedir café."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            636,
+            911,
+            1284,
+            999
+          ],
+          "start": 6.999886621315193,
+          "end": 8.93875283446712,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-14",
+      "scene": 14,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "En mil novecientos quince, Bell habló desde Nueva York con Watson, que estaba en",
+            "San Francisco, mediante una llamada telefónica transcontinental."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            113,
+            876,
+            1807,
+            1034
+          ],
+          "start": 0.15,
+          "end": 7.52233560090703,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "La distancia empezaba a perder importancia."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            501,
+            911,
+            1419,
+            999
+          ],
+          "start": 7.52233560090703,
+          "end": 10.076530612244898,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-15",
+      "scene": 15,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "La espuma viscoelástica de muchos colchones procede de investigaciones apoyadas",
+            "por NASA para mejorar materiales amortiguadores en asientos de aeronaves."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            110,
+            876,
+            1810,
+            1034
+          ],
+          "start": 0.15,
+          "end": 9.484421768707483,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "De la aviación a dormir calentito."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            620,
+            911,
+            1300,
+            999
+          ],
+          "start": 9.484421768707483,
+          "end": 11.771587301587301,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-16",
+      "scene": 16,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Los sensores CMOS de muchas cámaras modernas tienen antecedentes en",
+            "investigaciones del laboratorio JPL de NASA."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            200,
+            876,
+            1720,
+            1034
+          ],
+          "start": 0.15,
+          "end": 6.965056689342404,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Tus fotografías de vacaciones también llevan un pequeño capítulo espacial."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            197,
+            911,
+            1723,
+            999
+          ],
+          "start": 6.965056689342404,
+          "end": 10.947278911564625,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-17",
+      "scene": 17,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Algunas lentes resistentes a los arañazos utilizan recubrimientos derivados de",
+            "tecnologías aeroespaciales."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            165,
+            876,
+            1755,
+            1034
+          ],
+          "start": 0.15,
+          "end": 6.790907029478459,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "La investigación espacial también puede terminar protegiendo tus gafas de los",
+            "pequeños accidentes cotidianos."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            162,
+            876,
+            1758,
+            1034
+          ],
+          "start": 6.790907029478459,
+          "end": 12.514625850340137,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-18",
+      "scene": 18,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Los auriculares inalámbricos tienen raíces en tecnologías de comunicación manos",
+            "libres desarrolladas para astronautas."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            137,
+            876,
+            1783,
+            1034
+          ],
+          "start": 0.15,
+          "end": 6.802517006802722,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "De trabajar en el espacio a escuchar música mientras haces la compra."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            246,
+            911,
+            1674,
+            999
+          ],
+          "start": 6.802517006802722,
+          "end": 10.680249433106576,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-19",
+      "scene": 19,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Los procedimientos creados para garantizar alimentos seguros durante el programa",
+            "Apollo influyeron en sistemas modernos de seguridad alimentaria."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            111,
+            876,
+            1809,
+            1034
+          ],
+          "start": 0.15,
+          "end": 7.568775510204082,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Una pequeña conexión entre la Luna y tu cena."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            481,
+            911,
+            1439,
+            999
+          ],
+          "start": 7.568775510204082,
+          "end": 10.50609977324263,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-20",
+      "scene": 20,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Yellowstone reúne más de diez mil manifestaciones hidrotermales, entre géiseres,",
+            "manantiales calientes y fumarolas."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            131,
+            876,
+            1789,
+            1034
+          ],
+          "start": 0.15,
+          "end": 7.243696145124717,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Parece un parque acuático gigante, pero acercarse a algunas puede ser",
+            "peligrosísimo."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            240,
+            876,
+            1680,
+            1034
+          ],
+          "start": 7.243696145124717,
+          "end": 11.852857142857143,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-21",
+      "scene": 21,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "Yellowstone concentra más de la mitad de los géiseres activos conocidos del",
+            "mundo."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            182,
+            876,
+            1738,
+            1034
+          ],
+          "start": 0.15,
+          "end": 4.167052154195011,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Allí la Tierra organiza espectáculos de agua hirviendo sin necesidad de comprar",
+            "entrada."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            151,
+            876,
+            1769,
+            1034
+          ],
+          "start": 4.167052154195011,
+          "end": 9.182562358276643,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-22",
+      "scene": 22,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "En Yellowstone existen árboles petrificados ligados a antiguas erupciones de hace",
+            "entre cuarenta y cinco y cincuenta millones de años."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            126,
+            876,
+            1794,
+            1034
+          ],
+          "start": 0.15,
+          "end": 6.837346938775511,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Son bosques convertidos en piedra."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            592,
+            911,
+            1328,
+            999
+          ],
+          "start": 6.837346938775511,
+          "end": 9.043242630385487,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Increíble."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            856,
+            911,
+            1064,
+            999
+          ],
+          "start": 9.043242630385487,
+          "end": 10.227460317460316,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-23",
+      "scene": 23,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "El géiser Old Faithful puede lanzar entre catorce mil y treinta y dos mil litros de",
+            "agua durante una erupción."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            155,
+            876,
+            1765,
+            1034
+          ],
+          "start": 0.15,
+          "end": 6.430997732426304,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Una cantidad capaz de dejar pequeña cualquier ducha."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            403,
+            911,
+            1517,
+            999
+          ],
+          "start": 6.430997732426304,
+          "end": 9.426371882086167,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-24",
+      "scene": 24,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "errors": [],
+      "visual_safe": [
+        64,
+        48,
+        1856,
+        824
+      ],
+      "caption_band": [
+        0,
+        840,
+        1920,
+        1080
+      ],
+      "elements": [
+        {
+          "name": "brand",
+          "box": [
+            90,
+            64,
+            370,
+            126
+          ]
+        },
+        {
+          "name": "tagline",
+          "box": [
+            440,
+            78,
+            1250,
+            126
+          ]
+        },
+        {
+          "name": "five_minute_clock",
+          "box": [
+            1360,
+            57,
+            1662,
+            145
+          ]
+        },
+        {
+          "name": "counter",
+          "box": [
+            1690,
+            65,
+            1820,
+            125
+          ]
+        },
+        {
+          "name": "title",
+          "box": [
+            90,
+            160,
+            1820,
+            300
+          ],
+          "font_size": 56,
+          "line_count": 1
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            90,
+            325,
+            840,
+            366
+          ]
+        },
+        {
+          "name": "photograph",
+          "box": [
+            900,
+            310,
+            1820,
+            758
+          ]
+        },
+        {
+          "name": "image_credit",
+          "box": [
+            900,
+            772,
+            1820,
+            814
+          ],
+          "font_size": 18,
+          "line_count": 1
+        },
+        {
+          "name": "graph_label_0",
+          "box": [
+            90,
+            390,
+            840,
+            444
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_0",
+          "box": [
+            90,
+            456,
+            840,
+            538
+          ]
+        },
+        {
+          "name": "graph_label_1",
+          "box": [
+            90,
+            566,
+            840,
+            620
+          ],
+          "font_size": 29
+        },
+        {
+          "name": "graph_values_1",
+          "box": [
+            90,
+            632,
+            840,
+            714
+          ]
+        },
+        {
+          "name": "source_notice",
+          "box": [
+            90,
+            757,
+            840,
+            788
+          ]
+        },
+        {
+          "name": "progress",
+          "box": [
+            90,
+            799,
+            840,
+            811
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "lines": [
+            "El Gran Cañón muestra rocas de hasta mil ochocientos cuarenta millones de años,",
+            "aunque el cañón tomó gran parte de su forma mucho después."
+          ],
+          "line_count": 2,
+          "font_size": 44,
+          "box": [
+            130,
+            876,
+            1790,
+            1034
+          ],
+          "start": 0.15,
+          "end": 7.278526077097506,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        },
+        {
+          "lines": [
+            "Una diferencia generacional espectacular."
+          ],
+          "line_count": 1,
+          "font_size": 44,
+          "box": [
+            531,
+            911,
+            1389,
+            999
+          ],
+          "start": 7.278526077097506,
+          "end": 10.15780045351474,
+          "timing": "Measured duration of independently synthesized Piper chunk"
+        }
+      ],
+      "fact_id": "curio-20261117-25",
+      "scene": 25,
+      "photograph": true,
+      "whole_frame_motion": false,
+      "animations": [
+        {
+          "name": "progress_dot",
+          "envelope": [
+            90,
+            793,
+            840,
+            815
+          ],
+          "container": [
+            90,
+            790,
+            840,
+            820
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "five_minute_clock_dot",
+          "envelope": [
+            1380,
+            66,
+            1450,
+            139
+          ],
+          "container": [
+            1360,
+            57,
+            1662,
+            145
+          ],
+          "inside_caption_band": false
+        },
+        {
+          "name": "photo_camera",
+          "envelope": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "container": [
+            900,
+            310,
+            1820,
+            758
+          ],
+          "whole_frame_motion": false
+        }
+      ],
+      "branding": {
+        "kind": "outro",
+        "start": 11.6,
+        "duration": 2.6,
+        "box": [
+          64,
+          160,
+          1856,
+          800
+        ],
+        "subtitle_overlap": false
+      }
+    }
+  ]
+}
