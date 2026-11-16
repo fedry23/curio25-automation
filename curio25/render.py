@@ -7,6 +7,8 @@ from .layout import caption_chunks,caption_layout,validate_scene,Box,PHOTO,PROGR
 from .state import sha
 from .clock import stopwatch_filters, clock_report
 from .voice_style import vocal_profile
+from .branding import programme_lengths, intro_outro_filters, INTRO_SECONDS, OUTRO_SECONDS
+from .soundtrack import original_music, lively_mix_filter
 LOG=logging.getLogger(__name__)
 def run(args):
     result=subprocess.run(args,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
@@ -36,14 +38,7 @@ def validate(path,expected=300):
     return dict(duration=float(p['format']['duration']),width=video['width'],height=video['height'],audio_codec=audio['codec_name'],max_volume_db=float(match[1]),sha256=sha(path),decode_errors=0)
 
 def music(path,seconds):
-    # Original deterministic ambient composition, no external recordings/samples.
-    rate=22050; samples=array.array('h')
-    for i in range(round(seconds*rate)):
-        t=i/rate; chord=[(130.81,164.81,196),(110,130.81,164.81),(87.31,110,130.81),(98,123.47,146.83)][int(t//8)%4]
-        env=min(t/2,1,(seconds-t)/3); v=sum(math.sin(2*math.pi*f*t) for f in chord)/3
-        tick=math.sin(2*math.pi*880*t)*math.exp(-25*(t%12))*.15
-        samples.append(round((v*.035+tick*.03)*max(0,env)*32767))
-    with wave.open(str(path),'wb') as w: w.setparams((1,2,rate,0,'NONE','not compressed')); w.writeframes(samples.tobytes())
+    original_music(path,seconds)
 
 def ass_stamp(seconds):
     centis=round(seconds*100)
@@ -117,16 +112,22 @@ def render(root,out,facts,config):
             parts.append(data); cues.append((cursor,cursor+seconds,sentence)); cursor+=seconds
         with wave.open(str(out/f'voice-{idx:02}.wav'),'wb') as w: w.setparams(params); w.writeframes(b''.join(parts))
         lengths.append(cursor); sync.append(cues); LOG.info('Voz %s: %.2fs',f['id'],cursor)
-    durations=allocate(lengths,config['target_seconds']); absolute=0; subtitles=[]; chapters=[]; segments=[]; layout_reports=[]
+    intro=INTRO_SECONDS if config.get('intro_enabled',True) else 0
+    outro=OUTRO_SECONDS if config.get('outro_enabled',True) else 0
+    durations=programme_lengths(lengths,config['target_seconds'],intro,outro)
+    absolute=0; subtitles=[]; chapters=[]; segments=[]; layout_reports=[]
     for idx,(f,secs) in enumerate(zip(facts,durations)):
         LOG.info('Render %d/25',idx+1); elements=panel(f,idx+1,out/f'panel-{idx:02}.png')
         local=[]; ass_cues=[]; caption_boxes=[]
+        narration_offset=intro if idx==0 else 0
         for start,end,text in sync[idx]:
             layout=caption_layout(text); display='\n'.join(layout['lines'])
-            cue=f'{len(subtitles)+1}\n{stamp(absolute+.15+start)} --> {stamp(absolute+.15+end)}\n{display}\n'
-            subtitles.append(cue); local.append(f'{len(local)+1}\n{stamp(.15+start)} --> {stamp(.15+end)}\n{display}\n')
-            ass_cues.append((.15+start,.15+end,layout['lines']))
-            caption_boxes.append(dict(**layout,start=.15+start,end=.15+end,timing='Measured duration of independently synthesized Piper chunk'))
+            local_start=.15+narration_offset+start
+            local_end=.15+narration_offset+end
+            cue=f'{len(subtitles)+1}\n{stamp(absolute+local_start)} --> {stamp(absolute+local_end)}\n{display}\n'
+            subtitles.append(cue); local.append(f'{len(local)+1}\n{stamp(local_start)} --> {stamp(local_end)}\n{display}\n')
+            ass_cues.append((local_start,local_end,layout['lines']))
+            caption_boxes.append(dict(**layout,start=local_start,end=local_end,timing='Measured duration of independently synthesized Piper chunk'))
         (out/f'captions-{idx:02}.srt').write_text('\n'.join(local))
         write_ass(out/f'captions-{idx:02}.ass',ass_cues)
         scene_report=validate_scene(elements,caption_boxes)
@@ -147,6 +148,10 @@ def render(root,out,facts,config):
             motion+=",drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='●':fontsize=24:fontcolor=white:x='1385+330*cos(t*0.6)-12':y='537+150*sin(t*0.6)-12'"
             scene_report['animations'].append(dict(name='orbit_marker',envelope=[1040,370,1730,705],container=list(PHOTO.tuple()),inside_caption_band=False))
         vf=f"fps=25,{motion},drawbox=x=0:y=840:w=1920:h=240:color=0x020713@0.72:t=fill,ass=filename=captions-{idx:02}.ass,fade=t=in:st=0:d=0.28:color={fade},fade=t=out:st={max(0,actual-.28)}:d=0.28:color={fade}"
+        # Brief branded opener and closer occupy existing scene padding, not extra time.
+        if config.get('intro_enabled',True) or config.get('outro_enabled',True):
+            brand=intro_outro_filters(idx,25,actual,intro,outro)
+            if brand: vf+=','+brand
         if config.get('stopwatch_enabled',True):
             vf+=','+stopwatch_filters(scene_start,config['target_seconds'])
             scene_report['animations'].append(dict(
@@ -161,8 +166,8 @@ def render(root,out,facts,config):
             cmd+=['-i',f'photo-layer-{idx:02}.png']
             pan=f"[2:v]zoompan=z='1.025+0.035*on/{frames}':x='(iw-iw/zoom)*on/{frames}':y='(ih-ih/zoom)/2':d={frames}:s={PHOTO.width}x{PHOTO.height}:fps=25[photo];[0:v][photo]overlay={PHOTO.x1}:{PHOTO.y1}:shortest=1[base];"
             scene_report['animations'].append(dict(name='photo_camera',envelope=list(PHOTO.tuple()),container=list(PHOTO.tuple()),whole_frame_motion=False))
-            complex_filter=pan+f'[base]{vf}[v];[1:a]adelay=150,apad,atrim=duration={actual}[a]'
-        else: complex_filter=f'[0:v]{vf}[v];[1:a]adelay=150,apad,atrim=duration={actual}[a]'
+            complex_filter=pan+f'[base]{vf}[v];[1:a]adelay={round((.15+narration_offset)*1000)},apad,atrim=duration={actual}[a]'
+        else: complex_filter=f'[0:v]{vf}[v];[1:a]adelay={round((.15+narration_offset)*1000)},apad,atrim=duration={actual}[a]'
         animation_errors=validate_animations(scene_report['animations'])
         scene_report['errors']+=animation_errors; scene_report['passed']=not scene_report['errors']
         if animation_errors: raise ValueError('Animación fuera de caja: '+str(animation_errors))
@@ -175,8 +180,8 @@ def render(root,out,facts,config):
     if config.get('stopwatch_enabled',True):
         (out/'clock-report.json').write_text(json.dumps(
             clock_report(chapters,config['target_seconds']),ensure_ascii=False,indent=2))
-    music(out/'music.wav',300)
-    result=subprocess.run(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i','concat.txt','-i','music.wav','-filter_complex','[0:a]loudnorm=I=-17:TP=-2:LRA=9[voice];[voice][1:a]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]','-map','0:v','-map','[a]','-t','300','-c:v','copy','-c:a','aac','-b:a','192k','-movflags','+faststart','episode.mp4'],cwd=out,capture_output=True,text=True)
+    music(out/'music.wav',config['target_seconds'])
+    result=subprocess.run(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i','concat.txt','-i','music.wav','-filter_complex',lively_mix_filter(),'-map','0:v','-map','[a]','-t','300','-c:v','copy','-c:a','aac','-b:a','192k','-movflags','+faststart','episode.mp4'],cwd=out,capture_output=True,text=True)
     if result.returncode: raise RuntimeError(result.stderr[-4000:])
     thumbnail(out/'thumbnail.jpg',topic=topic,photo_path=facts[0].get('media_path')); report=validate(out/'episode.mp4'); (out/'validation.json').write_text(json.dumps(report,indent=2))
     desc=('Curiosidades del sistema solar explicadas con fotografías reales, gráficos originales y humor ligero.' if topic=='sistema solar' else f'25 datos curiosos originales sobre {topic}, con recursos acreditados y humor ligero.')+'\nNarración sintética en español de España (Piper davefx); diagramas esquemáticos originales, sin escala.\n\n'

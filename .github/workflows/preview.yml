@@ -7,6 +7,8 @@ on:
       - 'curio25/preview.py'
       - 'curio25/render.py'
       - 'curio25/voice_style.py'
+      - 'curio25/branding.py'
+      - 'curio25/soundtrack.py'
       - 'curio25/clock.py'
       - 'curio25/art.py'
       - 'curio25/layout.py'
