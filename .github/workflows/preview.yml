@@ -1,0 +1,53 @@
+name: Curio25 - Previsualizar segundo episodio (sin publicar)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'curio25/preview.py'
+      - '.github/workflows/preview.yml'
+permissions:
+  contents: read
+concurrency:
+  group: curio25-draft-preview
+  cancel-in-progress: true
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 85
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - run: pip install -r requirements.lock
+      - name: Auditoría y pruebas
+        run: python -m curio25.editorial && pytest -q
+      - name: Mosaico, fotos y metadatos NO aprobados
+        run: python -m curio25.preview --contact-only
+      - name: Descarga de voz neuronal con SHA256
+        run: python scripts/download_voice.py
+      - name: Render técnico de 300 segundos sin YouTube
+        run: python -m curio25.preview 2>&1 | tee build/review-2026-11-17/render.log
+        shell: bash --noprofile --norc -eo pipefail {0}
+      - name: Garantizar historial y catálogo intactos
+        if: always()
+        run: git diff --exit-code -- data/facts.json data/history.json data/media/assets.json config.json
+      - name: Guardar MP4, mosaico e informes incluso si falla
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: curio25-preview-${{ github.run_id }}
+          path: |
+            build/review-2026-11-17/contact-sheet.jpg
+            build/review-2026-11-17/preview-manifest.json
+            build/review-2026-11-17/episode.mp4
+            build/review-2026-11-17/captions.srt
+            build/review-2026-11-17/validation.json
+            build/review-2026-11-17/layout-report.json
+            build/review-2026-11-17/full-attributions.txt
+            build/review-2026-11-17/description.txt
+            build/review-2026-11-17/render.log
+          retention-days: 7
+          if-no-files-found: warn
