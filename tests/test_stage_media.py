@@ -2,6 +2,7 @@ import pytest
 from curio25.stage_media import url_allowed,metadata
 def test_url_guard():
     assert url_allowed('https://upload.wikimedia.org/wikipedia/commons/1/1/p.jpg')
+    assert url_allowed('https://thumb.wikimedia.org/wikipedia/commons/thumb/a/b/p.jpg/960px-p.jpg')
     for url in ('https://evil.com/img.jpg','https://upload.wikimedia.org.evil.com/a','file:///tmp/x','http://upload.wikimedia.org/a'):
         assert not url_allowed(url)
 def test_licenses_never_auto_approve():

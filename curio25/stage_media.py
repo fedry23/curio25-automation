@@ -10,7 +10,7 @@ EXT={'image/jpeg':'.jpg','image/png':'.png','image/webp':'.webp'}
 
 def url_allowed(url):
     u=urlsplit(url or '')
-    return u.scheme=='https' and u.hostname=='upload.wikimedia.org' and not u.username and not u.password and u.port in (None,443)
+    return u.scheme=='https' and u.hostname in ('upload.wikimedia.org','thumb.wikimedia.org') and not u.username and not u.password and u.port in (None,443)
 
 def field(meta,key):
     return plain(meta.get(key,{}).get('value','')).strip()
@@ -29,17 +29,31 @@ def metadata(item,info):
                 rights_note='Revisar derechos en España; CC BY-SA exige atribución y obligaciones de adaptación',
                 changes='Fotografía a recortar y animar; indicar cambios en créditos')
 
-def get(item,out):
+def get(item,out,cached=None):
     ident=item['fact_id'];title=item['file_title']
     try:
         if not ident.startswith('curio-') or not title.startswith('File:'):raise ValueError('Selección inválida')
         with requests.Session() as s:
             s.headers['User-Agent']='Curio25MediaAudit/0.3 (fedry23/curio25-automation)'
-            r=s.get('https://commons.wikimedia.org/w/api.php',
-                params=dict(action='query',format='json',titles=title,prop='imageinfo',iiprop='url|mime|extmetadata',iiurlwidth=1050),timeout=(5,25))
-            r.raise_for_status()
-            page=next(iter(r.json()['query']['pages'].values()))
-            info=page['imageinfo'][0];rec=metadata(item,info)
+            if cached:
+                if cached.get('file_title')!=title or cached.get('license') not in ALLOWED or not cached.get('author'):
+                    raise ValueError('Metadatos de Commons incompletos')
+                url=cached.get('thumb') or cached.get('url')
+                if not url_allowed(url):raise ValueError('URL imagen insegura')
+                rec=dict(fact_id=ident,title=title,source=cached['source'],
+                    author=cached['author'],license=cached['license'],
+                    license_short=cached.get('license_short',''),
+                    license_url=cached.get('license_url',''),
+                    download_url=url,mime='image/jpeg' if url.split('?')[0].lower().endswith(('.jpg','.jpeg')) else 'image/png',
+                    review_status='pending_visual_legal_review',
+                    rights_note='Revisar derechos territoriales y obligaciones de CC BY-SA',
+                    changes='Imagen a animar y acreditar')
+            else:
+                r=s.get('https://commons.wikimedia.org/w/api.php',
+                    params=dict(action='query',format='json',titles=title,prop='imageinfo',iiprop='url|mime|extmetadata',iiurlwidth=1050),timeout=(5,25))
+                r.raise_for_status()
+                page=next(iter(r.json()['query']['pages'].values()))
+                info=page['imageinfo'][0];rec=metadata(item,info)
             image=s.get(rec['download_url'],timeout=(5,30));image.raise_for_status()
         blob=image.content
         if not blob or len(blob)>6000000:raise ValueError('Imagen vacía o demasiado grande')
@@ -64,8 +78,15 @@ def stage(root,episode,out):
     selection=json.loads((root/'data/candidates'/('media-selection-'+episode+'.json')).read_text())['photos']
     if len(selection)!=25 or len({s['fact_id'] for s in selection})!=25:raise ValueError('Se requieren 25 imágenes únicas')
     out.mkdir(parents=True,exist_ok=True)
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        result=list(pool.map(lambda x:get(x,out),selection))
+    # Reuse audited Commons search metadata to avoid 25 new API calls and 429s.
+    cache_file=root/'data/candidates'/('research-'+episode)/'image_suggestions.json'
+    cache=json.loads(cache_file.read_text()) if cache_file.is_file() else {}
+    def inspect(entry):
+        found=next((r for r in cache.get(entry['fact_id'],[])
+                    if r.get('file_title')==entry['file_title']),None)
+        return get(entry,out,found)
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        result=list(pool.map(inspect,selection))
     summary=dict(date=episode,production_ready=False,publication_enabled=False,
                 photos_downloaded=sum(x['status']=='downloaded_unreviewed' for x in result),
                 photos_approved=0,rights_approved=0,records=result,
