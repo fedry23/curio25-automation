@@ -1,5 +1,5 @@
 """Download nominated Commons files to quarantine; no automatic approval."""
-import argparse,io,json,hashlib
+import argparse,io,json,hashlib,time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -54,7 +54,14 @@ def get(item,out,cached=None):
                 r.raise_for_status()
                 page=next(iter(r.json()['query']['pages'].values()))
                 info=page['imageinfo'][0];rec=metadata(item,info)
-            image=s.get(rec['download_url'],timeout=(5,30));image.raise_for_status()
+            for attempt in range(3):
+                image=s.get(rec['download_url'],timeout=(5,30))
+                if image.status_code in (429,503):
+                    if attempt==2:raise ValueError('Límite de Wikimedia: reintentar más tarde')
+                    time.sleep((attempt+1)*3)
+                    continue
+                image.raise_for_status()
+                break
         blob=image.content
         if not blob or len(blob)>6000000:raise ValueError('Imagen vacía o demasiado grande')
         with Image.open(io.BytesIO(blob)) as img:
@@ -85,8 +92,18 @@ def stage(root,episode,out):
         found=next((r for r in cache.get(entry['fact_id'],[])
                     if r.get('file_title')==entry['file_title']),None)
         return get(entry,out,found)
+    old_file=out/'media_report.json'
+    old={x['fact_id']:x for x in json.loads(old_file.read_text()).get('records',[])} if old_file.exists() else {}
+    def reuse_or_fetch(entry):
+        previous=old.get(entry['fact_id'])
+        if previous and previous.get('status')=='downloaded_unreviewed' and previous.get('title')==entry['file_title']:
+            p=out/previous.get('file','')
+            if p.is_file() and p.resolve().is_relative_to((out/'images').resolve()) and hashlib.sha256(p.read_bytes()).hexdigest()==previous.get('sha256'):
+                print('MEDIA',entry['fact_id'],'reused_cached_image',flush=True)
+                return previous
+        return inspect(entry)
     with ThreadPoolExecutor(max_workers=2) as pool:
-        result=list(pool.map(inspect,selection))
+        result=list(pool.map(reuse_or_fetch,selection))
     summary=dict(date=episode,production_ready=False,publication_enabled=False,
                 photos_downloaded=sum(x['status']=='downloaded_unreviewed' for x in result),
                 photos_approved=0,rights_approved=0,records=result,
