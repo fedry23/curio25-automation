@@ -5,6 +5,12 @@ on:
     branches: [main]
     paths:
       - 'curio25/preview.py'
+      - 'curio25/render.py'
+      - 'curio25/voice_style.py'
+      - 'curio25/clock.py'
+      - 'curio25/art.py'
+      - 'curio25/layout.py'
+      - 'config.json'
       - '.github/workflows/preview.yml'
 permissions:
   contents: read
@@ -46,6 +52,7 @@ jobs:
             build/review-2026-11-17/captions.srt
             build/review-2026-11-17/validation.json
             build/review-2026-11-17/layout-report.json
+            build/review-2026-11-17/clock-report.json
             build/review-2026-11-17/full-attributions.txt
             build/review-2026-11-17/description.txt
             build/review-2026-11-17/render.log
