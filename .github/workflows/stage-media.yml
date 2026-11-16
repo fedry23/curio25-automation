@@ -1,0 +1,59 @@
+name: Curio25 - Descargar imagenes para revisar (sin publicar)
+on:
+  push:
+    branches: [main]
+    paths:
+      - "curio25/stage_media.py"
+      - "data/candidates/media-selection-*.json"
+      - ".github/workflows/stage-media.yml"
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: Fecha del lote
+        required: true
+        default: "2026-11-17"
+permissions:
+  contents: write
+concurrency:
+  group: curio25-media-stage
+  cancel-in-progress: true
+jobs:
+  stage:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.34.2 pillow==13.0.0
+      - name: Descargar y registrar recursos sin aprobar
+        id: media
+        env:
+          EPISODE_INPUT: ${{ inputs.episode }}
+        run: |
+          EPISODE="${EPISODE_INPUT:-2026-11-17}"
+          python -m curio25.stage_media --episode "$EPISODE" --out "build/media-$EPISODE"
+          echo "episode=$EPISODE" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: curio25-media-${{ github.run_id }}
+          path: build/media-*/
+          retention-days: 14
+      - name: Guardar fotos pendientes en rama independiente
+        if: steps.media.outcome == 'success'
+        env:
+          EPISODE: ${{ steps.media.outputs.episode }}
+        run: |
+          BRANCH="curio25-media-$EPISODE-${GITHUB_RUN_ID}"
+          DEST="data/candidates/media-$EPISODE"
+          git config user.name 'curio25-media-bot'
+          git config user.email 'curio25-media-bot@users.noreply.github.com'
+          git switch -c "$BRANCH"
+          mkdir -p "$DEST"
+          cp -a "build/media-$EPISODE/." "$DEST/"
+          git add "$DEST"
+          git diff --cached --quiet && exit 0
+          git commit -m "Guardar recursos visuales pendientes de revision"
+          git push -u origin "$BRANCH" || echo "::warning::Consultar artefacto porque no se guardo la rama"
