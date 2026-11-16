@@ -1,78 +1,80 @@
-"""Original upbeat instrumental for Curio25, rendered from synthesized tones.
+"""Curio25 original light-pop soundtrack, synthesized locally.
 
-This creates no copy of another channel's music, melody or sound recordings.
+No commercial samples, borrowed melodies or recordings. Arrangement favors
+soft plucked tones, bouncing bass and brushed percussion over arcade beeps.
 """
 from __future__ import annotations
-import wave
 from pathlib import Path
+import wave
 import numpy as np
 
-RATE = 22050
-BPM = 124
-# An original, bouncy major-key tune, with silence slots to avoid crowding speech.
-MELODY = (72, 76, 79, -1, 81, 79, 76, 74,
-          72, -1, 76, 79, 74, 76, 72, -1,
-          76, 79, 84, -1, 81, 79, 76, 74,
-          77, -1, 74, 76, 72, 74, 76, -1)
+RATE=22050
+BPM=116
+MELODY=(72,74,76,-1,79,76,74,-1, 76,79,81,-1,79,76,74,-1,
+        72,76,79,76,74,-1,72,-1, 74,76,72,-1,69,72,74,-1)
+ROOTS=(65.406,97.999,110.0,87.307)  # C, G, A, F; common chords, new melody.
+
+
+def _section(t,seconds):
+    """A short, continuous chunk; use bounded RAM for five-minute music."""
+    beat=60.0/BPM
+    beat_phase=np.mod(t,beat)
+    beat_num=np.floor(t/beat).astype(np.int64)
+    eighth=beat/2
+    note_age=np.mod(t,eighth)
+    n_idx=np.floor(t/eighth).astype(np.int64)
+    # Four melodic arrangements; rhythmic rests prevent constant bleeps.
+    section=(np.floor(t/48).astype(np.int64))%4
+    notes=np.asarray(MELODY,dtype=np.float64)[(n_idx+section*5)%len(MELODY)]
+    note_hz=440.0*np.exp2((np.maximum(notes,0)-69.0)/12.0)
+    pluck_env=np.exp(-7.8*note_age)
+    # A mellow struck-pluck timbre and slightly detuned second partial.
+    pluck=(notes>=0)*pluck_env*(np.sin(2*np.pi*note_hz*note_age)
+          +.17*np.sin(4.01*np.pi*note_hz*note_age)
+          +.05*np.sin(5.97*np.pi*note_hz*note_age))
+    pluck*=np.where(section==2,.085,.10)
+
+    root=np.asarray(ROOTS)[(beat_num//8)%4]
+    bass=.098*np.sin(2*np.pi*root*t)*np.exp(-3.8*beat_phase)
+    # Quiet chord warmth, ducked further under narration by FFmpeg.
+    upper=np.asarray((1.25,1.50,1.20,1.333))[(beat_num//8)%4]*root
+    pad=.025*(np.sin(2*np.pi*upper*t)+.4*np.sin(2*np.pi*root*.5*t))
+    # Drum components made from oscillators; no downloaded drum sample.
+    kick=.14*np.sin(2*np.pi*(76*beat_phase-8*beat_phase**2))*np.exp(-33*beat_phase)
+    clap=.060*np.sin(2*np.pi*7200*t)*np.sin(2*np.pi*8700*t)*np.exp(-29*beat_phase)
+    kick*=((beat_num%4)==0) | ((beat_num%4)==2)
+    clap*=((beat_num%4)==1) | ((beat_num%4)==3)
+    hat_age=np.mod(t,eighth)
+    hat=.035*np.sin(2*np.pi*9800*t)*np.exp(-56*hat_age)
+    # 8-bar changes: some phrases use no lead, keeping room for storytelling.
+    space=np.where((beat_num//8)%8==7,.35,1.0)
+    out=space*pluck+bass+pad+kick+clap+hat
+    fade=np.clip(t/.3,0,1)*np.clip((seconds-t)/1.1,0,1)
+    return np.clip(out*fade,-.36,.36)
 
 
 def original_music(path, seconds=300.0):
-    if not 1 <= seconds <= 360:
-        raise ValueError("Duración de la música fuera de rango")
-    n = round(RATE*seconds)
-    t = np.arange(n, dtype=np.float64)/RATE
-    beat = 60.0/BPM
-    beat_number = t/beat
-    beat_phase = np.mod(t,beat)
-    eighth = beat/2.0
-    note_phase = np.mod(t,eighth)
-    note_ids = (t/eighth).astype(np.int64) % len(MELODY)
-    notes = np.asarray(MELODY, dtype=np.float64)[note_ids]
-    freq = 440.0*np.exp2((np.maximum(notes, 0)-69)/12)
-    note_env = np.exp(-8.0*note_phase)
-    pluck = (notes>=0)*(np.sin(2*np.pi*freq*note_phase) +
-                          .21*np.sin(4*np.pi*freq*note_phase))*note_env*.18
-
-    roots = np.asarray([65.406, 97.999, 110.0, 87.307])
-    chord = ((beat_number//4).astype(np.int64))%4
-    bass_freq = roots[chord]
-    bass = .11*np.sin(2*np.pi*bass_freq*t)*(.72+.28*np.cos(2*np.pi*beat_phase/beat))
-
-    # Fresh synthesized kick, clap and hi-hat, deterministic without samples.
-    beat_step = (beat_number.astype(np.int64)) % 4
-    kick_env = np.exp(-28*beat_phase)
-    kick = (beat_step%2==0)*kick_env*.19*np.sin(2*np.pi*(72*beat_phase-13*beat_phase**2))
-    clap_env = np.exp(-34*beat_phase)
-    clap_noise = np.sin(2*np.pi*7331*t)*np.sin(2*np.pi*9007*t)
-    clap = (beat_step%2==1)*clap_env*clap_noise*.095
-    hat = .052*np.exp(-58*note_phase)*np.sin(2*np.pi*11271*t)
-    # A gentle synth bell at each roughly 12-second chapter marker.
-    chime_phase = np.mod(t,12)
-    chime = .06*np.exp(-6*chime_phase)*np.sin(2*np.pi*880*chime_phase)
-
-    output = pluck+bass+kick+clap+hat+chime
-    # No arbitrary clipping and no recordings borrowed from other creators.
-    peak = np.max(np.abs(output))
-    output = output*(.31/max(.31,peak))
-    fades = np.clip(t/.22, 0, 1)*np.clip((seconds-t)/1.2, 0, 1)
-    output = np.clip(output*fades,-.36,.36)
-    pcm = (output*32767).astype("<i2")
-    with wave.open(str(Path(path)),"wb") as fd:
-        fd.setparams((1, 2, RATE, 0, "NONE", "not compressed"))
-        fd.writeframes(pcm.tobytes())
+    if not 1<=seconds<=360:
+        raise ValueError("Duración musical fuera de rango")
+    total=round(seconds*RATE)
+    chunk=RATE*4
+    path=Path(path)
+    with wave.open(str(path),'wb') as f:
+        f.setparams((1,2,RATE,0,'NONE','not compressed'))
+        for start in range(0,total,chunk):
+            n=min(chunk,total-start)
+            t=(start+np.arange(n,dtype=np.float64))/RATE
+            samples=_section(t,seconds)
+            f.writeframes((samples*32767).astype('<i2').tobytes())
 
 
 def lively_mix_filter():
-    """Raised instrumental bed, dynamically ducked only while the narrator speaks.
-
-    Intro/outro have no narration, so the music swells naturally. Main voice
-    stays at the existing -17 LUFS target and peaks are limited.
-    """
+    """Audible on breaks; automatically dips underneath spoken sentences."""
     return (
         "[0:a]loudnorm=I=-17:TP=-2:LRA=9,asplit=2[vmain][vside];"
-        "[1:a]volume=0.88,highpass=f=55,lowpass=f=12000[music];"
-        "[music][vside]sidechaincompress=threshold=0.055:ratio=5:"
-        "attack=18:release=320:makeup=1[ducked];"
+        "[1:a]volume=0.93,highpass=f=45,lowpass=f=11500[music];"
+        "[music][vside]sidechaincompress=threshold=0.052:ratio=6:"
+        "attack=16:release=360:makeup=1[ducked];"
         "[vmain][ducked]amix=inputs=2:duration=first:normalize=0,"
         "alimiter=limit=0.92[a]"
     )

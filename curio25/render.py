@@ -6,7 +6,7 @@ from .art import panel, thumbnail, photo_layer, photo_frame
 from .layout import caption_chunks,caption_layout,validate_scene,Box,PHOTO,PROGRESS,CAPTION_CENTER,CAPTION_FONT_SIZE,validate_animations
 from .state import sha
 from .clock import stopwatch_filters, clock_report
-from .voice_style import vocal_profile
+from .voice_style import vocal_profile,for_speech
 from .branding import programme_lengths, INTRO_SECONDS, OUTRO_SECONDS
 from .soundtrack import original_music, lively_mix_filter
 from .theme import FONT_DIR,decorative_filters
@@ -107,9 +107,9 @@ def render(root,out,facts,config):
         chunks=caption_chunks(f['narration'])
         for j,sentence in enumerate(chunks):
             p=out/f'voice-{idx:02}-{j}.wav'
-            settings=vocal_profile(style,idx,j,len(chunks))
+            settings=vocal_profile(style,idx,j,len(chunks),sentence)
             with wave.open(str(p),'wb') as w:
-                voice.synthesize_wav(sentence,w,syn_config=SynthesisConfig(**settings))
+                voice.synthesize_wav(for_speech(sentence),w,syn_config=SynthesisConfig(**settings))
             with wave.open(str(p),'rb') as w: params=w.getparams(); data=w.readframes(w.getnframes()); seconds=w.getnframes()/w.getframerate()
             parts.append(data); cues.append((cursor,cursor+seconds,sentence)); cursor+=seconds
         with wave.open(str(out/f'voice-{idx:02}.wav'),'wb') as w: w.setparams(params); w.writeframes(b''.join(parts))

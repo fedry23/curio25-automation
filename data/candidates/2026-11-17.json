@@ -15,7 +15,7 @@
       "category": "animales",
       "title": "El corazón de una ballena azul pesa como un piano",
       "claim": "El corazón de una ballena azul pesa unos 180 kilos según una ficha de NOAA Fisheries",
-      "narration": "El corazón de una ballena azul pesa unos ciento ochenta kilos, según NOAA. Como un piano. En este caso, tener un gran corazón es mucho más que una metáfora.",
+      "narration": "¿Un corazón tan pesado como un piano? El de una ballena azul ronda los ciento ochenta kilos, según NOAA. Y el tuyo ya se acelera subiendo escaleras.",
       "source_url": "https://www.fisheries.noaa.gov/feature-story/big-hearted-blue-whale",
       "source_support_summary": "NOAA Fisheries, artículo sobre ballena azul, indica unas 400 libras (aprox. 181 kg). Existe otra publicación NOAA con cifra mayor; usar cifra conservadora con atribución, sin presentarla como límite universal.",
       "media_search_query": "Blue whale",
@@ -32,7 +32,8 @@
       "reviewed_at": null,
       "evidence_query": "weighs about 400 pounds",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-02",
@@ -40,7 +41,7 @@
       "category": "animales",
       "title": "Un pulpo tiene tres corazones",
       "claim": "Los pulpos tienen tres corazones: dos bombean sangre hacia las branquias y el tercero hacia el cuerpo.",
-      "narration": "Un pulpo tiene tres corazones: dos envían sangre a las branquias y uno al resto del cuerpo. Si hablamos de dramas amorosos, tiene ventaja estadística.",
+      "narration": "¿Tres corazones para un solo pulpo? Dos envían sangre a las branquias y otro al cuerpo. Si se enamora, esperemos que no le rompan los tres.",
       "source_url": "https://oceanservice.noaa.gov/news/feb26/undersea-creatures-valentines-day.html",
       "source_support_summary": "NOAA describe la función de cada uno de los tres corazones.",
       "media_search_query": "Octopus",
@@ -57,7 +58,8 @@
       "reviewed_at": null,
       "evidence_query": "three hearts",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-03",
@@ -65,7 +67,7 @@
       "category": "animales",
       "title": "La tortuga laúd hace viajes gigantescos",
       "claim": "Algunas tortugas laúd migran aproximadamente 3.700 millas en cada trayecto entre sus zonas de alimentación y reproducción.",
-      "narration": "Algunas tortugas laúd recorren unos seis mil kilómetros por trayecto entre alimentación y reproducción. Sin GPS, sin maletas y, desde luego, sin parar a echar gasolina.",
+      "narration": "Hay tortugas laúd que recorren unos seis mil kilómetros por trayecto. Eso es cruzar medio mundo sin GPS, sin maletas y sin quejarse del asiento.",
       "source_url": "https://www.fisheries.noaa.gov/species/leatherback-turtle",
       "source_support_summary": "NOAA menciona 3.700 millas por sentido para ciertas migraciones.",
       "media_search_query": "Leatherback turtle",
@@ -82,7 +84,8 @@
       "reviewed_at": null,
       "evidence_query": "3,700 miles each way",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-04",
@@ -90,7 +93,7 @@
       "category": "animales",
       "title": "El romance extremo de algunos rapes abisales",
       "claim": "En ciertas especies de rape abisal, el macho se une físicamente a la hembra y queda fusionado con ella.",
-      "narration": "En algunas especies de rape abisal, el macho acaba fusionándose físicamente con la hembra. Eso sí que es llevar el compromiso al extremo. Nada de espacio personal.",
+      "narration": "En ciertas especies de rape abisal, el macho acaba unido al cuerpo de la hembra. Cuando decimos que una pareja es inseparable, ellos se lo toman literalmente.",
       "source_url": "https://www.whoi.edu/ocean-learning-hub/ocean-facts/anglerfish/",
       "source_support_summary": "Woods Hole Oceanographic Institution describe cómo algunos machos de rape abisal se fusionan con hembras; no generalizar a todas las especies.",
       "media_search_query": "Anglerfish",
@@ -107,7 +110,8 @@
       "reviewed_at": null,
       "evidence_query": "physically fuse with a female",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-05",
@@ -115,7 +119,7 @@
       "category": "animales",
       "title": "Las ballenas jorobadas componen canciones",
       "claim": "Los machos de ballena jorobada producen cantos complejos relacionados con la reproducción.",
-      "narration": "Los machos de ballena jorobada interpretan canciones complejas que ayudan en el cortejo o las disputas territoriales. El océano tiene conciertos, aunque no venden entradas.",
+      "narration": "Los machos de ballena jorobada cantan secuencias complejas, relacionadas con su vida reproductiva. Imagínate ligar en el océano y tener que dar un concierto.",
       "source_url": "https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/marine-mammal-acoustics",
       "source_support_summary": "NOAA vincula los cantos de las ballenas jorobadas con el cortejo.",
       "media_search_query": "Humpback whale",
@@ -132,7 +136,8 @@
       "reviewed_at": null,
       "evidence_query": "sing elaborate songs",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-06",
@@ -140,7 +145,7 @@
       "category": "ciencia",
       "title": "El océano contiene casi toda el agua terrestre",
       "claim": "Aproximadamente el 97 por ciento del agua del planeta está en el océano.",
-      "narration": "Cerca del noventa y siete por ciento del agua terrestre está en los océanos. El resto se reparte entre hielo, aguas subterráneas, ríos y lagos. Menuda piscina salada.",
+      "narration": "Si repartieras toda el agua terrestre en cien vasos, unos noventa y siete corresponderían a los océanos. Y casi todos vendrían con sal incluida. ¡Salud!",
       "source_url": "https://oceanservice.noaa.gov/facts/oceanwater.html",
       "source_support_summary": "NOAA cifra en aproximadamente 97 % el agua terrestre almacenada en océanos.",
       "media_search_query": "Earth oceans",
@@ -157,7 +162,8 @@
       "reviewed_at": null,
       "evidence_query": "97 percent",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-07",
@@ -165,7 +171,7 @@
       "category": "ciencia",
       "title": "La penumbra oceánica empieza hacia 200 metros",
       "claim": "La zona oceánica crepuscular comienza aproximadamente a 200 metros de profundidad.",
-      "narration": "A unos doscientos metros de profundidad, la luz solar empieza a desaparecer rápidamente. Es el comienzo de un mundo de penumbra donde vivir exige adaptaciones extraordinarias.",
+      "narration": "¿Bajarías doscientos metros al mar? Ahí comienza la zona crepuscular: queda tan poca luz solar que parece que alguien esté bajando el regulador de intensidad.",
       "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/",
       "source_support_summary": "NOAA describe el inicio de la zona twilight alrededor de 200 metros.",
       "media_search_query": "Deep ocean",
@@ -182,7 +188,8 @@
       "reviewed_at": null,
       "evidence_query": "200 meters",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-08",
@@ -190,7 +197,7 @@
       "category": "ciencia",
       "title": "El océano profundo ronda los cuatro grados",
       "claim": "La temperatura media del océano profundo es de unos 4 °C.",
-      "narration": "El océano profundo tiene una temperatura media cercana a cuatro grados. Una nevera gigantesca, sin luz y con presiones que no querrías experimentar en vacaciones.",
+      "narration": "En el océano profundo, la temperatura media ronda los cuatro grados. Una nevera inmensa, oscura y con muchísima presión. No parece el mejor lugar para hacer snorkel.",
       "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/",
       "source_support_summary": "NOAA señala una media de 4 ºC para las aguas oceánicas profundas.",
       "media_search_query": "Deep sea",
@@ -207,7 +214,8 @@
       "reviewed_at": null,
       "evidence_query": "4°C",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-09",
@@ -215,7 +223,7 @@
       "category": "ciencia",
       "title": "Muchos animales del océano producen luz",
       "claim": "NOAA indica que cerca del 80 % de los animales pelágicos entre 200 y 1.000 metros son bioluminiscentes.",
-      "narration": "En aguas pelágicas entre doscientos y mil metros, alrededor del ochenta por ciento de los animales son bioluminiscentes, según NOAA. Una discoteca natural con fines de supervivencia.",
+      "narration": "Entre doscientos y mil metros de profundidad, alrededor del ochenta por ciento de los animales de aguas abiertas producen luz, según NOAA. ¡Una discoteca submarina!",
       "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/",
       "source_support_summary": "NOAA presenta una estimación del 80 % para animales pelágicos de ese intervalo.",
       "media_search_query": "Bioluminescence",
@@ -232,7 +240,8 @@
       "reviewed_at": null,
       "evidence_query": "80 percent",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-10",
@@ -240,7 +249,7 @@
       "category": "ciencia",
       "title": "La bioluminiscencia suele ser azul",
       "claim": "La luz bioluminiscente marina suele ser azul porque esa longitud de onda se propaga especialmente bien bajo el agua.",
-      "narration": "La bioluminiscencia marina suele ser azul porque esa luz viaja especialmente bien bajo el agua. Puede servir para atraer presas, comunicarse o despistar enemigos. Iluminación inteligente.",
+      "narration": "Muchos animales marinos emiten luz azul porque viaja mejor por el agua. Les sirve para atraer presas, comunicarse o escapar. ¡Aquí los efectos especiales salvan vidas!",
       "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/",
       "source_support_summary": "NOAA explica la predominancia del azul por su propagación en el agua.",
       "media_search_query": "Bioluminescent jellyfish",
@@ -257,7 +266,8 @@
       "reviewed_at": null,
       "evidence_query": "usually blue",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-11",
@@ -265,7 +275,7 @@
       "category": "historia",
       "title": "El primer telegrama público cruzó dos ciudades",
       "claim": "El primer telegrama público de Morse viajó de Washington a Baltimore el 24 de mayo de 1844.",
-      "narration": "En mil ochocientos cuarenta y cuatro, Samuel Morse envió el primer telegrama público entre Washington y Baltimore. Un mensaje que cambió las comunicaciones, aunque no tenía emojis.",
+      "narration": "En mil ochocientos cuarenta y cuatro, Samuel Morse envió un célebre telegrama público entre Washington y Baltimore. Hoy nos enfadamos si un mensaje tarda dos segundos.",
       "source_url": "https://guides.loc.gov/telecommunications-industry/history",
       "source_support_summary": "La Biblioteca del Congreso fecha el envío público de 1844 entre ambas ciudades.",
       "media_search_query": "Morse telegraph",
@@ -282,7 +292,8 @@
       "reviewed_at": null,
       "evidence_query": "May 24, 1844",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-12",
@@ -290,7 +301,7 @@
       "category": "historia",
       "title": "Bell patentó el teléfono antes de estrenarlo",
       "claim": "Alexander Graham Bell obtuvo una patente de teléfono el 7 de marzo de 1876.",
-      "narration": "Bell patentó el teléfono el siete de marzo de mil ochocientos setenta y seis. Apenas unos días después llegó la famosa llamada experimental. Primero papeles, luego conversación.",
+      "narration": "En marzo de mil ochocientos setenta y seis, Bell patentó el teléfono. La famosa llamada experimental llegó días después. ¿Te imaginas estrenar el invento sin cobertura?",
       "source_url": "https://guides.loc.gov/chronicling-america-telephone-invention",
       "source_support_summary": "La guía de la Biblioteca del Congreso documenta la patente del 7 de marzo.",
       "media_search_query": "Telephone patent",
@@ -307,7 +318,8 @@
       "reviewed_at": null,
       "evidence_query": "March 7, 1876",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-13",
@@ -315,7 +327,7 @@
       "category": "historia",
       "title": "La llamada que estrenó una era",
       "claim": "El 10 de marzo de 1876, Bell habló con Thomas Watson mediante su dispositivo telefónico.",
-      "narration": "El diez de marzo de mil ochocientos setenta y seis, Bell habló con su ayudante Watson mediante su teléfono experimental. Aquel breve mensaje inauguró otra forma de comunicarse.",
+      "narration": "El diez de marzo de mil ochocientos setenta y seis, Bell habló con su ayudante Watson mediante un teléfono experimental. ¡Y ahora usamos aquello para enviar audios larguísimos!",
       "source_url": "https://guides.loc.gov/chronicling-america-telephone-invention",
       "source_support_summary": "La Biblioteca del Congreso documenta la llamada del 10 de marzo.",
       "media_search_query": "Alexander Graham Bell",
@@ -332,7 +344,8 @@
       "reviewed_at": null,
       "evidence_query": "March 10, 1876",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-14",
@@ -340,7 +353,7 @@
       "category": "historia",
       "title": "El primer avión motorizado duró doce segundos",
       "claim": "El primer vuelo controlado del Wright Flyer el 17 de diciembre de 1903 duró doce segundos y recorrió 120 pies.",
-      "narration": "El primer vuelo controlado y motorizado de los hermanos Wright duró apenas doce segundos y recorrió unos treinta y seis metros. No daba tiempo ni a pedir café.",
+      "narration": "El primer vuelo motorizado y controlado de los hermanos Wright duró doce segundos y recorrió unos treinta y seis metros. ¡Más corto que el pasillo de un aeropuerto!",
       "source_url": "https://www.nps.gov/articles/wright-brothers.htm",
       "source_support_summary": "La Biblioteca del Congreso describe el vuelo de 12 segundos y 120 pies.",
       "media_search_query": "Wright Flyer",
@@ -357,7 +370,8 @@
       "reviewed_at": null,
       "evidence_query": "120 feet",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-15",
@@ -365,7 +379,7 @@
       "category": "historia",
       "title": "La primera llamada telefónica de costa a costa",
       "claim": "Bell y Watson participaron en la primera llamada telefónica transcontinental en Estados Unidos en 1915.",
-      "narration": "En mil novecientos quince, Bell habló desde Nueva York con Watson, que estaba en San Francisco, mediante una llamada telefónica transcontinental. La distancia empezaba a perder importancia.",
+      "narration": "En mil novecientos quince, Bell habló desde Nueva York con Watson, que estaba en San Francisco. Una llamada transcontinental. Hoy sería un simple «¿me oyes?» por videollamada.",
       "source_url": "https://guides.loc.gov/chronicling-america-telephone-invention",
       "source_support_summary": "La cronología de la Biblioteca del Congreso registra la primera llamada telefónica transcontinental de 1915.",
       "media_search_query": "Telephone 1915",
@@ -382,7 +396,8 @@
       "reviewed_at": null,
       "evidence_query": "First Transcontinental telephone call",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-16",
@@ -390,7 +405,7 @@
       "category": "tecnología",
       "title": "La espuma viscoelástica viene de la aviación espacial",
       "claim": "La espuma viscoelástica moderna se originó en desarrollos apoyados por NASA para materiales amortiguadores de asientos de aeronaves.",
-      "narration": "La espuma viscoelástica de muchos colchones procede de investigaciones apoyadas por NASA para mejorar materiales amortiguadores en asientos de aeronaves. De la aviación a dormir calentito.",
+      "narration": "La espuma viscoelástica de muchos colchones nació de investigaciones respaldadas por NASA para amortiguar asientos de aeronaves. Dormir a gusto también tiene algo de aventura espacial.",
       "source_url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
       "source_support_summary": "NASA Spinoff 2026 explica el origen de la espuma para asientos de aeronave.",
       "media_search_query": "Memory foam",
@@ -407,7 +422,8 @@
       "reviewed_at": null,
       "evidence_query": "memory foam",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-17",
@@ -415,7 +431,7 @@
       "category": "tecnología",
       "title": "La cámara de tu móvil tiene una conexión espacial",
       "claim": "El desarrollo de sensores CMOS de imagen en el JPL de NASA impulsó cámaras presentes en numerosos dispositivos.",
-      "narration": "Los sensores CMOS de muchas cámaras modernas tienen antecedentes en investigaciones del laboratorio JPL de NASA. Tus fotografías de vacaciones también llevan un pequeño capítulo espacial.",
+      "narration": "La cámara del móvil tiene herencia espacial: avances en sensores de imagen del laboratorio espacial de NASA ayudaron a hacerlos más compactos. ¡Hasta tus selfies tienen historia!",
       "source_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
       "source_support_summary": "NASA Science documenta el trabajo de Fossum en sensores CMOS en JPL.",
       "media_search_query": "CMOS sensor",
@@ -432,7 +448,8 @@
       "reviewed_at": null,
       "evidence_query": "CMOS",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-18",
@@ -440,7 +457,7 @@
       "category": "tecnología",
       "title": "Las lentes resistentes aprovechan tecnología aeroespacial",
       "claim": "Algunas lentes resistentes a los arañazos incorporan revestimientos duros derivados de tecnologías aeroespaciales.",
-      "narration": "Algunas lentes resistentes a los arañazos utilizan recubrimientos derivados de tecnologías aeroespaciales. La investigación espacial también puede terminar protegiendo tus gafas de los pequeños accidentes cotidianos.",
+      "narration": "Algunas gafas resisten mejor los arañazos gracias a recubrimientos relacionados con investigaciones aeroespaciales. La carrera espacial no solo miraba estrellas: también acabó protegiendo tus lentes.",
       "source_url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
       "source_support_summary": "NASA Spinoff relaciona recubrimientos duros de lentes con desarrollos aeroespaciales.",
       "media_search_query": "Eyeglass lenses",
@@ -457,7 +474,8 @@
       "reviewed_at": null,
       "evidence_query": "Scratch-resistant lenses",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-19",
@@ -465,7 +483,7 @@
       "category": "tecnología",
       "title": "Los auriculares inalámbricos tienen antepasados espaciales",
       "claim": "Tecnologías de comunicación manos libres promovidas para astronautas contribuyeron al desarrollo de auriculares inalámbricos.",
-      "narration": "Los auriculares inalámbricos tienen raíces en tecnologías de comunicación manos libres desarrolladas para astronautas. De trabajar en el espacio a escuchar música mientras haces la compra.",
+      "narration": "Los auriculares inalámbricos tienen raíces en tecnologías de comunicación manos libres desarrolladas para astronautas. Del espacio a escuchar música mientras friegas. Un salto de categoría.",
       "source_url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
       "source_support_summary": "NASA Spinoff menciona raíces en tecnología manos libres para astronautas.",
       "media_search_query": "Astronaut headset",
@@ -482,7 +500,8 @@
       "reviewed_at": null,
       "evidence_query": "wireless headsets",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-20",
@@ -490,7 +509,7 @@
       "category": "tecnología",
       "title": "La seguridad alimentaria recibió ayuda lunar",
       "claim": "Procedimientos desarrollados para garantizar la inocuidad de alimentos durante Apollo influyeron en estándares alimentarios terrestres.",
-      "narration": "Los procedimientos creados para garantizar alimentos seguros durante el programa Apollo influyeron en sistemas modernos de seguridad alimentaria. Una pequeña conexión entre la Luna y tu cena.",
+      "narration": "Los controles alimentarios de las misiones Apolo ayudaron a desarrollar sistemas modernos de seguridad alimentaria. Así que tu cena tiene una conexión bastante sorprendente con la Luna.",
       "source_url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
       "source_support_summary": "NASA Spinoff vincula los procedimientos de Apollo a sistemas posteriores de seguridad alimentaria.",
       "media_search_query": "Astronaut food",
@@ -507,7 +526,8 @@
       "reviewed_at": null,
       "evidence_query": "food safety",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-21",
@@ -515,7 +535,7 @@
       "category": "naturaleza",
       "title": "Yellowstone es una ciudad de aguas calientes",
       "claim": "Yellowstone alberga más de diez mil fenómenos hidrotermales, entre aguas termales, fumarolas y géiseres.",
-      "narration": "Yellowstone reúne más de diez mil manifestaciones hidrotermales, entre géiseres, manantiales calientes y fumarolas. Parece un parque acuático gigante, pero acercarse a algunas puede ser peligrosísimo.",
+      "narration": "Yellowstone reúne más de diez mil fenómenos hidrotermales: manantiales calientes, fumarolas y géiseres. Parece un parque acuático gigante, pero aquí el agua puede quemarte de verdad.",
       "source_url": "https://www.nps.gov/yell/learn/nature/geology.htm",
       "source_support_summary": "El Servicio de Parques Nacionales cuenta más de 10.000 fenómenos hidrotermales.",
       "media_search_query": "Yellowstone hot springs",
@@ -532,7 +552,8 @@
       "reviewed_at": null,
       "evidence_query": "10,000 hydrothermal",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-22",
@@ -540,7 +561,7 @@
       "category": "naturaleza",
       "title": "Yellowstone concentra la mitad de los géiseres",
       "claim": "Yellowstone reúne más de la mitad de los géiseres activos conocidos del mundo.",
-      "narration": "Yellowstone concentra más de la mitad de los géiseres activos conocidos del mundo. Allí la Tierra organiza espectáculos de agua hirviendo sin necesidad de comprar entrada.",
+      "narration": "Más de la mitad de los géiseres activos conocidos del mundo están en Yellowstone. Imagínate una fuente que lanza agua hirviendo sin pulsar ningún botón. ¡Menudo espectáculo!",
       "source_url": "https://www.nps.gov/yell/learn/nature/geology.htm",
       "source_support_summary": "El NPS indica más de la mitad de los géiseres activos del mundo en Yellowstone.",
       "media_search_query": "Yellowstone geyser",
@@ -557,7 +578,8 @@
       "reviewed_at": null,
       "evidence_query": "more than half",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-23",
@@ -565,7 +587,7 @@
       "category": "naturaleza",
       "title": "Hay árboles petrificados por erupciones antiquísimas",
       "claim": "En Yellowstone hay árboles petrificados asociados a erupciones volcánicas de hace entre 45 y 50 millones de años.",
-      "narration": "En Yellowstone existen árboles petrificados ligados a antiguas erupciones de hace entre cuarenta y cinco y cincuenta millones de años. Son bosques convertidos en piedra. Increíble.",
+      "narration": "En Yellowstone existen árboles petrificados relacionados con erupciones de hace entre cuarenta y cinco y cincuenta millones de años. Son recuerdos de bosques antiquísimos, convertidos en piedra.",
       "source_url": "https://www.nps.gov/yell/learn/nature/geology.htm",
       "source_support_summary": "El NPS atribuye árboles petrificados a erupciones andesíticas de hace 45-50 millones de años.",
       "media_search_query": "Petrified tree Yellowstone",
@@ -582,7 +604,8 @@
       "reviewed_at": null,
       "evidence_query": "45 to 50 million",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-24",
@@ -590,7 +613,7 @@
       "category": "naturaleza",
       "title": "Old Faithful lanza miles de litros de agua",
       "claim": "Las erupciones de Old Faithful expulsan normalmente entre unos 14.000 y 31.800 litros de agua.",
-      "narration": "El géiser Old Faithful puede lanzar entre catorce mil y treinta y dos mil litros de agua durante una erupción. Una cantidad capaz de dejar pequeña cualquier ducha.",
+      "narration": "El géiser Viejo Fiel, en Yellowstone, puede expulsar entre catorce mil y treinta y dos mil litros de agua por erupción. ¡Y tú preocupado por dejar el grifo abierto!",
       "source_url": "https://www.nps.gov/articles/old-faithful-geyser.htm",
       "source_support_summary": "El NPS ofrece un rango de 3.700 a 8.400 galones de agua por erupción.",
       "media_search_query": "Old Faithful",
@@ -607,7 +630,8 @@
       "reviewed_at": null,
       "evidence_query": "3,700",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     },
     {
       "id": "curio-20261117-25",
@@ -615,7 +639,7 @@
       "category": "naturaleza",
       "title": "El Gran Cañón es joven, sus rocas no",
       "claim": "El Gran Cañón se excavó principalmente hace unos cinco o seis millones de años, pero expone rocas de hasta 1.840 millones de años.",
-      "narration": "El Gran Cañón muestra rocas de hasta mil ochocientos cuarenta millones de años, aunque el cañón tomó gran parte de su forma mucho después. Una diferencia generacional espectacular.",
+      "narration": "El Gran Cañón muestra rocas de hasta mil ochocientos cuarenta millones de años. Pero gran parte del cañón se excavó muchísimo después. ¡Hasta las piedras tienen generaciones!",
       "source_url": "https://www.nps.gov/articles/000/grcatime-geoheritage.htm",
       "source_support_summary": "El NPS distingue rocas de 1.840 millones de años y formación del cañón de 5-6 millones.",
       "media_search_query": "Grand Canyon",
@@ -632,7 +656,9 @@
       "reviewed_at": null,
       "evidence_query": "1,840 million years old",
       "research_status": "pending_archival",
-      "script_revision": "2026-11-16-concise-review"
+      "script_revision": "2026-11-16-concise-review",
+      "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     }
-  ]
+  ],
+  "editorial_revision": "Curio25 narrative personality pass; all facts still pending editorial/media approval, original sourced claims remain untouched."
 }
