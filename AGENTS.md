@@ -13,6 +13,15 @@ Este repositorio es independiente de UMBRAL. Trabajar solo aquí; no modificar `
 
 Antes de editar, leer README y los archivos afectados con la integración GitHub. Crear una rama y un pull request con el cambio concreto cuando sea posible. Para cambios multarchivo, publicar un único commit coherente; no dejar una referencia a una foto/modelo ausente. No asumir que una respuesta de la integración equivale a tests ejecutados: comprobar el workflow de tests del commit y su resultado.
 
+## Identidad narrativa y musical de Curio25
+
+- **No escribir como enciclopedia**: empieza cada curiosidad con una sorpresa, contraste, pregunta o comparación, explica el hecho en castellano de España y termina con un remate breve cuando encaje; evitar muletillas repetidas, chistes forzados y cinco temas similares seguidos.
+- **Precisión antes que espectáculo**: contrastar el dato con fuente fiable, comprobar cifras, unidades, fechas, ámbito de las estimaciones y evitar atribuir a NASA o a un inventor exclusivo lo que fue una contribución. Si hay discrepancia, usar atribución y cautela o sustituir el dato. No elevar un candidato `pending` a `verified` con una coincidencia textual.
+- Guion para voz masculina española sintética: normalmente 23–32 palabras por dato, evitando abreviaturas difíciles, pronunciaciones extranjeras no tratadas y enumeraciones frías. Usar `curio25.voice_style.for_speech` solo para el audio; el texto visible siempre conserva ortografía correcta. Escuchar el MP4 completo antes de aprobar.
+- Alternar animales, ciencia, historia, tecnología, naturaleza y otros temas; no duplicar en el mismo vídeo el mismo descubrimiento con otra fecha. Guardar vínculo imagen–dato mediante ID.
+- Música de marca: instrumental original ligero y juguetón; nada de música, fragmentos o melodías de XpressTV. Aplicar ducking para priorizar la voz. La intro/outro, el reloj y las zonas de subtítulos no deben alterarse ni durar más de cinco minutos en conjunto.
+- Referencia de implementación: `docs/VOICE_MUSIC_EDITORIAL_V2.md`. Los renders de candidatos son **previsualizaciones no publicables**.
+
 ## Invariantes
 
 - Publicación YouTube desactivada hasta aprobación explícita del usuario y OAuth del canal. No cambiar `publication_enabled`, `approved_episode_sha256` ni añadir pasos de publicación al workflow por una petición genérica de mejora estética o contenido.
