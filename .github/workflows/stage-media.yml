@@ -33,6 +33,10 @@ jobs:
           EPISODE_INPUT: ${{ inputs.episode }}
         run: |
           EPISODE="${EPISODE_INPUT:-2026-11-17}"
+          mkdir -p "build/media-$EPISODE"
+          if [ -d "data/candidates/media-$EPISODE" ]; then
+            cp -a "data/candidates/media-$EPISODE/." "build/media-$EPISODE/"
+          fi
           python -m curio25.stage_media --episode "$EPISODE" --out "build/media-$EPISODE"
           echo "episode=$EPISODE" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@v4
