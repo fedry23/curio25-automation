@@ -9,7 +9,7 @@ import hashlib
 import json
 from pathlib import Path
 
-from .sources import ALLOWED
+from .editorial import COMMERCIAL_LICENSES as ALLOWED
 
 TOPIC = "curiosidades del mundo"
 LABELS = [
