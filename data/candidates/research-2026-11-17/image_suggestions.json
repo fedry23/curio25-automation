@@ -1,399 +1,928 @@
 {
   "curio-20261117-01": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:CINMS_-_Two_Blue_Whales_Aerial_Photo_(27877575362).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/CINMS_-_Two_Blue_Whales_Aerial_Photo_%2827877575362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/CINMS_-_Two_Blue_Whales_Aerial_Photo_%2827877575362%29.jpg/960px-CINMS_-_Two_Blue_Whales_Aerial_Photo_%2827877575362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "National Marine Sanctuaries",
+      "source": "https://commons.wikimedia.org/wiki/File:Balaenoptera_Musculus.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Balaenoptera_Musculus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/33/Balaenoptera_Musculus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Vikisaur",
+      "license": "cc0",
+      "license_short": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Balaenoptera Musculus.png"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Balaenoptera_musculus_NOAA.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Balaenoptera_musculus_NOAA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Balaenoptera_musculus_NOAA.jpg/960px-Balaenoptera_musculus_NOAA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "NOAA United States. National Marine Fisheries Service",
       "license": "pd",
       "license_short": "Public domain",
       "license_url": "",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:CINMS - Two Blue Whales Aerial Photo (27877575362).jpg"
+      "file_title": "File:Balaenoptera musculus NOAA.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Balaenoptera_musculus_size_comparison_for_Wikipedia.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Balaenoptera_musculus_size_comparison_for_Wikipedia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Balaenoptera_musculus_size_comparison_for_Wikipedia.png/960px-Balaenoptera_musculus_size_comparison_for_Wikipedia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "ChrisTheWhaleKing & Frederique Lucas",
+      "license": "cc0",
+      "license_short": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Balaenoptera musculus size comparison for Wikipedia.png"
     }
   ],
   "curio-20261117-02": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:2016_Hohonu_Moana,_Exploring_Deepwaters_off_Hawaii_-_Flickr_-_NOAA_Ocean_Exploration_%5E_Research.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/2016_Hohonu_Moana%2C_Exploring_Deepwaters_off_Hawaii_-_Flickr_-_NOAA_Ocean_Exploration_%5E_Research.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/2016_Hohonu_Moana%2C_Exploring_Deepwaters_off_Hawaii_-_Flickr_-_NOAA_Ocean_Exploration_%5E_Research.jpg/960px-2016_Hohonu_Moana%2C_Exploring_Deepwaters_off_Hawaii_-_Flickr_-_NOAA_Ocean_Exploration_%5E_Research.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "NOAA Ocean Exploration & Research from USA",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:CU_octopus_suckers_0459.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/CU_octopus_suckers_0459.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/CU_octopus_suckers_0459.jpg/960px-CU_octopus_suckers_0459.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Betty Wills (Atsme)",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:2016 Hohonu Moana, Exploring Deepwaters off Hawaii - Flickr - NOAA Ocean Exploration ^ Research.jpg"
+      "file_title": "File:CU octopus suckers 0459.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Benthoctopus.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Benthoctopus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Benthoctopus.jpg/960px-Benthoctopus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Bruce Strickrott from Expedition to the Deep Slope/NOAA/OER",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Octopus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/960px-Octopus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "albert kok",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Benthoctopus.jpg"
+      "file_title": "File:Octopus2.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:MBNMS_--_Benthic_Octopus_(35991148936).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/MBNMS_--_Benthic_Octopus_%2835991148936%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/MBNMS_--_Benthic_Octopus_%2835991148936%29.jpg/960px-MBNMS_--_Benthic_Octopus_%2835991148936%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "National Marine Sanctuaries",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Octopus_aquarius_Milano.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Octopus_aquarius_Milano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Octopus_aquarius_Milano.jpg/960px-Octopus_aquarius_Milano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bramfab",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:MBNMS -- Benthic Octopus (35991148936).jpg"
+      "file_title": "File:Octopus aquarius Milano.jpg"
     }
   ],
-  "curio-20261117-03": [],
-  "curio-20261117-04": [],
-  "curio-20261117-05": [
+  "curio-20261117-03": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Humpback_whales_in_singing_position.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Humpback_whales_in_singing_position.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Humpback_whales_in_singing_position.jpg/960px-Humpback_whales_in_singing_position.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Dr. Louis M. Herman.",
+      "source": "https://commons.wikimedia.org/wiki/File:Close_up_of_dermochelys_coriacea_leatherback_turtle.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Close_up_of_dermochelys_coriacea_leatherback_turtle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Close_up_of_dermochelys_coriacea_leatherback_turtle.jpg/960px-Close_up_of_dermochelys_coriacea_leatherback_turtle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Rabon David, U.S. Fish and Wildlife Service",
       "license": "pd",
       "license_short": "Public domain",
       "license_url": "",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Humpback whales in singing position.jpg"
+      "file_title": "File:Close up of dermochelys coriacea leatherback turtle.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Humpback_whales_in_singing_position_(cropped).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Humpback_whales_in_singing_position_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Humpback_whales_in_singing_position_%28cropped%29.jpg/960px-Humpback_whales_in_singing_position_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Dr. Louis M. Herman.",
+      "source": "https://commons.wikimedia.org/wiki/File:Dermochelys_coriacea_leatherback_turtle.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Dermochelys_coriacea_leatherback_turtle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Dermochelys_coriacea_leatherback_turtle.jpg/960px-Dermochelys_coriacea_leatherback_turtle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Rabon David, U.S. Fish and Wildlife Service",
       "license": "pd",
       "license_short": "Public domain",
       "license_url": "",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Humpback whales in singing position (cropped).jpg"
+      "file_title": "File:Dermochelys coriacea leatherback turtle.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Leatherback_Turtle_near_Galibi.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Leatherback_Turtle_near_Galibi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Leatherback_Turtle_near_Galibi.jpg/960px-Leatherback_Turtle_near_Galibi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "JuliasTravels",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Leatherback Turtle near Galibi.jpg"
+    }
+  ],
+  "curio-20261117-04": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Campagne_IBTS_2010_-_Baudroie_(Lophius_piscatorius)_(Ifremer_00569-68112).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Campagne_IBTS_2010_-_Baudroie_%28Lophius_piscatorius%29_%28Ifremer_00569-68112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Campagne_IBTS_2010_-_Baudroie_%28Lophius_piscatorius%29_%28Ifremer_00569-68112%29.jpg/960px-Campagne_IBTS_2010_-_Baudroie_%28Lophius_piscatorius%29_%28Ifremer_00569-68112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Olivier Dugornay (IFREMER, Pôle Images, Centre Bretagne - ZI de la Pointe du Diable - CS 10070 - 29280 Plouzané, France)",
+      "license": "cc-by-4.0",
+      "license_short": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Campagne IBTS 2010 - Baudroie (Lophius piscatorius) (Ifremer 00569-68112).jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Lophius_piscatorius_(cr%C3%A1neo).906_-_Aquarium_Finisterrae.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Lophius_piscatorius_%28cr%C3%A1neo%29.906_-_Aquarium_Finisterrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Lophius_piscatorius_%28cr%C3%A1neo%29.906_-_Aquarium_Finisterrae.jpg/960px-Lophius_piscatorius_%28cr%C3%A1neo%29.906_-_Aquarium_Finisterrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Fernando Losada Rodríguez",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Lophius piscatorius (cráneo).906 - Aquarium Finisterrae.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Lophius_piscatorius_(cr%C3%A1neo).907_-_Aquarium_Finisterrae.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Lophius_piscatorius_%28cr%C3%A1neo%29.907_-_Aquarium_Finisterrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Lophius_piscatorius_%28cr%C3%A1neo%29.907_-_Aquarium_Finisterrae.jpg/960px-Lophius_piscatorius_%28cr%C3%A1neo%29.907_-_Aquarium_Finisterrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Fernando Losada Rodríguez",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Lophius piscatorius (cráneo).907 - Aquarium Finisterrae.jpg"
+    }
+  ],
+  "curio-20261117-05": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:001_Humpback_whale_breaching_in_Ballena_Marine_National_Park_Photo_by_Giles_Laurent.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/001_Humpback_whale_breaching_in_Ballena_Marine_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/001_Humpback_whale_breaching_in_Ballena_Marine_National_Park_Photo_by_Giles_Laurent.jpg/960px-001_Humpback_whale_breaching_in_Ballena_Marine_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Giles Laurent",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:001 Humpback whale breaching in Ballena Marine National Park Photo by Giles Laurent.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:026b_Humpback_whale_jump_and_splash_Photo_by_Giles_Laurent.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/026b_Humpback_whale_jump_and_splash_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/026b_Humpback_whale_jump_and_splash_Photo_by_Giles_Laurent.jpg/960px-026b_Humpback_whale_jump_and_splash_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Giles Laurent",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:026b Humpback whale jump and splash Photo by Giles Laurent.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:031_Humpback_whale_lobtailing_Photo_by_Giles_Laurent.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/031_Humpback_whale_lobtailing_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/031_Humpback_whale_lobtailing_Photo_by_Giles_Laurent.jpg/960px-031_Humpback_whale_lobtailing_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Giles Laurent",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:031 Humpback whale lobtailing Photo by Giles Laurent.jpg"
     }
   ],
   "curio-20261117-06": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Blue_Marble_Western_Hemisphere.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Blue_Marble_Western_Hemisphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Blue_Marble_Western_Hemisphere.jpg/960px-Blue_Marble_Western_Hemisphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "NASA images by Reto Stöckli, based on data from NASA and NOAA. Instrument: Terra - MODIS",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Acapulco_fishermen.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Acapulco_fishermen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Acapulco_fishermen.jpg/960px-Acapulco_fishermen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Tomascastelazo",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Blue Marble Western Hemisphere.jpg"
+      "file_title": "File:Acapulco fishermen.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Changes_in_Ocean_Productivity_(3835).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Changes_in_Ocean_Productivity_%283835%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Changes_in_Ocean_Productivity_%283835%29.jpg/960px-Changes_in_Ocean_Productivity_%283835%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Image by Robert Simmon, based on data provided by Watson Gregg, NASA GSFC",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Chersonesos_Bell.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Chersonesos_Bell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Chersonesos_Bell.jpg/960px-Chersonesos_Bell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Dmitry A. Mottl",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Changes in Ocean Productivity (3835).jpg"
+      "file_title": "File:Chersonesos Bell.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Measuring_Water_Depth_from_the_International_Space_Station_(4126).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Measuring_Water_Depth_from_the_International_Space_Station_%284126%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Measuring_Water_Depth_from_the_International_Space_Station_%284126%29.jpg/960px-Measuring_Water_Depth_from_the_International_Space_Station_%284126%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Astronaut photographs ISS005-E-13929 was taken with a Kodak DCS760 digital camera equipped with an 400 mm lens and provided the Earth Observations Laboratory, Johnson Space Center. The International Space Station Program supports the laboratory to help astronauts take pictures of Earth that will be of the greatest value to scientists and the public, and to make those images freely available on the Internet. Astronaut photography of coral reef environments is one of the science objectives of the Crew Earth Observations project. Additional images taken by astronauts and cosmonauts can be viewed at the NASA/JSC Gateway to Astronaut Photography of Earth.",
+      "source": "https://commons.wikimedia.org/wiki/File:ISS034E016601_-_Stratocumulus_Clouds_-_Pacific_Ocean.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/ISS034E016601_-_Stratocumulus_Clouds_-_Pacific_Ocean.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/ISS034E016601_-_Stratocumulus_Clouds_-_Pacific_Ocean.jpg/960px-ISS034E016601_-_Stratocumulus_Clouds_-_Pacific_Ocean.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "ISS Expedition 34 Crew Image Science & Analysis Laboratory, NASA Johnson Space Center Derivative work including grading, lens profile correction and noise removal.: Julian Herzog",
       "license": "pd",
       "license_short": "Public domain",
       "license_url": "",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Measuring Water Depth from the International Space Station (4126).jpg"
+      "file_title": "File:ISS034E016601 - Stratocumulus Clouds - Pacific Ocean.jpg"
     }
   ],
-  "curio-20261117-07": [],
-  "curio-20261117-08": [],
+  "curio-20261117-07": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Chelonia_mydas_is_going_for_the_air_edit.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg/960px-Chelonia_mydas_is_going_for_the_air_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Brocken Inaglory",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Chelonia mydas is going for the air edit.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Deep_Sea_stand_at_the_Hall_of_Biodiversity.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Deep_Sea_stand_at_the_Hall_of_Biodiversity.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Deep_Sea_stand_at_the_Hall_of_Biodiversity.jpg/960px-Deep_Sea_stand_at_the_Hall_of_Biodiversity.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Vicpeters",
+      "license": "cc-by-4.0",
+      "license_short": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Deep Sea stand at the Hall of Biodiversity.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Deep_ocean_H2_long-term_storage.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Deep_ocean_H2_long-term_storage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Deep_ocean_H2_long-term_storage.jpg/960px-Deep_ocean_H2_long-term_storage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Authors of the study: Julian David Hunt, Andreas Nascimento, Behnam Zakeri, Paulo Sérgio Franco Barbosa",
+      "license": "cc-by-4.0",
+      "license_short": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Deep ocean H2 long-term storage.jpg"
+    }
+  ],
+  "curio-20261117-08": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Chelonia_mydas_is_going_for_the_air_edit.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg/960px-Chelonia_mydas_is_going_for_the_air_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Brocken Inaglory",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Chelonia mydas is going for the air edit.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Deep_Sea_stand_at_the_Hall_of_Biodiversity.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Deep_Sea_stand_at_the_Hall_of_Biodiversity.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Deep_Sea_stand_at_the_Hall_of_Biodiversity.jpg/960px-Deep_Sea_stand_at_the_Hall_of_Biodiversity.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Vicpeters",
+      "license": "cc-by-4.0",
+      "license_short": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Deep Sea stand at the Hall of Biodiversity.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Deep_sea_corals,_Wagner_Seamount.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Deep_sea_corals%2C_Wagner_Seamount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Deep_sea_corals%2C_Wagner_Seamount.jpg/960px-Deep_sea_corals%2C_Wagner_Seamount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "NOAA Office of Ocean Exploration and Research, Deep-Sea Symphony: Exploring the Musicians Seamounts",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Deep sea corals, Wagner Seamount.jpg"
+    }
+  ],
   "curio-20261117-09": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:MBNMS_-_Juvenile_Vampire_Squid_(27667875204).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/MBNMS_-_Juvenile_Vampire_Squid_%2827667875204%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/MBNMS_-_Juvenile_Vampire_Squid_%2827667875204%29.jpg/960px-MBNMS_-_Juvenile_Vampire_Squid_%2827667875204%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "National Marine Sanctuaries",
+      "source": "https://commons.wikimedia.org/wiki/File:Bioluminescence_at_Paraparaumu_Beach_1.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Bioluminescence_at_Paraparaumu_Beach_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Bioluminescence_at_Paraparaumu_Beach_1.jpg/960px-Bioluminescence_at_Paraparaumu_Beach_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Panamitsu",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Bioluminescence at Paraparaumu Beach 1.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Bioluminescence_at_Paraparaumu_Beach_2.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Bioluminescence_at_Paraparaumu_Beach_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bioluminescence_at_Paraparaumu_Beach_2.jpg/960px-Bioluminescence_at_Paraparaumu_Beach_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Panamitsu",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Bioluminescence at Paraparaumu Beach 2.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Bioluminescence_in_San_Diego.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Bioluminescence_in_San_Diego.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Bioluminescence_in_San_Diego.jpg/960px-Bioluminescence_in_San_Diego.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Saltytog",
+      "license": "cc-by-4.0",
+      "license_short": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Bioluminescence in San Diego.jpg"
+    }
+  ],
+  "curio-20261117-10": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Crystal_jelly.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crystal_jelly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Crystal_jelly.jpg/960px-Crystal_jelly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Julia Sumangil",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Crystal jelly.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Expl2285_-_Flickr_-_NOAA_Photo_Library.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Expl2285_-_Flickr_-_NOAA_Photo_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Expl2285_-_Flickr_-_NOAA_Photo_Library.jpg/960px-Expl2285_-_Flickr_-_NOAA_Photo_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "IFE, URI-IAO, UW, Lost City Science Party; NOAA/OAR/OER; The Lost City 2005 Expedition.",
       "license": "pd",
       "license_short": "Public domain",
       "license_url": "",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:MBNMS - Juvenile Vampire Squid (27667875204).jpg"
+      "file_title": "File:Expl2285 - Flickr - NOAA Photo Library.jpg"
     }
   ],
-  "curio-20261117-10": [],
   "curio-20261117-11": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_USCapitol_-_Telegraph_Centennial_Plaque.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Flickr_-_USCapitol_-_Telegraph_Centennial_Plaque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Flickr_-_USCapitol_-_Telegraph_Centennial_Plaque.jpg/960px-Flickr_-_USCapitol_-_Telegraph_Centennial_Plaque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "USCapitol",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Morse-telegraph-key-150k-4096-diffuse_(Smithsonian_Institution).png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Morse-telegraph-key-150k-4096-diffuse_%28Smithsonian_Institution%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Morse-telegraph-key-150k-4096-diffuse_%28Smithsonian_Institution%29.png/960px-Morse-telegraph-key-150k-4096-diffuse_%28Smithsonian_Institution%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Smithsonian Institution",
+      "license": "cc0",
+      "license_short": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Flickr - USCapitol - Telegraph Centennial Plaque.jpg"
+      "file_title": "File:Morse-telegraph-key-150k-4096-diffuse (Smithsonian Institution).png"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Mathew_B._Brady_-_Photo_of_Samuel_F.B._Morse_(c.1850).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Mathew_B._Brady_-_Photo_of_Samuel_F.B._Morse_%28c.1850%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Mathew_B._Brady_-_Photo_of_Samuel_F.B._Morse_%28c.1850%29.jpg/960px-Mathew_B._Brady_-_Photo_of_Samuel_F.B._Morse_%28c.1850%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Mathew Benjamin Brady",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Morse-telegraph-key-150k-4096-normals_(Smithsonian_Institution).png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Morse-telegraph-key-150k-4096-normals_%28Smithsonian_Institution%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Morse-telegraph-key-150k-4096-normals_%28Smithsonian_Institution%29.png/960px-Morse-telegraph-key-150k-4096-normals_%28Smithsonian_Institution%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Smithsonian Institution",
+      "license": "cc0",
+      "license_short": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Mathew B. Brady - Photo of Samuel F.B. Morse (c.1850).jpg"
+      "file_title": "File:Morse-telegraph-key-150k-4096-normals (Smithsonian Institution).png"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Original-Papierstreifen_mit_der_am_24-5-1844_gesendeten_Nachricht.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Original-Papierstreifen_mit_der_am_24-5-1844_gesendeten_Nachricht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Original-Papierstreifen_mit_der_am_24-5-1844_gesendeten_Nachricht.jpg/960px-Original-Papierstreifen_mit_der_am_24-5-1844_gesendeten_Nachricht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Gesendet von Samuel F.B. Morse in Washington und empfangen von Alfred Vail in Baltimore",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Morse-telegraph-key-150k-4096-occlusion_(Smithsonian_Institution).png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Morse-telegraph-key-150k-4096-occlusion_%28Smithsonian_Institution%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Morse-telegraph-key-150k-4096-occlusion_%28Smithsonian_Institution%29.png/960px-Morse-telegraph-key-150k-4096-occlusion_%28Smithsonian_Institution%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Smithsonian Institution",
+      "license": "cc0",
+      "license_short": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Original-Papierstreifen mit der am 24-5-1844 gesendeten Nachricht.jpg"
+      "file_title": "File:Morse-telegraph-key-150k-4096-occlusion (Smithsonian Institution).png"
     }
   ],
-  "curio-20261117-12": [],
-  "curio-20261117-13": [],
+  "curio-20261117-12": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:1902_Stubblefield_wireless_telephone_test.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/1902_Stubblefield_wireless_telephone_test.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/04/1902_Stubblefield_wireless_telephone_test.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Commercial publication",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:1902 Stubblefield wireless telephone test.JPG"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:1905-08-20_%22A_Wireless_Telephone%22_A.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/1905-08-20_%22A_Wireless_Telephone%22_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/1905-08-20_%22A_Wireless_Telephone%22_A.jpg/960px-1905-08-20_%22A_Wireless_Telephone%22_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Unknown author Unknown author",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:1905-08-20 \"A Wireless Telephone\" A.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell%27s_Telephone_Patent_Drawing_and_Oath_-_NARA_-_302052_(page_2).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Alexander_Graham_Bell%27s_Telephone_Patent_Drawing_and_Oath_-_NARA_-_302052_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/17/Alexander_Graham_Bell%27s_Telephone_Patent_Drawing_and_Oath_-_NARA_-_302052_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Alexander Graham Bell",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Alexander Graham Bell's Telephone Patent Drawing and Oath - NARA - 302052 (page 2).jpg"
+    }
+  ],
+  "curio-20261117-13": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell.jpeg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Alexander_Graham_Bell.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Alexander_Graham_Bell.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Unknown author Unknown author",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Alexander Graham Bell.jpeg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Alexander_Graham_Bell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/10/Alexander_Graham_Bell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Moffett Studio",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Alexander Graham Bell.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_(35073361654).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Alexander_Graham_Bell_%2835073361654%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Alexander_Graham_Bell_%2835073361654%29.jpg/960px-Alexander_Graham_Bell_%2835073361654%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Unknown author Unknown author",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Alexander Graham Bell (35073361654).jpg"
+    }
+  ],
   "curio-20261117-14": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:First_flight2.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/First_flight2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/First_flight2.jpg/960px-First_flight2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "John T. Daniels",
+      "source": "https://commons.wikimedia.org/wiki/File:1903-12_Wright-Flyer-side-view.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/1903-12_Wright-Flyer-side-view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/1903-12_Wright-Flyer-side-view.jpg/960px-1903-12_Wright-Flyer-side-view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Wright brothers",
       "license": "pd",
       "license_short": "Public domain",
       "license_url": "",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:First flight2.jpg"
+      "file_title": "File:1903-12 Wright-Flyer-side-view.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Wilbur_Wright_after_unsuccessful_flight_trial.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Wilbur_Wright_after_unsuccessful_flight_trial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Wilbur_Wright_after_unsuccessful_flight_trial.jpg/960px-Wilbur_Wright_after_unsuccessful_flight_trial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948). Most likely taken by Orville Wright.",
+      "source": "https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_and_buildings_at_Kill_Devil_Hills.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/1903_Wright_Flyer_and_buildings_at_Kill_Devil_Hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/1903_Wright_Flyer_and_buildings_at_Kill_Devil_Hills.jpg/960px-1903_Wright_Flyer_and_buildings_at_Kill_Devil_Hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948).",
       "license": "pd",
       "license_short": "Public domain",
       "license_url": "",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Wilbur Wright after unsuccessful flight trial.jpg"
+      "file_title": "File:1903 Wright Flyer and buildings at Kill Devil Hills.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_on_launch_track_before_unsuccessful_flight_attempt_14_December_1903.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/1903_Wright_Flyer_on_launch_track_before_unsuccessful_flight_attempt_14_December_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/1903_Wright_Flyer_on_launch_track_before_unsuccessful_flight_attempt_14_December_1903.jpg/960px-1903_Wright_Flyer_on_launch_track_before_unsuccessful_flight_attempt_14_December_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948).",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:1903 Wright Flyer on launch track before unsuccessful flight attempt 14 December 1903.jpg"
     }
   ],
-  "curio-20261117-15": [],
-  "curio-20261117-16": [],
-  "curio-20261117-17": [],
-  "curio-20261117-18": [],
+  "curio-20261117-15": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:1915_-_Consolidated_Telephone_Directory_-_Allentown_PA.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/1915_-_Consolidated_Telephone_Directory_-_Allentown_PA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/1915_-_Consolidated_Telephone_Directory_-_Allentown_PA.jpg/960px-1915_-_Consolidated_Telephone_Directory_-_Allentown_PA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Unknown author Unknown author",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:1915 - Consolidated Telephone Directory - Allentown PA.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Telephones_on_Farms_at_Low_Rates_-_Cumberland_Tel_%26_Tel_ad_1915.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Telephones_on_Farms_at_Low_Rates_-_Cumberland_Tel_%26_Tel_ad_1915.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Telephones_on_Farms_at_Low_Rates_-_Cumberland_Tel_%26_Tel_ad_1915.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Cumberland Telephone & Telegraph Company",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Telephones on Farms at Low Rates - Cumberland Tel & Tel ad 1915.png"
+    }
+  ],
+  "curio-20261117-16": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:MemoryFoam-fast.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/MemoryFoam-fast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/MemoryFoam-fast.jpg/960px-MemoryFoam-fast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Johan",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:MemoryFoam-fast.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:MemoryFoam-slow.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/MemoryFoam-slow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MemoryFoam-slow.jpg/960px-MemoryFoam-slow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Johan",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:MemoryFoam-slow.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Memory_foam_from_ear-plugs.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Memory_foam_from_ear-plugs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Memory_foam_from_ear-plugs.jpg/960px-Memory_foam_from_ear-plugs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Saurabh R. Patil",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Memory foam from ear-plugs.jpg"
+    }
+  ],
+  "curio-20261117-17": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:26.2_MP_CMOS_full-frame_sensor_of_Canon_mirrorless_RP_camera.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/26.2_MP_CMOS_full-frame_sensor_of_Canon_mirrorless_RP_camera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/26.2_MP_CMOS_full-frame_sensor_of_Canon_mirrorless_RP_camera.jpg/960px-26.2_MP_CMOS_full-frame_sensor_of_Canon_mirrorless_RP_camera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Islander61",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:26.2 MP CMOS full-frame sensor of Canon mirrorless RP camera.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Active_pixel_sensor_prototype.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Active_pixel_sensor_prototype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Active_pixel_sensor_prototype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Uploaded by Michael Schmid",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Active pixel sensor prototype.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:CMOS_Image-Sensor_Big_(35mm)_and_Small.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/CMOS_Image-Sensor_Big_%2835mm%29_and_Small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/CMOS_Image-Sensor_Big_%2835mm%29_and_Small.jpg/960px-CMOS_Image-Sensor_Big_%2835mm%29_and_Small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "根川孝太郎",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:CMOS Image-Sensor Big (35mm) and Small.jpg"
+    }
+  ],
+  "curio-20261117-18": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Axes_for_eye_glasses_cylindrical_lenses.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Axes_for_eye_glasses_cylindrical_lenses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Axes_for_eye_glasses_cylindrical_lenses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Bianca ( talk ) ( Uploads )",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Axes for eye glasses cylindrical lenses.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Fastening_for_Eyeglass-Lenses._-_DPLA_-_5fae1a5c706a81d5784e03e1666d24a3_(page_1).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Fastening_for_Eyeglass-Lenses._-_DPLA_-_5fae1a5c706a81d5784e03e1666d24a3_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Fastening_for_Eyeglass-Lenses._-_DPLA_-_5fae1a5c706a81d5784e03e1666d24a3_%28page_1%29.jpg/960px-Fastening_for_Eyeglass-Lenses._-_DPLA_-_5fae1a5c706a81d5784e03e1666d24a3_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Thompson, Albert F",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Fastening for Eyeglass-Lenses. - DPLA - 5fae1a5c706a81d5784e03e1666d24a3 (page 1).jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Fastening_for_Eyeglass-Lenses._-_DPLA_-_5fae1a5c706a81d5784e03e1666d24a3_(page_2).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Fastening_for_Eyeglass-Lenses._-_DPLA_-_5fae1a5c706a81d5784e03e1666d24a3_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Fastening_for_Eyeglass-Lenses._-_DPLA_-_5fae1a5c706a81d5784e03e1666d24a3_%28page_2%29.jpg/960px-Fastening_for_Eyeglass-Lenses._-_DPLA_-_5fae1a5c706a81d5784e03e1666d24a3_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Thompson, Albert F",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Fastening for Eyeglass-Lenses. - DPLA - 5fae1a5c706a81d5784e03e1666d24a3 (page 2).jpg"
+    }
+  ],
   "curio-20261117-19": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:ISS-30_Ivanishin_wearing_a_communication_system_headset_in_the_SM.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/ISS-30_Ivanishin_wearing_a_communication_system_headset_in_the_SM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/ISS-30_Ivanishin_wearing_a_communication_system_headset_in_the_SM.jpg/960px-ISS-30_Ivanishin_wearing_a_communication_system_headset_in_the_SM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Apollo_11_astronaut_Buzz_Aldrin_tries_out_Microsoft_HoloLens_(29794543715).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Apollo_11_astronaut_Buzz_Aldrin_tries_out_Microsoft_HoloLens_%2829794543715%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Apollo_11_astronaut_Buzz_Aldrin_tries_out_Microsoft_HoloLens_%2829794543715%29.jpg/960px-Apollo_11_astronaut_Buzz_Aldrin_tries_out_Microsoft_HoloLens_%2829794543715%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "NASA Kennedy from United States NASA/Charles Babir",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Apollo 11 astronaut Buzz Aldrin tries out Microsoft HoloLens (29794543715).jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Astronaut_Donald_K._Slayton_and_cosmonaut_Aleksey_A._Leonov_in_the_Soyuz_Orbital_Module.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Astronaut_Donald_K._Slayton_and_cosmonaut_Aleksey_A._Leonov_in_the_Soyuz_Orbital_Module.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Astronaut_Donald_K._Slayton_and_cosmonaut_Aleksey_A._Leonov_in_the_Soyuz_Orbital_Module.jpg/960px-Astronaut_Donald_K._Slayton_and_cosmonaut_Aleksey_A._Leonov_in_the_Soyuz_Orbital_Module.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "NASA",
       "license": "pd",
       "license_short": "Public domain",
       "license_url": "",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:ISS-30 Ivanishin wearing a communication system headset in the SM.jpg"
+      "file_title": "File:Astronaut Donald K. Slayton and cosmonaut Aleksey A. Leonov in the Soyuz Orbital Module.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:S03-19-058_-_STS-003_-_Pilot_Fullerton_reviews_checklist_on_Aft_Flight_Deck_Onorbit_Station_-_DPLA_-_984c3815e00f9594c62361e7d47c2093.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/S03-19-058_-_STS-003_-_Pilot_Fullerton_reviews_checklist_on_Aft_Flight_Deck_Onorbit_Station_-_DPLA_-_984c3815e00f9594c62361e7d47c2093.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/S03-19-058_-_STS-003_-_Pilot_Fullerton_reviews_checklist_on_Aft_Flight_Deck_Onorbit_Station_-_DPLA_-_984c3815e00f9594c62361e7d47c2093.jpg/960px-S03-19-058_-_STS-003_-_Pilot_Fullerton_reviews_checklist_on_Aft_Flight_Deck_Onorbit_Station_-_DPLA_-_984c3815e00f9594c62361e7d47c2093.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "National Aeronautics and Space Administration. Lyndon B. Johnson Space Center. 2/17/1973",
+      "source": "https://commons.wikimedia.org/wiki/File:Astronaut_Scott_Altman_flies_a_Shuttle_Training_Aircraft_1.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Astronaut_Scott_Altman_flies_a_Shuttle_Training_Aircraft_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Astronaut_Scott_Altman_flies_a_Shuttle_Training_Aircraft_1.jpg/960px-Astronaut_Scott_Altman_flies_a_Shuttle_Training_Aircraft_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "NASA/Richard N. Clark",
       "license": "pd",
       "license_short": "Public domain",
       "license_url": "",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:S03-19-058 - STS-003 - Pilot Fullerton reviews checklist on Aft Flight Deck Onorbit Station - DPLA - 984c3815e00f9594c62361e7d47c2093.jpg"
-    },
-    {
-      "source": "https://commons.wikimedia.org/wiki/File:S35-03-009_-_STS-035_-_STS-35_Parise_poses_for_a_photo_by_the_SAREX_experiment_on_OV-102%27s_middeck_-_DPLA_-_4e1f4694a6396192a42a52eec5b15593.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/S35-03-009_-_STS-035_-_STS-35_Parise_poses_for_a_photo_by_the_SAREX_experiment_on_OV-102%27s_middeck_-_DPLA_-_4e1f4694a6396192a42a52eec5b15593.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/S35-03-009_-_STS-035_-_STS-35_Parise_poses_for_a_photo_by_the_SAREX_experiment_on_OV-102%27s_middeck_-_DPLA_-_4e1f4694a6396192a42a52eec5b15593.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "author": "National Aeronautics and Space Administration. Lyndon B. Johnson Space Center. 2/17/1973",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
-      "reviewed": false,
-      "approved": false,
-      "file_title": "File:S35-03-009 - STS-035 - STS-35 Parise poses for a photo by the SAREX experiment on OV-102's middeck - DPLA - 4e1f4694a6396192a42a52eec5b15593.jpg"
+      "file_title": "File:Astronaut Scott Altman flies a Shuttle Training Aircraft 1.jpg"
     }
   ],
-  "curio-20261117-20": [],
+  "curio-20261117-20": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Astronaut_and_cosmonaut_food_-_Evergreen_Aviation_%26_Space_Museum_-_McMinnville,_Oregon_-_DSC00854.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Astronaut_and_cosmonaut_food_-_Evergreen_Aviation_%26_Space_Museum_-_McMinnville%2C_Oregon_-_DSC00854.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Astronaut_and_cosmonaut_food_-_Evergreen_Aviation_%26_Space_Museum_-_McMinnville%2C_Oregon_-_DSC00854.jpg/960px-Astronaut_and_cosmonaut_food_-_Evergreen_Aviation_%26_Space_Museum_-_McMinnville%2C_Oregon_-_DSC00854.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Daderot",
+      "license": "cc0",
+      "license_short": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Astronaut and cosmonaut food - Evergreen Aviation & Space Museum - McMinnville, Oregon - DSC00854.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Christa_McAuliffe_eating_space_food_dishes.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Christa_McAuliffe_eating_space_food_dishes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Christa_McAuliffe_eating_space_food_dishes.jpg/960px-Christa_McAuliffe_eating_space_food_dishes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "NASA",
+      "license": "pd",
+      "license_short": "Public domain",
+      "license_url": "",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Christa McAuliffe eating space food dishes.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Food_for_American_astronauts_on_board_of_the_ISS_(exhibited_at_Euro_Space_Center_in_Belgium).JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Food_for_American_astronauts_on_board_of_the_ISS_%28exhibited_at_Euro_Space_Center_in_Belgium%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Food_for_American_astronauts_on_board_of_the_ISS_%28exhibited_at_Euro_Space_Center_in_Belgium%29.JPG/960px-Food_for_American_astronauts_on_board_of_the_ISS_%28exhibited_at_Euro_Space_Center_in_Belgium%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "NearEMPTiness",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Food for American astronauts on board of the ISS (exhibited at Euro Space Center in Belgium).JPG"
+    }
+  ],
   "curio-20261117-21": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:-PlanLikeAParkRanger-_Follow_the_beaten_path_(51357629861).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/-PlanLikeAParkRanger-_Follow_the_beaten_path_%2851357629861%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/-PlanLikeAParkRanger-_Follow_the_beaten_path_%2851357629861%29.jpg/960px--PlanLikeAParkRanger-_Follow_the_beaten_path_%2851357629861%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "YellowstoneNPS",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Crepuscular_rays_and_Dead_trees_at_Mammoth_Hot_Springs.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crepuscular_rays_and_Dead_trees_at_Mammoth_Hot_Springs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Crepuscular_rays_and_Dead_trees_at_Mammoth_Hot_Springs.jpg/960px-Crepuscular_rays_and_Dead_trees_at_Mammoth_Hot_Springs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Brocken Inaglory",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:-PlanLikeAParkRanger- Follow the beaten path (51357629861).jpg"
+      "file_title": "File:Crepuscular rays and Dead trees at Mammoth Hot Springs.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Ferris_Fork_Spur_Trail-_Ferris_Fork_thermal_features_(54057628884).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Ferris_Fork_Spur_Trail-_Ferris_Fork_thermal_features_%2854057628884%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Ferris_Fork_Spur_Trail-_Ferris_Fork_thermal_features_%2854057628884%29.jpg/960px-Ferris_Fork_Spur_Trail-_Ferris_Fork_thermal_features_%2854057628884%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "YellowstoneNPS",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Crepuscular_rays_over_the_steam_from_hot_spring.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Crepuscular_rays_over_the_steam_from_hot_spring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Crepuscular_rays_over_the_steam_from_hot_spring.jpg/960px-Crepuscular_rays_over_the_steam_from_hot_spring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Brocken Inaglory",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Ferris Fork Spur Trail- Ferris Fork thermal features (54057628884).jpg"
+      "file_title": "File:Crepuscular rays over the steam from hot spring.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Thermal_features_at_Steamboat_Point_(24101849568).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Thermal_features_at_Steamboat_Point_%2824101849568%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Thermal_features_at_Steamboat_Point_%2824101849568%29.jpg/960px-Thermal_features_at_Steamboat_Point_%2824101849568%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Yellowstone National Park",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Dead_trees_at_Mammoth_Hot_Springs.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Dead_trees_at_Mammoth_Hot_Springs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Dead_trees_at_Mammoth_Hot_Springs.jpg/960px-Dead_trees_at_Mammoth_Hot_Springs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Brocken Inaglory",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Thermal features at Steamboat Point (24101849568).jpg"
+      "file_title": "File:Dead trees at Mammoth Hot Springs.jpg"
     }
   ],
-  "curio-20261117-22": [],
+  "curio-20261117-22": [
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg/960px-Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Brocken Inaglory",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Daisy Geyser erupting in Yellowstone National Park edit.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Firehole_river_at_Upper_Geyser_Basin-2008-june.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Firehole_river_at_Upper_Geyser_Basin-2008-june.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Firehole_river_at_Upper_Geyser_Basin-2008-june.jpg/960px-Firehole_river_at_Upper_Geyser_Basin-2008-june.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Brocken Inaglory",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Firehole river at Upper Geyser Basin-2008-june.jpg"
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Great_Fountain_Geyser_Sunset.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Great_Fountain_Geyser_Sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Great_Fountain_Geyser_Sunset.jpg/960px-Great_Fountain_Geyser_Sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "user:Flicka",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewed": false,
+      "approved": false,
+      "file_title": "File:Great Fountain Geyser Sunset.jpg"
+    }
+  ],
   "curio-20261117-23": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Black_bears_near_Petrified_Tree_(32088756023).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Black_bears_near_Petrified_Tree_%2832088756023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Black_bears_near_Petrified_Tree_%2832088756023%29.jpg/960px-Black_bears_near_Petrified_Tree_%2832088756023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Yellowstone National Park",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:2003-08-19_Petrified_tree_at_Yellowstone.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/2003-08-19_Petrified_tree_at_Yellowstone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/2003-08-19_Petrified_tree_at_Yellowstone.jpg/960px-2003-08-19_Petrified_tree_at_Yellowstone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Ildar Sagdejev ( Specious )",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Black bears near Petrified Tree (32088756023).jpg"
+      "file_title": "File:2003-08-19 Petrified tree at Yellowstone.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Black_bears_near_Petrified_Tree_(32779764411).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Black_bears_near_Petrified_Tree_%2832779764411%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Black_bears_near_Petrified_Tree_%2832779764411%29.jpg/960px-Black_bears_near_Petrified_Tree_%2832779764411%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Yellowstone National Park",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Petrified_Tree,_Yellowstone_NP_-_panoramio.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Petrified_Tree%2C_Yellowstone_NP_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Petrified_Tree%2C_Yellowstone_NP_-_panoramio.jpg/960px-Petrified_Tree%2C_Yellowstone_NP_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Aaron Zhu",
+      "license": "cc-by-sa-3.0",
+      "license_short": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Black bears near Petrified Tree (32779764411).jpg"
+      "file_title": "File:Petrified Tree, Yellowstone NP - panoramio.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Hiker_and_Petrified_Wood_(37068379961).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Hiker_and_Petrified_Wood_%2837068379961%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Hiker_and_Petrified_Wood_%2837068379961%29.jpg/960px-Hiker_and_Petrified_Wood_%2837068379961%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Yellowstone National Park",
+      "source": "https://commons.wikimedia.org/wiki/File:Petrified_Tree,_Yellowstone_Park_(NBY_432339).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Petrified_Tree%2C_Yellowstone_Park_%28NBY_432339%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/Petrified_Tree%2C_Yellowstone_Park_%28NBY_432339%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Unknown author Unknown author",
       "license": "pd",
       "license_short": "Public domain",
       "license_url": "",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Hiker and Petrified Wood (37068379961).jpg"
+      "file_title": "File:Petrified Tree, Yellowstone Park (NBY 432339).jpg"
     }
   ],
   "curio-20261117-24": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Grand_Geyser_eruption_from_Old_Faithful_Inn_(52062190704).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Grand_Geyser_eruption_from_Old_Faithful_Inn_%2852062190704%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Grand_Geyser_eruption_from_Old_Faithful_Inn_%2852062190704%29.jpg/960px-Grand_Geyser_eruption_from_Old_Faithful_Inn_%2852062190704%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "YellowstoneNPS",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:.00_2003_Yellowstone_National_Park_-_The_Old_Faithful_Geyser.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/.00_2003_Yellowstone_National_Park_-_The_Old_Faithful_Geyser.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/.00_2003_Yellowstone_National_Park_-_The_Old_Faithful_Geyser.jpg/960px-.00_2003_Yellowstone_National_Park_-_The_Old_Faithful_Geyser.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "W. Bulach",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Grand Geyser eruption from Old Faithful Inn (52062190704).jpg"
+      "file_title": "File:.00 2003 Yellowstone National Park - The Old Faithful Geyser.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Old_Faithful_Geyser_(29289675968).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Old_Faithful_Geyser_%2829289675968%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Old_Faithful_Geyser_%2829289675968%29.jpg/960px-Old_Faithful_Geyser_%2829289675968%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Yellowstone National Park",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Yellowstone_National_Park_(WY,_USA),_Old_Faithful_Geyser_(und_Bison)_--_2022_--_2587.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_%28und_Bison%29_--_2022_--_2587.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_%28und_Bison%29_--_2022_--_2587.jpg/960px-Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_%28und_Bison%29_--_2022_--_2587.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Dietmar Rabich",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Old Faithful Geyser (29289675968).jpg"
+      "file_title": "File:Yellowstone National Park (WY, USA), Old Faithful Geyser (und Bison) -- 2022 -- 2587.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Old_Faithful_Geyser_(48941845288).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Old_Faithful_Geyser_%2848941845288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Old_Faithful_Geyser_%2848941845288%29.jpg/960px-Old_Faithful_Geyser_%2848941845288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Yellowstone National Park",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Yellowstone_National_Park_(WY,_USA),_Old_Faithful_Geyser_(und_Bison)_--_2022_--_2588.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_%28und_Bison%29_--_2022_--_2588.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_%28und_Bison%29_--_2022_--_2588.jpg/960px-Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_%28und_Bison%29_--_2022_--_2588.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Dietmar Rabich",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Old Faithful Geyser (48941845288).jpg"
+      "file_title": "File:Yellowstone National Park (WY, USA), Old Faithful Geyser (und Bison) -- 2022 -- 2588.jpg"
     }
   ],
   "curio-20261117-25": [
     {
-      "source": "https://commons.wikimedia.org/wiki/File:00470_Grand_Canyon_Historic_Clear_Creek_Trail_(7421391278).jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/00470_Grand_Canyon_Historic_Clear_Creek_Trail_%287421391278%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/00470_Grand_Canyon_Historic_Clear_Creek_Trail_%287421391278%29.jpg/960px-00470_Grand_Canyon_Historic_Clear_Creek_Trail_%287421391278%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Grand Canyon National Park",
+      "source": "https://commons.wikimedia.org/wiki/File:Arizona._Grand_Canyon,_photographer_suspended_on_climber%27s_rope_LCCN2012648368.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Arizona._Grand_Canyon%2C_photographer_suspended_on_climber%27s_rope_LCCN2012648368.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Arizona._Grand_Canyon%2C_photographer_suspended_on_climber%27s_rope_LCCN2012648368.jpg/960px-Arizona._Grand_Canyon%2C_photographer_suspended_on_climber%27s_rope_LCCN2012648368.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Kolb Bros., copyright claimant",
       "license": "pd",
       "license_short": "Public domain",
       "license_url": "",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:00470 Grand Canyon Historic Clear Creek Trail (7421391278).jpg"
+      "file_title": "File:Arizona. Grand Canyon, photographer suspended on climber's rope LCCN2012648368.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Crystal_Rapid_-_Flickr_-_Grand_Canyon_NPS.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Grand_Canyon_Crystal_Rapid_-_Flickr_-_Grand_Canyon_NPS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Grand_Canyon_Crystal_Rapid_-_Flickr_-_Grand_Canyon_NPS.jpg/960px-Grand_Canyon_Crystal_Rapid_-_Flickr_-_Grand_Canyon_NPS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Grand Canyon National Park",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_(Arizona,_USA),_Luftaufnahme_--_2012_--_5968.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Grand_Canyon_%28Arizona%2C_USA%29%2C_Luftaufnahme_--_2012_--_5968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Grand_Canyon_%28Arizona%2C_USA%29%2C_Luftaufnahme_--_2012_--_5968.jpg/960px-Grand_Canyon_%28Arizona%2C_USA%29%2C_Luftaufnahme_--_2012_--_5968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Dietmar Rabich",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Grand Canyon Crystal Rapid - Flickr - Grand Canyon NPS.jpg"
+      "file_title": "File:Grand Canyon (Arizona, USA), Luftaufnahme -- 2012 -- 5968.jpg"
     },
     {
-      "source": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Flood_of_1966_Bright_Angel_Canyon_0328_-_Flickr_-_Grand_Canyon_NPS.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Grand_Canyon_Flood_of_1966_Bright_Angel_Canyon_0328_-_Flickr_-_Grand_Canyon_NPS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Grand_Canyon_Flood_of_1966_Bright_Angel_Canyon_0328_-_Flickr_-_Grand_Canyon_NPS.jpg/960px-Grand_Canyon_Flood_of_1966_Bright_Angel_Canyon_0328_-_Flickr_-_Grand_Canyon_NPS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "author": "Grand Canyon National Park",
-      "license": "pd",
-      "license_short": "Public domain",
-      "license_url": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_(Arizona,_USA),_South_Rim_nahe_Tusayan_--_2012_--_5848.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Grand_Canyon_%28Arizona%2C_USA%29%2C_South_Rim_nahe_Tusayan_--_2012_--_5848.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Grand_Canyon_%28Arizona%2C_USA%29%2C_South_Rim_nahe_Tusayan_--_2012_--_5848.jpg/960px-Grand_Canyon_%28Arizona%2C_USA%29%2C_South_Rim_nahe_Tusayan_--_2012_--_5848.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Dietmar Rabich",
+      "license": "cc-by-sa-4.0",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "reviewed": false,
       "approved": false,
-      "file_title": "File:Grand Canyon Flood of 1966 Bright Angel Canyon 0328 - Flickr - Grand Canyon NPS.jpg"
+      "file_title": "File:Grand Canyon (Arizona, USA), South Rim nahe Tusayan -- 2012 -- 5848.jpg"
     }
   ]
 }
