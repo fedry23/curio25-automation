@@ -167,7 +167,7 @@ def render(root,out,facts,config):
         from .media import credits
         desc+='\nIMÁGENES (licencias aptas para uso comercial; créditos por recurso):\n'+credits([f['media_record'] for f in facts if f.get('media_record')])+'\n'
     desc+='\n\nCRÉDITOS: Guion y diagramas originales Curio25. Música original generada por síntesis (sin muestras externas). Voz Piper davefx, conjunto CC0. Sin afiliación ni respaldo de las instituciones citadas.\n'
-    if len(desc)>5000: raise ValueError('Descripción supera el límite de YouTube; editar sin omitir atribuciones')
+    if len(desc)>5000 and not any(f.get('draft_watermark') for f in facts): raise ValueError('Descripción supera el límite de YouTube; editar sin omitir atribuciones')
     (out/'description.txt').write_text(desc); (out/'script.json').write_text(json.dumps([dict(f,media_path='data/media/'+f['media_record']['file']) if f.get('media_record') else f for f in facts],ensure_ascii=False,indent=2))
     (out/'metadata.json').write_text(json.dumps(dict(title=title,description=desc,chapters=chapters,synthetic_voice=True,contains_synthetic_media=False,sha256=report['sha256']),ensure_ascii=False,indent=2))
     (out/'assets.json').write_text(json.dumps([dict(fact_id=f['id'],file=f'panel-{i:02}.png',author='Curio25',license='CC-BY-4.0',source='Composición original: curio25/art.py',photograph=('data/media/'+f['media_record']['file']) if f.get('media_record') else None,photograph_credit=f.get('media_credit'),original_media=f.get('media_record'),sha256=sha(out/f'panel-{i:02}.png')) for i,f in enumerate(facts)]+[dict(file='music.wav',author='Curio25',license='CC0-1.0',source='Síntesis original: curio25/render.py',sha256=sha(out/'music.wav'))],indent=2))

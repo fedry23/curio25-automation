@@ -1,0 +1,52 @@
+name: Curio25 - Render de BORRADOR (sin publicar)
+on:
+  push:
+    branches: [main]
+    paths:
+      - "curio25/preview.py"
+      - "curio25/art.py"
+      - ".github/workflows/preview.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: curio25-unpublished-preview
+  cancel-in-progress: false
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Comprobar 25 hechos y 25 fotos en cuarentena (sin publicar)
+        run: python -m curio25.preview --episode 2026-11-17 --preflight-only
+      - name: Instalar FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - name: Instalar dependencias Python
+        run: pip install -r requirements.lock
+      - name: Descargar voz offline con hashes aprobados
+        run: python scripts/download_voice.py
+      - name: Renderizar BORRADOR del segundo episodio
+        run: |
+          python -m curio25.preview --episode 2026-11-17 \
+            --out build/preview-2026-11-17 2>&1 | tee preview.log
+        shell: bash --noprofile --norc -eo pipefail {0}
+      - name: Conservar MP4 de revisión, pruebas y diagnóstico
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: curio25-UNPUBLISHED-preview-${{ github.run_id }}
+          path: |
+            build/preview-2026-11-17/episode.mp4
+            build/preview-2026-11-17/thumbnail.jpg
+            build/preview-2026-11-17/metadata.json
+            build/preview-2026-11-17/validation.json
+            build/preview-2026-11-17/layout-report.json
+            build/preview-2026-11-17/PREVIEW-NO-PUBLICAR.json
+            build/preview-2026-11-17/captions.srt
+            build/preview-2026-11-17/assets.json
+            preview.log
+          retention-days: 7

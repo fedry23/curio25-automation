@@ -62,6 +62,12 @@ def panel(f,index,path):
     d.rounded_rectangle(PROGRESS.tuple(),5,fill='#26364f'); record('progress',PROGRESS)
     # This entire strip is reserved exclusively for captions. No visual/credit enters it.
     d.rectangle((0,840,1920,1080),fill='#080f1e')
+    if f.get('draft_watermark'):
+        draft=Box(640,8,1280,60)
+        d.rounded_rectangle(draft.tuple(),12,fill='#962e42')
+        _text(d,'BORRADOR · NO PUBLICAR',Box(673,17,1256,54),28,True,
+              max_lines=1,fill='#ffffff')
+        record('preview_warning',draft)
     im.save(path)
     return elements
 
