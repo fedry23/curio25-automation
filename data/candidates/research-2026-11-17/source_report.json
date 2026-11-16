@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "created_at": "2026-11-16T16:56:22.559066+00:00",
+  "created_at": "2026-11-16T17:03:19.766118+00:00",
   "publication_enabled": false,
   "production_ready": false,
   "total": 25,
@@ -11,7 +11,7 @@
       "path": "snapshots/5934ff1d66648a5b.txt",
       "sha256": "42ca4c02b79f12fb8fba2ec5f879ebfe987d59e8336b8e39d887b5466703e9ff",
       "final_url": "https://guides.loc.gov/chronicling-america-telephone-invention",
-      "archived_at": "2026-11-16T16:56:15.519443+00:00"
+      "archived_at": "2026-11-16T17:03:09.687932+00:00"
     },
     {
       "url": "https://guides.loc.gov/telecommunications-industry/history",
@@ -19,7 +19,12 @@
       "path": "snapshots/f67afe35002894e5.txt",
       "sha256": "babce381a7fb33d6edfdc15bfdefbd66a46909fd3b6cb3538317eb8d7dbd094d",
       "final_url": "https://guides.loc.gov/telecommunications-industry/history",
-      "archived_at": "2026-11-16T16:56:15.522781+00:00"
+      "archived_at": "2026-11-16T17:03:09.694326+00:00"
+    },
+    {
+      "url": "https://ocean.si.edu/ocean-life/fish/anglerfish-lure-prey-throughout-ocean",
+      "status": "fetch_failed",
+      "error": "403 Client Error: Forbidden for url: https://ocean.si.edu/ocean-life/fish/anglerfish-lure-prey-throughout-ocean"
     },
     {
       "url": "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/",
@@ -27,7 +32,7 @@
       "path": "snapshots/cd35d407284621c4.txt",
       "sha256": "2aaf175c4e2b5d07cd3ec49b32b8ad176fca0855a7368ac4dc42ec46b4041a14",
       "final_url": "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/",
-      "archived_at": "2026-11-16T16:56:15.509187+00:00"
+      "archived_at": "2026-11-16T17:03:09.611377+00:00"
     },
     {
       "url": "https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/",
@@ -35,7 +40,7 @@
       "path": "snapshots/5be5784760882bbd.txt",
       "sha256": "16dd86e288730461f248dbeeb4d5fe4f48c164a42281f6953a0535d8a92b2f19",
       "final_url": "https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/",
-      "archived_at": "2026-11-16T16:56:15.501045+00:00"
+      "archived_at": "2026-11-16T17:03:09.634995+00:00"
     },
     {
       "url": "https://oceanservice.noaa.gov/facts/oceanwater.html",
@@ -43,7 +48,15 @@
       "path": "snapshots/ec9806e56749df30.txt",
       "sha256": "d98d74aa9afd266eefa42c0756c006dd62a6268d1686be67256d32dade310315",
       "final_url": "https://oceanservice.noaa.gov/facts/oceanwater.html",
-      "archived_at": "2026-11-16T16:56:15.673343+00:00"
+      "archived_at": "2026-11-16T17:03:09.702061+00:00"
+    },
+    {
+      "url": "https://oceanservice.noaa.gov/news/feb26/undersea-creatures-valentines-day.html",
+      "status": "archived_unreviewed",
+      "path": "snapshots/27351715981450b9.txt",
+      "sha256": "78a20d4ccecf14ffc6c320b05f4f8f904e1ae44012a84f38b10f19ead0277cd4",
+      "final_url": "https://oceanservice.noaa.gov/news/feb26/undersea-creatures-valentines-day.html",
+      "archived_at": "2026-11-16T17:03:09.767174+00:00"
     },
     {
       "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
@@ -51,7 +64,7 @@
       "path": "snapshots/ae7b925ffb29b630.txt",
       "sha256": "22320a4f02d01719df43e217c00e7338a2816a5f0dab31642d3aeb03f46f2ad2",
       "final_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
-      "archived_at": "2026-11-16T16:56:16.291026+00:00"
+      "archived_at": "2026-11-16T17:03:09.764794+00:00"
     },
     {
       "url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
@@ -59,17 +72,31 @@
       "path": "snapshots/96c66db2e415dddd.txt",
       "sha256": "ad2d2f13c34470222137f5a243a69bc9298768cbc9b25e4639bfbabca854585d",
       "final_url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
-      "archived_at": "2026-11-16T16:56:15.702550+00:00"
+      "archived_at": "2026-11-16T17:03:09.787100+00:00"
     },
     {
-      "url": "https://www.loc.gov/item/today-in-history/december-17/",
-      "status": "fetch_failed",
-      "error": "403 Client Error: Forbidden for url: https://www.loc.gov/item/today-in-history/december-17/"
+      "url": "https://www.fisheries.noaa.gov/feature-story/big-hearted-blue-whale",
+      "status": "archived_unreviewed",
+      "path": "snapshots/e8ba11670fd5ceb7.txt",
+      "sha256": "cfada9687b8e8c56a27407562e89d6ba992ddeed6252d0628ae79755ffe2efdc",
+      "final_url": "https://www.fisheries.noaa.gov/feature-story/big-hearted-blue-whale",
+      "archived_at": "2026-11-16T17:03:10.557062+00:00"
     },
     {
-      "url": "https://www.noaa.gov/stories/love-is-in-air-and-sea-5-facts-about-affections-of-marine-creatures",
-      "status": "fetch_failed",
-      "error": "403 Client Error: Forbidden for url: https://www.noaa.gov/stories/love-is-in-air-and-sea-5-facts-about-affections-of-marine-creatures"
+      "url": "https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/marine-mammal-acoustics",
+      "status": "archived_unreviewed",
+      "path": "snapshots/4dbf6d4d2306223e.txt",
+      "sha256": "b6e4b5f0eda68a9a5c27b7919454899a78deed1911d1b57e41f4bdb701bb3704",
+      "final_url": "https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/marine-mammal-acoustics",
+      "archived_at": "2026-11-16T17:03:09.937135+00:00"
+    },
+    {
+      "url": "https://www.fisheries.noaa.gov/species/leatherback-turtle",
+      "status": "archived_unreviewed",
+      "path": "snapshots/45348280ca9abfb2.txt",
+      "sha256": "16929d86ef158c1935c64f66b163db441b05a8d3a45f547b90a0fef9d8bf89a4",
+      "final_url": "https://www.fisheries.noaa.gov/species/leatherback-turtle",
+      "archived_at": "2026-11-16T17:03:14.174411+00:00"
     },
     {
       "url": "https://www.nps.gov/articles/000/grcatime-geoheritage.htm",
@@ -77,7 +104,7 @@
       "path": "snapshots/5cdf2b82e60ea521.txt",
       "sha256": "42b8d657e7d0e47aa2ca6d9ff2924bf84a6e89429884b6848dd9628a3397480f",
       "final_url": "https://www.nps.gov/articles/000/grcatime-geoheritage.htm",
-      "archived_at": "2026-11-16T16:56:15.866317+00:00"
+      "archived_at": "2026-11-16T17:03:09.820544+00:00"
     },
     {
       "url": "https://www.nps.gov/articles/old-faithful-geyser.htm",
@@ -85,7 +112,15 @@
       "path": "snapshots/80bdf0d9578db0a2.txt",
       "sha256": "462650c95daa532caaac80dfa7419433809838f82a71752fa2685465816bf236",
       "final_url": "https://www.nps.gov/articles/old-faithful-geyser.htm",
-      "archived_at": "2026-11-16T16:56:15.868305+00:00"
+      "archived_at": "2026-11-16T17:03:09.841653+00:00"
+    },
+    {
+      "url": "https://www.nps.gov/articles/wright-brothers.htm",
+      "status": "archived_unreviewed",
+      "path": "snapshots/b7bc2a4f0465eb58.txt",
+      "sha256": "c5fa0d36d3aa35bf16fa4cd7f1f00cfb9a7d84de5718ffac7ee84f0099d60d51",
+      "final_url": "https://www.nps.gov/articles/wright-brothers.htm",
+      "archived_at": "2026-11-16T17:03:09.865377+00:00"
     },
     {
       "url": "https://www.nps.gov/yell/learn/nature/geology.htm",
@@ -93,45 +128,45 @@
       "path": "snapshots/b574c93e37581aa4.txt",
       "sha256": "7e045043ae02422fb6313cad68051342864bf98e7ecb9ab99b542c4fee32343d",
       "final_url": "https://www.nps.gov/yell/learn/nature/geology.htm",
-      "archived_at": "2026-11-16T16:56:15.856977+00:00"
+      "archived_at": "2026-11-16T17:03:09.887216+00:00"
     }
   ],
   "facts": [
     {
       "fact_id": "curio-20261117-01",
-      "source_url": "https://www.noaa.gov/stories/love-is-in-air-and-sea-5-facts-about-affections-of-marine-creatures",
-      "source_sha256": null,
-      "evidence_query": "more than 1,000 pounds",
-      "evidence_found": false,
+      "source_url": "https://www.fisheries.noaa.gov/feature-story/big-hearted-blue-whale",
+      "source_sha256": "cfada9687b8e8c56a27407562e89d6ba992ddeed6252d0628ae79755ffe2efdc",
+      "evidence_query": "weighs about 400 pounds",
+      "evidence_found": true,
       "verified": false,
       "media_approved": false,
-      "status": "needs_more_research"
+      "status": "pending_human_review"
     },
     {
       "fact_id": "curio-20261117-02",
-      "source_url": "https://www.noaa.gov/stories/love-is-in-air-and-sea-5-facts-about-affections-of-marine-creatures",
-      "source_sha256": null,
-      "evidence_query": "has three",
-      "evidence_found": false,
+      "source_url": "https://oceanservice.noaa.gov/news/feb26/undersea-creatures-valentines-day.html",
+      "source_sha256": "78a20d4ccecf14ffc6c320b05f4f8f904e1ae44012a84f38b10f19ead0277cd4",
+      "evidence_query": "three hearts",
+      "evidence_found": true,
       "verified": false,
       "media_approved": false,
-      "status": "needs_more_research"
+      "status": "pending_human_review"
     },
     {
       "fact_id": "curio-20261117-03",
-      "source_url": "https://www.noaa.gov/stories/love-is-in-air-and-sea-5-facts-about-affections-of-marine-creatures",
-      "source_sha256": null,
+      "source_url": "https://www.fisheries.noaa.gov/species/leatherback-turtle",
+      "source_sha256": "16929d86ef158c1935c64f66b163db441b05a8d3a45f547b90a0fef9d8bf89a4",
       "evidence_query": "3,700 miles each way",
-      "evidence_found": false,
+      "evidence_found": true,
       "verified": false,
       "media_approved": false,
-      "status": "needs_more_research"
+      "status": "pending_human_review"
     },
     {
       "fact_id": "curio-20261117-04",
-      "source_url": "https://www.noaa.gov/stories/love-is-in-air-and-sea-5-facts-about-affections-of-marine-creatures",
+      "source_url": "https://ocean.si.edu/ocean-life/fish/anglerfish-lure-prey-throughout-ocean",
       "source_sha256": null,
-      "evidence_query": "fuses his body with hers",
+      "evidence_query": "fuses into the female",
       "evidence_found": false,
       "verified": false,
       "media_approved": false,
@@ -139,13 +174,13 @@
     },
     {
       "fact_id": "curio-20261117-05",
-      "source_url": "https://www.noaa.gov/stories/love-is-in-air-and-sea-5-facts-about-affections-of-marine-creatures",
-      "source_sha256": null,
-      "evidence_query": "complex songs to attract",
-      "evidence_found": false,
+      "source_url": "https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/marine-mammal-acoustics",
+      "source_sha256": "b6e4b5f0eda68a9a5c27b7919454899a78deed1911d1b57e41f4bdb701bb3704",
+      "evidence_query": "sing elaborate songs",
+      "evidence_found": true,
       "verified": false,
       "media_approved": false,
-      "status": "needs_more_research"
+      "status": "pending_human_review"
     },
     {
       "fact_id": "curio-20261117-06",
@@ -229,13 +264,13 @@
     },
     {
       "fact_id": "curio-20261117-14",
-      "source_url": "https://www.loc.gov/item/today-in-history/december-17/",
-      "source_sha256": null,
+      "source_url": "https://www.nps.gov/articles/wright-brothers.htm",
+      "source_sha256": "c5fa0d36d3aa35bf16fa4cd7f1f00cfb9a7d84de5718ffac7ee84f0099d60d51",
       "evidence_query": "120 feet",
-      "evidence_found": false,
+      "evidence_found": true,
       "verified": false,
       "media_approved": false,
-      "status": "needs_more_research"
+      "status": "pending_human_review"
     },
     {
       "fact_id": "curio-20261117-15",
@@ -348,8 +383,8 @@
       "status": "pending_human_review"
     }
   ],
-  "sources_archived": 10,
-  "evidence_found": 19,
+  "sources_archived": 15,
+  "evidence_found": 24,
   "approved_facts": 0,
   "disclaimer": "La coincidencia textual NO prueba la afirmación; los archivos Commons NO están aprobados hasta revisar derechos y contenido."
 }
