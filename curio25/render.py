@@ -70,8 +70,37 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         lines.append(rf'Dialogue: 0,{ass_stamp(start)},{ass_stamp(end)},Caption,,0,0,0,,{{\an5\pos(960,955)\q2}}'+text)
     Path(path).write_text(header+'\n'.join(lines)+'\n')
 
+
+SOLAR_BODIES = {'mercury','venus','earth','sun','moon','mars','jupiter',
+                'saturn','uranus','neptune','pluto'}
+
+
+def episode_identity(facts):
+    """Reject misleading solar-system metadata when creating other subjects."""
+    if not facts:
+        raise ValueError('Episodio sin hechos')
+    explicit = [f.get('episode_topic') for f in facts]
+    if any(not value for value in explicit) and any(
+            f.get('body') not in SOLAR_BODIES for f in facts):
+        raise ValueError('Las temáticas nuevas requieren episode_topic en cada hecho')
+    topics = {f.get('episode_topic') or 'sistema solar' for f in facts}
+    if len(topics) != 1:
+        raise ValueError('Las 25 curiosidades deben compartir un tema de episodio')
+    topic = topics.pop()
+    specified = {f['episode_title'] for f in facts if f.get('episode_title')}
+    if len(specified) > 1:
+        raise ValueError('Títulos de episodio inconsistentes')
+    title = specified.pop() if specified else (
+        '25 curiosidades del sistema solar que cambian tu forma de mirarlo'
+        if topic == 'sistema solar' else
+        f'25 curiosidades sobre {topic} que te sorprenderán')
+    if len(title) > 100 or len(title.strip()) < 10:
+        raise ValueError('Título de YouTube fuera de límites')
+    return topic, title
+
 def render(root,out,facts,config):
     root=Path(root); out=Path(out); out.mkdir(parents=True,exist_ok=True)
+    topic,title=episode_identity(facts)
     voice=PiperVoice.load(str(root/config['voice_model'])); sync=[]; lengths=[]
     for idx,f in enumerate(facts):
         parts=[]; cursor=0; cues=[]
@@ -130,15 +159,14 @@ def render(root,out,facts,config):
     music(out/'music.wav',300)
     result=subprocess.run(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i','concat.txt','-i','music.wav','-filter_complex','[0:a]loudnorm=I=-17:TP=-2:LRA=9[voice];[voice][1:a]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]','-map','0:v','-map','[a]','-t','300','-c:v','copy','-c:a','aac','-b:a','192k','-movflags','+faststart','episode.mp4'],cwd=out,capture_output=True,text=True)
     if result.returncode: raise RuntimeError(result.stderr[-4000:])
-    thumbnail(out/'thumbnail.jpg'); report=validate(out/'episode.mp4'); (out/'validation.json').write_text(json.dumps(report,indent=2))
-    title='25 curiosidades del sistema solar que cambian tu forma de mirarlo'
-    desc='Ciencia explicada con fotografías reales, gráficos originales, comparaciones y humor ligero.\nNarración sintética en español de España (Piper davefx); diagramas esquemáticos originales, sin escala.\n\n'
+    thumbnail(out/'thumbnail.jpg',topic=topic,photo_path=facts[0].get('media_path')); report=validate(out/'episode.mp4'); (out/'validation.json').write_text(json.dumps(report,indent=2))
+    desc=('Curiosidades del sistema solar explicadas con fotografías reales, gráficos originales y humor ligero.' if topic=='sistema solar' else f'25 datos curiosos originales sobre {topic}, con recursos acreditados y humor ligero.')+'\nNarración sintética en español de España (Piper davefx); diagramas esquemáticos originales, sin escala.\n\n'
     for c in chapters: desc+=f"{int(c['start'])//60:02}:{int(c['start'])%60:02} {c['title']}\n"
-    desc+='\nFUENTES (NASA Science):\n'+'\n'.join(sorted({f['source_url'] for f in facts}))
+    desc+='\nFUENTES DOCUMENTALES:\n'+'\n'.join(sorted({f['source_url'] for f in facts}))
     if any(f.get('media_credit') for f in facts):
         from .media import credits
-        desc+='\nIMÁGENES (dominio público; recorte, movimiento y rótulos):\n'+credits([f['media_record'] for f in facts if f.get('media_record')])+'\n'
-    desc+='\n\nCRÉDITOS: Guion y diagramas originales Curio25. Música original generada por síntesis (sin muestras externas). Voz Piper davefx, conjunto CC0. No afiliado a NASA.\n'
+        desc+='\nIMÁGENES (licencias aptas para uso comercial; créditos por recurso):\n'+credits([f['media_record'] for f in facts if f.get('media_record')])+'\n'
+    desc+='\n\nCRÉDITOS: Guion y diagramas originales Curio25. Música original generada por síntesis (sin muestras externas). Voz Piper davefx, conjunto CC0. Sin afiliación ni respaldo de las instituciones citadas.\n'
     if len(desc)>5000: raise ValueError('Descripción supera el límite de YouTube; editar sin omitir atribuciones')
     (out/'description.txt').write_text(desc); (out/'script.json').write_text(json.dumps([dict(f,media_path='data/media/'+f['media_record']['file']) if f.get('media_record') else f for f in facts],ensure_ascii=False,indent=2))
     (out/'metadata.json').write_text(json.dumps(dict(title=title,description=desc,chapters=chapters,synthetic_voice=True,contains_synthetic_media=False,sha256=report['sha256']),ensure_ascii=False,indent=2))
