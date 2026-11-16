@@ -29,7 +29,7 @@ def panel(f,index,path):
     d.ellipse((cx-4,cy-4,cx+4,cy+4),fill='#83e9df')
     d.rounded_rectangle((cx-9,cy-36,cx+9,cy-30),3,fill='#83e9df')
     _text(d,'/ 05:00',Box(1575,73,1656,113),21,True,max_lines=1,fill='#b4c7e2')
-    _text(d,'TIEMPO TRANSCURRIDO',Box(1465,117,1655,142),14,True,max_lines=1,fill='#83e9df')
+    _text(d,'TIEMPO TRANSCURRIDO',Box(1465,117,1655,142),14,True,minimum=13,max_lines=1,fill='#83e9df')
     record('five_minute_clock',CLOCK)
     number=Box(1690,65,1820,125); _text(d,f'{index:02}/25',number,34,True,max_lines=1); record('counter',number)
     info=_text(d,f['title'],TITLE,56,True,minimum=42); record('title',TITLE,font_size=info['font_size'],line_count=info['line_count'])
