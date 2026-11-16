@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "created_at": "2026-11-16T17:17:17.503237+00:00",
+  "created_at": "2026-11-16T18:25:38.014130+00:00",
   "publication_enabled": false,
   "production_ready": false,
   "total": 25,
@@ -11,7 +11,7 @@
       "path": "snapshots/5934ff1d66648a5b.txt",
       "sha256": "42ca4c02b79f12fb8fba2ec5f879ebfe987d59e8336b8e39d887b5466703e9ff",
       "final_url": "https://guides.loc.gov/chronicling-america-telephone-invention",
-      "archived_at": "2026-11-16T17:17:11.866057+00:00"
+      "archived_at": "2026-11-16T18:25:35.289003+00:00"
     },
     {
       "url": "https://guides.loc.gov/telecommunications-industry/history",
@@ -19,7 +19,7 @@
       "path": "snapshots/f67afe35002894e5.txt",
       "sha256": "babce381a7fb33d6edfdc15bfdefbd66a46909fd3b6cb3538317eb8d7dbd094d",
       "final_url": "https://guides.loc.gov/telecommunications-industry/history",
-      "archived_at": "2026-11-16T17:17:11.876698+00:00"
+      "archived_at": "2026-11-16T18:25:35.294136+00:00"
     },
     {
       "url": "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/",
@@ -27,7 +27,7 @@
       "path": "snapshots/cd35d407284621c4.txt",
       "sha256": "2aaf175c4e2b5d07cd3ec49b32b8ad176fca0855a7368ac4dc42ec46b4041a14",
       "final_url": "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/",
-      "archived_at": "2026-11-16T17:17:11.873743+00:00"
+      "archived_at": "2026-11-16T18:25:34.992636+00:00"
     },
     {
       "url": "https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/",
@@ -35,7 +35,7 @@
       "path": "snapshots/5be5784760882bbd.txt",
       "sha256": "16dd86e288730461f248dbeeb4d5fe4f48c164a42281f6953a0535d8a92b2f19",
       "final_url": "https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/",
-      "archived_at": "2026-11-16T17:17:11.871296+00:00"
+      "archived_at": "2026-11-16T18:25:35.527161+00:00"
     },
     {
       "url": "https://oceanservice.noaa.gov/facts/oceanwater.html",
@@ -43,7 +43,7 @@
       "path": "snapshots/ec9806e56749df30.txt",
       "sha256": "d98d74aa9afd266eefa42c0756c006dd62a6268d1686be67256d32dade310315",
       "final_url": "https://oceanservice.noaa.gov/facts/oceanwater.html",
-      "archived_at": "2026-11-16T17:17:11.960900+00:00"
+      "archived_at": "2026-11-16T18:25:35.274799+00:00"
     },
     {
       "url": "https://oceanservice.noaa.gov/news/feb26/undersea-creatures-valentines-day.html",
@@ -51,15 +51,15 @@
       "path": "snapshots/27351715981450b9.txt",
       "sha256": "78a20d4ccecf14ffc6c320b05f4f8f904e1ae44012a84f38b10f19ead0277cd4",
       "final_url": "https://oceanservice.noaa.gov/news/feb26/undersea-creatures-valentines-day.html",
-      "archived_at": "2026-11-16T17:17:11.962940+00:00"
+      "archived_at": "2026-11-16T18:25:35.480294+00:00"
     },
     {
       "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
       "status": "archived_unreviewed",
       "path": "snapshots/ae7b925ffb29b630.txt",
-      "sha256": "22320a4f02d01719df43e217c00e7338a2816a5f0dab31642d3aeb03f46f2ad2",
+      "sha256": "8e263b06a714e21d85ff35535db4f909aff6511cd6daa3a8b046e40902a29b56",
       "final_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
-      "archived_at": "2026-11-16T17:17:11.905312+00:00"
+      "archived_at": "2026-11-16T18:25:35.911452+00:00"
     },
     {
       "url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
@@ -67,7 +67,7 @@
       "path": "snapshots/96c66db2e415dddd.txt",
       "sha256": "ad2d2f13c34470222137f5a243a69bc9298768cbc9b25e4639bfbabca854585d",
       "final_url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
-      "archived_at": "2026-11-16T17:17:11.957949+00:00"
+      "archived_at": "2026-11-16T18:25:35.703344+00:00"
     },
     {
       "url": "https://www.fisheries.noaa.gov/feature-story/big-hearted-blue-whale",
@@ -75,7 +75,7 @@
       "path": "snapshots/e8ba11670fd5ceb7.txt",
       "sha256": "cfada9687b8e8c56a27407562e89d6ba992ddeed6252d0628ae79755ffe2efdc",
       "final_url": "https://www.fisheries.noaa.gov/feature-story/big-hearted-blue-whale",
-      "archived_at": "2026-11-16T17:17:12.160755+00:00"
+      "archived_at": "2026-11-16T18:25:35.746497+00:00"
     },
     {
       "url": "https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/marine-mammal-acoustics",
@@ -83,7 +83,7 @@
       "path": "snapshots/4dbf6d4d2306223e.txt",
       "sha256": "b6e4b5f0eda68a9a5c27b7919454899a78deed1911d1b57e41f4bdb701bb3704",
       "final_url": "https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/marine-mammal-acoustics",
-      "archived_at": "2026-11-16T17:17:12.151922+00:00"
+      "archived_at": "2026-11-16T18:25:35.773496+00:00"
     },
     {
       "url": "https://www.fisheries.noaa.gov/species/leatherback-turtle",
@@ -91,31 +91,31 @@
       "path": "snapshots/45348280ca9abfb2.txt",
       "sha256": "16929d86ef158c1935c64f66b163db441b05a8d3a45f547b90a0fef9d8bf89a4",
       "final_url": "https://www.fisheries.noaa.gov/species/leatherback-turtle",
-      "archived_at": "2026-11-16T17:17:12.165707+00:00"
+      "archived_at": "2026-11-16T18:25:35.795476+00:00"
     },
     {
       "url": "https://www.nps.gov/articles/000/grcatime-geoheritage.htm",
       "status": "archived_unreviewed",
       "path": "snapshots/5cdf2b82e60ea521.txt",
-      "sha256": "42b8d657e7d0e47aa2ca6d9ff2924bf84a6e89429884b6848dd9628a3397480f",
+      "sha256": "7a32134b557920863b407bad328fc5ff22b61ef97c315eb54f91e387627641e6",
       "final_url": "https://www.nps.gov/articles/000/grcatime-geoheritage.htm",
-      "archived_at": "2026-11-16T17:17:11.995640+00:00"
+      "archived_at": "2026-11-16T18:25:35.958151+00:00"
     },
     {
       "url": "https://www.nps.gov/articles/old-faithful-geyser.htm",
       "status": "archived_unreviewed",
       "path": "snapshots/80bdf0d9578db0a2.txt",
-      "sha256": "462650c95daa532caaac80dfa7419433809838f82a71752fa2685465816bf236",
+      "sha256": "bb45958817f105f754c6adcf214719d16ecc870fb02a891f24a5fc1dbdb08083",
       "final_url": "https://www.nps.gov/articles/old-faithful-geyser.htm",
-      "archived_at": "2026-11-16T17:17:12.016486+00:00"
+      "archived_at": "2026-11-16T18:25:35.990191+00:00"
     },
     {
       "url": "https://www.nps.gov/articles/wright-brothers.htm",
       "status": "archived_unreviewed",
       "path": "snapshots/b7bc2a4f0465eb58.txt",
-      "sha256": "c5fa0d36d3aa35bf16fa4cd7f1f00cfb9a7d84de5718ffac7ee84f0099d60d51",
+      "sha256": "4383558f98be2fd3afe34bc3a081f1c388ae8606ba69da73c034127f42d056a7",
       "final_url": "https://www.nps.gov/articles/wright-brothers.htm",
-      "archived_at": "2026-11-16T17:17:12.077692+00:00"
+      "archived_at": "2026-11-16T18:25:35.890410+00:00"
     },
     {
       "url": "https://www.nps.gov/yell/learn/nature/geology.htm",
@@ -123,15 +123,15 @@
       "path": "snapshots/b574c93e37581aa4.txt",
       "sha256": "7e045043ae02422fb6313cad68051342864bf98e7ecb9ab99b542c4fee32343d",
       "final_url": "https://www.nps.gov/yell/learn/nature/geology.htm",
-      "archived_at": "2026-11-16T17:17:12.116302+00:00"
+      "archived_at": "2026-11-16T18:25:35.929636+00:00"
     },
     {
       "url": "https://www.whoi.edu/ocean-learning-hub/ocean-facts/anglerfish/",
       "status": "archived_unreviewed",
       "path": "snapshots/1877b83055ffc337.txt",
-      "sha256": "3601638fb2a6d142d724a6be2863ab5ea886bd6aa56a6a6f6f77cf6e4dc51860",
+      "sha256": "8425a3af0eeed9ec5fd0a6020f482307ab71e845ad83f84625c8910bc897497c",
       "final_url": "https://www.whoi.edu/ocean-learning-hub/ocean-facts/anglerfish/",
-      "archived_at": "2026-11-16T17:17:12.353789+00:00"
+      "archived_at": "2026-11-16T18:25:36.566188+00:00"
     }
   ],
   "facts": [
@@ -168,7 +168,7 @@
     {
       "fact_id": "curio-20261117-04",
       "source_url": "https://www.whoi.edu/ocean-learning-hub/ocean-facts/anglerfish/",
-      "source_sha256": "3601638fb2a6d142d724a6be2863ab5ea886bd6aa56a6a6f6f77cf6e4dc51860",
+      "source_sha256": "8425a3af0eeed9ec5fd0a6020f482307ab71e845ad83f84625c8910bc897497c",
       "evidence_query": "physically fuse with a female",
       "evidence_found": true,
       "verified": false,
@@ -268,7 +268,7 @@
     {
       "fact_id": "curio-20261117-14",
       "source_url": "https://www.nps.gov/articles/wright-brothers.htm",
-      "source_sha256": "c5fa0d36d3aa35bf16fa4cd7f1f00cfb9a7d84de5718ffac7ee84f0099d60d51",
+      "source_sha256": "4383558f98be2fd3afe34bc3a081f1c388ae8606ba69da73c034127f42d056a7",
       "evidence_query": "120 feet",
       "evidence_found": true,
       "verified": false,
@@ -298,7 +298,7 @@
     {
       "fact_id": "curio-20261117-17",
       "source_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
-      "source_sha256": "22320a4f02d01719df43e217c00e7338a2816a5f0dab31642d3aeb03f46f2ad2",
+      "source_sha256": "8e263b06a714e21d85ff35535db4f909aff6511cd6daa3a8b046e40902a29b56",
       "evidence_query": "CMOS",
       "evidence_found": true,
       "verified": false,
@@ -368,7 +368,7 @@
     {
       "fact_id": "curio-20261117-24",
       "source_url": "https://www.nps.gov/articles/old-faithful-geyser.htm",
-      "source_sha256": "462650c95daa532caaac80dfa7419433809838f82a71752fa2685465816bf236",
+      "source_sha256": "bb45958817f105f754c6adcf214719d16ecc870fb02a891f24a5fc1dbdb08083",
       "evidence_query": "3,700",
       "evidence_found": true,
       "verified": false,
@@ -378,7 +378,7 @@
     {
       "fact_id": "curio-20261117-25",
       "source_url": "https://www.nps.gov/articles/000/grcatime-geoheritage.htm",
-      "source_sha256": "42b8d657e7d0e47aa2ca6d9ff2924bf84a6e89429884b6848dd9628a3397480f",
+      "source_sha256": "7a32134b557920863b407bad328fc5ff22b61ef97c315eb54f91e387627641e6",
       "evidence_query": "1,840 million years old",
       "evidence_found": true,
       "verified": false,
