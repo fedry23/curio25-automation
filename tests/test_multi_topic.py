@@ -29,7 +29,7 @@ def test_non_solar_requires_explicit_topic():
 
 
 def test_mixed_topics_rejected():
-    with pytest.raises(ValueError,match='mismo tema'):
+    with pytest.raises(ValueError,match='tema de episodio'):
         episode_identity([fact('anfibios'),fact('ingeniería')])
 
 
