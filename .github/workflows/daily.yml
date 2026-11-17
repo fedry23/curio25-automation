@@ -24,6 +24,7 @@ jobs:
         with:
           python-version: '3.12'
           cache: pip
+          cache-dependency-path: requirements.lock
       - name: Verificar cola editorial ANTES de instalar y renderizar
         id: preflight
         env:
@@ -38,13 +39,25 @@ jobs:
         run: python -m curio25.editorial
       - name: Instalar FFmpeg
         if: steps.preflight.outputs.ready == 'true'
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+        run: |
+          if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null || ! test -e /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg fonts-dejavu-core
+          fi
       - name: Instalar dependencias Python
         if: steps.preflight.outputs.ready == 'true'
         run: pip install -r requirements.lock
       - name: Tests
         if: steps.preflight.outputs.ready == 'true'
         run: pytest -q
+      - name: Recuperar modelo de voz verificado desde cache
+        if: steps.preflight.outputs.ready == 'true'
+        uses: actions/cache@v4
+        with:
+          path: |
+            models/es_ES-davefx-medium.onnx
+            models/es_ES-davefx-medium.onnx.json
+          key: curio25-piper-davefx-medium-d2c9224e122321aa
       - name: Descargar voz y comprobar integridad
         if: steps.preflight.outputs.ready == 'true'
         run: python scripts/download_voice.py

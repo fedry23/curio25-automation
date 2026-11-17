@@ -1,4 +1,4 @@
-import hashlib,json,sqlite3
+import hashlib,json,sqlite3,os,tempfile
 from pathlib import Path
 
 def sha(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()
@@ -24,7 +24,19 @@ def reserve(db,episode,facts):
 def export_history(db,path):
     data={'episodes':[dict(zip(['id','status','sha','video_id'],r)) for r in db.execute('SELECT id,status,sha,video_id FROM episodes')], 'used_facts':[dict(zip(['id','episode'],r)) for r in db.execute('SELECT * FROM used')], 'claims':[dict(zip(['digest','episode'],r)) for r in db.execute('SELECT * FROM claims')]}
     data['sources']=[dict(zip(['episode','fact_id','url','snapshot_sha256','narration_sha256'],r)) for r in db.execute('SELECT * FROM episode_sources')]
-    Path(path).write_text(json.dumps(data,indent=2)+'\n')
+    # Publish a complete JSON snapshot or leave the previous version untouched.
+    # A cancelled runner must not leave a half-written history file.
+    dest=Path(path)
+    fd,tmp=tempfile.mkstemp(prefix='.'+dest.name+'.',suffix='.tmp',dir=dest.parent)
+    try:
+        with os.fdopen(fd,'w',encoding='utf-8') as output:
+            output.write(json.dumps(data,indent=2)+'\n')
+            output.flush()
+            os.fsync(output.fileno())
+        os.replace(tmp,dest)
+    finally:
+        if os.path.exists(tmp):
+            os.unlink(tmp)
 
 def restore(db,path):
     if not Path(path).exists(): return

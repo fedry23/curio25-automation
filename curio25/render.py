@@ -1,4 +1,12 @@
-import array, json, logging, math, re, subprocess, wave
+"""Video composition orchestrator for one 25-scene Curio25 episode.
+
+Subtitles, FFmpeg inspection and episode metadata are separate tested modules.
+Public imports are retained so older scripts and tests still work.
+"""
+import json
+import logging
+import subprocess
+import wave
 from pathlib import Path
 from piper import PiperVoice
 from piper.config import SynthesisConfig
@@ -11,16 +19,10 @@ from .branding import programme_lengths, INTRO_SECONDS, OUTRO_SECONDS
 from .soundtrack import original_music, lively_mix_filter
 from .theme import FONT_DIR,decorative_filters
 from .festive_branding import render_brand_clip,render_frame
+from .captions import stamp,ass_stamp,write_ass
+from .video_io import run,probe,duration,validate
+from .episode_meta import SOLAR_BODIES,episode_identity
 LOG=logging.getLogger(__name__)
-def run(args):
-    result=subprocess.run(args,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
-    if result.returncode: raise RuntimeError(result.stderr[-5000:])
-    return result.stdout
-
-def probe(path): return json.loads(run(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(path)]))
-def duration(path): return float(probe(path)['format']['duration'])
-def stamp(s):
-    ms=round(s*1000); return f'{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02},{ms%1000:03}'
 def allocate(lengths,target=300):
     if len(lengths)!=25: raise ValueError('25 segmentos obligatorios')
     minimum=sum(lengths)+.35*25
@@ -29,73 +31,8 @@ def allocate(lengths,target=300):
     if pad>4.5: raise ValueError('Guion demasiado corto; añadir explicación editorial')
     return [v+pad for v in lengths]
 
-def validate(path,expected=300):
-    p=probe(path); video=next(s for s in p['streams'] if s['codec_type']=='video'); audio=next(s for s in p['streams'] if s['codec_type']=='audio')
-    if (video['width'],video['height'])!=(1920,1080): raise ValueError('Resolución incorrecta')
-    if abs(float(p['format']['duration'])-expected)>5: raise ValueError('Duración fuera de tolerancia')
-    run(['ffmpeg','-v','error','-xerror','-err_detect','explode','-i',str(path),'-f','null','-'])
-    stats=subprocess.run(['ffmpeg','-hide_banner','-i',str(path),'-af','volumedetect','-vn','-f','null','-'],capture_output=True,text=True).stderr
-    match=re.search(r'max_volume: ([-\d.]+) dB',stats)
-    if not match or not -35<float(match[1])<0: raise ValueError('Audio ausente, demasiado bajo o saturado')
-    return dict(duration=float(p['format']['duration']),width=video['width'],height=video['height'],audio_codec=audio['codec_name'],max_volume_db=float(match[1]),sha256=sha(path),decode_errors=0)
-
 def music(path,seconds):
     original_music(path,seconds)
-
-def ass_stamp(seconds):
-    centis=round(seconds*100)
-    return f'{centis//360000}:{centis//6000%60:02}:{centis//100%60:02}.{centis%100:02}'
-
-def write_ass(path,cues):
-    # Explicit PlayRes prevents libass from scaling a tiny implicit 384x288 canvas.
-    header="""[Script Info]
-ScriptType: v4.00+
-PlayResX: 1920
-PlayResY: 1080
-WrapStyle: 2
-ScaledBorderAndShadow: yes
-
-[V4+ Styles]
-Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,Nunito SemiBold,44,&H00533118,&H00533118,&H50FFFFFF,&H60FFFFFF,0,0,0,0,100,100,0,0,3,10,0,5,90,90,60,1
-
-[Events]
-Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-"""
-    lines=[]
-    for start,end,text_lines in cues:
-        escaped=[line.replace('\\','\\\\').replace('{','\\{').replace('}','\\}') for line in text_lines]
-        text=r'\N'.join(escaped)
-        lines.append(rf'Dialogue: 0,{ass_stamp(start)},{ass_stamp(end)},Caption,,0,0,0,,{{\an5\pos(960,955)\q2}}'+text)
-    Path(path).write_text(header+'\n'.join(lines)+'\n')
-
-
-SOLAR_BODIES = {'mercury','venus','earth','sun','moon','mars','jupiter',
-                'saturn','uranus','neptune','pluto'}
-
-
-def episode_identity(facts):
-    """Reject misleading solar-system metadata when creating other subjects."""
-    if not facts:
-        raise ValueError('Episodio sin hechos')
-    explicit = [f.get('episode_topic') for f in facts]
-    if any(not value for value in explicit) and any(
-            f.get('body') not in SOLAR_BODIES for f in facts):
-        raise ValueError('Las temáticas nuevas requieren episode_topic en cada hecho')
-    topics = {f.get('episode_topic') or 'sistema solar' for f in facts}
-    if len(topics) != 1:
-        raise ValueError('Las 25 curiosidades deben compartir un tema de episodio')
-    topic = topics.pop()
-    specified = {f['episode_title'] for f in facts if f.get('episode_title')}
-    if len(specified) > 1:
-        raise ValueError('Títulos de episodio inconsistentes')
-    title = specified.pop() if specified else (
-        '25 curiosidades del sistema solar que cambian tu forma de mirarlo'
-        if topic == 'sistema solar' else
-        f'25 curiosidades sobre {topic} que te sorprenderán')
-    if len(title) > 100 or len(title.strip()) < 10:
-        raise ValueError('Título de YouTube fuera de límites')
-    return topic, title
 
 def render(root,out,facts,config):
     root=Path(root); out=Path(out); out.mkdir(parents=True,exist_ok=True)

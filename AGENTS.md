@@ -9,6 +9,7 @@ Este repositorio es independiente de UMBRAL. Trabajar solo aquí; no modificar `
 - Candidatos pendientes: `data/candidates/*.json`; **leerlos antes de investigar nuevos temas**, no duplicar sus afirmaciones ni promoverlos sin fuentes/medios completos. Los candidatos `pending` no deben añadirse a `data/facts.json` ni considerarse verificados.
 - Fotografías: `data/media/assets.json` y registros de licencia adyacentes.
 - Estética y zonas seguras: `curio25/layout.py`, `art.py`, `render.py`.
+- Componentes del motor: `curio25/video_io.py` (FFmpeg/validación), `curio25/captions.py` (SRT/ASS), `curio25/episode_meta.py` (tema/título); `curio25/render.py` coordina el render y mantiene imports antiguos.
 - Operación: `.github/workflows/`, `docs/` y README.
 
 Antes de editar, leer README y los archivos afectados con la integración GitHub. Crear una rama y un pull request con el cambio concreto cuando sea posible. Para cambios multarchivo, publicar un único commit coherente; no dejar una referencia a una foto/modelo ausente. No asumir que una respuesta de la integración equivale a tests ejecutados: comprobar el workflow de tests del commit y su resultado.
