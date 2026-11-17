@@ -5,7 +5,9 @@ from .render import render
 ROOT=Path(__file__).resolve().parents[1]
 def load_facts(root,db):
     all_facts=json.loads((root/'data/facts.json').read_text()); used={r[0] for r in db.execute('SELECT fact_id FROM used')}
-    facts=[f for f in all_facts if f['id'] not in used and f['review_status']=='verified'][:25]
+    from .queue import next_batch
+    past={r[0] for r in db.execute('SELECT digest FROM claims')}
+    facts=next_batch(all_facts,used,past)
     if len(facts)!=25: raise ValueError(f'Solo quedan {len(facts)} datos revisados. Añadir 25 nuevos; nunca repetir ni inventar.')
     validate_facts(root,facts)
     return facts

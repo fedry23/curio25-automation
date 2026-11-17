@@ -9,6 +9,9 @@ on:
         default: review_pilot
   schedule:
     - cron: '15 5 * * *'
+    # Fallback: una segunda oportunidad si GitHub retrasa/omite el primer cron.
+    # Misma fecha de episodio + reserva SQLite/historial: nunca duplicar.
+    - cron: '47 8 * * *'
 permissions:
   contents: write
 concurrency:

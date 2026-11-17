@@ -23,6 +23,16 @@ Antes de editar, leer README y los archivos afectados con la integración GitHub
 - Música de marca: instrumental original ligero y juguetón; nada de música, fragmentos o melodías de XpressTV. Aplicar ducking para priorizar la voz. La intro/outro, el reloj y las zonas de subtítulos no deben alterarse ni durar más de cinco minutos en conjunto.
 - Referencia de implementación: `docs/VOICE_MUSIC_EDITORIAL_V2.md`. Los renders de candidatos son **previsualizaciones no publicables**.
 
+## Continuidad anual y cola de publicación
+
+- El objetivo son **365 episodios al año** (366 en un año natural bisiesto) y **25 hechos únicos por episodio**, no 365 reutilizaciones del piloto.
+- Mantener una **reserva mínima de 30 episodios revisados** (750 hechos con 750 imágenes licenciadas), una reserva deseable de 60 y una alerta crítica por debajo de 7.
+- El módulo `curio25.queue` selecciona siempre lotes FIFO de 25 hechos del mismo `episode_topic` y título. No usar `[:25]` global cuando se mezclen temáticas.
+- El workflow `annual-coverage.yml` evalúa diariamente la reserva, conserva informes y abre/actualiza una única incidencia hasta que se recupere la cola. Una incidencia abierta no significa que se hayan aprobado fuentes o fotos.
+- El segundo cron de `daily.yml` es una oportunidad de recuperación: el mismo identificador de episodio y el historial evitan duplicar la reserva. Los cron de GitHub pueden retrasarse o perderse: no garantizan puntualidad.
+- A medio plazo, con OAuth y consentimiento de publicación explícitos, preparar y programar semanas de MP4s privados para que YouTube publique a la hora deseada. **No activar automáticamente** esa fase.
+- Una tarea editorial que solo aporta 25 datos al día no puede crear reserva mientras se consumen 25: hace falta producir y revisar más de un día de datos por cada día de emisión durante la fase de arranque.
+
 ## Invariantes
 
 - Publicación YouTube desactivada hasta aprobación explícita del usuario y OAuth del canal. No cambiar `publication_enabled`, `approved_episode_sha256` ni añadir pasos de publicación al workflow por una petición genérica de mejora estética o contenido.

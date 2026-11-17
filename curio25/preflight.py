@@ -4,6 +4,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+from .queue import next_batch
 
 
 def digest(fact):
@@ -49,14 +50,12 @@ def assess(root, mode, episode):
     else:
         eligible = [f for f in facts if f["id"] not in used
                     and f.get("review_status") == "verified"]
-        selected = eligible[:25]
+        recorded = {row["digest"] for row in history.get("claims", [])}
+        selected = next_batch(facts, used, recorded)
         if len(selected) < 25:
             return result("CATALOG_EXHAUSTED",
                           f"Solo quedan {len(eligible)} datos verificados; hacen falta 25. "
                           "No se renderiza ni publica.", available=len(eligible))
-        recorded = {row["digest"] for row in history.get("claims", [])}
-        if any(digest(f) in recorded for f in selected):
-            raise ValueError("Afirmación repetida con otro identificador")
 
     if len({digest(f) for f in selected}) != 25:
         raise ValueError("Hay dos afirmaciones idénticas")
