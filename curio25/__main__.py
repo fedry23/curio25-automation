@@ -1,4 +1,4 @@
-import argparse,json,logging,sqlite3,sys
+import argparse,json,logging
 from pathlib import Path
 from .state import connect,reserve,restore,export_history,finalize_render,begin_revision
 from .render import render

@@ -5,6 +5,11 @@ on:
     branches: [main]
     paths:
       - 'curio25/preview.py'
+      - 'curio25/captions.py'
+      - 'curio25/video_io.py'
+      - 'curio25/episode_meta.py'
+      - 'data/candidates/2026-11-17.json'
+      - 'data/candidates/media-2026-11-17/**'
       - 'curio25/render.py'
       - 'curio25/voice_style.py'
       - 'curio25/branding.py'
@@ -31,12 +36,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+          cache: pip
+          cache-dependency-path: requirements.lock
+      - name: Comprobar FFmpeg y fuentes del runner
+        run: |
+          if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null || ! test -e /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg fonts-dejavu-core
+          fi
       - run: pip install -r requirements.lock
-      - name: Auditoría y pruebas
-        run: python -m curio25.editorial && pytest -q
+      - name: Auditoría y pruebas de la previsualización
+        run: python -m curio25.editorial && python -m pytest -q tests/test_preview.py tests/test_engineering.py
       - name: Mosaico, fotos y metadatos NO aprobados
         run: python -m curio25.preview --contact-only
+      - name: Reutilizar voz ya descargada cuando su hash esté aprobado
+        uses: actions/cache@v4
+        with:
+          path: |
+            models/es_ES-davefx-medium.onnx
+            models/es_ES-davefx-medium.onnx.json
+          key: curio25-piper-davefx-medium-d2c9224e122321aa
       - name: Descarga de voz neuronal con SHA256
         run: python scripts/download_voice.py
       - name: Render técnico de 300 segundos sin YouTube
