@@ -1,0 +1,114 @@
+{
+  "episode_candidate_date": "2026-11-18",
+  "production_ready": false,
+  "status": "pending",
+  "note": "Cinco ideas nuevas, no un lote completo. Las dos primeras fuentes se consultaron en web pero no hay snapshots archivados ni hashes. No se han aprobado medios. No renderizar ni publicar.",
+  "fact_count": 5,
+  "facts": [
+    {
+      "id": "curio-20261118-01",
+      "episode_topic": "curiosidades del mundo",
+      "category": "animales",
+      "title": "El colibrí puede volar marcha atrás",
+      "claim": "Los colibríes pueden mantener vuelo estacionario y volar hacia atrás.",
+      "source_url": "https://nationalzoo.si.edu/migratory-birds/hummingbirds",
+      "evidence_excerpt": "Hummingbirds ... can fly backward and upside-down as well.",
+      "narration": "Un colibrí puede hacer algo que a muchos pájaros les cuesta: volar hacia atrás. También se queda suspendido ante las flores, como un diminuto helicóptero con prisa por desayunar.",
+      "graphic_plan": "Diagrama original de flechas de vuelo y colibrí; requiere fotografía licenciada",
+      "review_status": "pending",
+      "source_snapshot_sha256": null,
+      "asset_sha256": null,
+      "media_review_status": "pending",
+      "pending_actions": [
+        "archivar fuente exacta y calcular SHA256",
+        "revisar afirmación y narración",
+        "descargar medio con licencia comercial y autor y SHA256",
+        "comprobar zonas seguras de subtítulos"
+      ]
+    },
+    {
+      "id": "curio-20261118-02",
+      "episode_topic": "curiosidades del mundo",
+      "category": "naturaleza",
+      "title": "La lava puede dibujar columnas hexagonales",
+      "claim": "Al enfriarse y contraerse, algunas coladas basálticas forman columnas poligonales.",
+      "source_url": "https://www.usgs.gov/media/images/columns-basaltic-lava-sheepeaters-cliff-yellowstone",
+      "evidence_excerpt": "As hot lava cools, it contracts, often forming a regular set of joints perpendicular to the cooling surfaces.",
+      "narration": "¿Quién ha puesto geometría en un volcán? Al enfriarse, ciertas coladas de lava se contraen y se agrietan formando columnas, a menudo hexagonales. La naturaleza también sabe usar la regla.",
+      "graphic_plan": "Corte transversal original de columnas; foto USGS requiere descarga y hash",
+      "review_status": "pending",
+      "source_snapshot_sha256": null,
+      "asset_sha256": null,
+      "media_review_status": "pending",
+      "pending_actions": [
+        "archivar fuente exacta y calcular SHA256",
+        "revisar afirmación y narración",
+        "descargar medio con licencia comercial y autor y SHA256",
+        "comprobar zonas seguras de subtítulos"
+      ]
+    },
+    {
+      "id": "curio-20261118-03",
+      "episode_topic": "curiosidades del mundo",
+      "category": "ciencia",
+      "title": "El hielo flota en agua líquida",
+      "claim": "El hielo de agua ordinaria es menos denso que el agua líquida.",
+      "source_url": null,
+      "evidence_excerpt": null,
+      "narration": "¿Por qué flotan los cubitos? Al congelarse, el agua forma una estructura que ocupa más volumen y resulta menos densa. Parece magia de cocina, pero es física de primera.",
+      "graphic_plan": "Diagrama molecular esquemático propio; buscar fuente primaria",
+      "review_status": "pending",
+      "source_snapshot_sha256": null,
+      "asset_sha256": null,
+      "media_review_status": "pending",
+      "pending_actions": [
+        "archivar fuente exacta y calcular SHA256",
+        "revisar afirmación y narración",
+        "descargar medio con licencia comercial y autor y SHA256",
+        "comprobar zonas seguras de subtítulos"
+      ]
+    },
+    {
+      "id": "curio-20261118-04",
+      "episode_topic": "curiosidades del mundo",
+      "category": "historia",
+      "title": "El calendario gregoriano corrigió un desfase",
+      "claim": "La reforma gregoriana de 1582 ajustó el calendario y omitió fechas en territorios que la adoptaron entonces.",
+      "source_url": null,
+      "evidence_excerpt": null,
+      "narration": "Hubo lugares donde el calendario saltó varios días de golpe. No fue una máquina del tiempo: una reforma intentó corregir el desfase acumulado con las estaciones. Ojalá sirviera para saltarse los lunes.",
+      "graphic_plan": "Calendario antes/después; precisar territorios y fuente",
+      "review_status": "pending",
+      "source_snapshot_sha256": null,
+      "asset_sha256": null,
+      "media_review_status": "pending",
+      "pending_actions": [
+        "archivar fuente exacta y calcular SHA256",
+        "revisar afirmación y narración",
+        "descargar medio con licencia comercial y autor y SHA256",
+        "comprobar zonas seguras de subtítulos"
+      ]
+    },
+    {
+      "id": "curio-20261118-05",
+      "episode_topic": "curiosidades del mundo",
+      "category": "tecnología",
+      "title": "Los códigos QR incorporan corrección de errores",
+      "claim": "Los códigos QR emplean redundancia que permite recuperar información cuando una parte está dañada.",
+      "source_url": null,
+      "evidence_excerpt": null,
+      "narration": "Un código QR puede seguir funcionando aunque parte del dibujo esté estropeada. Lleva información redundante para corregir errores, como un pequeño plan B impreso. Eso sí, tampoco es indestructible.",
+      "graphic_plan": "QR demostrativo original no funcional; fuente técnica pendiente",
+      "review_status": "pending",
+      "source_snapshot_sha256": null,
+      "asset_sha256": null,
+      "media_review_status": "pending",
+      "pending_actions": [
+        "archivar fuente exacta y calcular SHA256",
+        "revisar afirmación y narración",
+        "descargar medio con licencia comercial y autor y SHA256",
+        "comprobar zonas seguras de subtítulos"
+      ]
+    }
+  ]
+}
