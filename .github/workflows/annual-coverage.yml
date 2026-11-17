@@ -1,0 +1,67 @@
+name: Curio25 - Vigilar 365 publicaciones
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 7 * * *'
+    - cron: '47 12 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'curio25/coverage.py'
+      - 'curio25/queue.py'
+      - 'data/facts.json'
+      - 'data/media/assets.json'
+      - 'data/history.json'
+      - 'data/candidates/*.json'
+      - 'config.json'
+      - '.github/workflows/annual-coverage.yml'
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: curio25-annual-coverage
+  cancel-in-progress: false
+jobs:
+  stock:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Medir reserva real de datos e imágenes verificadas
+        id: stock
+        run: python -m curio25.coverage
+      - name: Conservar resumen y métricas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: curio25-stock-${{ github.run_id }}
+          path: build/annual-coverage/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Crear o actualizar una única alerta editorial
+        if: steps.stock.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STATUS: ${{ steps.stock.outputs.status }}
+        shell: bash
+        run: |
+          gh label create curio25-stock-alert --force --color F9A825 \
+            --description 'Reserva editorial de Curio25 insuficiente' >/dev/null
+          ISSUE="$(gh issue list --state all --label curio25-stock-alert \
+            --json number --jq '.[0].number' 2>/dev/null || true)"
+          if [ "$STATUS" = 'BUFFERED' ]; then
+            if [ -n "$ISSUE" ]; then
+              gh issue edit "$ISSUE" --body-file build/annual-coverage/coverage.md
+              gh issue close "$ISSUE" --reason completed || true
+            fi
+          elif [ -n "$ISSUE" ]; then
+            gh issue edit "$ISSUE" --body-file build/annual-coverage/coverage.md
+            gh issue reopen "$ISSUE" || true
+          else
+            gh issue create --title 'Curio25: riesgo de quedarse sin episodios diarios' \
+              --label curio25-stock-alert \
+              --body-file build/annual-coverage/coverage.md
+          fi
