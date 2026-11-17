@@ -1,67 +1,101 @@
-name: Curio25 - Investigar candidatos (sin publicar)
+name: Curio25 - Investigar nuevos candidatos (sin publicar)
 on:
   workflow_dispatch:
     inputs:
       episode:
-        description: Fecha del lote
-        required: true
-        default: "2026-11-17"
+        description: Fecha del lote (vacio para automatico)
+        required: false
+        default: ''
+  schedule:
+    - cron: '13 10 * * *'
+    - cron: '13 16 * * *'
   push:
     branches: [main]
     paths:
-      - "curio25/research.py"
-      - "data/candidates/*.json"
-      - ".github/workflows/candidate-research.yml"
+      - 'curio25/research.py'
+      - 'curio25/candidate_queue.py'
+      - 'data/candidates/*.json'
+      - '.github/workflows/candidate-research.yml'
 permissions:
   contents: write
   pull-requests: write
 concurrency:
   group: curio25-research
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   collect:
     runs-on: ubuntu-24.04
-    timeout-minutes: 12
+    timeout-minutes: 18
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-      - run: pip install requests==2.34.2
-      - name: Archivar fuentes y buscar imagenes
-        id: research
+          python-version: '3.12'
+      - name: Elegir lote pendiente antes de consumir red
+        id: pick
         env:
           CURIO_EPISODE: ${{ inputs.episode }}
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
         run: |
-          EPISODE="${CURIO_EPISODE:-2026-11-17}"
-          python -m curio25.research --episode "$EPISODE" --out "build/research-$EPISODE"
+          EPISODE="${CURIO_EPISODE:-}"
+          if [ -z "$EPISODE" ]; then EPISODE="$(python -m curio25.candidate_queue)"; fi
+          if [ "$EPISODE" = 'NONE' ]; then
+            echo 'pending=false' >> "$GITHUB_OUTPUT"
+            echo 'No hay nuevos lotes pendientes.'
+            exit 0
+          fi
+          if [[ ! "$EPISODE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || [ ! -f "data/candidates/$EPISODE.json" ]; then
+            echo "::error::Lote de fecha inválida o no disponible: $EPISODE"
+            exit 1
+          fi
+          # Do not create another research PR while this date is already awaiting review.
+          if [ -z "${CURIO_EPISODE:-}" ]; then
+            if gh pr list --state open --limit 100 --json headRefName --jq '.[].headRefName' |
+                 grep -q "^curio25-research-${EPISODE}-"; then
+              echo 'pending=false' >> "$GITHUB_OUTPUT"
+              echo "El lote $EPISODE tiene una PR de investigación sin revisar."
+              exit 0
+            fi
+          fi
           echo "episode=$EPISODE" >> "$GITHUB_OUTPUT"
+          echo 'pending=true' >> "$GITHUB_OUTPUT"
+      - run: pip install requests==2.34.2
+        if: steps.pick.outputs.pending == 'true'
+      - name: Recopilar fuentes y fotos candidatas
+        id: research
+        if: steps.pick.outputs.pending == 'true'
+        env:
+          EPISODE: ${{ steps.pick.outputs.episode }}
+        run: python -m curio25.research --episode "$EPISODE" --out "build/research-$EPISODE"
       - name: Guardar evidencias
-        if: always()
+        if: steps.pick.outputs.pending == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: curio25-research-${{ github.run_id }}
           path: build/research-*/
           retention-days: 14
-      - name: Crear PR de revisión
+      - name: Abrir PR de auditoria, sin aprobar material
         if: steps.research.outcome == 'success' && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
-          EPISODE: ${{ steps.research.outputs.episode }}
+          EPISODE: ${{ steps.pick.outputs.episode }}
+        shell: bash
         run: |
           BRANCH="curio25-research-$EPISODE-${GITHUB_RUN_ID}"
           DEST="data/candidates/research-$EPISODE"
-          git config user.name 'curio25-research-bot'
-          git config user.email 'curio25-research-bot@users.noreply.github.com'
+          git config user.name curio25-research-bot
+          git config user.email curio25-research-bot@users.noreply.github.com
           git switch -c "$BRANCH"
           mkdir -p "$DEST"
           cp -a "build/research-$EPISODE/." "$DEST/"
           git add "$DEST"
-          git diff --cached --quiet && exit 0
-          git commit -m "Archivar fuentes candidatas para $EPISODE"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Archivar evidencias $EPISODE (sin verificar)"
           if git push -u origin "$BRANCH"; then
-            gh pr create --base main --head "$BRANCH" --title "Curio25: revisar fuentes e imágenes $EPISODE" \
-              --body "Investigación automática, aún sin aprobación editorial ni licencias comprobadas. NO publicar vídeos." || true
+            gh pr create --base main --head "$BRANCH" \
+              --title "Curio25: revisar fuentes y fotos $EPISODE (sin aprobar)" \
+              --body "Fuentes e imagenes candidatas, sin aprobacion editorial. No subir a YouTube." || true
           else
-            echo "::warning::No se pudo crear rama; consultar artefacto"
+            echo '::warning::No se pudo guardar rama; consultar artefacto.'
           fi

@@ -8,6 +8,8 @@ on:
     branches: [main]
     paths:
       - 'curio25/coverage.py'
+      - 'curio25/calendar.py'
+      - 'curio25/candidate_queue.py'
       - 'curio25/queue.py'
       - 'data/facts.json'
       - 'data/media/assets.json'
@@ -33,6 +35,8 @@ jobs:
       - name: Medir reserva real de datos e imágenes verificadas
         id: stock
         run: python -m curio25.coverage
+      - name: Preparar calendario local de 30 días (sin autorización de publicación)
+        run: python -m curio25.calendar --out build/annual-coverage/calendar.json
       - name: Conservar resumen y métricas
         if: always()
         uses: actions/upload-artifact@v4
