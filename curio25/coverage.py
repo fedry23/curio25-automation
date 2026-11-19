@@ -9,6 +9,7 @@ from pathlib import Path
 
 from .editorial import audit
 from .queue import ready_batches
+from .state import production_episode
 
 
 def read_json(path):
@@ -71,6 +72,7 @@ def forecast(root, today=None, minimum_days=30):
         "youtube_publication_enabled":config.get("publication_enabled") is True,
         "recorded_scheduled_uploads":sum(e.get("status")=="scheduled" for e in history.get("episodes",[])),
         "confirmed_public_uploads":None,
+        "recorded_confirmed_publications":len({e["video_id"] for e in history.get("episodes",[]) if production_episode(e["id"]) and e.get("status")=="published" and e.get("video_id")}),
         "can_guarantee_annual_publications":False,
         "warning":"El informe no consulta YouTube; un borrador no es un episodio aprobado. Los cron pueden retrasarse y servicios externos fallar."
     }
@@ -87,6 +89,7 @@ def markdown(r):
         "**Candidatos sin aprobar:** "+str(r["unreviewed_candidate_facts"]),
         "**Faltan para 30 días de reserva:** "+str(r["missing_facts_to_minimum_buffer"])+" hechos",
         "**Objetivo del año:** "+str(r["annual_goal_episodes"])+" vídeos / "+str(r["annual_goal_unique_facts"])+" datos",
+        "**Publicaciones históricas confirmadas:** "+str(r["recorded_confirmed_publications"]),
         "**YouTube conectado:** "+str(r["youtube_channel_connected"]),
         "**Publicación activada:** "+str(r["youtube_publication_enabled"]),
         "**Integridad del catálogo:** "+str(r["catalogue_integrity_ok"]),
