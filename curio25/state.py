@@ -9,7 +9,8 @@ def connect(path):
     CREATE TABLE IF NOT EXISTS used(fact_id TEXT PRIMARY KEY,episode TEXT NOT NULL);
     CREATE TABLE IF NOT EXISTS claims(digest TEXT PRIMARY KEY,episode TEXT NOT NULL);
     CREATE TABLE IF NOT EXISTS catalog(fact_id TEXT PRIMARY KEY,payload TEXT NOT NULL);
-    CREATE TABLE IF NOT EXISTS episode_sources(episode TEXT,fact_id TEXT,url TEXT,snapshot_sha256 TEXT,narration_sha256 TEXT,PRIMARY KEY(episode,fact_id));'''); return db
+    CREATE TABLE IF NOT EXISTS episode_sources(episode TEXT,fact_id TEXT,url TEXT,snapshot_sha256 TEXT,narration_sha256 TEXT,PRIMARY KEY(episode,fact_id));
+    CREATE TABLE IF NOT EXISTS episode_profiles(episode TEXT PRIMARY KEY,profile TEXT NOT NULL,decision TEXT NOT NULL);'''); return db
 
 def claim_hash(f): return hashlib.sha256(' '.join(f['claim'].lower().split()).encode()).hexdigest()
 def reserve(db,episode,facts):
@@ -25,6 +26,7 @@ def reserve(db,episode,facts):
 def export_history(db,path):
     data={'episodes':[dict(zip(['id','status','sha','video_id'],r)) for r in db.execute('SELECT id,status,sha,video_id FROM episodes')], 'used_facts':[dict(zip(['id','episode'],r)) for r in db.execute('SELECT * FROM used')], 'claims':[dict(zip(['digest','episode'],r)) for r in db.execute('SELECT * FROM claims')]}
     data['sources']=[dict(zip(['episode','fact_id','url','snapshot_sha256','narration_sha256'],r)) for r in db.execute('SELECT * FROM episode_sources')]
+    data['episode_profiles']=[dict(zip(['episode','profile','decision'],r)) for r in db.execute('SELECT episode,profile,decision FROM episode_profiles ORDER BY episode')]
     # Publish a complete JSON snapshot or leave the previous version untouched.
     # A cancelled runner must not leave a half-written history file.
     dest=Path(path)
@@ -56,10 +58,15 @@ def restore(db,path):
         for f in data['used_facts']: db.execute('INSERT OR IGNORE INTO used VALUES (?,?)',(f['id'],f['episode']))
         for f in data.get('sources',[]): db.execute('INSERT OR IGNORE INTO episode_sources VALUES (?,?,?,?,?)',tuple(f[k] for k in ['episode','fact_id','url','snapshot_sha256','narration_sha256']))
         for f in data.get('claims',[]): db.execute('INSERT OR IGNORE INTO claims VALUES (?,?)',(f['digest'],f['episode']))
+        for p in data.get('episode_profiles',[]):
+            existing=db.execute('SELECT profile,decision FROM episode_profiles WHERE episode=?',(p['episode'],)).fetchone()
+            pair=(p['profile'],p['decision'])
+            if existing and existing!=pair: raise ValueError('Perfil de episodio en conflicto')
+            db.execute('INSERT OR IGNORE INTO episode_profiles VALUES (?,?,?)',(p['episode'],*pair))
 
 # Catalog facts remain versioned in JSON; SQLite holds production reservations and snapshots.
 
-def finalize_render(db,episode,facts,video_sha):
+def finalize_render(db,episode,facts,video_sha,profile=None,decision=None):
     """Record the exact reviewed script rendered, including edits after a failed attempt."""
     reserved={r[0] for r in db.execute('SELECT fact_id FROM used WHERE episode=?',(episode,))}
     if len(facts)!=25 or {f['id'] for f in facts}!=reserved: raise ValueError('El render no coincide con la reserva')
@@ -67,6 +74,8 @@ def finalize_render(db,episode,facts,video_sha):
     with db:
         changed=db.execute('UPDATE episodes SET status=?,sha=? WHERE id=? AND status=?',('rendered',video_sha,episode,'reserved')).rowcount
         if changed!=1: raise ValueError('Estado de render incompatible')
+        if profile is not None:
+            db.execute('INSERT OR REPLACE INTO episode_profiles VALUES (?,?,?)',(episode,profile,decision or 'disabled'))
         for f in facts:
             db.execute('INSERT OR REPLACE INTO catalog VALUES (?,?)',(f['id'],json.dumps(f,ensure_ascii=False)))
             db.execute('INSERT OR REPLACE INTO episode_sources VALUES (?,?,?,?,?)',(episode,f['id'],f['source_url'],f['source_snapshot_sha256'],hashlib.sha256(f['narration'].encode()).hexdigest()))

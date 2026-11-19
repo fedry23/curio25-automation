@@ -55,8 +55,12 @@ def main():
         render_config=dict(config)
         if production_episode(args.episode):
             render_config['confirmed_publications_at_render']=published_count(db)
+        from .learning import select_for_render
+        profile,decision=select_for_render(config,db,args.episode)
+        render_config['voice_delivery']=profile
+        render_config['learning_decision']=decision
         report=render(root,out,visual_facts,render_config)
-        finalize_render(db,args.episode,facts,report['sha256'])
+        finalize_render(db,args.episode,facts,report['sha256'],profile=profile,decision=decision)
     finally: export_history(db,root/'data/history.json')
     print(json.dumps(report,indent=2))
 if __name__=='__main__': main()
