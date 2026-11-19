@@ -10,8 +10,18 @@ concurrency:
 permissions:
   contents: read
 jobs:
+  recovery-smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -p test_recovery.py -v
   test:
     runs-on: ubuntu-24.04
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,6 +30,7 @@ jobs:
           cache: pip
           cache-dependency-path: requirements.lock
       - name: Comprobar FFmpeg y fuentes del runner
+        timeout-minutes: 5
         run: |
           if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null || ! test -e /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf; then
             sudo apt-get update

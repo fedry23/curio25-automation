@@ -19,6 +19,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   render:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
     timeout-minutes: 75
     steps:
@@ -46,7 +47,12 @@ jobs:
         run: |
           MODE="${CURIO_MODE:-daily}"
           EPISODE="daily-$(TZ=Europe/Madrid date +%F)"
-          if [ "$MODE" = "review_pilot" ]; then EPISODE="pilot-001"; fi
+          if [ "$MODE" = "review_pilot" ]; then
+            EPISODE="pilot-001"
+          else
+            EPISODE="$(python -m curio25.recovery choose --episode "$EPISODE")"
+          fi
+          echo "episode=$EPISODE" >> "$GITHUB_OUTPUT"
           python -m curio25.preflight --mode "$MODE" --episode "$EPISODE"
       - name: Auditar derechos y evidencias antes del render
         if: steps.preflight.outputs.ready == 'true'
@@ -71,6 +77,14 @@ jobs:
             exit 1
           fi
           python -m curio25 reconcile
+      - name: Guardar conciliación antes de reservar
+        if: steps.reconcile_gate.outputs.needed == 'true'
+        run: |
+          git config user.name 'curio25-bot'
+          git config user.email 'curio25-bot@users.noreply.github.com'
+          git add data/history.json
+          git diff --staged --quiet || git commit -m 'Conciliar publicaciones Curio25'
+          git push origin HEAD:main
       - name: Tests
         if: steps.preflight.outputs.ready == 'true'
         run: pytest -q
@@ -85,31 +99,34 @@ jobs:
       - name: Descargar voz y comprobar integridad
         if: steps.preflight.outputs.ready == 'true'
         run: python scripts/download_voice.py
+      - name: Reservar y persistir antes de renderizar
+        if: steps.preflight.outputs.ready == 'true' && steps.preflight.outputs.episode != 'pilot-001'
+        env:
+          EPISODE: ${{ steps.preflight.outputs.episode }}
+        run: |
+          python -m curio25.recovery prepare --episode "$EPISODE"
+          git config user.name 'curio25-bot'
+          git config user.email 'curio25-bot@users.noreply.github.com'
+          git add data/history.json
+          git diff --staged --quiet || git commit -m "Reservar $EPISODE antes del render"
+          git push origin HEAD:main
       - name: Renderizar
+        id: render
         if: steps.preflight.outputs.ready == 'true'
         env:
           CURIO_MODE: ${{ inputs.mode }}
           YOUTUBE_ANALYTICS_TOKEN_JSON: ${{ secrets.YOUTUBE_ANALYTICS_TOKEN_JSON }}
+          EPISODE: ${{ steps.preflight.outputs.episode }}
         run: |
           if [ "${CURIO_MODE:-daily}" = "review_pilot" ]; then
             python -m curio25 revise --episode pilot-001 --out build/pilot-002 2>&1 | tee render.log
           else
-            DAY="$(TZ=Europe/Madrid date +%F)"
-            python -m curio25 build --episode "daily-$DAY" --out "build/daily-$DAY" 2>&1 | tee render.log
+            python -m curio25 build --episode "$EPISODE" --out "build/$EPISODE" 2>&1 | tee render.log
           fi
         shell: bash --noprofile --norc -eo pipefail {0}
-      - name: Conservar historial incluso ante fallo
-        if: ${{ always() && (steps.preflight.outputs.ready == 'true' || steps.reconcile_gate.outputs.needed == 'true') }}
-        run: |
-          if [ -f data/history.json ]; then
-            git config user.name 'curio25-bot'
-            git config user.email 'curio25-bot@users.noreply.github.com'
-            git add data/history.json
-            git diff --staged --quiet || git commit -m 'Persistir historial de Curio25'
-            git push
-          fi
       - uses: actions/upload-artifact@v4
-        if: ${{ always() && steps.preflight.outputs.ready == 'true' }}
+        id: artifact
+        if: steps.render.outcome == 'success'
         with:
           name: curio25-${{ github.run_id }}
           path: |
@@ -123,7 +140,26 @@ jobs:
             build/**/assets.json
             build/**/script.json
             render.log
+          retention-days: 7
+          if-no-files-found: error
+      - name: Confirmar render solo tras guardar el artefacto
+        if: steps.render.outcome == 'success' && steps.artifact.outcome == 'success'
+        run: |
+          git config user.name 'curio25-bot'
+          git config user.email 'curio25-bot@users.noreply.github.com'
+          git add data/history.json
+          git diff --staged --quiet || git commit -m 'Confirmar render con artefacto disponible'
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: curio25-error-${{ github.run_id }}
+          path: |
+            render.log
+            build/**/validation.json
+            build/**/layout-report.json
           retention-days: 3
+          if-no-files-found: ignore
       - name: Alerta de fallo
         if: failure()
         run: echo '::error::Curio25 ha fallado. Revisar logs y artefactos. Configura notificaciones de Actions en GitHub.'
