@@ -42,7 +42,7 @@ def restore(db,path):
     if not Path(path).exists(): return
     data=json.loads(Path(path).read_text())
     with db:
-        rank={'reserved':0,'rendered':1,'uploading':2,'scheduled':3}
+        rank={'reserved':0,'rendered':1,'uploading':2,'scheduled':3,'published':4}
         for e in data['episodes']:
             current=db.execute('SELECT status,sha,video_id FROM episodes WHERE id=?',(e['id'],)).fetchone()
             if e['status'] not in rank or (current and current[0] not in rank): raise ValueError('Estado desconocido; conciliar historial')
@@ -76,3 +76,19 @@ def begin_revision(db,episode):
         row=db.execute('SELECT status,sha FROM episodes WHERE id=?',(episode,)).fetchone()
         if not row or row[0] not in ('reserved','rendered'): raise ValueError('Solo se revisan episodios sin subir; conciliar cualquier carga previa')
         db.execute('UPDATE episodes SET status=?,sha=NULL WHERE id=?',('reserved',episode))
+
+
+def confirm_publication(db, episode, video):
+    """Accept only a public, processed video returned by the official API."""
+    status = video.get('status', {})
+    if status.get('privacyStatus') != 'public' or status.get('uploadStatus') != 'processed':
+        return False
+    with db:
+        row = db.execute('SELECT status,video_id FROM episodes WHERE id=?',(episode,)).fetchone()
+        if not row or not row[1] or row[1] != video.get('id') or row[0] not in ('scheduled','published'):
+            raise ValueError('Publicación no coincide con el historial')
+        db.execute("UPDATE episodes SET status='published' WHERE id=?",(episode,))
+    return True
+
+def published_count(db):
+    return db.execute("SELECT COUNT(DISTINCT video_id) FROM episodes WHERE status='published' AND video_id IS NOT NULL").fetchone()[0]
