@@ -103,12 +103,14 @@ def collect(root,date,out):
         if a['status']=='archived_unreviewed' and fact.get('evidence_query'):
             txt=(out/a['path']).read_text(encoding='utf-8')
             ok=evidence(txt,fact['evidence_query'])
+        matches = [flag for flag in flags if flag['fact_id'] == fact['id']]
+        status = 'needs_duplicate_review' if matches else (
+            'pending_human_review' if ok else 'needs_more_research')
         checks.append(dict(fact_id=fact['id'],source_url=fact['source_url'],
                            source_sha256=a.get('sha256'),
                            evidence_query=fact.get('evidence_query'),
                            evidence_found=ok,verified=False,media_approved=False,
-                           duplicate_review=[flag for flag in flags if flag['fact_id']==fact['id']],
-                           status='needs_duplicate_review' if any(flag['fact_id']==fact['id'] for flag in flags) else ('pending_human_review' if ok else 'needs_more_research'))
+                           duplicate_review=matches,status=status))
 
     def find_images(fact):
         try:
