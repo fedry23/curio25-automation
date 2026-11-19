@@ -1,0 +1,442 @@
+{
+  "review_date": "2026-11-19",
+  "episode_candidate_date": "2026-11-17",
+  "review_scope": "Contexto de las 16 capturas primarias archivadas; revisión documental de 5 fichas de Commons. Hashes registrados por el recolector, no recalculados en esta sesión. No se inspeccionaron los binarios visuales ni se escuchó este render.",
+  "source_context_reviews": 25,
+  "license_pages_reviewed": 5,
+  "production_approved_facts": 0,
+  "production_approved_images": 0,
+  "production_ready": false,
+  "overlap_review": [
+    "Bell: patente, llamada experimental y llamada transcontinental son hechos distintos; no repetir narración de una en otra.",
+    "Yellowstone: cifra total y concentración mundial de géiseres son hechos relacionados; mantener separados en el montaje.",
+    "Bioluminiscencia: frecuencia y longitud de onda son distintos aspectos; evitar repetir explicación."
+  ],
+  "facts": [
+    {
+      "fact_id": "curio-20261117-01",
+      "source_url": "https://www.fisheries.noaa.gov/feature-story/big-hearted-blue-whale",
+      "source_snapshot_sha256": "cfada9687b8e8c56a27407562e89d6ba992ddeed6252d0628ae79755ffe2efdc",
+      "claim": "El corazón de una ballena azul pesa unos 180 kilos según una ficha de NOAA Fisheries",
+      "narration": "¿Un corazón tan pesado como un piano? El de una ballena azul ronda los ciento ochenta kilos, según NOAA. Y el tuyo ya se acelera subiendo escaleras.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "400 libras equivalen a unos 181 kg; mantener atribución a NOAA, no universalizar el peso ni el de todos los pianos.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Bluewhale1_noaa_crop.jpg",
+      "image_sha256": "c4b4517fabc62b71fbd073e54b7a818af1f15d13eb05e28cea42b155f702a95f",
+      "image_license_reported": "pd",
+      "image_review": {
+        "status": "license_documented_pending_file_review",
+        "note": "Ficha Commons atribuye la foto a NOAA, indica obra oficial en dominio público y recorte previo. Mantener crédito y distinguir foto de ballena de imagen del corazón."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-02",
+      "source_url": "https://oceanservice.noaa.gov/news/feb26/undersea-creatures-valentines-day.html",
+      "source_snapshot_sha256": "78a20d4ccecf14ffc6c320b05f4f8f904e1ae44012a84f38b10f19ead0277cd4",
+      "claim": "Los pulpos tienen tres corazones: dos bombean sangre hacia las branquias y el tercero hacia el cuerpo.",
+      "narration": "¿Tres corazones para un solo pulpo? Dos envían sangre a las branquias y otro al cuerpo. Si se enamora, esperemos que no le rompan los tres.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "El contexto describe dos corazones branquiales y uno sistémico. No extender la explicación a otras especies.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg",
+      "image_sha256": "4d58b1f7db3d58a35cde5b0532ec99f9a12dda2565c3a88261e85bdfeca598e0",
+      "image_license_reported": "cc-by-sa-3.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-03",
+      "source_url": "https://www.fisheries.noaa.gov/species/leatherback-turtle",
+      "source_snapshot_sha256": "16929d86ef158c1935c64f66b163db441b05a8d3a45f547b90a0fef9d8bf89a4",
+      "claim": "Algunas tortugas laúd migran aproximadamente 3.700 millas en cada trayecto entre sus zonas de alimentación y reproducción.",
+      "narration": "Algunas tortugas laúd recorren unos seis mil kilómetros por trayecto entre sus zonas de alimentación y reproducción. ¡Y sin GPS, sin maletas y sin pagar peajes!",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "3.700 millas por trayecto equivalen a 5.955 km aproximadamente, para algunas poblaciones. Retirar comparación con medio mundo.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Dermochelys_coriacea_leatherback_turtle.jpg",
+      "image_sha256": "353347ef210e9a4e4b4fb619e28d6d48ebeab9ed6f6f3a88ba92f025e01b35f2",
+      "image_license_reported": "pd",
+      "image_review": {
+        "status": "license_documented_pending_file_review",
+        "note": "Ficha Commons atribuye a Rabon David, US Fish and Wildlife Service, con liberación mundial y permiso comercial. Conservar crédito."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-04",
+      "source_url": "https://www.whoi.edu/ocean-learning-hub/ocean-facts/anglerfish/",
+      "source_snapshot_sha256": "3601638fb2a6d142d724a6be2863ab5ea886bd6aa56a6a6f6f77cf6e4dc51860",
+      "claim": "En ciertas especies de rape abisal, el macho se une físicamente a la hembra y queda fusionado con ella.",
+      "narration": "En ciertas especies de rape abisal, el macho acaba unido al cuerpo de la hembra. Cuando decimos que una pareja es inseparable, ellos se lo toman literalmente.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "La fuente describe fusión de machos y hembras; limitar a ciertas especies.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D1%86%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F_(cropped).jpg",
+      "image_sha256": "4754d6ed0baebaed7d98f851759163a22a233e90a02e80decea53b49144cbff3",
+      "image_license_reported": "cc-by-sa-3.0",
+      "image_review": {
+        "status": "sharealike_review_required",
+        "note": "La ficha describe un ejemplar de Ceratias holboelli con un macho adherido; autor Andrew Butko, CC BY-SA 3.0. Antes de publicar, resolver atribución y licencia de los recortes animados."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-05",
+      "source_url": "https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/marine-mammal-acoustics",
+      "source_snapshot_sha256": "b6e4b5f0eda68a9a5c27b7919454899a78deed1911d1b57e41f4bdb701bb3704",
+      "claim": "Los machos de ballena jorobada producen cantos complejos relacionados con la reproducción.",
+      "narration": "Los machos de ballena jorobada producen cantos elaborados para atraer parejas o marcar territorio frente a otros machos. Imagínate tener que dar un concierto para ligar.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "NOAA vincula los cantos masculinos al cortejo o a la interacción territorial. Evitar atribuir una intención exclusiva.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:001_Humpback_whale_breaching_in_Ballena_Marine_National_Park_Photo_by_Giles_Laurent.jpg",
+      "image_sha256": "876b1a83a84c9daea49901f4f110cb905410dcb3c8dc81c5a3479db66818ddaa",
+      "image_license_reported": "cc-by-sa-4.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-06",
+      "source_url": "https://oceanservice.noaa.gov/facts/oceanwater.html",
+      "source_snapshot_sha256": "d98d74aa9afd266eefa42c0756c006dd62a6268d1686be67256d32dade310315",
+      "claim": "Aproximadamente el 97 por ciento del agua del planeta está en el océano.",
+      "narration": "Si repartieras toda el agua terrestre en cien vasos, unos noventa y siete corresponderían a los océanos. Y casi todos vendrían con sal incluida. ¡Salud!",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "El porcentaje se refiere a volumen total de agua terrestre, no superficie planetaria.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:ISS034E016601_-_Stratocumulus_Clouds_-_Pacific_Ocean.jpg",
+      "image_sha256": "dd3836ae45afb3c8b2511da22d9a87430301a2d2dbd39ba6c529f8f4501507ed",
+      "image_license_reported": "pd",
+      "image_review": {
+        "status": "license_documented_pending_file_review",
+        "note": "Ficha indica autoría NASA y dominio público en EE. UU.; fuente NASA identifica nubes sobre Pacífico. No usar como prueba visual de porcentaje; incorporar gráfico original."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-07",
+      "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/",
+      "source_snapshot_sha256": "16dd86e288730461f248dbeeb4d5fe4f48c164a42281f6953a0535d8a92b2f19",
+      "claim": "La zona oceánica crepuscular comienza aproximadamente a 200 metros de profundidad.",
+      "narration": "¿Bajarías doscientos metros al mar? Ahí comienza la zona crepuscular: queda tan poca luz solar que parece que alguien esté bajando el regulador de intensidad.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "El límite es aproximado, no una frontera óptica universal: aclarar variaciones.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Deep_Sea_stand_at_the_Hall_of_Biodiversity.jpg",
+      "image_sha256": "33de91e6aa02ccc8677d34c44d5984498d907e98c387fbbde626aeb421908305",
+      "image_license_reported": "cc-by-4.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-08",
+      "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/",
+      "source_snapshot_sha256": "16dd86e288730461f248dbeeb4d5fe4f48c164a42281f6953a0535d8a92b2f19",
+      "claim": "La temperatura media del océano profundo es de unos 4 °C.",
+      "narration": "En el océano profundo, la temperatura media ronda los cuatro grados. Una nevera inmensa, oscura y con muchísima presión. No parece el mejor lugar para hacer snorkel.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "Promedio de cuatro grados según NOAA, no temperatura uniforme en toda profundidad.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Deep_sea_corals,_Wagner_Seamount.jpg",
+      "image_sha256": "38279e61730d550fb5be9a6312cc01d9c0889ece94f61b7e871c74addda6feef",
+      "image_license_reported": "pd",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-09",
+      "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/",
+      "source_snapshot_sha256": "2aaf175c4e2b5d07cd3ec49b32b8ad176fca0855a7368ac4dc42ec46b4041a14",
+      "claim": "NOAA indica que cerca del 80 % de los animales pelágicos entre 200 y 1.000 metros son bioluminiscentes.",
+      "narration": "Entre doscientos y mil metros de profundidad, alrededor del ochenta por ciento de los animales de aguas abiertas producen luz, según NOAA. ¡Una discoteca submarina!",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "El 80% está restringido a animales pelágicos de 200–1.000 m; no generalizar al fondo ni al océano entero.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:MBNMS_-_Juvenile_Vampire_Squid_(27667875204).jpg",
+      "image_sha256": "1145b6fc68fa0d2ad3f93bc13ae27b9bdf7a8680bc62ad0f58f73593fc8c9a51",
+      "image_license_reported": "pd",
+      "image_review": {
+        "status": "third_party_rights_review_required",
+        "note": "Commons declara dominio público/PD Mark pero crédito NOAA/MBARI y metadatos MBARI. Confirmar titular y autorización aplicable antes de aprobar; alternativa: material de autoría oficial NOAA inequívoca."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-10",
+      "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/",
+      "source_snapshot_sha256": "2aaf175c4e2b5d07cd3ec49b32b8ad176fca0855a7368ac4dc42ec46b4041a14",
+      "claim": "La luz bioluminiscente marina suele ser azul porque esa longitud de onda se propaga especialmente bien bajo el agua.",
+      "narration": "Muchos animales marinos emiten luz azul porque viaja mejor por el agua. Les sirve para atraer presas, comunicarse o escapar. ¡Aquí los efectos especiales salvan vidas!",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "NOAA explica predominio del azul y transmisión. No afirmar que toda bioluminiscencia es azul; distinguir luminiscencia y fluorescencia.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Crystal_jelly.jpg",
+      "image_sha256": "8fff49bcadc4729efdf1274b75c7047b53e43cc7ae6de72af6cf3021dddee7c6",
+      "image_license_reported": "cc-by-sa-4.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-11",
+      "source_url": "https://guides.loc.gov/telecommunications-industry/history",
+      "source_snapshot_sha256": "babce381a7fb33d6edfdc15bfdefbd66a46909fd3b6cb3538317eb8d7dbd094d",
+      "claim": "El primer telegrama público de Morse viajó de Washington a Baltimore el 24 de mayo de 1844.",
+      "narration": "En mil ochocientos cuarenta y cuatro, Samuel Morse envió un célebre telegrama público entre Washington y Baltimore. Hoy nos enfadamos si un mensaje tarda dos segundos.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "El telegrama público de Morse se envió por una línea recién instalada de Washington a Baltimore.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Morse_Key.jpg",
+      "image_sha256": "59481ca5ab0fb2dad269b186b00f7309ecaeb27d05f855450082c5e0bf08028e",
+      "image_license_reported": "cc-by-sa-4.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-12",
+      "source_url": "https://guides.loc.gov/chronicling-america-telephone-invention",
+      "source_snapshot_sha256": "42ca4c02b79f12fb8fba2ec5f879ebfe987d59e8336b8e39d887b5466703e9ff",
+      "claim": "Alexander Graham Bell obtuvo una patente de teléfono el 7 de marzo de 1876.",
+      "narration": "El siete de marzo de mil ochocientos setenta y seis, Alexander Graham Bell obtuvo una patente para su teléfono. ¡Toca imaginar un mundo sin llamadas en el bolsillo!",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "La patente se concedió el 7 de marzo; evitar repetir en este audio la llamada del día 10, que tiene su propia curiosidad.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell%27s_Telephone_Patent_Drawing_and_Oath_-_NARA_-_302052_(page_2).jpg",
+      "image_sha256": "8632e50147d5c01310b89381d98f84357f4841bae601a0ddd337a6f50bdb444b",
+      "image_license_reported": "pd",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-13",
+      "source_url": "https://guides.loc.gov/chronicling-america-telephone-invention",
+      "source_snapshot_sha256": "42ca4c02b79f12fb8fba2ec5f879ebfe987d59e8336b8e39d887b5466703e9ff",
+      "claim": "El 10 de marzo de 1876, Bell habló con Thomas Watson mediante su dispositivo telefónico.",
+      "narration": "El diez de marzo de mil ochocientos setenta y seis, Bell habló con su ayudante Watson mediante un teléfono experimental. ¡Y ahora usamos aquello para enviar audios larguísimos!",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "La fuente registra la llamada experimental a Watson del 10 de marzo; no confundir con la primera llamada comercial.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell.jpeg",
+      "image_sha256": "4ee4025f28ed5fe1e00f6f038eed76944b22fff56521e3a0bb36151fcb4ac0fb",
+      "image_license_reported": "pd",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-14",
+      "source_url": "https://www.nps.gov/articles/wright-brothers.htm",
+      "source_snapshot_sha256": "c5fa0d36d3aa35bf16fa4cd7f1f00cfb9a7d84de5718ffac7ee84f0099d60d51",
+      "claim": "El primer vuelo controlado del Wright Flyer el 17 de diciembre de 1903 duró doce segundos y recorrió 120 pies.",
+      "narration": "El primer vuelo motorizado y controlado de los hermanos Wright duró doce segundos y recorrió unos treinta y seis metros. ¡Más corto que el pasillo de un aeropuerto!",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "El NPS registra 120 pies (36,576 m) y 12 segundos en el primer vuelo exitoso; describir como motorizado, controlado y sostenido.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:1903-12_Wright-Flyer-side-view.jpg",
+      "image_sha256": "0fcb87072a974c33f0d446c11207246a92ac8fec3c2277038cc7b4e3d26f8cb1",
+      "image_license_reported": "pd",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-15",
+      "source_url": "https://guides.loc.gov/chronicling-america-telephone-invention",
+      "source_snapshot_sha256": "42ca4c02b79f12fb8fba2ec5f879ebfe987d59e8336b8e39d887b5466703e9ff",
+      "claim": "Bell y Watson participaron en la primera llamada telefónica transcontinental en Estados Unidos en 1915.",
+      "narration": "En mil novecientos quince, Bell habló desde Nueva York con Watson, que estaba en San Francisco. Una llamada transcontinental. Hoy sería un simple «¿me oyes?» por videollamada.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "La cronología registra el acto transcontinental Bell–Watson de 1915; no confundir con la llamada de 1876.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell,_first_transcontinental_phone_call,_25_Jan_1915.jpg",
+      "image_sha256": "5df07fc4e6390f4aaecb90de055e9d20ffa71308e0604189ae7773f456a5be0c",
+      "image_license_reported": "pd",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-16",
+      "source_url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
+      "source_snapshot_sha256": "ad2d2f13c34470222137f5a243a69bc9298768cbc9b25e4639bfbabca854585d",
+      "claim": "La espuma viscoelástica moderna se originó en desarrollos apoyados por NASA para materiales amortiguadores de asientos de aeronaves.",
+      "narration": "La espuma viscoelástica de muchos colchones nació de investigaciones respaldadas por NASA para amortiguar asientos de aeronaves. Dormir a gusto también tiene algo de aventura espacial.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "NASA atribuye el origen de la espuma viscoelástica de colchones a trabajos sobre absorción de presión en asientos durante los años setenta.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:MemoryFoam-fast.jpg",
+      "image_sha256": "25f788d8c2458b705449a38bb317a2fdabd5e3c79baa540cd8dfa041789463c7",
+      "image_license_reported": "cc-by-sa-3.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-17",
+      "source_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
+      "source_snapshot_sha256": "22320a4f02d01719df43e217c00e7338a2816a5f0dab31642d3aeb03f46f2ad2",
+      "claim": "El desarrollo de sensores CMOS de imagen en el JPL de NASA impulsó cámaras presentes en numerosos dispositivos.",
+      "narration": "La cámara del móvil tiene herencia espacial: avances en sensores de imagen del laboratorio espacial de NASA ayudaron a hacerlos más compactos. ¡Hasta tus selfies tienen historia!",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "NASA describe el CMOS desarrollado en JPL para imagen compacta. No asegurar que toda la tecnología CMOS procede de NASA.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:CMOS_Image-Sensor_Big_(35mm)_and_Small.jpg",
+      "image_sha256": "af978265de2dbc8de1131e9c2ffc440ea14ad0ba4efc92587c20478bbc5db6f8",
+      "image_license_reported": "cc-by-sa-4.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-18",
+      "source_url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
+      "source_snapshot_sha256": "ad2d2f13c34470222137f5a243a69bc9298768cbc9b25e4639bfbabca854585d",
+      "claim": "Algunas lentes resistentes a los arañazos incorporan revestimientos duros derivados de tecnologías aeroespaciales.",
+      "narration": "Algunas gafas resisten mejor los arañazos gracias a recubrimientos relacionados con investigaciones aeroespaciales. La carrera espacial no solo miraba estrellas: también acabó protegiendo tus lentes.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "La fuente atribuye ciertos revestimientos duros a aplicaciones aeroespaciales; no todas las lentes resistentes tienen ese origen.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Glasses_1.jpg",
+      "image_sha256": "b27e7d8bbae436794926d0bbe732e2490d0030a3762d032a3866b0a43f6c19b7",
+      "image_license_reported": "cc0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-19",
+      "source_url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
+      "source_snapshot_sha256": "ad2d2f13c34470222137f5a243a69bc9298768cbc9b25e4639bfbabca854585d",
+      "claim": "Tecnologías de comunicación manos libres promovidas para astronautas contribuyeron al desarrollo de auriculares inalámbricos.",
+      "narration": "Los auriculares inalámbricos tienen raíces en tecnologías de comunicación manos libres desarrolladas para astronautas. Del espacio a escuchar música mientras friegas. Un salto de categoría.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "NASA describe contribuciones a manos libres; no atribuir la invención exclusiva de todos los auriculares sin cable.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:ISS-30_Ivanishin_wearing_a_communication_system_headset_in_the_SM.jpg",
+      "image_sha256": "260736b4304f493c6f2e22737b8f9229c077e6310eef6993adb0fb79f04930d0",
+      "image_license_reported": "pd",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-20",
+      "source_url": "https://technology.nasa.gov/blog-NASA-Spinoff-2026",
+      "source_snapshot_sha256": "ad2d2f13c34470222137f5a243a69bc9298768cbc9b25e4639bfbabca854585d",
+      "claim": "Procedimientos desarrollados para garantizar la inocuidad de alimentos durante Apollo influyeron en estándares alimentarios terrestres.",
+      "narration": "Los controles alimentarios de las misiones Apolo ayudaron a desarrollar sistemas modernos de seguridad alimentaria. Así que tu cena tiene una conexión bastante sorprendente con la Luna.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "El artículo atribuye influencia de los procedimientos de Apolo a la seguridad alimentaria. Evitar que parezca invención exclusiva de todas las normas.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Astronaut_and_cosmonaut_food_-_Evergreen_Aviation_%26_Space_Museum_-_McMinnville,_Oregon_-_DSC00854.jpg",
+      "image_sha256": "637ba42621657d9b2b5bdc6b0f2d3895ab56f8ea2931ecbc4d17bf2aa03fb57e",
+      "image_license_reported": "cc0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-21",
+      "source_url": "https://www.nps.gov/yell/learn/nature/geology.htm",
+      "source_snapshot_sha256": "7e045043ae02422fb6313cad68051342864bf98e7ecb9ab99b542c4fee32343d",
+      "claim": "Yellowstone alberga más de diez mil fenómenos hidrotermales, entre aguas termales, fumarolas y géiseres.",
+      "narration": "Yellowstone reúne más de diez mil fenómenos hidrotermales: manantiales calientes, fumarolas y géiseres. Parece un parque acuático gigante, pero aquí el agua puede quemarte de verdad.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "NPS registra más de diez mil rasgos hidrotermales; es una estimación institucional.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Crepuscular_rays_and_Dead_trees_at_Mammoth_Hot_Springs.jpg",
+      "image_sha256": "e572ac1cf59e8c90b9220da8d60835f915738e9b4f9e121764ba2244ffd5c7f2",
+      "image_license_reported": "cc-by-sa-3.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-22",
+      "source_url": "https://www.nps.gov/yell/learn/nature/geology.htm",
+      "source_snapshot_sha256": "7e045043ae02422fb6313cad68051342864bf98e7ecb9ab99b542c4fee32343d",
+      "claim": "Yellowstone reúne más de la mitad de los géiseres activos conocidos del mundo.",
+      "narration": "Más de la mitad de los géiseres activos conocidos del mundo están en Yellowstone. Imagínate una fuente que lanza agua hirviendo sin pulsar ningún botón. ¡Menudo espectáculo!",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "NPS registra más de la mitad de los géiseres activos; distinguir este dato estadístico del recuento de fenómenos hidrotermales.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg",
+      "image_sha256": "b216d2f77bc2aa9242990fee070b6560ae5066794c18e46aab9073a0c4062d9d",
+      "image_license_reported": "cc-by-sa-3.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-23",
+      "source_url": "https://www.nps.gov/yell/learn/nature/geology.htm",
+      "source_snapshot_sha256": "7e045043ae02422fb6313cad68051342864bf98e7ecb9ab99b542c4fee32343d",
+      "claim": "En Yellowstone hay árboles petrificados asociados a erupciones volcánicas de hace entre 45 y 50 millones de años.",
+      "narration": "En Yellowstone existen árboles petrificados relacionados con erupciones de hace entre cuarenta y cinco y cincuenta millones de años. Son recuerdos de bosques antiquísimos, convertidos en piedra.",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "NPS relaciona árboles petrificados con erupciones de hace 45–50 millones de años; no decir que siguen siendo árboles vivos.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:2003-08-19_Petrified_tree_at_Yellowstone.jpg",
+      "image_sha256": "7386f3114ac65933040d1fba0a947454c8f5605defc6ae7fe3829351d5bd4bbc",
+      "image_license_reported": "cc-by-sa-4.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-24",
+      "source_url": "https://www.nps.gov/articles/old-faithful-geyser.htm",
+      "source_snapshot_sha256": "462650c95daa532caaac80dfa7419433809838f82a71752fa2685465816bf236",
+      "claim": "Las erupciones de Old Faithful expulsan normalmente entre unos 14.000 y 32.000 litros de agua, según el NPS.",
+      "narration": "El géiser Viejo Fiel, en Yellowstone, puede expulsar entre catorce mil y treinta y dos mil litros de agua por erupción. ¡Y tú preocupado por dejar el grifo abierto!",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "La fuente proporciona directamente 14.000–32.000 litros (redondeados); armonizar afirmación y narración.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:.00_2003_Yellowstone_National_Park_-_The_Old_Faithful_Geyser.jpg",
+      "image_sha256": "e193a58c2691ec3498cbf2634600d7b8fecc53af694c2b649d8f01eb3637ecaf",
+      "image_license_reported": "cc-by-sa-4.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    },
+    {
+      "fact_id": "curio-20261117-25",
+      "source_url": "https://www.nps.gov/articles/000/grcatime-geoheritage.htm",
+      "source_snapshot_sha256": "42b8d657e7d0e47aa2ca6d9ff2924bf84a6e89429884b6848dd9628a3397480f",
+      "claim": "El Gran Cañón se excavó principalmente hace unos cinco o seis millones de años, pero expone rocas de hasta 1.840 millones de años.",
+      "narration": "El Gran Cañón muestra rocas de hasta mil ochocientos cuarenta millones de años. Pero gran parte del cañón se excavó muchísimo después. ¡Hasta las piedras tienen generaciones!",
+      "source_review": "context_reviewed_supports_scoped_claim",
+      "editorial_note": "El NPS distingue el tallado de gran parte del paisaje en los últimos 5–6 millones de años de las rocas basales expuestas, de 1.840 millones.",
+      "image_source": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_(Arizona,_USA),_Luftaufnahme_--_2012_--_5968.jpg",
+      "image_sha256": "d61b32b31c32640c15cf88e657d0f738bb2a94535d184d0a7cc724d8f2441f0d",
+      "image_license_reported": "cc-by-sa-4.0",
+      "image_review": {
+        "status": "pending",
+        "note": "Ficha original y archivo visual todavía no contrastados en esta revisión."
+      },
+      "production_approved": false
+    }
+  ]
+}
