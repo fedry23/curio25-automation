@@ -58,6 +58,12 @@ def collect(root,date,out):
     facts=json.loads((root/'data/candidates'/(date+'.json')).read_text())['facts']
     if len(facts)!=25 or len({f['id'] for f in facts})!=25:
         raise ValueError('Se necesitan 25 candidatos únicos')
+    from .similarity import screen
+    flags=screen(root,date)
+    out.mkdir(parents=True,exist_ok=True)
+    (out/'duplicate_review.json').write_text(json.dumps(flags,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    if any(flag['reason'] in ('exact','same_id') for flag in flags):
+        raise ValueError('Candidato duplicado: consultar duplicate_review.json')
     snapdir=out/'snapshots';snapdir.mkdir(parents=True,exist_ok=True)
     urls=sorted({f['source_url'] for f in facts})
     if not all(safe(url) for url in urls):
@@ -101,7 +107,8 @@ def collect(root,date,out):
                            source_sha256=a.get('sha256'),
                            evidence_query=fact.get('evidence_query'),
                            evidence_found=ok,verified=False,media_approved=False,
-                           status='pending_human_review' if ok else 'needs_more_research'))
+                           duplicate_review=[flag for flag in flags if flag['fact_id']==fact['id']],
+                           status='needs_duplicate_review' if any(flag['fact_id']==fact['id'] for flag in flags) else ('pending_human_review' if ok else 'needs_more_research'))
 
     def find_images(fact):
         try:
