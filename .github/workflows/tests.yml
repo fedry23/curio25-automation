@@ -10,8 +10,18 @@ concurrency:
 permissions:
   contents: read
 jobs:
+  recovery-smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -p test_recovery.py -v
   test:
     runs-on: ubuntu-24.04
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,11 +30,19 @@ jobs:
           cache: pip
           cache-dependency-path: requirements.lock
       - name: Comprobar FFmpeg y fuentes del runner
+        timeout-minutes: 20
         run: |
           if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null || ! test -e /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf; then
-            sudo apt-get update
-            sudo apt-get install -y ffmpeg fonts-dejavu-core
+            sudo apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update
+            sudo apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 install -y --no-install-recommends ffmpeg fonts-dejavu-core
           fi
+          ffmpeg -version
+          ffprobe -version
+          test -r /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+          ffmpeg -hide_banner -encoders > "$RUNNER_TEMP/curio25-encoders.txt"
+          grep -w libx264 "$RUNNER_TEMP/curio25-encoders.txt"
+          ffmpeg -hide_banner -filters > "$RUNNER_TEMP/curio25-filters.txt"
+          grep -w subtitles "$RUNNER_TEMP/curio25-filters.txt"
       - run: pip install -r requirements.lock
       - name: Auditoría de fuentes, imágenes y catálogo
         run: python -m curio25.editorial
