@@ -15,5 +15,7 @@
   "outro_enabled": true,
   "music_style": "pop_ligero_original_116bpm",
   "music_ducking_enabled": true,
-  "music_bed_relative_volume": 0.93
+  "music_bed_relative_volume": 0.93,
+  "learning_enabled": false,
+  "learning_policy_accepted": false
 }
