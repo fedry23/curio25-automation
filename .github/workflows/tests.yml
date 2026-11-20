@@ -19,6 +19,8 @@ jobs:
           python-version: '3.12'
           cache: pip
           cache-dependency-path: requirements.lock
+      - name: Comprobar sintaxis antes de instalar dependencias
+        run: python -m compileall -q curio25 tests
       - name: Comprobar FFmpeg y fuentes del runner
         run: |
           if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null || ! test -e /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf; then

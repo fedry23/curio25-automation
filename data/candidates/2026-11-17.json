@@ -67,7 +67,7 @@
       "category": "animales",
       "title": "La tortuga laúd hace viajes gigantescos",
       "claim": "Algunas tortugas laúd migran aproximadamente 3.700 millas en cada trayecto entre sus zonas de alimentación y reproducción.",
-      "narration": "Hay tortugas laúd que recorren unos seis mil kilómetros por trayecto. Eso es cruzar medio mundo sin GPS, sin maletas y sin quejarse del asiento.",
+      "narration": "Algunas tortugas laúd recorren unos seis mil kilómetros por trayecto entre sus zonas de alimentación y reproducción. ¡Y sin GPS, sin maletas y sin pagar peajes!",
       "source_url": "https://www.fisheries.noaa.gov/species/leatherback-turtle",
       "source_support_summary": "NOAA menciona 3.700 millas por sentido para ciertas migraciones.",
       "media_search_query": "Leatherback turtle",
@@ -119,7 +119,7 @@
       "category": "animales",
       "title": "Las ballenas jorobadas componen canciones",
       "claim": "Los machos de ballena jorobada producen cantos complejos relacionados con la reproducción.",
-      "narration": "Los machos de ballena jorobada cantan secuencias complejas, relacionadas con su vida reproductiva. Imagínate ligar en el océano y tener que dar un concierto.",
+      "narration": "Los machos de ballena jorobada producen cantos elaborados para atraer parejas o marcar territorio frente a otros machos. Imagínate tener que dar un concierto para ligar.",
       "source_url": "https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/marine-mammal-acoustics",
       "source_support_summary": "NOAA vincula los cantos de las ballenas jorobadas con el cortejo.",
       "media_search_query": "Humpback whale",
@@ -301,7 +301,7 @@
       "category": "historia",
       "title": "Bell patentó el teléfono antes de estrenarlo",
       "claim": "Alexander Graham Bell obtuvo una patente de teléfono el 7 de marzo de 1876.",
-      "narration": "En marzo de mil ochocientos setenta y seis, Bell patentó el teléfono. La famosa llamada experimental llegó días después. ¿Te imaginas estrenar el invento sin cobertura?",
+      "narration": "El siete de marzo de mil ochocientos setenta y seis, Alexander Graham Bell obtuvo una patente para su teléfono. ¡Toca imaginar un mundo sin llamadas en el bolsillo!",
       "source_url": "https://guides.loc.gov/chronicling-america-telephone-invention",
       "source_support_summary": "La guía de la Biblioteca del Congreso documenta la patente del 7 de marzo.",
       "media_search_query": "Telephone patent",
@@ -612,7 +612,7 @@
       "episode_topic": "curiosidades del mundo",
       "category": "naturaleza",
       "title": "Old Faithful lanza miles de litros de agua",
-      "claim": "Las erupciones de Old Faithful expulsan normalmente entre unos 14.000 y 31.800 litros de agua.",
+      "claim": "Las erupciones de Old Faithful expulsan normalmente entre unos 14.000 y 32.000 litros de agua, según el NPS.",
       "narration": "El géiser Viejo Fiel, en Yellowstone, puede expulsar entre catorce mil y treinta y dos mil litros de agua por erupción. ¡Y tú preocupado por dejar el grifo abierto!",
       "source_url": "https://www.nps.gov/articles/old-faithful-geyser.htm",
       "source_support_summary": "El NPS ofrece un rango de 3.700 a 8.400 galones de agua por erupción.",
@@ -660,5 +660,5 @@
       "edit_pass": "storytelling-v2-original-factual-basis-unchanged"
     }
   ],
-  "editorial_revision": "Curio25 narrative personality pass; all facts still pending editorial/media approval, original sourced claims remain untouched."
+  "editorial_revision": "2026-11-19-source-context-review"
 }
