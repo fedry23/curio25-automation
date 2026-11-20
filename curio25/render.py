@@ -37,6 +37,10 @@ def music(path,seconds):
 def render(root,out,facts,config):
     root=Path(root); out=Path(out); out.mkdir(parents=True,exist_ok=True)
     topic,title=episode_identity(facts)
+    confirmed=config.get('confirmed_publications_at_render')
+    if confirmed is not None and (type(confirmed) is not int or confirmed<0):
+        raise ValueError('Contador de publicaciones inválido')
+    if any(f.get('preview_only') for f in facts): confirmed=None
     voice=PiperVoice.load(str(root/config['voice_model'])); sync=[]; lengths=[]
     style=config.get('voice_delivery','alegre')
     for idx,f in enumerate(facts):
@@ -125,6 +129,10 @@ def render(root,out,facts,config):
             pan+=f'[{next_input}:v]setpts=PTS-STARTPTS+{shift}/TB[ident];[{base_label}][ident]overlay=64:160:eof_action=pass:repeatlast=0:enable=\'between(t,{shift},{shift+seconds})\'[branded];'
             base_label='branded'
             scene_report['branding']=dict(kind=kind,start=shift,duration=seconds,box=[64,160,1856,800],subtitle_overlap=False)
+        if kind=='intro' and kind in brand_clips and confirmed is not None:
+            # In the lower margin of the brand area, below both animated cards.
+            vf+=f",drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:text='Publicados antes {confirmed}':fontsize=28:fontcolor=white:box=1:boxcolor=0x183153@0.95:boxborderw=8:x=(w-tw)/2:y=746:enable='between(t,0,{intro})'"
+            scene_report['publication_counter']={'confirmed_before_render':confirmed,'label':'Publicados antes','box':[620,730,1300,790]}
         complex_filter=pan+f'[{base_label}]{vf}[v];[1:a]adelay={round((.15+narration_offset)*1000)},apad,atrim=duration={actual}[a]'
         animation_errors=validate_animations(scene_report['animations'])
         scene_report['errors']+=animation_errors; scene_report['passed']=not scene_report['errors']
@@ -157,6 +165,6 @@ def render(root,out,facts,config):
         else:
             raise ValueError('Descripción supera el límite de YouTube; editar sin omitir atribuciones')
     (out/'description.txt').write_text(desc); (out/'script.json').write_text(json.dumps([dict(f,media_path='data/media/'+f['media_record']['file']) if f.get('media_record') else f for f in facts],ensure_ascii=False,indent=2))
-    (out/'metadata.json').write_text(json.dumps(dict(title=title,description=desc,chapters=chapters,synthetic_voice=True,contains_synthetic_media=False,sha256=report['sha256']),ensure_ascii=False,indent=2))
+    (out/'metadata.json').write_text(json.dumps(dict(title=title,description=desc,chapters=chapters,synthetic_voice=True,contains_synthetic_media=False,preview_only=any(f.get('preview_only') for f in facts),confirmed_publications_at_render=confirmed,sha256=report['sha256']),ensure_ascii=False,indent=2))
     (out/'assets.json').write_text(json.dumps([dict(fact_id=f['id'],file=f'panel-{i:02}.png',author='Curio25',license='CC-BY-4.0',source='Composición original: curio25/art.py',photograph=('data/media/'+f['media_record']['file']) if f.get('media_record') else None,photograph_credit=f.get('media_credit'),original_media=f.get('media_record'),sha256=sha(out/f'panel-{i:02}.png')) for i,f in enumerate(facts)]+[dict(file='music.wav',author='Curio25',license='CC0-1.0',source='Síntesis original: curio25/render.py',sha256=sha(out/'music.wav'))],indent=2))
     return report

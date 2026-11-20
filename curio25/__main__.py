@@ -1,6 +1,6 @@
 import argparse,json,logging
 from pathlib import Path
-from .state import connect,reserve,restore,export_history,finalize_render,begin_revision
+from .state import connect,reserve,restore,export_history,finalize_render,begin_revision,published_count,production_episode
 from .render import render
 ROOT=Path(__file__).resolve().parents[1]
 def load_facts(root,db):
@@ -23,7 +23,7 @@ def validate_facts(root,facts):
         if f['evidence_query'].lower() not in path.read_text().lower(): raise ValueError('Evidencia ausente')
 
 def main():
-    parser=argparse.ArgumentParser(); parser.add_argument('command',choices=['build','revise','validate','upload','auth']); parser.add_argument('--episode',default='pilot-001'); parser.add_argument('--out',default='build/pilot-001'); args=parser.parse_args()
+    parser=argparse.ArgumentParser(); parser.add_argument('command',choices=['build','revise','validate','upload','auth','reconcile']); parser.add_argument('--episode',default='pilot-001'); parser.add_argument('--out',default='build/pilot-001'); args=parser.parse_args()
     logging.basicConfig(level=logging.INFO,format='%(asctime)s %(levelname)s %(message)s')
     root=ROOT; out=(root/args.out).resolve(); config=json.loads((root/'config.json').read_text())
     if args.command=='auth':
@@ -35,6 +35,9 @@ def main():
     if args.command=='upload':
         from .youtube import upload
         upload(root,out,args.episode,config); return
+    if args.command=='reconcile':
+        from .youtube import reconcile
+        print(json.dumps(reconcile(root,config),ensure_ascii=False,indent=2)); return
     db=connect(root/'data/history.sqlite'); restore(db,root/'data/history.json')
     if args.command=='revise':
         begin_revision(db,args.episode); export_history(db,root/'data/history.json')
@@ -49,7 +52,10 @@ def main():
     try:
         from .media import attach_media
         visual_facts=attach_media(root,facts)
-        report=render(root,out,visual_facts,config)
+        render_config=dict(config)
+        if production_episode(args.episode):
+            render_config['confirmed_publications_at_render']=published_count(db)
+        report=render(root,out,visual_facts,render_config)
         finalize_render(db,args.episode,facts,report['sha256'])
     finally: export_history(db,root/'data/history.json')
     print(json.dumps(report,indent=2))

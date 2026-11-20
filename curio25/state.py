@@ -1,4 +1,5 @@
-import hashlib,json,sqlite3,os,tempfile
+import hashlib,json,sqlite3,os,tempfile,re
+from datetime import date
 from pathlib import Path
 
 def sha(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()
@@ -42,7 +43,7 @@ def restore(db,path):
     if not Path(path).exists(): return
     data=json.loads(Path(path).read_text())
     with db:
-        rank={'reserved':0,'rendered':1,'uploading':2,'scheduled':3}
+        rank={'reserved':0,'rendered':1,'uploading':2,'scheduled':3,'published':4}
         for e in data['episodes']:
             current=db.execute('SELECT status,sha,video_id FROM episodes WHERE id=?',(e['id'],)).fetchone()
             if e['status'] not in rank or (current and current[0] not in rank): raise ValueError('Estado desconocido; conciliar historial')
@@ -76,3 +77,42 @@ def begin_revision(db,episode):
         row=db.execute('SELECT status,sha FROM episodes WHERE id=?',(episode,)).fetchone()
         if not row or row[0] not in ('reserved','rendered'): raise ValueError('Solo se revisan episodios sin subir; conciliar cualquier carga previa')
         db.execute('UPDATE episodes SET status=?,sha=NULL WHERE id=?',('reserved',episode))
+
+
+def production_episode(episode):
+    match = re.fullmatch(r'daily-(\d{4}-\d{2}-\d{2})', episode)
+    if not match:
+        return False
+    try:
+        date.fromisoformat(match.group(1))
+    except ValueError:
+        return False
+    return True
+
+
+def confirm_publication(db, episode, video, channel_id=None):
+    """Count only dated production episodes with a processed public API result."""
+    if not production_episode(episode):
+        raise ValueError('Solo episodios diarios de producción')
+    if channel_id is not None and video.get('snippet', {}).get('channelId') != channel_id:
+        raise ValueError('Vídeo de otro canal')
+    status = video.get('status', {})
+    if status.get('privacyStatus') != 'public' or status.get('uploadStatus') != 'processed':
+        return False
+    with db:
+        # Make the identity/duplicate checks and transition one writer transaction.
+        if not db.in_transaction:
+            db.execute('BEGIN IMMEDIATE')
+        row = db.execute('SELECT status,video_id FROM episodes WHERE id=?',(episode,)).fetchone()
+        if not row or not row[1] or row[1] != video.get('id') or row[0] not in ('scheduled','published'):
+            raise ValueError('Publicación no coincide con el historial')
+        if db.execute('SELECT 1 FROM episodes WHERE video_id=? AND id<>?', (row[1],episode)).fetchone():
+            raise ValueError('ID de YouTube duplicado; conciliar historial')
+        db.execute("UPDATE episodes SET status='published' WHERE id=?",(episode,))
+    return True
+
+
+def published_count(db):
+    return len({video_id for episode, video_id in db.execute(
+        "SELECT id,video_id FROM episodes WHERE status='published' AND video_id IS NOT NULL")
+        if production_episode(episode) and video_id})
